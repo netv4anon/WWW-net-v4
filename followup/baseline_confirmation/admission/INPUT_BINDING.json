@@ -1,0 +1,36 @@
+{
+  "Pro_files": [
+    {
+      "name": "AUDIT_RESULTS.json",
+      "sha256": "2d91c9786eb5d3d57e8a54bd5d376d4ef787a2d287e7652f3b0e3e0ae517c0c0",
+      "bytes": 5673
+    },
+    {
+      "name": "NET_V4_WWW_frozen_baseline.pdf",
+      "sha256": "d6de55ab8ae8ee1ee0010c8480e44001bd7b275485faa0a85212d8b42d86194d",
+      "bytes": 620779
+    },
+    {
+      "name": "NET_V4_WWW_frozen_baseline.tex",
+      "sha256": "236e711130399ecbebb85d2b5e34c86fecd051e2032820d3b37eb994ae911b84",
+      "bytes": 67977
+    },
+    {
+      "name": "PRO_RECHECK_REPORT_zh.html",
+      "sha256": "7f7b931b7e0f04f754c83696d20230ee82d90a0b609c27d58076101c5bcff1f0",
+      "bytes": 16646
+    },
+    {
+      "name": "VALIDATION_ADMISSION_ADDENDUM_zh.md",
+      "sha256": "cc4de01832d3cf7070a67eec069f29fe560dbd4fe93c9fffec4632c8df4e76bc",
+      "bytes": 4130
+    },
+    {
+      "name": "VALIDATION_READINESS.json",
+      "sha256": "196fcf69b89293e1248ec2fc7da28ddf36356b91a2f516d48e46a0dc03918325",
+      "bytes": 3453
+    }
+  ],
+  "resource_manifest_sha256": "ad8da0ba9bb3bcd297a174d57d3ccf96ac8cc3c3df75d3745935d2e01d9fbd05",
+  "frozen_baseline_sha256": "236e711130399ecbebb85d2b5e34c86fecd051e2032820d3b37eb994ae911b84"
+}

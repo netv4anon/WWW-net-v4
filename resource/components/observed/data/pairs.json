@@ -1,0 +1,5012 @@
+[
+  {
+    "source_row": 38146,
+    "incident_id": "21440209",
+    "station_id": 717824,
+    "case_cut": 54,
+    "day": 1,
+    "report_timestamp": "2023-02-01T04:29:00",
+    "control_cuts": [
+      2070,
+      4086,
+      6102
+    ],
+    "case_episode_row": 515,
+    "control_episode_rows": [
+      521,
+      526,
+      532
+    ]
+  },
+  {
+    "source_row": 38173,
+    "incident_id": "21440249",
+    "station_id": 400103,
+    "case_cut": 69,
+    "day": 1,
+    "report_timestamp": "2023-02-01T05:40:00",
+    "control_cuts": [
+      2085,
+      4101,
+      6117
+    ],
+    "case_episode_row": 156,
+    "control_episode_rows": [
+      163,
+      170,
+      177
+    ]
+  },
+  {
+    "source_row": 38309,
+    "incident_id": "21440470",
+    "station_id": 416943,
+    "case_cut": 95,
+    "day": 1,
+    "report_timestamp": "2023-02-01T07:51:00",
+    "control_cuts": [
+      2111,
+      4127,
+      6143
+    ],
+    "case_episode_row": 429,
+    "control_episode_rows": [
+      433,
+      437,
+      441
+    ]
+  },
+  {
+    "source_row": 38387,
+    "incident_id": "21440577",
+    "station_id": 718243,
+    "case_cut": 105,
+    "day": 1,
+    "report_timestamp": "2023-02-01T08:40:00",
+    "control_cuts": [
+      2121,
+      4137,
+      6153
+    ],
+    "case_episode_row": 538,
+    "control_episode_rows": [
+      543,
+      547,
+      552
+    ]
+  },
+  {
+    "source_row": 38432,
+    "incident_id": "21440639",
+    "station_id": 500011233,
+    "case_cut": 111,
+    "day": 1,
+    "report_timestamp": "2023-02-01T09:14:00",
+    "control_cuts": [
+      2127,
+      4143,
+      6159
+    ],
+    "case_episode_row": 978,
+    "control_episode_rows": [
+      980,
+      982,
+      984
+    ]
+  },
+  {
+    "source_row": 38454,
+    "incident_id": "21440673",
+    "station_id": 401551,
+    "case_cut": 117,
+    "day": 1,
+    "report_timestamp": "2023-02-01T09:42:00",
+    "control_cuts": [
+      2133,
+      4149,
+      6165
+    ],
+    "case_episode_row": 298,
+    "control_episode_rows": [
+      301,
+      304,
+      307
+    ]
+  },
+  {
+    "source_row": 38699,
+    "incident_id": "21441023",
+    "station_id": 10120810,
+    "case_cut": 160,
+    "day": 1,
+    "report_timestamp": "2023-02-01T13:15:00",
+    "control_cuts": [
+      2176,
+      4192,
+      6208
+    ],
+    "case_episode_row": 943,
+    "control_episode_rows": [
+      948,
+      954,
+      960
+    ]
+  },
+  {
+    "source_row": 38737,
+    "incident_id": "21441078",
+    "station_id": 601209,
+    "case_cut": 166,
+    "day": 1,
+    "report_timestamp": "2023-02-01T13:45:00",
+    "control_cuts": [
+      2182,
+      4198,
+      6214
+    ],
+    "case_episode_row": 457,
+    "control_episode_rows": [
+      460,
+      463,
+      466
+    ]
+  },
+  {
+    "source_row": 38774,
+    "incident_id": "21441127",
+    "station_id": 400551,
+    "case_cut": 170,
+    "day": 1,
+    "report_timestamp": "2023-02-01T14:09:00",
+    "control_cuts": [
+      2186,
+      4202,
+      6218
+    ],
+    "case_episode_row": 192,
+    "control_episode_rows": [
+      194,
+      196,
+      198
+    ]
+  },
+  {
+    "source_row": 39135,
+    "incident_id": "21441622",
+    "station_id": 314808,
+    "case_cut": 217,
+    "day": 1,
+    "report_timestamp": "2023-02-01T18:03:00",
+    "control_cuts": [
+      2233,
+      6265
+    ],
+    "case_episode_row": 39,
+    "control_episode_rows": [
+      47,
+      61
+    ]
+  },
+  {
+    "source_row": 39399,
+    "incident_id": "21442062",
+    "station_id": 764430,
+    "case_cut": 320,
+    "day": 2,
+    "report_timestamp": "2023-02-02T02:36:00",
+    "control_cuts": [
+      2336,
+      6368
+    ],
+    "case_episode_row": 627,
+    "control_episode_rows": [
+      631,
+      638
+    ]
+  },
+  {
+    "source_row": 39427,
+    "incident_id": "21442110",
+    "station_id": 10120810,
+    "case_cut": 343,
+    "day": 2,
+    "report_timestamp": "2023-02-02T04:32:00",
+    "control_cuts": [
+      2359,
+      4375,
+      6391
+    ],
+    "case_episode_row": 944,
+    "control_episode_rows": [
+      949,
+      955,
+      961
+    ]
+  },
+  {
+    "source_row": 39612,
+    "incident_id": "21442411",
+    "station_id": 402294,
+    "case_cut": 388,
+    "day": 2,
+    "report_timestamp": "2023-02-02T08:17:00",
+    "control_cuts": [
+      2404,
+      4420,
+      6436
+    ],
+    "case_episode_row": 370,
+    "control_episode_rows": [
+      372,
+      374,
+      376
+    ]
+  },
+  {
+    "source_row": 39720,
+    "incident_id": "21442571",
+    "station_id": 501017033,
+    "case_cut": 406,
+    "day": 2,
+    "report_timestamp": "2023-02-02T09:49:00",
+    "control_cuts": [
+      2422,
+      4438,
+      6454
+    ],
+    "case_episode_row": 998,
+    "control_episode_rows": [
+      1002,
+      1006,
+      1010
+    ]
+  },
+  {
+    "source_row": 39964,
+    "incident_id": "21442936",
+    "station_id": 400649,
+    "case_cut": 452,
+    "day": 2,
+    "report_timestamp": "2023-02-02T13:39:00",
+    "control_cuts": [
+      2468,
+      4484,
+      6500
+    ],
+    "case_episode_row": 201,
+    "control_episode_rows": [
+      205,
+      209,
+      213
+    ]
+  },
+  {
+    "source_row": 40034,
+    "incident_id": "21443043",
+    "station_id": 317139,
+    "case_cut": 464,
+    "day": 2,
+    "report_timestamp": "2023-02-02T14:38:00",
+    "control_cuts": [
+      2480,
+      4496
+    ],
+    "case_episode_row": 70,
+    "control_episode_rows": [
+      75,
+      80
+    ]
+  },
+  {
+    "source_row": 40269,
+    "incident_id": "21443369",
+    "station_id": 3045021,
+    "case_cut": 497,
+    "day": 2,
+    "report_timestamp": "2023-02-02T17:20:00",
+    "control_cuts": [
+      2513,
+      4529,
+      6545
+    ],
+    "case_episode_row": 919,
+    "control_episode_rows": [
+      921,
+      923,
+      925
+    ]
+  },
+  {
+    "source_row": 40512,
+    "incident_id": "21443736",
+    "station_id": 717824,
+    "case_cut": 542,
+    "day": 2,
+    "report_timestamp": "2023-02-02T21:05:00",
+    "control_cuts": [
+      2558,
+      4574,
+      6590
+    ],
+    "case_episode_row": 517,
+    "control_episode_rows": [
+      522,
+      528,
+      534
+    ]
+  },
+  {
+    "source_row": 40527,
+    "incident_id": "21443766",
+    "station_id": 404401,
+    "case_cut": 549,
+    "day": 2,
+    "report_timestamp": "2023-02-02T21:41:00",
+    "control_cuts": [
+      2565,
+      4581
+    ],
+    "case_episode_row": 390,
+    "control_episode_rows": [
+      393,
+      396
+    ]
+  },
+  {
+    "source_row": 40664,
+    "incident_id": "21443965",
+    "station_id": 773330,
+    "case_cut": 621,
+    "day": 3,
+    "report_timestamp": "2023-02-03T03:42:00",
+    "control_cuts": [
+      2637,
+      4653,
+      6669
+    ],
+    "case_episode_row": 690,
+    "control_episode_rows": [
+      691,
+      692,
+      693
+    ]
+  },
+  {
+    "source_row": 40685,
+    "incident_id": "21444012",
+    "station_id": 400863,
+    "case_cut": 640,
+    "day": 3,
+    "report_timestamp": "2023-02-03T05:15:00",
+    "control_cuts": [
+      2656,
+      4672,
+      6688
+    ],
+    "case_episode_row": 245,
+    "control_episode_rows": [
+      249,
+      252,
+      256
+    ]
+  },
+  {
+    "source_row": 40772,
+    "incident_id": "21444150",
+    "station_id": 812730,
+    "case_cut": 657,
+    "day": 3,
+    "report_timestamp": "2023-02-03T06:44:00",
+    "control_cuts": [
+      2673,
+      4689,
+      6705
+    ],
+    "case_episode_row": 751,
+    "control_episode_rows": [
+      752,
+      753,
+      754
+    ]
+  },
+  {
+    "source_row": 41063,
+    "incident_id": "21444576",
+    "station_id": 401788,
+    "case_cut": 707,
+    "day": 3,
+    "report_timestamp": "2023-02-03T10:54:00",
+    "control_cuts": [
+      2723,
+      4739,
+      6755
+    ],
+    "case_episode_row": 318,
+    "control_episode_rows": [
+      324,
+      329,
+      335
+    ]
+  },
+  {
+    "source_row": 41580,
+    "incident_id": "21445319",
+    "station_id": 401788,
+    "case_cut": 785,
+    "day": 3,
+    "report_timestamp": "2023-02-03T17:22:00",
+    "control_cuts": [
+      2801,
+      4817,
+      6833
+    ],
+    "case_episode_row": 319,
+    "control_episode_rows": [
+      325,
+      330,
+      336
+    ]
+  },
+  {
+    "source_row": 41745,
+    "incident_id": "21445534",
+    "station_id": 1202753,
+    "case_cut": 805,
+    "day": 3,
+    "report_timestamp": "2023-02-03T19:03:00",
+    "control_cuts": [
+      2821,
+      4837,
+      6853
+    ],
+    "case_episode_row": 839,
+    "control_episode_rows": [
+      842,
+      845,
+      848
+    ]
+  },
+  {
+    "source_row": 41766,
+    "incident_id": "21445566",
+    "station_id": 407153,
+    "case_cut": 811,
+    "day": 3,
+    "report_timestamp": "2023-02-03T19:32:00",
+    "control_cuts": [
+      2827,
+      4843,
+      6859
+    ],
+    "case_episode_row": 422,
+    "control_episode_rows": [
+      424,
+      426,
+      428
+    ]
+  },
+  {
+    "source_row": 41843,
+    "incident_id": "21445705",
+    "station_id": 1027810,
+    "case_cut": 832,
+    "day": 3,
+    "report_timestamp": "2023-02-03T21:18:00",
+    "control_cuts": [
+      2848,
+      4864,
+      6880
+    ],
+    "case_episode_row": 817,
+    "control_episode_rows": [
+      819,
+      821,
+      823
+    ]
+  },
+  {
+    "source_row": 41889,
+    "incident_id": "21445781",
+    "station_id": 404401,
+    "case_cut": 847,
+    "day": 3,
+    "report_timestamp": "2023-02-03T22:32:00",
+    "control_cuts": [
+      2863,
+      4879,
+      6895
+    ],
+    "case_episode_row": 391,
+    "control_episode_rows": [
+      394,
+      397,
+      399
+    ]
+  },
+  {
+    "source_row": 42023,
+    "incident_id": "21446024",
+    "station_id": 318674,
+    "case_cut": 910,
+    "day": 4,
+    "report_timestamp": "2023-02-04T03:49:00",
+    "control_cuts": [
+      2926,
+      4942,
+      6958
+    ],
+    "case_episode_row": 100,
+    "control_episode_rows": [
+      106,
+      111,
+      117
+    ]
+  },
+  {
+    "source_row": 42328,
+    "incident_id": "21446509",
+    "station_id": 400103,
+    "case_cut": 1004,
+    "day": 4,
+    "report_timestamp": "2023-02-04T11:39:00",
+    "control_cuts": [
+      3020,
+      5036,
+      7052
+    ],
+    "case_episode_row": 158,
+    "control_episode_rows": [
+      165,
+      172,
+      179
+    ]
+  },
+  {
+    "source_row": 42383,
+    "incident_id": "21446596",
+    "station_id": 1203495,
+    "case_cut": 1015,
+    "day": 4,
+    "report_timestamp": "2023-02-04T12:30:00",
+    "control_cuts": [
+      3031,
+      5047,
+      7063
+    ],
+    "case_episode_row": 870,
+    "control_episode_rows": [
+      872,
+      874,
+      875
+    ]
+  },
+  {
+    "source_row": 42850,
+    "incident_id": "21447411",
+    "station_id": 1208240,
+    "case_cut": 1102,
+    "day": 4,
+    "report_timestamp": "2023-02-04T19:45:00",
+    "control_cuts": [
+      3118,
+      5134,
+      7150
+    ],
+    "case_episode_row": 895,
+    "control_episode_rows": [
+      896,
+      897,
+      898
+    ]
+  },
+  {
+    "source_row": 42879,
+    "incident_id": "21447455",
+    "station_id": 406604,
+    "case_cut": 1109,
+    "day": 4,
+    "report_timestamp": "2023-02-04T20:23:00",
+    "control_cuts": [
+      3125,
+      5141,
+      7157
+    ],
+    "case_episode_row": 417,
+    "control_episode_rows": [
+      418,
+      419,
+      420
+    ]
+  },
+  {
+    "source_row": 42950,
+    "incident_id": "21447578",
+    "station_id": 501017132,
+    "case_cut": 1126,
+    "day": 4,
+    "report_timestamp": "2023-02-04T21:48:00",
+    "control_cuts": [
+      3142,
+      5158,
+      7174
+    ],
+    "case_episode_row": 1014,
+    "control_episode_rows": [
+      1018,
+      1023,
+      1027
+    ]
+  },
+  {
+    "source_row": 43062,
+    "incident_id": "21447803",
+    "station_id": 821532,
+    "case_cut": 1171,
+    "day": 5,
+    "report_timestamp": "2023-02-05T01:31:00",
+    "control_cuts": [
+      3187,
+      5203,
+      7219
+    ],
+    "case_episode_row": 779,
+    "control_episode_rows": [
+      784,
+      789,
+      794
+    ]
+  },
+  {
+    "source_row": 43126,
+    "incident_id": "21447911",
+    "station_id": 402357,
+    "case_cut": 1199,
+    "day": 5,
+    "report_timestamp": "2023-02-05T03:51:00",
+    "control_cuts": [
+      3215,
+      5231,
+      7247
+    ],
+    "case_episode_row": 378,
+    "control_episode_rows": [
+      379,
+      380,
+      381
+    ]
+  },
+  {
+    "source_row": 43169,
+    "incident_id": "21447975",
+    "station_id": 773906,
+    "case_cut": 1219,
+    "day": 5,
+    "report_timestamp": "2023-02-05T05:31:00",
+    "control_cuts": [
+      3235,
+      5251,
+      7267
+    ],
+    "case_episode_row": 695,
+    "control_episode_rows": [
+      697,
+      699,
+      701
+    ]
+  },
+  {
+    "source_row": 43184,
+    "incident_id": "21448006",
+    "station_id": 1202929,
+    "case_cut": 1227,
+    "day": 5,
+    "report_timestamp": "2023-02-05T06:12:00",
+    "control_cuts": [
+      3243,
+      5259,
+      7275
+    ],
+    "case_episode_row": 853,
+    "control_episode_rows": [
+      858,
+      863,
+      868
+    ]
+  },
+  {
+    "source_row": 43265,
+    "incident_id": "21448124",
+    "station_id": 406562,
+    "case_cut": 1248,
+    "day": 5,
+    "report_timestamp": "2023-02-05T07:56:00",
+    "control_cuts": [
+      3264,
+      5280,
+      7296
+    ],
+    "case_episode_row": 404,
+    "control_episode_rows": [
+      408,
+      412,
+      416
+    ]
+  },
+  {
+    "source_row": 43425,
+    "incident_id": "21448381",
+    "station_id": 400030,
+    "case_cut": 1283,
+    "day": 5,
+    "report_timestamp": "2023-02-05T10:54:00",
+    "control_cuts": [
+      3299,
+      5315,
+      7331
+    ],
+    "case_episode_row": 121,
+    "control_episode_rows": [
+      122,
+      123,
+      124
+    ]
+  },
+  {
+    "source_row": 43432,
+    "incident_id": "21448392",
+    "station_id": 501015112,
+    "case_cut": 1286,
+    "day": 5,
+    "report_timestamp": "2023-02-05T11:08:00",
+    "control_cuts": [
+      3302,
+      5318,
+      7334
+    ],
+    "case_episode_row": 994,
+    "control_episode_rows": [
+      995,
+      996,
+      997
+    ]
+  },
+  {
+    "source_row": 43464,
+    "incident_id": "21448438",
+    "station_id": 776019,
+    "case_cut": 1291,
+    "day": 5,
+    "report_timestamp": "2023-02-05T11:33:00",
+    "control_cuts": [
+      3307,
+      5323,
+      7339
+    ],
+    "case_episode_row": 704,
+    "control_episode_rows": [
+      708,
+      712,
+      716
+    ]
+  },
+  {
+    "source_row": 43702,
+    "incident_id": "21448810",
+    "station_id": 821532,
+    "case_cut": 1337,
+    "day": 5,
+    "report_timestamp": "2023-02-05T15:21:00",
+    "control_cuts": [
+      3353,
+      5369,
+      7385
+    ],
+    "case_episode_row": 780,
+    "control_episode_rows": [
+      785,
+      790,
+      795
+    ]
+  },
+  {
+    "source_row": 43749,
+    "incident_id": "21448877",
+    "station_id": 602338,
+    "case_cut": 1306,
+    "day": 5,
+    "report_timestamp": "2023-02-05T12:49:00",
+    "control_cuts": [
+      3322,
+      5338,
+      7354
+    ],
+    "case_episode_row": 489,
+    "control_episode_rows": [
+      491,
+      494,
+      497
+    ]
+  },
+  {
+    "source_row": 44007,
+    "incident_id": "21449274",
+    "station_id": 400551,
+    "case_cut": 1391,
+    "day": 5,
+    "report_timestamp": "2023-02-05T19:53:00",
+    "control_cuts": [
+      3407,
+      5423,
+      7439
+    ],
+    "case_episode_row": 193,
+    "control_episode_rows": [
+      195,
+      197,
+      199
+    ]
+  },
+  {
+    "source_row": 44247,
+    "incident_id": "21449667",
+    "station_id": 801329,
+    "case_cut": 1511,
+    "day": 6,
+    "report_timestamp": "2023-02-06T05:51:00",
+    "control_cuts": [
+      3527,
+      5543,
+      7559
+    ],
+    "case_episode_row": 723,
+    "control_episode_rows": [
+      725,
+      727,
+      729
+    ]
+  },
+  {
+    "source_row": 44549,
+    "incident_id": "21450138",
+    "station_id": 717397,
+    "case_cut": 1562,
+    "day": 6,
+    "report_timestamp": "2023-02-06T10:09:00",
+    "control_cuts": [
+      3578,
+      5594,
+      7610
+    ],
+    "case_episode_row": 507,
+    "control_episode_rows": [
+      508,
+      509,
+      510
+    ]
+  },
+  {
+    "source_row": 44740,
+    "incident_id": "21450398",
+    "station_id": 501017132,
+    "case_cut": 1596,
+    "day": 6,
+    "report_timestamp": "2023-02-06T12:57:00",
+    "control_cuts": [
+      3612,
+      7644
+    ],
+    "case_episode_row": 1016,
+    "control_episode_rows": [
+      1021,
+      1030
+    ]
+  },
+  {
+    "source_row": 44896,
+    "incident_id": "21450618",
+    "station_id": 318674,
+    "case_cut": 1618,
+    "day": 6,
+    "report_timestamp": "2023-02-06T14:47:00",
+    "control_cuts": [
+      3634,
+      5650
+    ],
+    "case_episode_row": 103,
+    "control_episode_rows": [
+      109,
+      114
+    ]
+  },
+  {
+    "source_row": 45168,
+    "incident_id": "21450991",
+    "station_id": 776019,
+    "case_cut": 1652,
+    "day": 6,
+    "report_timestamp": "2023-02-06T17:38:00",
+    "control_cuts": [
+      3668,
+      5684,
+      7700
+    ],
+    "case_episode_row": 705,
+    "control_episode_rows": [
+      709,
+      713,
+      717
+    ]
+  },
+  {
+    "source_row": 45295,
+    "incident_id": "21451191",
+    "station_id": 312745,
+    "case_cut": 1675,
+    "day": 6,
+    "report_timestamp": "2023-02-06T19:31:00",
+    "control_cuts": [
+      3691,
+      5707,
+      7723
+    ],
+    "case_episode_row": 5,
+    "control_episode_rows": [
+      13,
+      22,
+      31
+    ]
+  },
+  {
+    "source_row": 45454,
+    "incident_id": "21451480",
+    "station_id": 400674,
+    "case_cut": 1757,
+    "day": 7,
+    "report_timestamp": "2023-02-07T02:22:00",
+    "control_cuts": [
+      3773,
+      5789,
+      7805
+    ],
+    "case_episode_row": 219,
+    "control_episode_rows": [
+      223,
+      227,
+      231
+    ]
+  },
+  {
+    "source_row": 45832,
+    "incident_id": "21452012",
+    "station_id": 10120810,
+    "case_cut": 1846,
+    "day": 7,
+    "report_timestamp": "2023-02-07T09:47:00",
+    "control_cuts": [
+      3862,
+      5878,
+      7894
+    ],
+    "case_episode_row": 947,
+    "control_episode_rows": [
+      952,
+      958,
+      964
+    ]
+  },
+  {
+    "source_row": 45847,
+    "incident_id": "21452033",
+    "station_id": 500010121,
+    "case_cut": 1848,
+    "day": 7,
+    "report_timestamp": "2023-02-07T09:58:00",
+    "control_cuts": [
+      3864,
+      5880,
+      7896
+    ],
+    "case_episode_row": 971,
+    "control_episode_rows": [
+      973,
+      975,
+      977
+    ]
+  },
+  {
+    "source_row": 45939,
+    "incident_id": "21452172",
+    "station_id": 400649,
+    "case_cut": 1867,
+    "day": 7,
+    "report_timestamp": "2023-02-07T11:34:00",
+    "control_cuts": [
+      3883,
+      5899,
+      7915
+    ],
+    "case_episode_row": 203,
+    "control_episode_rows": [
+      207,
+      211,
+      215
+    ]
+  },
+  {
+    "source_row": 46234,
+    "incident_id": "21452585",
+    "station_id": 401366,
+    "case_cut": 1918,
+    "day": 7,
+    "report_timestamp": "2023-02-07T15:46:00",
+    "control_cuts": [
+      3934,
+      5950,
+      7966
+    ],
+    "case_episode_row": 278,
+    "control_episode_rows": [
+      283,
+      288,
+      293
+    ]
+  },
+  {
+    "source_row": 46543,
+    "incident_id": "21453024",
+    "station_id": 312745,
+    "case_cut": 1963,
+    "day": 7,
+    "report_timestamp": "2023-02-07T19:30:00",
+    "control_cuts": [
+      3979,
+      5995,
+      8011
+    ],
+    "case_episode_row": 7,
+    "control_episode_rows": [
+      15,
+      24,
+      33
+    ]
+  },
+  {
+    "source_row": 46583,
+    "incident_id": "21453077",
+    "station_id": 400075,
+    "case_cut": 1970,
+    "day": 7,
+    "report_timestamp": "2023-02-07T20:09:00",
+    "control_cuts": [
+      3986,
+      6002,
+      8018
+    ],
+    "case_episode_row": 132,
+    "control_episode_rows": [
+      140,
+      147,
+      155
+    ]
+  },
+  {
+    "source_row": 46761,
+    "incident_id": "21453372",
+    "station_id": 400075,
+    "case_cut": 2083,
+    "day": 8,
+    "report_timestamp": "2023-02-08T05:33:00",
+    "control_cuts": [
+      67,
+      4099,
+      6115
+    ],
+    "case_episode_row": 133,
+    "control_episode_rows": [
+      125,
+      141,
+      148
+    ]
+  },
+  {
+    "source_row": 46769,
+    "incident_id": "21453385",
+    "station_id": 402240,
+    "case_cut": 2085,
+    "day": 8,
+    "report_timestamp": "2023-02-08T05:43:00",
+    "control_cuts": [
+      69,
+      4101,
+      6117
+    ],
+    "case_episode_row": 358,
+    "control_episode_rows": [
+      354,
+      362,
+      366
+    ]
+  },
+  {
+    "source_row": 46965,
+    "incident_id": "21453688",
+    "station_id": 816211,
+    "case_cut": 2115,
+    "day": 8,
+    "report_timestamp": "2023-02-08T08:12:00",
+    "control_cuts": [
+      99,
+      4131,
+      6147
+    ],
+    "case_episode_row": 756,
+    "control_episode_rows": [
+      755,
+      757,
+      758
+    ]
+  },
+  {
+    "source_row": 47199,
+    "incident_id": "21454019",
+    "station_id": 401233,
+    "case_cut": 2158,
+    "day": 8,
+    "report_timestamp": "2023-02-08T11:45:00",
+    "control_cuts": [
+      142,
+      4174,
+      6190
+    ],
+    "case_episode_row": 263,
+    "control_episode_rows": [
+      259,
+      267,
+      271
+    ]
+  },
+  {
+    "source_row": 47240,
+    "incident_id": "21454082",
+    "station_id": 776019,
+    "case_cut": 2173,
+    "day": 8,
+    "report_timestamp": "2023-02-08T13:01:00",
+    "control_cuts": [
+      157,
+      4189,
+      6205
+    ],
+    "case_episode_row": 706,
+    "control_episode_rows": [
+      702,
+      710,
+      714
+    ]
+  },
+  {
+    "source_row": 47244,
+    "incident_id": "21454088",
+    "station_id": 401366,
+    "case_cut": 2174,
+    "day": 8,
+    "report_timestamp": "2023-02-08T13:07:00",
+    "control_cuts": [
+      158,
+      4190,
+      6206
+    ],
+    "case_episode_row": 279,
+    "control_episode_rows": [
+      275,
+      284,
+      289
+    ]
+  },
+  {
+    "source_row": 48288,
+    "incident_id": "21455675",
+    "station_id": 400649,
+    "case_cut": 2437,
+    "day": 9,
+    "report_timestamp": "2023-02-09T11:04:00",
+    "control_cuts": [
+      421,
+      4453,
+      6469
+    ],
+    "case_episode_row": 204,
+    "control_episode_rows": [
+      200,
+      208,
+      212
+    ]
+  },
+  {
+    "source_row": 48306,
+    "incident_id": "21455709",
+    "station_id": 3089011,
+    "case_cut": 2443,
+    "day": 9,
+    "report_timestamp": "2023-02-09T11:31:00",
+    "control_cuts": [
+      427,
+      4459,
+      6475
+    ],
+    "case_episode_row": 929,
+    "control_episode_rows": [
+      927,
+      931,
+      933
+    ]
+  },
+  {
+    "source_row": 48401,
+    "incident_id": "21455850",
+    "station_id": 406562,
+    "case_cut": 2459,
+    "day": 9,
+    "report_timestamp": "2023-02-09T12:51:00",
+    "control_cuts": [
+      443,
+      4475,
+      6491
+    ],
+    "case_episode_row": 407,
+    "control_episode_rows": [
+      403,
+      411,
+      415
+    ]
+  },
+  {
+    "source_row": 48453,
+    "incident_id": "21455921",
+    "station_id": 1215963,
+    "case_cut": 2466,
+    "day": 9,
+    "report_timestamp": "2023-02-09T13:26:00",
+    "control_cuts": [
+      450,
+      4482,
+      6498
+    ],
+    "case_episode_row": 912,
+    "control_episode_rows": [
+      911,
+      913,
+      914
+    ]
+  },
+  {
+    "source_row": 48509,
+    "incident_id": "21456007",
+    "station_id": 318674,
+    "case_cut": 2476,
+    "day": 9,
+    "report_timestamp": "2023-02-09T14:16:00",
+    "control_cuts": [
+      460,
+      6508
+    ],
+    "case_episode_row": 105,
+    "control_episode_rows": [
+      99,
+      116
+    ]
+  },
+  {
+    "source_row": 48561,
+    "incident_id": "21456086",
+    "station_id": 402240,
+    "case_cut": 2484,
+    "day": 9,
+    "report_timestamp": "2023-02-09T14:58:00",
+    "control_cuts": [
+      468,
+      4500,
+      6516
+    ],
+    "case_episode_row": 360,
+    "control_episode_rows": [
+      356,
+      364,
+      368
+    ]
+  },
+  {
+    "source_row": 48658,
+    "incident_id": "21456222",
+    "station_id": 801329,
+    "case_cut": 2494,
+    "day": 9,
+    "report_timestamp": "2023-02-09T15:48:00",
+    "control_cuts": [
+      478,
+      4510,
+      6526
+    ],
+    "case_episode_row": 724,
+    "control_episode_rows": [
+      722,
+      726,
+      728
+    ]
+  },
+  {
+    "source_row": 48681,
+    "incident_id": "21456253",
+    "station_id": 1202929,
+    "case_cut": 2496,
+    "day": 9,
+    "report_timestamp": "2023-02-09T15:59:00",
+    "control_cuts": [
+      480,
+      4512,
+      6528
+    ],
+    "case_episode_row": 855,
+    "control_episode_rows": [
+      850,
+      860,
+      865
+    ]
+  },
+  {
+    "source_row": 48835,
+    "incident_id": "21456460",
+    "station_id": 1211784,
+    "case_cut": 2513,
+    "day": 9,
+    "report_timestamp": "2023-02-09T17:23:00",
+    "control_cuts": [
+      497,
+      4529,
+      6545
+    ],
+    "case_episode_row": 905,
+    "control_episode_rows": [
+      903,
+      907,
+      909
+    ]
+  },
+  {
+    "source_row": 49024,
+    "incident_id": "21456732",
+    "station_id": 767801,
+    "case_cut": 2545,
+    "day": 9,
+    "report_timestamp": "2023-02-09T20:04:00",
+    "control_cuts": [
+      529,
+      4561,
+      6577
+    ],
+    "case_episode_row": 647,
+    "control_episode_rows": [
+      643,
+      651,
+      655
+    ]
+  },
+  {
+    "source_row": 49063,
+    "incident_id": "21456796",
+    "station_id": 500011233,
+    "case_cut": 2554,
+    "day": 9,
+    "report_timestamp": "2023-02-09T20:47:00",
+    "control_cuts": [
+      538,
+      4570,
+      6586
+    ],
+    "case_episode_row": 981,
+    "control_episode_rows": [
+      979,
+      983,
+      985
+    ]
+  },
+  {
+    "source_row": 49198,
+    "incident_id": "21457011",
+    "station_id": 819941,
+    "case_cut": 2602,
+    "day": 10,
+    "report_timestamp": "2023-02-10T00:49:00",
+    "control_cuts": [
+      586,
+      4618,
+      6634
+    ],
+    "case_episode_row": 775,
+    "control_episode_rows": [
+      774,
+      776,
+      777
+    ]
+  },
+  {
+    "source_row": 49257,
+    "incident_id": "21457113",
+    "station_id": 400674,
+    "case_cut": 2646,
+    "day": 10,
+    "report_timestamp": "2023-02-10T04:28:00",
+    "control_cuts": [
+      630,
+      4662,
+      6678
+    ],
+    "case_episode_row": 220,
+    "control_episode_rows": [
+      216,
+      224,
+      228
+    ]
+  },
+  {
+    "source_row": 49412,
+    "incident_id": "21457358",
+    "station_id": 716775,
+    "case_cut": 2686,
+    "day": 10,
+    "report_timestamp": "2023-02-10T07:47:00",
+    "control_cuts": [
+      670,
+      4702,
+      6718
+    ],
+    "case_episode_row": 504,
+    "control_episode_rows": [
+      503,
+      505,
+      506
+    ]
+  },
+  {
+    "source_row": 49480,
+    "incident_id": "21457469",
+    "station_id": 764430,
+    "case_cut": 2696,
+    "day": 10,
+    "report_timestamp": "2023-02-10T08:36:00",
+    "control_cuts": [
+      680,
+      4712,
+      6728
+    ],
+    "case_episode_row": 632,
+    "control_episode_rows": [
+      628,
+      635,
+      639
+    ]
+  },
+  {
+    "source_row": 49497,
+    "incident_id": "21457507",
+    "station_id": 716427,
+    "case_cut": 2700,
+    "day": 10,
+    "report_timestamp": "2023-02-10T08:57:00",
+    "control_cuts": [
+      684,
+      4716,
+      6732
+    ],
+    "case_episode_row": 500,
+    "control_episode_rows": [
+      499,
+      501,
+      502
+    ]
+  },
+  {
+    "source_row": 49821,
+    "incident_id": "21457972",
+    "station_id": 601374,
+    "case_cut": 2753,
+    "day": 10,
+    "report_timestamp": "2023-02-10T13:22:00",
+    "control_cuts": [
+      737,
+      6785
+    ],
+    "case_episode_row": 475,
+    "control_episode_rows": [
+      470,
+      484
+    ]
+  },
+  {
+    "source_row": 49840,
+    "incident_id": "21458000",
+    "station_id": 1203549,
+    "case_cut": 2755,
+    "day": 10,
+    "report_timestamp": "2023-02-10T13:30:00",
+    "control_cuts": [
+      739,
+      4771,
+      6787
+    ],
+    "case_episode_row": 882,
+    "control_episode_rows": [
+      877,
+      886,
+      890
+    ]
+  },
+  {
+    "source_row": 50133,
+    "incident_id": "21458401",
+    "station_id": 416943,
+    "case_cut": 2788,
+    "day": 10,
+    "report_timestamp": "2023-02-10T16:17:00",
+    "control_cuts": [
+      772,
+      4804,
+      6820
+    ],
+    "case_episode_row": 434,
+    "control_episode_rows": [
+      430,
+      438,
+      442
+    ]
+  },
+  {
+    "source_row": 50297,
+    "incident_id": "21458611",
+    "station_id": 718290,
+    "case_cut": 2805,
+    "day": 10,
+    "report_timestamp": "2023-02-10T17:44:00",
+    "control_cuts": [
+      789,
+      6837
+    ],
+    "case_episode_row": 559,
+    "control_episode_rows": [
+      557,
+      562
+    ]
+  },
+  {
+    "source_row": 50308,
+    "incident_id": "21458627",
+    "station_id": 400674,
+    "case_cut": 2808,
+    "day": 10,
+    "report_timestamp": "2023-02-10T17:56:00",
+    "control_cuts": [
+      792,
+      4824,
+      6840
+    ],
+    "case_episode_row": 221,
+    "control_episode_rows": [
+      217,
+      225,
+      229
+    ]
+  },
+  {
+    "source_row": 50446,
+    "incident_id": "21458836",
+    "station_id": 1203549,
+    "case_cut": 2827,
+    "day": 10,
+    "report_timestamp": "2023-02-10T19:31:00",
+    "control_cuts": [
+      811,
+      6859
+    ],
+    "case_episode_row": 883,
+    "control_episode_rows": [
+      878,
+      891
+    ]
+  },
+  {
+    "source_row": 50468,
+    "incident_id": "21458869",
+    "station_id": 769345,
+    "case_cut": 2831,
+    "day": 10,
+    "report_timestamp": "2023-02-10T19:51:00",
+    "control_cuts": [
+      815,
+      4847,
+      6863
+    ],
+    "case_episode_row": 659,
+    "control_episode_rows": [
+      658,
+      660,
+      661
+    ]
+  },
+  {
+    "source_row": 50481,
+    "incident_id": "21458894",
+    "station_id": 764430,
+    "case_cut": 2833,
+    "day": 10,
+    "report_timestamp": "2023-02-10T20:03:00",
+    "control_cuts": [
+      817,
+      4849,
+      6865
+    ],
+    "case_episode_row": 634,
+    "control_episode_rows": [
+      630,
+      637,
+      641
+    ]
+  },
+  {
+    "source_row": 50537,
+    "incident_id": "21459000",
+    "station_id": 312745,
+    "case_cut": 2852,
+    "day": 10,
+    "report_timestamp": "2023-02-10T21:38:00",
+    "control_cuts": [
+      836,
+      4868,
+      6884
+    ],
+    "case_episode_row": 9,
+    "control_episode_rows": [
+      1,
+      18,
+      27
+    ]
+  },
+  {
+    "source_row": 50558,
+    "incident_id": "21459034",
+    "station_id": 821532,
+    "case_cut": 2857,
+    "day": 10,
+    "report_timestamp": "2023-02-10T22:01:00",
+    "control_cuts": [
+      841,
+      4873,
+      6889
+    ],
+    "case_episode_row": 783,
+    "control_episode_rows": [
+      778,
+      788,
+      793
+    ]
+  },
+  {
+    "source_row": 50644,
+    "incident_id": "21459200",
+    "station_id": 3019101,
+    "case_cut": 2890,
+    "day": 11,
+    "report_timestamp": "2023-02-11T00:49:00",
+    "control_cuts": [
+      874,
+      4906,
+      6922
+    ],
+    "case_episode_row": 916,
+    "control_episode_rows": [
+      915,
+      917,
+      918
+    ]
+  },
+  {
+    "source_row": 50777,
+    "incident_id": "21459421",
+    "station_id": 764001,
+    "case_cut": 2954,
+    "day": 11,
+    "report_timestamp": "2023-02-11T06:07:00",
+    "control_cuts": [
+      938,
+      4970
+    ],
+    "case_episode_row": 614,
+    "control_episode_rows": [
+      609,
+      619
+    ]
+  },
+  {
+    "source_row": 50837,
+    "incident_id": "21459513",
+    "station_id": 402104,
+    "case_cut": 2976,
+    "day": 11,
+    "report_timestamp": "2023-02-11T07:57:00",
+    "control_cuts": [
+      960,
+      4992,
+      7008
+    ],
+    "case_episode_row": 344,
+    "control_episode_rows": [
+      340,
+      348,
+      350
+    ]
+  },
+  {
+    "source_row": 50853,
+    "incident_id": "21459544",
+    "station_id": 1210909,
+    "case_cut": 2980,
+    "day": 11,
+    "report_timestamp": "2023-02-11T08:18:00",
+    "control_cuts": [
+      964,
+      4996,
+      7012
+    ],
+    "case_episode_row": 900,
+    "control_episode_rows": [
+      899,
+      901,
+      902
+    ]
+  },
+  {
+    "source_row": 50967,
+    "incident_id": "21459725",
+    "station_id": 401551,
+    "case_cut": 3008,
+    "day": 11,
+    "report_timestamp": "2023-02-11T10:38:00",
+    "control_cuts": [
+      992,
+      5024,
+      7040
+    ],
+    "case_episode_row": 303,
+    "control_episode_rows": [
+      300,
+      306,
+      309
+    ]
+  },
+  {
+    "source_row": 51093,
+    "incident_id": "21459888",
+    "station_id": 313956,
+    "case_cut": 3026,
+    "day": 11,
+    "report_timestamp": "2023-02-11T12:07:00",
+    "control_cuts": [
+      1010,
+      5042,
+      7058
+    ],
+    "case_episode_row": 36,
+    "control_episode_rows": [
+      35,
+      37,
+      38
+    ]
+  },
+  {
+    "source_row": 51629,
+    "incident_id": "21460711",
+    "station_id": 317139,
+    "case_cut": 3124,
+    "day": 11,
+    "report_timestamp": "2023-02-11T20:19:00",
+    "control_cuts": [
+      1108,
+      5140,
+      7156
+    ],
+    "case_episode_row": 76,
+    "control_episode_rows": [
+      71,
+      81,
+      85
+    ]
+  },
+  {
+    "source_row": 51664,
+    "incident_id": "21460771",
+    "station_id": 822992,
+    "case_cut": 3135,
+    "day": 11,
+    "report_timestamp": "2023-02-11T21:14:00",
+    "control_cuts": [
+      1119,
+      5151,
+      7167
+    ],
+    "case_episode_row": 803,
+    "control_episode_rows": [
+      800,
+      806,
+      809
+    ]
+  },
+  {
+    "source_row": 51681,
+    "incident_id": "21460799",
+    "station_id": 10120810,
+    "case_cut": 3142,
+    "day": 11,
+    "report_timestamp": "2023-02-11T21:48:00",
+    "control_cuts": [
+      1126,
+      5158,
+      7174
+    ],
+    "case_episode_row": 951,
+    "control_episode_rows": [
+      946,
+      957,
+      963
+    ]
+  },
+  {
+    "source_row": 51800,
+    "incident_id": "21461014",
+    "station_id": 1202929,
+    "case_cut": 3190,
+    "day": 12,
+    "report_timestamp": "2023-02-12T01:47:00",
+    "control_cuts": [
+      1174,
+      5206,
+      7222
+    ],
+    "case_episode_row": 857,
+    "control_episode_rows": [
+      852,
+      862,
+      867
+    ]
+  },
+  {
+    "source_row": 51848,
+    "incident_id": "21461090",
+    "station_id": 401788,
+    "case_cut": 3214,
+    "day": 12,
+    "report_timestamp": "2023-02-12T03:48:00",
+    "control_cuts": [
+      1198,
+      5230,
+      7246
+    ],
+    "case_episode_row": 326,
+    "control_episode_rows": [
+      320,
+      331,
+      337
+    ]
+  },
+  {
+    "source_row": 51940,
+    "incident_id": "21461240",
+    "station_id": 718392,
+    "case_cut": 3269,
+    "day": 12,
+    "report_timestamp": "2023-02-12T08:23:00",
+    "control_cuts": [
+      1253,
+      5285,
+      7301
+    ],
+    "case_episode_row": 576,
+    "control_episode_rows": [
+      571,
+      580,
+      584
+    ]
+  },
+  {
+    "source_row": 52017,
+    "incident_id": "21461374",
+    "station_id": 1202929,
+    "case_cut": 3296,
+    "day": 12,
+    "report_timestamp": "2023-02-12T10:38:00",
+    "control_cuts": [
+      1280,
+      5312,
+      7328
+    ],
+    "case_episode_row": 859,
+    "control_episode_rows": [
+      854,
+      864,
+      869
+    ]
+  },
+  {
+    "source_row": 52427,
+    "incident_id": "21462000",
+    "station_id": 771898,
+    "case_cut": 3384,
+    "day": 12,
+    "report_timestamp": "2023-02-12T17:58:00",
+    "control_cuts": [
+      1368,
+      5400,
+      7416
+    ],
+    "case_episode_row": 671,
+    "control_episode_rows": [
+      668,
+      674,
+      677
+    ]
+  },
+  {
+    "source_row": 52482,
+    "incident_id": "21462115",
+    "station_id": 312745,
+    "case_cut": 3404,
+    "day": 12,
+    "report_timestamp": "2023-02-12T19:39:00",
+    "control_cuts": [
+      1388,
+      5420,
+      7436
+    ],
+    "case_episode_row": 12,
+    "control_episode_rows": [
+      4,
+      21,
+      30
+    ]
+  },
+  {
+    "source_row": 52591,
+    "incident_id": "21462277",
+    "station_id": 1027810,
+    "case_cut": 3427,
+    "day": 12,
+    "report_timestamp": "2023-02-12T21:34:00",
+    "control_cuts": [
+      1411,
+      5443,
+      7459
+    ],
+    "case_episode_row": 820,
+    "control_episode_rows": [
+      818,
+      822,
+      824
+    ]
+  },
+  {
+    "source_row": 52648,
+    "incident_id": "21462351",
+    "station_id": 314808,
+    "case_cut": 3443,
+    "day": 12,
+    "report_timestamp": "2023-02-12T22:50:00",
+    "control_cuts": [
+      1427,
+      5459,
+      7475
+    ],
+    "case_episode_row": 50,
+    "control_episode_rows": [
+      43,
+      57,
+      65
+    ]
+  },
+  {
+    "source_row": 52654,
+    "incident_id": "21462360",
+    "station_id": 400863,
+    "case_cut": 3445,
+    "day": 12,
+    "report_timestamp": "2023-02-12T23:01:00",
+    "control_cuts": [
+      1429,
+      5461,
+      7477
+    ],
+    "case_episode_row": 250,
+    "control_episode_rows": [
+      246,
+      253,
+      257
+    ]
+  },
+  {
+    "source_row": 53022,
+    "incident_id": "21462940",
+    "station_id": 314808,
+    "case_cut": 3572,
+    "day": 13,
+    "report_timestamp": "2023-02-13T09:37:00",
+    "control_cuts": [
+      1556,
+      5588,
+      7604
+    ],
+    "case_episode_row": 51,
+    "control_episode_rows": [
+      44,
+      58,
+      66
+    ]
+  },
+  {
+    "source_row": 53076,
+    "incident_id": "21463023",
+    "station_id": 401233,
+    "case_cut": 3581,
+    "day": 13,
+    "report_timestamp": "2023-02-13T10:23:00",
+    "control_cuts": [
+      1565,
+      5597,
+      7613
+    ],
+    "case_episode_row": 265,
+    "control_episode_rows": [
+      261,
+      269,
+      273
+    ]
+  },
+  {
+    "source_row": 53089,
+    "incident_id": "21463037",
+    "station_id": 808945,
+    "case_cut": 3583,
+    "day": 13,
+    "report_timestamp": "2023-02-13T10:30:00",
+    "control_cuts": [
+      1567,
+      5599
+    ],
+    "case_episode_row": 743,
+    "control_episode_rows": [
+      738,
+      746
+    ]
+  },
+  {
+    "source_row": 53124,
+    "incident_id": "21463082",
+    "station_id": 400103,
+    "case_cut": 3590,
+    "day": 13,
+    "report_timestamp": "2023-02-13T11:05:00",
+    "control_cuts": [
+      1574,
+      5606,
+      7622
+    ],
+    "case_episode_row": 167,
+    "control_episode_rows": [
+      160,
+      174,
+      181
+    ]
+  },
+  {
+    "source_row": 53245,
+    "incident_id": "21463258",
+    "station_id": 763485,
+    "case_cut": 3611,
+    "day": 13,
+    "report_timestamp": "2023-02-13T12:51:00",
+    "control_cuts": [
+      1595,
+      7643
+    ],
+    "case_episode_row": 600,
+    "control_episode_rows": [
+      597,
+      607
+    ]
+  },
+  {
+    "source_row": 53657,
+    "incident_id": "21463855",
+    "station_id": 601374,
+    "case_cut": 3674,
+    "day": 13,
+    "report_timestamp": "2023-02-13T18:08:00",
+    "control_cuts": [
+      1658,
+      5690,
+      7706
+    ],
+    "case_episode_row": 477,
+    "control_episode_rows": [
+      472,
+      481,
+      486
+    ]
+  },
+  {
+    "source_row": 53746,
+    "incident_id": "21464010",
+    "station_id": 317139,
+    "case_cut": 3693,
+    "day": 13,
+    "report_timestamp": "2023-02-13T19:42:00",
+    "control_cuts": [
+      1677,
+      5709,
+      7725
+    ],
+    "case_episode_row": 78,
+    "control_episode_rows": [
+      73,
+      83,
+      87
+    ]
+  },
+  {
+    "source_row": 53774,
+    "incident_id": "21464054",
+    "station_id": 400756,
+    "case_cut": 3700,
+    "day": 13,
+    "report_timestamp": "2023-02-13T20:16:00",
+    "control_cuts": [
+      1684,
+      5716,
+      7732
+    ],
+    "case_episode_row": 238,
+    "control_episode_rows": [
+      236,
+      240,
+      242
+    ]
+  },
+  {
+    "source_row": 53930,
+    "incident_id": "21464321",
+    "station_id": 1203495,
+    "case_cut": 3793,
+    "day": 14,
+    "report_timestamp": "2023-02-14T04:03:00",
+    "control_cuts": [
+      1777,
+      7825
+    ],
+    "case_episode_row": 873,
+    "control_episode_rows": [
+      871,
+      876
+    ]
+  },
+  {
+    "source_row": 54299,
+    "incident_id": "21464877",
+    "station_id": 601204,
+    "case_cut": 3869,
+    "day": 14,
+    "report_timestamp": "2023-02-14T10:24:00",
+    "control_cuts": [
+      1853,
+      5885,
+      7901
+    ],
+    "case_episode_row": 450,
+    "control_episode_rows": [
+      447,
+      453,
+      456
+    ]
+  },
+  {
+    "source_row": 54326,
+    "incident_id": "21464915",
+    "station_id": 402104,
+    "case_cut": 3876,
+    "day": 14,
+    "report_timestamp": "2023-02-14T10:55:00",
+    "control_cuts": [
+      1860,
+      5892,
+      7908
+    ],
+    "case_episode_row": 345,
+    "control_episode_rows": [
+      341,
+      349,
+      351
+    ]
+  },
+  {
+    "source_row": 54457,
+    "incident_id": "21465106",
+    "station_id": 400075,
+    "case_cut": 3900,
+    "day": 14,
+    "report_timestamp": "2023-02-14T12:58:00",
+    "control_cuts": [
+      1884,
+      5916,
+      7932
+    ],
+    "case_episode_row": 139,
+    "control_episode_rows": [
+      131,
+      146,
+      154
+    ]
+  },
+  {
+    "source_row": 54473,
+    "incident_id": "21465125",
+    "station_id": 601209,
+    "case_cut": 3901,
+    "day": 14,
+    "report_timestamp": "2023-02-14T13:03:00",
+    "control_cuts": [
+      1885,
+      5917,
+      7933
+    ],
+    "case_episode_row": 462,
+    "control_episode_rows": [
+      459,
+      465,
+      468
+    ]
+  },
+  {
+    "source_row": 54611,
+    "incident_id": "21465339",
+    "station_id": 821532,
+    "case_cut": 3925,
+    "day": 14,
+    "report_timestamp": "2023-02-14T15:01:00",
+    "control_cuts": [
+      1909,
+      5941,
+      7957
+    ],
+    "case_episode_row": 787,
+    "control_episode_rows": [
+      782,
+      792,
+      797
+    ]
+  },
+  {
+    "source_row": 54994,
+    "incident_id": "21465891",
+    "station_id": 400756,
+    "case_cut": 3971,
+    "day": 14,
+    "report_timestamp": "2023-02-14T18:54:00",
+    "control_cuts": [
+      1955,
+      5987,
+      8003
+    ],
+    "case_episode_row": 239,
+    "control_episode_rows": [
+      237,
+      241,
+      243
+    ]
+  },
+  {
+    "source_row": 55045,
+    "incident_id": "21465975",
+    "station_id": 402104,
+    "case_cut": 3981,
+    "day": 14,
+    "report_timestamp": "2023-02-14T19:44:00",
+    "control_cuts": [
+      1965,
+      8013
+    ],
+    "case_episode_row": 347,
+    "control_episode_rows": [
+      343,
+      353
+    ]
+  },
+  {
+    "source_row": 55072,
+    "incident_id": "21466031",
+    "station_id": 771939,
+    "case_cut": 3989,
+    "day": 14,
+    "report_timestamp": "2023-02-14T20:23:00",
+    "control_cuts": [
+      1973,
+      6005,
+      8021
+    ],
+    "case_episode_row": 683,
+    "control_episode_rows": [
+      680,
+      686,
+      689
+    ]
+  },
+  {
+    "source_row": 55136,
+    "incident_id": "21466140",
+    "station_id": 314808,
+    "case_cut": 4005,
+    "day": 14,
+    "report_timestamp": "2023-02-14T21:43:00",
+    "control_cuts": [
+      1989,
+      6021,
+      8037
+    ],
+    "case_episode_row": 53,
+    "control_episode_rows": [
+      46,
+      60,
+      68
+    ]
+  },
+  {
+    "source_row": 55178,
+    "incident_id": "21466220",
+    "station_id": 404401,
+    "case_cut": 4019,
+    "day": 14,
+    "report_timestamp": "2023-02-14T22:50:00",
+    "control_cuts": [
+      2003,
+      6035,
+      8051
+    ],
+    "case_episode_row": 395,
+    "control_episode_rows": [
+      392,
+      398,
+      400
+    ]
+  },
+  {
+    "source_row": 55426,
+    "incident_id": "21466628",
+    "station_id": 406562,
+    "case_cut": 4121,
+    "day": 15,
+    "report_timestamp": "2023-02-15T07:24:00",
+    "control_cuts": [
+      89,
+      2105,
+      6137
+    ],
+    "case_episode_row": 409,
+    "control_episode_rows": [
+      401,
+      405,
+      413
+    ]
+  },
+  {
+    "source_row": 55927,
+    "incident_id": "21467331",
+    "station_id": 763485,
+    "case_cut": 4200,
+    "day": 15,
+    "report_timestamp": "2023-02-15T13:56:00",
+    "control_cuts": [
+      168,
+      6216
+    ],
+    "case_episode_row": 601,
+    "control_episode_rows": [
+      594,
+      604
+    ]
+  },
+  {
+    "source_row": 56107,
+    "incident_id": "21467592",
+    "station_id": 402240,
+    "case_cut": 4225,
+    "day": 15,
+    "report_timestamp": "2023-02-15T16:00:00",
+    "control_cuts": [
+      193,
+      2209,
+      6241
+    ],
+    "case_episode_row": 363,
+    "control_episode_rows": [
+      355,
+      359,
+      367
+    ]
+  },
+  {
+    "source_row": 56249,
+    "incident_id": "21467809",
+    "station_id": 400863,
+    "case_cut": 4246,
+    "day": 15,
+    "report_timestamp": "2023-02-15T17:45:00",
+    "control_cuts": [
+      214,
+      2230,
+      6262
+    ],
+    "case_episode_row": 251,
+    "control_episode_rows": [
+      244,
+      248,
+      255
+    ]
+  },
+  {
+    "source_row": 56279,
+    "incident_id": "21467849",
+    "station_id": 401233,
+    "case_cut": 4249,
+    "day": 15,
+    "report_timestamp": "2023-02-15T18:01:00",
+    "control_cuts": [
+      217,
+      2233,
+      6265
+    ],
+    "case_episode_row": 268,
+    "control_episode_rows": [
+      260,
+      264,
+      272
+    ]
+  },
+  {
+    "source_row": 56448,
+    "incident_id": "21468121",
+    "station_id": 1201998,
+    "case_cut": 4287,
+    "day": 15,
+    "report_timestamp": "2023-02-15T21:14:00",
+    "control_cuts": [
+      2271,
+      6303
+    ],
+    "case_episode_row": 832,
+    "control_episode_rows": [
+      830,
+      834
+    ]
+  },
+  {
+    "source_row": 56466,
+    "incident_id": "21468150",
+    "station_id": 406562,
+    "case_cut": 4294,
+    "day": 15,
+    "report_timestamp": "2023-02-15T21:48:00",
+    "control_cuts": [
+      262,
+      2278,
+      6310
+    ],
+    "case_episode_row": 410,
+    "control_episode_rows": [
+      402,
+      406,
+      414
+    ]
+  },
+  {
+    "source_row": 56535,
+    "incident_id": "21468253",
+    "station_id": 770545,
+    "case_cut": 4325,
+    "day": 16,
+    "report_timestamp": "2023-02-16T00:22:00",
+    "control_cuts": [
+      293,
+      2309,
+      6341
+    ],
+    "case_episode_row": 664,
+    "control_episode_rows": [
+      662,
+      663,
+      665
+    ]
+  },
+  {
+    "source_row": 56581,
+    "incident_id": "21468343",
+    "station_id": 400675,
+    "case_cut": 4376,
+    "day": 16,
+    "report_timestamp": "2023-02-16T04:37:00",
+    "control_cuts": [
+      344,
+      2360,
+      6392
+    ],
+    "case_episode_row": 234,
+    "control_episode_rows": [
+      232,
+      233,
+      235
+    ]
+  },
+  {
+    "source_row": 56621,
+    "incident_id": "21468402",
+    "station_id": 819114,
+    "case_cut": 4392,
+    "day": 16,
+    "report_timestamp": "2023-02-16T05:56:00",
+    "control_cuts": [
+      360,
+      2376
+    ],
+    "case_episode_row": 768,
+    "control_episode_rows": [
+      760,
+      764
+    ]
+  },
+  {
+    "source_row": 56791,
+    "incident_id": "21468669",
+    "station_id": 718243,
+    "case_cut": 4419,
+    "day": 16,
+    "report_timestamp": "2023-02-16T08:14:00",
+    "control_cuts": [
+      387,
+      2403,
+      6435
+    ],
+    "case_episode_row": 548,
+    "control_episode_rows": [
+      539,
+      544,
+      553
+    ]
+  },
+  {
+    "source_row": 56842,
+    "incident_id": "21468757",
+    "station_id": 10120810,
+    "case_cut": 4426,
+    "day": 16,
+    "report_timestamp": "2023-02-16T08:48:00",
+    "control_cuts": [
+      394,
+      2410,
+      6442
+    ],
+    "case_episode_row": 956,
+    "control_episode_rows": [
+      945,
+      950,
+      962
+    ]
+  },
+  {
+    "source_row": 57179,
+    "incident_id": "21469231",
+    "station_id": 717824,
+    "case_cut": 4484,
+    "day": 16,
+    "report_timestamp": "2023-02-16T13:39:00",
+    "control_cuts": [
+      452,
+      6500
+    ],
+    "case_episode_row": 527,
+    "control_episode_rows": [
+      516,
+      533
+    ]
+  },
+  {
+    "source_row": 57337,
+    "incident_id": "21469464",
+    "station_id": 401366,
+    "case_cut": 4510,
+    "day": 16,
+    "report_timestamp": "2023-02-16T15:48:00",
+    "control_cuts": [
+      478,
+      2494,
+      6526
+    ],
+    "case_episode_row": 285,
+    "control_episode_rows": [
+      276,
+      280,
+      290
+    ]
+  },
+  {
+    "source_row": 57687,
+    "incident_id": "21469987",
+    "station_id": 312745,
+    "case_cut": 4563,
+    "day": 16,
+    "report_timestamp": "2023-02-16T20:14:00",
+    "control_cuts": [
+      531,
+      2547,
+      6579
+    ],
+    "case_episode_row": 17,
+    "control_episode_rows": [
+      0,
+      8,
+      26
+    ]
+  },
+  {
+    "source_row": 57764,
+    "incident_id": "21470103",
+    "station_id": 1073210,
+    "case_cut": 4583,
+    "day": 16,
+    "report_timestamp": "2023-02-16T21:51:00",
+    "control_cuts": [
+      551,
+      2567,
+      6599
+    ],
+    "case_episode_row": 827,
+    "control_episode_rows": [
+      825,
+      826,
+      828
+    ]
+  },
+  {
+    "source_row": 57777,
+    "incident_id": "21470124",
+    "station_id": 400075,
+    "case_cut": 4586,
+    "day": 16,
+    "report_timestamp": "2023-02-16T22:08:00",
+    "control_cuts": [
+      554,
+      2570,
+      6602
+    ],
+    "case_episode_row": 142,
+    "control_episode_rows": [
+      126,
+      134,
+      149
+    ]
+  },
+  {
+    "source_row": 57832,
+    "incident_id": "21470204",
+    "station_id": 1211784,
+    "case_cut": 4606,
+    "day": 16,
+    "report_timestamp": "2023-02-16T23:48:00",
+    "control_cuts": [
+      574,
+      2590,
+      6622
+    ],
+    "case_episode_row": 908,
+    "control_episode_rows": [
+      904,
+      906,
+      910
+    ]
+  },
+  {
+    "source_row": 57903,
+    "incident_id": "21470326",
+    "station_id": 763485,
+    "case_cut": 4663,
+    "day": 17,
+    "report_timestamp": "2023-02-17T04:31:00",
+    "control_cuts": [
+      631,
+      2647,
+      6679
+    ],
+    "case_episode_row": 603,
+    "control_episode_rows": [
+      596,
+      599,
+      606
+    ]
+  },
+  {
+    "source_row": 58163,
+    "incident_id": "21470701",
+    "station_id": 718292,
+    "case_cut": 4716,
+    "day": 17,
+    "report_timestamp": "2023-02-17T08:56:00",
+    "control_cuts": [
+      684,
+      2700,
+      6732
+    ],
+    "case_episode_row": 566,
+    "control_episode_rows": [
+      564,
+      565,
+      567
+    ]
+  },
+  {
+    "source_row": 58390,
+    "incident_id": "21471019",
+    "station_id": 601374,
+    "case_cut": 4753,
+    "day": 17,
+    "report_timestamp": "2023-02-17T12:04:00",
+    "control_cuts": [
+      721,
+      2737,
+      6769
+    ],
+    "case_episode_row": 479,
+    "control_episode_rows": [
+      469,
+      474,
+      483
+    ]
+  },
+  {
+    "source_row": 58453,
+    "incident_id": "21471104",
+    "station_id": 501017033,
+    "case_cut": 4762,
+    "day": 17,
+    "report_timestamp": "2023-02-17T12:48:00",
+    "control_cuts": [
+      730,
+      2746
+    ],
+    "case_episode_row": 1008,
+    "control_episode_rows": [
+      1000,
+      1004
+    ]
+  },
+  {
+    "source_row": 58583,
+    "incident_id": "21471269",
+    "station_id": 771898,
+    "case_cut": 4778,
+    "day": 17,
+    "report_timestamp": "2023-02-17T14:09:00",
+    "control_cuts": [
+      746,
+      2762,
+      6794
+    ],
+    "case_episode_row": 672,
+    "control_episode_rows": [
+      666,
+      669,
+      675
+    ]
+  },
+  {
+    "source_row": 59104,
+    "incident_id": "21471998",
+    "station_id": 401551,
+    "case_cut": 4846,
+    "day": 17,
+    "report_timestamp": "2023-02-17T19:49:00",
+    "control_cuts": [
+      814,
+      2830,
+      6862
+    ],
+    "case_episode_row": 305,
+    "control_episode_rows": [
+      299,
+      302,
+      308
+    ]
+  },
+  {
+    "source_row": 59359,
+    "incident_id": "21472428",
+    "station_id": 601204,
+    "case_cut": 4950,
+    "day": 18,
+    "report_timestamp": "2023-02-18T04:28:00",
+    "control_cuts": [
+      918,
+      2934,
+      6966
+    ],
+    "case_episode_row": 451,
+    "control_episode_rows": [
+      445,
+      448,
+      454
+    ]
+  },
+  {
+    "source_row": 59482,
+    "incident_id": "21472631",
+    "station_id": 773906,
+    "case_cut": 4999,
+    "day": 18,
+    "report_timestamp": "2023-02-18T08:30:00",
+    "control_cuts": [
+      967,
+      2983,
+      7015
+    ],
+    "case_episode_row": 698,
+    "control_episode_rows": [
+      694,
+      696,
+      700
+    ]
+  },
+  {
+    "source_row": 59763,
+    "incident_id": "21473055",
+    "station_id": 312745,
+    "case_cut": 5059,
+    "day": 18,
+    "report_timestamp": "2023-02-18T13:33:00",
+    "control_cuts": [
+      1027,
+      3043,
+      7075
+    ],
+    "case_episode_row": 19,
+    "control_episode_rows": [
+      2,
+      10,
+      28
+    ]
+  },
+  {
+    "source_row": 59829,
+    "incident_id": "21473176",
+    "station_id": 402240,
+    "case_cut": 5072,
+    "day": 18,
+    "report_timestamp": "2023-02-18T14:35:00",
+    "control_cuts": [
+      1040,
+      3056,
+      7088
+    ],
+    "case_episode_row": 365,
+    "control_episode_rows": [
+      357,
+      361,
+      369
+    ]
+  },
+  {
+    "source_row": 59939,
+    "incident_id": "21473347",
+    "station_id": 718392,
+    "case_cut": 5092,
+    "day": 18,
+    "report_timestamp": "2023-02-18T16:17:00",
+    "control_cuts": [
+      1060,
+      3076
+    ],
+    "case_episode_row": 579,
+    "control_episode_rows": [
+      570,
+      575
+    ]
+  },
+  {
+    "source_row": 60142,
+    "incident_id": "21473677",
+    "station_id": 314808,
+    "case_cut": 5135,
+    "day": 18,
+    "report_timestamp": "2023-02-18T19:53:00",
+    "control_cuts": [
+      1103,
+      3119,
+      7151
+    ],
+    "case_episode_row": 56,
+    "control_episode_rows": [
+      42,
+      49,
+      64
+    ]
+  },
+  {
+    "source_row": 60165,
+    "incident_id": "21473717",
+    "station_id": 400674,
+    "case_cut": 5143,
+    "day": 18,
+    "report_timestamp": "2023-02-18T20:33:00",
+    "control_cuts": [
+      1111,
+      3127,
+      7159
+    ],
+    "case_episode_row": 226,
+    "control_episode_rows": [
+      218,
+      222,
+      230
+    ]
+  },
+  {
+    "source_row": 60176,
+    "incident_id": "21473736",
+    "station_id": 400103,
+    "case_cut": 5146,
+    "day": 18,
+    "report_timestamp": "2023-02-18T20:45:00",
+    "control_cuts": [
+      1114,
+      3130,
+      7162
+    ],
+    "case_episode_row": 173,
+    "control_episode_rows": [
+      159,
+      166,
+      180
+    ]
+  },
+  {
+    "source_row": 60218,
+    "incident_id": "21473800",
+    "station_id": 3089011,
+    "case_cut": 5159,
+    "day": 18,
+    "report_timestamp": "2023-02-18T21:52:00",
+    "control_cuts": [
+      1127,
+      3143,
+      7175
+    ],
+    "case_episode_row": 932,
+    "control_episode_rows": [
+      928,
+      930,
+      934
+    ]
+  },
+  {
+    "source_row": 60300,
+    "incident_id": "21473937",
+    "station_id": 400649,
+    "case_cut": 5187,
+    "day": 19,
+    "report_timestamp": "2023-02-19T00:14:00",
+    "control_cuts": [
+      1155,
+      3171,
+      7203
+    ],
+    "case_episode_row": 210,
+    "control_episode_rows": [
+      202,
+      206,
+      214
+    ]
+  },
+  {
+    "source_row": 60522,
+    "incident_id": "21474299",
+    "station_id": 400115,
+    "case_cut": 5293,
+    "day": 19,
+    "report_timestamp": "2023-02-19T09:04:00",
+    "control_cuts": [
+      1261,
+      3277,
+      7309
+    ],
+    "case_episode_row": 188,
+    "control_episode_rows": [
+      184,
+      186,
+      190
+    ]
+  },
+  {
+    "source_row": 60565,
+    "incident_id": "21474370",
+    "station_id": 317139,
+    "case_cut": 5307,
+    "day": 19,
+    "report_timestamp": "2023-02-19T10:13:00",
+    "control_cuts": [
+      1275,
+      3291,
+      7323
+    ],
+    "case_episode_row": 82,
+    "control_episode_rows": [
+      72,
+      77,
+      86
+    ]
+  },
+  {
+    "source_row": 60596,
+    "incident_id": "21474414",
+    "station_id": 416943,
+    "case_cut": 5314,
+    "day": 19,
+    "report_timestamp": "2023-02-19T10:45:00",
+    "control_cuts": [
+      1282,
+      3298,
+      7330
+    ],
+    "case_episode_row": 439,
+    "control_episode_rows": [
+      431,
+      435,
+      443
+    ]
+  },
+  {
+    "source_row": 60804,
+    "incident_id": "21474749",
+    "station_id": 602338,
+    "case_cut": 5361,
+    "day": 19,
+    "report_timestamp": "2023-02-19T14:41:00",
+    "control_cuts": [
+      3345,
+      7377
+    ],
+    "case_episode_row": 495,
+    "control_episode_rows": [
+      492,
+      498
+    ]
+  },
+  {
+    "source_row": 61077,
+    "incident_id": "21475193",
+    "station_id": 500010121,
+    "case_cut": 5416,
+    "day": 19,
+    "report_timestamp": "2023-02-19T19:19:00",
+    "control_cuts": [
+      1384,
+      3400,
+      7432
+    ],
+    "case_episode_row": 974,
+    "control_episode_rows": [
+      970,
+      972,
+      976
+    ]
+  },
+  {
+    "source_row": 61102,
+    "incident_id": "21475233",
+    "station_id": 400075,
+    "case_cut": 5421,
+    "day": 19,
+    "report_timestamp": "2023-02-19T19:42:00",
+    "control_cuts": [
+      1389,
+      3405,
+      7437
+    ],
+    "case_episode_row": 143,
+    "control_episode_rows": [
+      128,
+      136,
+      151
+    ]
+  },
+  {
+    "source_row": 61123,
+    "incident_id": "21475278",
+    "station_id": 764001,
+    "case_cut": 5432,
+    "day": 19,
+    "report_timestamp": "2023-02-19T20:36:00",
+    "control_cuts": [
+      1400,
+      3416,
+      7448
+    ],
+    "case_episode_row": 620,
+    "control_episode_rows": [
+      610,
+      615,
+      624
+    ]
+  },
+  {
+    "source_row": 61237,
+    "incident_id": "21475472",
+    "station_id": 808945,
+    "case_cut": 5480,
+    "day": 20,
+    "report_timestamp": "2023-02-20T00:36:00",
+    "control_cuts": [
+      1448,
+      3464,
+      7496
+    ],
+    "case_episode_row": 744,
+    "control_episode_rows": [
+      736,
+      741,
+      749
+    ]
+  },
+  {
+    "source_row": 61350,
+    "incident_id": "21475662",
+    "station_id": 318674,
+    "case_cut": 5558,
+    "day": 20,
+    "report_timestamp": "2023-02-20T07:05:00",
+    "control_cuts": [
+      1526,
+      3542,
+      7574
+    ],
+    "case_episode_row": 112,
+    "control_episode_rows": [
+      101,
+      107,
+      118
+    ]
+  },
+  {
+    "source_row": 61603,
+    "incident_id": "21476046",
+    "station_id": 501017132,
+    "case_cut": 5616,
+    "day": 20,
+    "report_timestamp": "2023-02-20T11:59:00",
+    "control_cuts": [
+      3600,
+      7632
+    ],
+    "case_episode_row": 1025,
+    "control_episode_rows": [
+      1020,
+      1029
+    ]
+  },
+  {
+    "source_row": 61785,
+    "incident_id": "21476331",
+    "station_id": 764001,
+    "case_cut": 5650,
+    "day": 20,
+    "report_timestamp": "2023-02-20T14:49:00",
+    "control_cuts": [
+      1618,
+      3634,
+      7666
+    ],
+    "case_episode_row": 621,
+    "control_episode_rows": [
+      611,
+      616,
+      625
+    ]
+  },
+  {
+    "source_row": 61791,
+    "incident_id": "21476338",
+    "station_id": 317916,
+    "case_cut": 5652,
+    "day": 20,
+    "report_timestamp": "2023-02-20T14:55:00",
+    "control_cuts": [
+      1620,
+      3636
+    ],
+    "case_episode_row": 96,
+    "control_episode_rows": [
+      90,
+      93
+    ]
+  },
+  {
+    "source_row": 61861,
+    "incident_id": "21476438",
+    "station_id": 400075,
+    "case_cut": 5662,
+    "day": 20,
+    "report_timestamp": "2023-02-20T15:48:00",
+    "control_cuts": [
+      1630,
+      3646,
+      7678
+    ],
+    "case_episode_row": 144,
+    "control_episode_rows": [
+      129,
+      137,
+      152
+    ]
+  },
+  {
+    "source_row": 61970,
+    "incident_id": "21476589",
+    "station_id": 10126610,
+    "case_cut": 5679,
+    "day": 20,
+    "report_timestamp": "2023-02-20T17:10:00",
+    "control_cuts": [
+      1647,
+      3663,
+      7695
+    ],
+    "case_episode_row": 968,
+    "control_episode_rows": [
+      966,
+      967,
+      969
+    ]
+  },
+  {
+    "source_row": 62117,
+    "incident_id": "21476835",
+    "station_id": 801241,
+    "case_cut": 5708,
+    "day": 20,
+    "report_timestamp": "2023-02-20T19:36:00",
+    "control_cuts": [
+      1676,
+      3692,
+      7724
+    ],
+    "case_episode_row": 720,
+    "control_episode_rows": [
+      718,
+      719,
+      721
+    ]
+  },
+  {
+    "source_row": 62152,
+    "incident_id": "21476898",
+    "station_id": 400115,
+    "case_cut": 5722,
+    "day": 20,
+    "report_timestamp": "2023-02-20T20:45:00",
+    "control_cuts": [
+      1690,
+      3706,
+      7738
+    ],
+    "case_episode_row": 189,
+    "control_episode_rows": [
+      185,
+      187,
+      191
+    ]
+  },
+  {
+    "source_row": 62206,
+    "incident_id": "21476980",
+    "station_id": 1203549,
+    "case_cut": 5744,
+    "day": 20,
+    "report_timestamp": "2023-02-20T22:35:00",
+    "control_cuts": [
+      1712,
+      3728,
+      7760
+    ],
+    "case_episode_row": 887,
+    "control_episode_rows": [
+      879,
+      884,
+      892
+    ]
+  },
+  {
+    "source_row": 62289,
+    "incident_id": "21477118",
+    "station_id": 760726,
+    "case_cut": 5815,
+    "day": 21,
+    "report_timestamp": "2023-02-21T04:32:00",
+    "control_cuts": [
+      1783,
+      3799,
+      7831
+    ],
+    "case_episode_row": 591,
+    "control_episode_rows": [
+      587,
+      589,
+      593
+    ]
+  },
+  {
+    "source_row": 62293,
+    "incident_id": "21477122",
+    "station_id": 764001,
+    "case_cut": 5817,
+    "day": 21,
+    "report_timestamp": "2023-02-21T04:42:00",
+    "control_cuts": [
+      1785,
+      3801,
+      7833
+    ],
+    "case_episode_row": 622,
+    "control_episode_rows": [
+      612,
+      617,
+      626
+    ]
+  },
+  {
+    "source_row": 62665,
+    "incident_id": "21477656",
+    "station_id": 718243,
+    "case_cut": 5878,
+    "day": 21,
+    "report_timestamp": "2023-02-21T09:49:00",
+    "control_cuts": [
+      1846,
+      3862,
+      7894
+    ],
+    "case_episode_row": 551,
+    "control_episode_rows": [
+      542,
+      546,
+      556
+    ]
+  },
+  {
+    "source_row": 62805,
+    "incident_id": "21477864",
+    "station_id": 401233,
+    "case_cut": 5902,
+    "day": 21,
+    "report_timestamp": "2023-02-21T11:48:00",
+    "control_cuts": [
+      1870,
+      3886,
+      7918
+    ],
+    "case_episode_row": 270,
+    "control_episode_rows": [
+      262,
+      266,
+      274
+    ]
+  },
+  {
+    "source_row": 62816,
+    "incident_id": "21477879",
+    "station_id": 400103,
+    "case_cut": 5904,
+    "day": 21,
+    "report_timestamp": "2023-02-21T11:55:00",
+    "control_cuts": [
+      1872,
+      3888,
+      7920
+    ],
+    "case_episode_row": 176,
+    "control_episode_rows": [
+      162,
+      169,
+      183
+    ]
+  },
+  {
+    "source_row": 63134,
+    "incident_id": "21478357",
+    "station_id": 1202753,
+    "case_cut": 5947,
+    "day": 21,
+    "report_timestamp": "2023-02-21T15:33:00",
+    "control_cuts": [
+      1915,
+      3931
+    ],
+    "case_episode_row": 847,
+    "control_episode_rows": [
+      841,
+      844
+    ]
+  },
+  {
+    "source_row": 63352,
+    "incident_id": "21478720",
+    "station_id": 501017033,
+    "case_cut": 5974,
+    "day": 21,
+    "report_timestamp": "2023-02-21T17:45:00",
+    "control_cuts": [
+      1942,
+      3958,
+      7990
+    ],
+    "case_episode_row": 1009,
+    "control_episode_rows": [
+      1001,
+      1005,
+      1012
+    ]
+  },
+  {
+    "source_row": 63402,
+    "incident_id": "21478811",
+    "station_id": 402568,
+    "case_cut": 5983,
+    "day": 21,
+    "report_timestamp": "2023-02-21T18:34:00",
+    "control_cuts": [
+      1951,
+      3967,
+      7999
+    ],
+    "case_episode_row": 384,
+    "control_episode_rows": [
+      382,
+      383,
+      385
+    ]
+  },
+  {
+    "source_row": 63591,
+    "incident_id": "21479219",
+    "station_id": 312745,
+    "case_cut": 6035,
+    "day": 21,
+    "report_timestamp": "2023-02-21T22:50:00",
+    "control_cuts": [
+      4019,
+      8051
+    ],
+    "case_episode_row": 25,
+    "control_episode_rows": [
+      16,
+      34
+    ]
+  },
+  {
+    "source_row": 63612,
+    "incident_id": "21479254",
+    "station_id": 1202132,
+    "case_cut": 6041,
+    "day": 21,
+    "report_timestamp": "2023-02-21T23:23:00",
+    "control_cuts": [
+      2009,
+      4025
+    ],
+    "case_episode_row": 838,
+    "control_episode_rows": [
+      836,
+      837
+    ]
+  },
+  {
+    "source_row": 63744,
+    "incident_id": "21479519",
+    "station_id": 1014610,
+    "case_cut": 6119,
+    "day": 22,
+    "report_timestamp": "2023-02-22T05:51:00",
+    "control_cuts": [
+      71,
+      2087
+    ],
+    "case_episode_row": 816,
+    "control_episode_rows": [
+      814,
+      815
+    ]
+  },
+  {
+    "source_row": 64252,
+    "incident_id": "21480328",
+    "station_id": 401788,
+    "case_cut": 6203,
+    "day": 22,
+    "report_timestamp": "2023-02-22T12:50:00",
+    "control_cuts": [
+      155,
+      2171
+    ],
+    "case_episode_row": 334,
+    "control_episode_rows": [
+      317,
+      323
+    ]
+  },
+  {
+    "source_row": 64371,
+    "incident_id": "21480516",
+    "station_id": 760726,
+    "case_cut": 6226,
+    "day": 22,
+    "report_timestamp": "2023-02-22T14:48:00",
+    "control_cuts": [
+      178,
+      2194,
+      4210
+    ],
+    "case_episode_row": 592,
+    "control_episode_rows": [
+      586,
+      588,
+      590
+    ]
+  },
+  {
+    "source_row": 64507,
+    "incident_id": "21480708",
+    "station_id": 801512,
+    "case_cut": 6238,
+    "day": 22,
+    "report_timestamp": "2023-02-22T15:49:00",
+    "control_cuts": [
+      190,
+      2206,
+      4222
+    ],
+    "case_episode_row": 733,
+    "control_episode_rows": [
+      730,
+      731,
+      732
+    ]
+  },
+  {
+    "source_row": 64579,
+    "incident_id": "21480826",
+    "station_id": 767801,
+    "case_cut": 6250,
+    "day": 22,
+    "report_timestamp": "2023-02-22T16:46:00",
+    "control_cuts": [
+      202,
+      2218,
+      4234
+    ],
+    "case_episode_row": 654,
+    "control_episode_rows": [
+      642,
+      646,
+      650
+    ]
+  },
+  {
+    "source_row": 64856,
+    "incident_id": "21481300",
+    "station_id": 808945,
+    "case_cut": 6310,
+    "day": 22,
+    "report_timestamp": "2023-02-22T21:47:00",
+    "control_cuts": [
+      262,
+      2278
+    ],
+    "case_episode_row": 747,
+    "control_episode_rows": [
+      734,
+      739
+    ]
+  },
+  {
+    "source_row": 64987,
+    "incident_id": "21481542",
+    "station_id": 819114,
+    "case_cut": 6384,
+    "day": 23,
+    "report_timestamp": "2023-02-23T03:55:00",
+    "control_cuts": [
+      336,
+      2352,
+      4368
+    ],
+    "case_episode_row": 771,
+    "control_episode_rows": [
+      759,
+      763,
+      767
+    ]
+  },
+  {
+    "source_row": 65138,
+    "incident_id": "21481816",
+    "station_id": 763485,
+    "case_cut": 6424,
+    "day": 23,
+    "report_timestamp": "2023-02-23T07:19:00",
+    "control_cuts": [
+      376,
+      2392,
+      4408
+    ],
+    "case_episode_row": 605,
+    "control_episode_rows": [
+      595,
+      598,
+      602
+    ]
+  },
+  {
+    "source_row": 65346,
+    "incident_id": "21482156",
+    "station_id": 822992,
+    "case_cut": 6456,
+    "day": 23,
+    "report_timestamp": "2023-02-23T09:58:00",
+    "control_cuts": [
+      408,
+      2424,
+      4440
+    ],
+    "case_episode_row": 807,
+    "control_episode_rows": [
+      798,
+      801,
+      804
+    ]
+  },
+  {
+    "source_row": 65408,
+    "incident_id": "21482250",
+    "station_id": 771939,
+    "case_cut": 6465,
+    "day": 23,
+    "report_timestamp": "2023-02-23T10:44:00",
+    "control_cuts": [
+      417,
+      2433,
+      4449
+    ],
+    "case_episode_row": 687,
+    "control_episode_rows": [
+      678,
+      681,
+      684
+    ]
+  },
+  {
+    "source_row": 65569,
+    "incident_id": "21482486",
+    "station_id": 314808,
+    "case_cut": 6489,
+    "day": 23,
+    "report_timestamp": "2023-02-23T12:44:00",
+    "control_cuts": [
+      441,
+      4473
+    ],
+    "case_episode_row": 62,
+    "control_episode_rows": [
+      40,
+      54
+    ]
+  },
+  {
+    "source_row": 65596,
+    "incident_id": "21482536",
+    "station_id": 317139,
+    "case_cut": 6493,
+    "day": 23,
+    "report_timestamp": "2023-02-23T13:02:00",
+    "control_cuts": [
+      445,
+      2461,
+      4477
+    ],
+    "case_episode_row": 84,
+    "control_episode_rows": [
+      69,
+      74,
+      79
+    ]
+  },
+  {
+    "source_row": 65819,
+    "incident_id": "21482891",
+    "station_id": 771939,
+    "case_cut": 6525,
+    "day": 23,
+    "report_timestamp": "2023-02-23T15:41:00",
+    "control_cuts": [
+      477,
+      2493,
+      4509
+    ],
+    "case_episode_row": 688,
+    "control_episode_rows": [
+      679,
+      682,
+      685
+    ]
+  },
+  {
+    "source_row": 65846,
+    "incident_id": "21482948",
+    "station_id": 314808,
+    "case_cut": 6530,
+    "day": 23,
+    "report_timestamp": "2023-02-23T16:06:00",
+    "control_cuts": [
+      482,
+      2498,
+      4514
+    ],
+    "case_episode_row": 63,
+    "control_episode_rows": [
+      41,
+      48,
+      55
+    ]
+  },
+  {
+    "source_row": 65913,
+    "incident_id": "21483068",
+    "station_id": 401526,
+    "case_cut": 6540,
+    "day": 23,
+    "report_timestamp": "2023-02-23T16:57:00",
+    "control_cuts": [
+      492,
+      2508,
+      4524
+    ],
+    "case_episode_row": 297,
+    "control_episode_rows": [
+      294,
+      295,
+      296
+    ]
+  },
+  {
+    "source_row": 65985,
+    "incident_id": "21483195",
+    "station_id": 808945,
+    "case_cut": 6551,
+    "day": 23,
+    "report_timestamp": "2023-02-23T17:51:00",
+    "control_cuts": [
+      503,
+      2519
+    ],
+    "case_episode_row": 748,
+    "control_episode_rows": [
+      735,
+      740
+    ]
+  },
+  {
+    "source_row": 66077,
+    "incident_id": "21483406",
+    "station_id": 401366,
+    "case_cut": 6574,
+    "day": 23,
+    "report_timestamp": "2023-02-23T19:49:00",
+    "control_cuts": [
+      2542,
+      4558
+    ],
+    "case_episode_row": 291,
+    "control_episode_rows": [
+      281,
+      286
+    ]
+  },
+  {
+    "source_row": 66118,
+    "incident_id": "21483499",
+    "station_id": 402593,
+    "case_cut": 6589,
+    "day": 23,
+    "report_timestamp": "2023-02-23T21:01:00",
+    "control_cuts": [
+      541,
+      2557,
+      4573
+    ],
+    "case_episode_row": 389,
+    "control_episode_rows": [
+      386,
+      387,
+      388
+    ]
+  },
+  {
+    "source_row": 66351,
+    "incident_id": "21483938",
+    "station_id": 718392,
+    "case_cut": 6663,
+    "day": 24,
+    "report_timestamp": "2023-02-24T03:12:00",
+    "control_cuts": [
+      615,
+      2631,
+      4647
+    ],
+    "case_episode_row": 582,
+    "control_episode_rows": [
+      568,
+      573,
+      578
+    ]
+  },
+  {
+    "source_row": 66433,
+    "incident_id": "21484074",
+    "station_id": 407153,
+    "case_cut": 6682,
+    "day": 24,
+    "report_timestamp": "2023-02-24T04:47:00",
+    "control_cuts": [
+      634,
+      2650,
+      4666
+    ],
+    "case_episode_row": 427,
+    "control_episode_rows": [
+      421,
+      423,
+      425
+    ]
+  },
+  {
+    "source_row": 66572,
+    "incident_id": "21484297",
+    "station_id": 776019,
+    "case_cut": 6701,
+    "day": 24,
+    "report_timestamp": "2023-02-24T06:23:00",
+    "control_cuts": [
+      653,
+      2669,
+      4685
+    ],
+    "case_episode_row": 715,
+    "control_episode_rows": [
+      703,
+      707,
+      711
+    ]
+  },
+  {
+    "source_row": 66640,
+    "incident_id": "21484423",
+    "station_id": 500013123,
+    "case_cut": 6709,
+    "day": 24,
+    "report_timestamp": "2023-02-24T07:04:00",
+    "control_cuts": [
+      661,
+      2677,
+      4693
+    ],
+    "case_episode_row": 992,
+    "control_episode_rows": [
+      986,
+      988,
+      990
+    ]
+  },
+  {
+    "source_row": 66801,
+    "incident_id": "21484704",
+    "station_id": 501017033,
+    "case_cut": 6730,
+    "day": 24,
+    "report_timestamp": "2023-02-24T08:47:00",
+    "control_cuts": [
+      682,
+      2698,
+      4714
+    ],
+    "case_episode_row": 1011,
+    "control_episode_rows": [
+      999,
+      1003,
+      1007
+    ]
+  },
+  {
+    "source_row": 66846,
+    "incident_id": "21484775",
+    "station_id": 317916,
+    "case_cut": 6735,
+    "day": 24,
+    "report_timestamp": "2023-02-24T09:11:00",
+    "control_cuts": [
+      687,
+      2703,
+      4719
+    ],
+    "case_episode_row": 97,
+    "control_episode_rows": [
+      88,
+      91,
+      94
+    ]
+  },
+  {
+    "source_row": 67147,
+    "incident_id": "21485249",
+    "station_id": 400103,
+    "case_cut": 6772,
+    "day": 24,
+    "report_timestamp": "2023-02-24T12:19:00",
+    "control_cuts": [
+      724,
+      2740,
+      4756
+    ],
+    "case_episode_row": 178,
+    "control_episode_rows": [
+      157,
+      164,
+      171
+    ]
+  },
+  {
+    "source_row": 67302,
+    "incident_id": "21485490",
+    "station_id": 764430,
+    "case_cut": 6789,
+    "day": 24,
+    "report_timestamp": "2023-02-24T13:44:00",
+    "control_cuts": [
+      741,
+      2757,
+      4773
+    ],
+    "case_episode_row": 640,
+    "control_episode_rows": [
+      629,
+      633,
+      636
+    ]
+  },
+  {
+    "source_row": 67590,
+    "incident_id": "21485943",
+    "station_id": 602338,
+    "case_cut": 6822,
+    "day": 24,
+    "report_timestamp": "2023-02-24T16:25:00",
+    "control_cuts": [
+      774,
+      2790,
+      4806
+    ],
+    "case_episode_row": 496,
+    "control_episode_rows": [
+      488,
+      490,
+      493
+    ]
+  },
+  {
+    "source_row": 67992,
+    "incident_id": "21486642",
+    "station_id": 767801,
+    "case_cut": 6882,
+    "day": 24,
+    "report_timestamp": "2023-02-24T21:25:00",
+    "control_cuts": [
+      834,
+      2850,
+      4866
+    ],
+    "case_episode_row": 656,
+    "control_episode_rows": [
+      644,
+      648,
+      652
+    ]
+  },
+  {
+    "source_row": 68067,
+    "incident_id": "21486764",
+    "station_id": 400075,
+    "case_cut": 6893,
+    "day": 24,
+    "report_timestamp": "2023-02-24T22:24:00",
+    "control_cuts": [
+      845,
+      2861
+    ],
+    "case_episode_row": 150,
+    "control_episode_rows": [
+      127,
+      135
+    ]
+  },
+  {
+    "source_row": 68089,
+    "incident_id": "21486800",
+    "station_id": 717824,
+    "case_cut": 6897,
+    "day": 24,
+    "report_timestamp": "2023-02-24T22:40:00",
+    "control_cuts": [
+      849,
+      2865,
+      4881
+    ],
+    "case_episode_row": 535,
+    "control_episode_rows": [
+      518,
+      523,
+      529
+    ]
+  },
+  {
+    "source_row": 68243,
+    "incident_id": "21487042",
+    "station_id": 1201998,
+    "case_cut": 6923,
+    "day": 25,
+    "report_timestamp": "2023-02-25T00:54:00",
+    "control_cuts": [
+      875,
+      2891,
+      4907
+    ],
+    "case_episode_row": 835,
+    "control_episode_rows": [
+      829,
+      831,
+      833
+    ]
+  },
+  {
+    "source_row": 68398,
+    "incident_id": "21487265",
+    "station_id": 764001,
+    "case_cut": 6952,
+    "day": 25,
+    "report_timestamp": "2023-02-25T03:19:00",
+    "control_cuts": [
+      904,
+      2920,
+      4936
+    ],
+    "case_episode_row": 623,
+    "control_episode_rows": [
+      608,
+      613,
+      618
+    ]
+  },
+  {
+    "source_row": 68479,
+    "incident_id": "21487366",
+    "station_id": 1202929,
+    "case_cut": 6967,
+    "day": 25,
+    "report_timestamp": "2023-02-25T04:31:00",
+    "control_cuts": [
+      919,
+      2935,
+      4951
+    ],
+    "case_episode_row": 866,
+    "control_episode_rows": [
+      851,
+      856,
+      861
+    ]
+  },
+  {
+    "source_row": 68576,
+    "incident_id": "21487508",
+    "station_id": 771898,
+    "case_cut": 6981,
+    "day": 25,
+    "report_timestamp": "2023-02-25T05:42:00",
+    "control_cuts": [
+      933,
+      2949,
+      4965
+    ],
+    "case_episode_row": 676,
+    "control_episode_rows": [
+      667,
+      670,
+      673
+    ]
+  },
+  {
+    "source_row": 68678,
+    "incident_id": "21487649",
+    "station_id": 822992,
+    "case_cut": 6995,
+    "day": 25,
+    "report_timestamp": "2023-02-25T06:50:00",
+    "control_cuts": [
+      947,
+      2963,
+      4979
+    ],
+    "case_episode_row": 808,
+    "control_episode_rows": [
+      799,
+      802,
+      805
+    ]
+  },
+  {
+    "source_row": 68821,
+    "incident_id": "21487834",
+    "station_id": 500013123,
+    "case_cut": 7011,
+    "day": 25,
+    "report_timestamp": "2023-02-25T08:11:00",
+    "control_cuts": [
+      963,
+      2979,
+      4995
+    ],
+    "case_episode_row": 993,
+    "control_episode_rows": [
+      987,
+      989,
+      991
+    ]
+  },
+  {
+    "source_row": 68844,
+    "incident_id": "21487872",
+    "station_id": 601374,
+    "case_cut": 7014,
+    "day": 25,
+    "report_timestamp": "2023-02-25T08:25:00",
+    "control_cuts": [
+      966,
+      2982,
+      4998
+    ],
+    "case_episode_row": 485,
+    "control_episode_rows": [
+      471,
+      476,
+      480
+    ]
+  },
+  {
+    "source_row": 68985,
+    "incident_id": "21488080",
+    "station_id": 718290,
+    "case_cut": 7031,
+    "day": 25,
+    "report_timestamp": "2023-02-25T09:53:00",
+    "control_cuts": [
+      983,
+      2999,
+      5015
+    ],
+    "case_episode_row": 563,
+    "control_episode_rows": [
+      558,
+      560,
+      561
+    ]
+  },
+  {
+    "source_row": 69322,
+    "incident_id": "21488620",
+    "station_id": 767801,
+    "case_cut": 7077,
+    "day": 25,
+    "report_timestamp": "2023-02-25T13:40:00",
+    "control_cuts": [
+      1029,
+      3045,
+      5061
+    ],
+    "case_episode_row": 657,
+    "control_episode_rows": [
+      645,
+      649,
+      653
+    ]
+  },
+  {
+    "source_row": 69392,
+    "incident_id": "21488739",
+    "station_id": 401588,
+    "case_cut": 7089,
+    "day": 25,
+    "report_timestamp": "2023-02-25T14:40:00",
+    "control_cuts": [
+      1041,
+      5073
+    ],
+    "case_episode_row": 315,
+    "control_episode_rows": [
+      310,
+      313
+    ]
+  },
+  {
+    "source_row": 69488,
+    "incident_id": "21488891",
+    "station_id": 718392,
+    "case_cut": 7102,
+    "day": 25,
+    "report_timestamp": "2023-02-25T15:47:00",
+    "control_cuts": [
+      1054,
+      3070
+    ],
+    "case_episode_row": 583,
+    "control_episode_rows": [
+      569,
+      574
+    ]
+  },
+  {
+    "source_row": 69506,
+    "incident_id": "21488914",
+    "station_id": 717824,
+    "case_cut": 7103,
+    "day": 25,
+    "report_timestamp": "2023-02-25T15:54:00",
+    "control_cuts": [
+      1055,
+      3071,
+      5087
+    ],
+    "case_episode_row": 536,
+    "control_episode_rows": [
+      519,
+      524,
+      530
+    ]
+  },
+  {
+    "source_row": 69562,
+    "incident_id": "21488992",
+    "station_id": 501017132,
+    "case_cut": 7110,
+    "day": 25,
+    "report_timestamp": "2023-02-25T16:27:00",
+    "control_cuts": [
+      1062,
+      3078,
+      5094
+    ],
+    "case_episode_row": 1026,
+    "control_episode_rows": [
+      1013,
+      1017,
+      1022
+    ]
+  },
+  {
+    "source_row": 69637,
+    "incident_id": "21489106",
+    "station_id": 718243,
+    "case_cut": 7123,
+    "day": 25,
+    "report_timestamp": "2023-02-25T17:33:00",
+    "control_cuts": [
+      1075,
+      5107
+    ],
+    "case_episode_row": 554,
+    "control_episode_rows": [
+      540,
+      549
+    ]
+  },
+  {
+    "source_row": 70028,
+    "incident_id": "21489734",
+    "station_id": 312745,
+    "case_cut": 7197,
+    "day": 25,
+    "report_timestamp": "2023-02-25T23:41:00",
+    "control_cuts": [
+      1149,
+      3165,
+      5181
+    ],
+    "case_episode_row": 29,
+    "control_episode_rows": [
+      3,
+      11,
+      20
+    ]
+  },
+  {
+    "source_row": 70196,
+    "incident_id": "21490022",
+    "station_id": 601204,
+    "case_cut": 7249,
+    "day": 26,
+    "report_timestamp": "2023-02-26T04:04:00",
+    "control_cuts": [
+      1201,
+      3217,
+      5233
+    ],
+    "case_episode_row": 455,
+    "control_episode_rows": [
+      446,
+      449,
+      452
+    ]
+  },
+  {
+    "source_row": 70213,
+    "incident_id": "21490047",
+    "station_id": 717824,
+    "case_cut": 7259,
+    "day": 26,
+    "report_timestamp": "2023-02-26T04:53:00",
+    "control_cuts": [
+      1211,
+      3227,
+      5243
+    ],
+    "case_episode_row": 537,
+    "control_episode_rows": [
+      520,
+      525,
+      531
+    ]
+  },
+  {
+    "source_row": 70395,
+    "incident_id": "21490372",
+    "station_id": 3412041,
+    "case_cut": 7319,
+    "day": 26,
+    "report_timestamp": "2023-02-26T09:53:00",
+    "control_cuts": [
+      1271,
+      3287,
+      5303
+    ],
+    "case_episode_row": 941,
+    "control_episode_rows": [
+      935,
+      937,
+      939
+    ]
+  },
+  {
+    "source_row": 70516,
+    "incident_id": "21490609",
+    "station_id": 401788,
+    "case_cut": 7349,
+    "day": 26,
+    "report_timestamp": "2023-02-26T12:20:00",
+    "control_cuts": [
+      1301,
+      3317,
+      5333
+    ],
+    "case_episode_row": 338,
+    "control_episode_rows": [
+      321,
+      327,
+      332
+    ]
+  },
+  {
+    "source_row": 70672,
+    "incident_id": "21490859",
+    "station_id": 819114,
+    "case_cut": 7376,
+    "day": 26,
+    "report_timestamp": "2023-02-26T14:36:00",
+    "control_cuts": [
+      1328,
+      3344,
+      5360
+    ],
+    "case_episode_row": 772,
+    "control_episode_rows": [
+      761,
+      765,
+      769
+    ]
+  },
+  {
+    "source_row": 70796,
+    "incident_id": "21491070",
+    "station_id": 1202753,
+    "case_cut": 7398,
+    "day": 26,
+    "report_timestamp": "2023-02-26T16:27:00",
+    "control_cuts": [
+      1350,
+      3366,
+      5382
+    ],
+    "case_episode_row": 849,
+    "control_episode_rows": [
+      840,
+      843,
+      846
+    ]
+  },
+  {
+    "source_row": 70979,
+    "incident_id": "21491381",
+    "station_id": 401588,
+    "case_cut": 7434,
+    "day": 26,
+    "report_timestamp": "2023-02-26T19:26:00",
+    "control_cuts": [
+      1386,
+      3402,
+      5418
+    ],
+    "case_episode_row": 316,
+    "control_episode_rows": [
+      311,
+      312,
+      314
+    ]
+  },
+  {
+    "source_row": 71017,
+    "incident_id": "21491437",
+    "station_id": 3045021,
+    "case_cut": 7442,
+    "day": 26,
+    "report_timestamp": "2023-02-26T20:08:00",
+    "control_cuts": [
+      1394,
+      3410,
+      5426
+    ],
+    "case_episode_row": 926,
+    "control_episode_rows": [
+      920,
+      922,
+      924
+    ]
+  },
+  {
+    "source_row": 71172,
+    "incident_id": "21491705",
+    "station_id": 501017132,
+    "case_cut": 7493,
+    "day": 27,
+    "report_timestamp": "2023-02-27T00:21:00",
+    "control_cuts": [
+      1445,
+      3461,
+      5477
+    ],
+    "case_episode_row": 1028,
+    "control_episode_rows": [
+      1015,
+      1019,
+      1024
+    ]
+  },
+  {
+    "source_row": 71253,
+    "incident_id": "21491849",
+    "station_id": 821532,
+    "case_cut": 7545,
+    "day": 27,
+    "report_timestamp": "2023-02-27T04:44:00",
+    "control_cuts": [
+      1497,
+      3513,
+      5529
+    ],
+    "case_episode_row": 796,
+    "control_episode_rows": [
+      781,
+      786,
+      791
+    ]
+  },
+  {
+    "source_row": 71448,
+    "incident_id": "21492196",
+    "station_id": 401366,
+    "case_cut": 7589,
+    "day": 27,
+    "report_timestamp": "2023-02-27T08:20:00",
+    "control_cuts": [
+      1541,
+      3557,
+      5573
+    ],
+    "case_episode_row": 292,
+    "control_episode_rows": [
+      277,
+      282,
+      287
+    ]
+  },
+  {
+    "source_row": 71497,
+    "incident_id": "21492278",
+    "station_id": 808945,
+    "case_cut": 7594,
+    "day": 27,
+    "report_timestamp": "2023-02-27T08:46:00",
+    "control_cuts": [
+      1546,
+      3562,
+      5578
+    ],
+    "case_episode_row": 750,
+    "control_episode_rows": [
+      737,
+      742,
+      745
+    ]
+  },
+  {
+    "source_row": 71611,
+    "incident_id": "21492438",
+    "station_id": 3412041,
+    "case_cut": 7610,
+    "day": 27,
+    "report_timestamp": "2023-02-27T10:07:00",
+    "control_cuts": [
+      1562,
+      3578,
+      5594
+    ],
+    "case_episode_row": 942,
+    "control_episode_rows": [
+      936,
+      938,
+      940
+    ]
+  },
+  {
+    "source_row": 71630,
+    "incident_id": "21492461",
+    "station_id": 416943,
+    "case_cut": 7611,
+    "day": 27,
+    "report_timestamp": "2023-02-27T10:12:00",
+    "control_cuts": [
+      1563,
+      3579,
+      5595
+    ],
+    "case_episode_row": 444,
+    "control_episode_rows": [
+      432,
+      436,
+      440
+    ]
+  },
+  {
+    "source_row": 71860,
+    "incident_id": "21492846",
+    "station_id": 318674,
+    "case_cut": 7645,
+    "day": 27,
+    "report_timestamp": "2023-02-27T13:02:00",
+    "control_cuts": [
+      1597,
+      3613,
+      5629
+    ],
+    "case_episode_row": 119,
+    "control_episode_rows": [
+      102,
+      108,
+      113
+    ]
+  },
+  {
+    "source_row": 71873,
+    "incident_id": "21492866",
+    "station_id": 317916,
+    "case_cut": 7647,
+    "day": 27,
+    "report_timestamp": "2023-02-27T13:12:00",
+    "control_cuts": [
+      1599,
+      3615,
+      5631
+    ],
+    "case_episode_row": 98,
+    "control_episode_rows": [
+      89,
+      92,
+      95
+    ]
+  },
+  {
+    "source_row": 72070,
+    "incident_id": "21493218",
+    "station_id": 718392,
+    "case_cut": 7675,
+    "day": 27,
+    "report_timestamp": "2023-02-27T15:32:00",
+    "control_cuts": [
+      1627,
+      3643,
+      5659
+    ],
+    "case_episode_row": 585,
+    "control_episode_rows": [
+      572,
+      577,
+      581
+    ]
+  },
+  {
+    "source_row": 72351,
+    "incident_id": "21493683",
+    "station_id": 819114,
+    "case_cut": 7714,
+    "day": 27,
+    "report_timestamp": "2023-02-27T18:46:00",
+    "control_cuts": [
+      1666,
+      3682,
+      5698
+    ],
+    "case_episode_row": 773,
+    "control_episode_rows": [
+      762,
+      766,
+      770
+    ]
+  },
+  {
+    "source_row": 72403,
+    "incident_id": "21493794",
+    "station_id": 400103,
+    "case_cut": 7726,
+    "day": 27,
+    "report_timestamp": "2023-02-27T19:47:00",
+    "control_cuts": [
+      1678,
+      3694,
+      5710
+    ],
+    "case_episode_row": 182,
+    "control_episode_rows": [
+      161,
+      168,
+      175
+    ]
+  },
+  {
+    "source_row": 72474,
+    "incident_id": "21493945",
+    "station_id": 400075,
+    "case_cut": 7746,
+    "day": 27,
+    "report_timestamp": "2023-02-27T21:26:00",
+    "control_cuts": [
+      1698,
+      3714,
+      5730
+    ],
+    "case_episode_row": 153,
+    "control_episode_rows": [
+      130,
+      138,
+      145
+    ]
+  },
+  {
+    "source_row": 72597,
+    "incident_id": "21494167",
+    "station_id": 1203549,
+    "case_cut": 7796,
+    "day": 28,
+    "report_timestamp": "2023-02-28T01:39:00",
+    "control_cuts": [
+      1748,
+      3764,
+      5780
+    ],
+    "case_episode_row": 893,
+    "control_episode_rows": [
+      880,
+      885,
+      888
+    ]
+  },
+  {
+    "source_row": 72652,
+    "incident_id": "21494262",
+    "station_id": 400863,
+    "case_cut": 7832,
+    "day": 28,
+    "report_timestamp": "2023-02-28T04:35:00",
+    "control_cuts": [
+      1784,
+      5816
+    ],
+    "case_episode_row": 258,
+    "control_episode_rows": [
+      247,
+      254
+    ]
+  },
+  {
+    "source_row": 72669,
+    "incident_id": "21494283",
+    "station_id": 402294,
+    "case_cut": 7837,
+    "day": 28,
+    "report_timestamp": "2023-02-28T05:03:00",
+    "control_cuts": [
+      1789,
+      3805,
+      5821
+    ],
+    "case_episode_row": 377,
+    "control_episode_rows": [
+      371,
+      373,
+      375
+    ]
+  },
+  {
+    "source_row": 72706,
+    "incident_id": "21494346",
+    "station_id": 718243,
+    "case_cut": 7849,
+    "day": 28,
+    "report_timestamp": "2023-02-28T06:02:00",
+    "control_cuts": [
+      1801,
+      3817,
+      5833
+    ],
+    "case_episode_row": 555,
+    "control_episode_rows": [
+      541,
+      545,
+      550
+    ]
+  },
+  {
+    "source_row": 73127,
+    "incident_id": "21494973",
+    "station_id": 601209,
+    "case_cut": 7904,
+    "day": 28,
+    "report_timestamp": "2023-02-28T10:35:00",
+    "control_cuts": [
+      1856,
+      3872,
+      5888
+    ],
+    "case_episode_row": 467,
+    "control_episode_rows": [
+      458,
+      461,
+      464
+    ]
+  },
+  {
+    "source_row": 73172,
+    "incident_id": "21495042",
+    "station_id": 10120810,
+    "case_cut": 7912,
+    "day": 28,
+    "report_timestamp": "2023-02-28T11:15:00",
+    "control_cuts": [
+      3880,
+      5896
+    ],
+    "case_episode_row": 965,
+    "control_episode_rows": [
+      953,
+      959
+    ]
+  },
+  {
+    "source_row": 73244,
+    "incident_id": "21495149",
+    "station_id": 1203549,
+    "case_cut": 7922,
+    "day": 28,
+    "report_timestamp": "2023-02-28T12:08:00",
+    "control_cuts": [
+      1874,
+      5906
+    ],
+    "case_episode_row": 894,
+    "control_episode_rows": [
+      881,
+      889
+    ]
+  },
+  {
+    "source_row": 73253,
+    "incident_id": "21495167",
+    "station_id": 318674,
+    "case_cut": 7923,
+    "day": 28,
+    "report_timestamp": "2023-02-28T12:13:00",
+    "control_cuts": [
+      1875,
+      3891,
+      5907
+    ],
+    "case_episode_row": 120,
+    "control_episode_rows": [
+      104,
+      110,
+      115
+    ]
+  },
+  {
+    "source_row": 73544,
+    "incident_id": "21495633",
+    "station_id": 601374,
+    "case_cut": 7963,
+    "day": 28,
+    "report_timestamp": "2023-02-28T15:32:00",
+    "control_cuts": [
+      1915,
+      3931,
+      5947
+    ],
+    "case_episode_row": 487,
+    "control_episode_rows": [
+      473,
+      478,
+      482
+    ]
+  },
+  {
+    "source_row": 73592,
+    "incident_id": "21495706",
+    "station_id": 401788,
+    "case_cut": 7969,
+    "day": 28,
+    "report_timestamp": "2023-02-28T16:01:00",
+    "control_cuts": [
+      1921,
+      3937,
+      5953
+    ],
+    "case_episode_row": 339,
+    "control_episode_rows": [
+      322,
+      328,
+      333
+    ]
+  },
+  {
+    "source_row": 73609,
+    "incident_id": "21495727",
+    "station_id": 314808,
+    "case_cut": 7971,
+    "day": 28,
+    "report_timestamp": "2023-02-28T16:11:00",
+    "control_cuts": [
+      1923,
+      3939,
+      5955
+    ],
+    "case_episode_row": 67,
+    "control_episode_rows": [
+      45,
+      52,
+      59
+    ]
+  },
+  {
+    "source_row": 73653,
+    "incident_id": "21495788",
+    "station_id": 312745,
+    "case_cut": 7975,
+    "day": 28,
+    "report_timestamp": "2023-02-28T16:31:00",
+    "control_cuts": [
+      1927,
+      3943,
+      5959
+    ],
+    "case_episode_row": 32,
+    "control_episode_rows": [
+      6,
+      14,
+      23
+    ]
+  },
+  {
+    "source_row": 73700,
+    "incident_id": "21495864",
+    "station_id": 402104,
+    "case_cut": 7981,
+    "day": 28,
+    "report_timestamp": "2023-02-28T17:01:00",
+    "control_cuts": [
+      1933,
+      3949
+    ],
+    "case_episode_row": 352,
+    "control_episode_rows": [
+      342,
+      346
+    ]
+  },
+  {
+    "source_row": 73851,
+    "incident_id": "21496108",
+    "station_id": 717620,
+    "case_cut": 8001,
+    "day": 28,
+    "report_timestamp": "2023-02-28T18:43:00",
+    "control_cuts": [
+      1953,
+      3969,
+      5985
+    ],
+    "case_episode_row": 514,
+    "control_episode_rows": [
+      511,
+      512,
+      513
+    ]
+  },
+  {
+    "source_row": 73962,
+    "incident_id": "21496330",
+    "station_id": 823002,
+    "case_cut": 8028,
+    "day": 28,
+    "report_timestamp": "2023-02-28T20:56:00",
+    "control_cuts": [
+      1980,
+      3996,
+      6012
+    ],
+    "case_episode_row": 813,
+    "control_episode_rows": [
+      810,
+      811,
+      812
+    ]
+  }
+]

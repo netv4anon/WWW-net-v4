@@ -1,0 +1,18 @@
+{
+  "id": "packaged__GraphWaveNet_seed1",
+  "variant": "packaged",
+  "seed": 1,
+  "kind": "GraphWaveNet",
+  "weight_file": "runs\\packaged__GraphWaveNet_seed1\\best_weights.pt",
+  "weight_sha256": "52d48a7da5d4d08aa1b65fae1ff5191bb1523fe283e49e597380b1324a7ee38b",
+  "prediction_file": "runs\\packaged__GraphWaveNet_seed1\\mv_predictions.npz",
+  "prediction_sha256": "bcf47fb9ca76b407efb346f4ac2a9746438621837efcfa5d859ac98f1acbdd1d",
+  "original_prediction_sha256": "b0c062711cbf080ac9ed59f2115a1547f3a1aa793bc1be83cb00ad728437cc55",
+  "scaler_sha256": "32bfc2db4bc2cfc0a25601732d36b7e3d9ac64e889c6184f3689c402d3391b11",
+  "best_epoch": 30,
+  "best_validation_center_mae": 11.427450687458462,
+  "parameters": 272640,
+  "fit_seconds": 2574.0667593479156,
+  "training_test_targets_nan": true,
+  "mv_targets_decoded_for_fit_or_prediction": false
+}

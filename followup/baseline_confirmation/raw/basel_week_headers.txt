@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Server: openresty
+Date: Thu, 15 Oct 2026 11:49:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+content-disposition: attachment; filename="100006.json"
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+x-ratelimit-remaining: 499997
+x-ratelimit-limit: 500000
+x-ratelimit-reset: 2026-10-16 00:00:00+00:00
+vary: Accept-Language, Cookie, Host
+content-language: en-gb
+access-control-allow-origin: *
+access-control-allow-methods: POST, GET, OPTIONS
+access-control-max-age: 1000
+access-control-allow-headers: Authorization, X-Requested-With, Origin, ODS-API-Analytics-App, ODS-API-Analytics-Embed-Type, ODS-API-Analytics-Embed-Referrer, ODS-Widgets-Version, Accept
+access-control-expose-headers: ODS-Explore-API-Deprecation, Link, X-RateLimit-Remaining, X-RateLimit-Limit, X-RateLimit-Reset, X-RateLimit-dataset-Remaining, X-RateLimit-dataset-Limit, X-RateLimit-dataset-Reset
+Strict-Transport-Security: max-age=31536000;includeSubdomains
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: upgrade-insecure-requests; 
+X-UA-Compatible: IE=edge
+Permissions-Policy: midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+

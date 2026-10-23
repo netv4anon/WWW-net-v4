@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "constructed_sequences_independently_rebuilt": 256,
+  "same_histories_verified": 256,
+  "legacy_full_arm_reconstructed_max_error": 0.0,
+  "new_double_precision_construction_max_error": 0.0,
+  "pre_clipping_algebra_max_error": 1.8965384818159237e-13,
+  "metric_rows_checked": 330,
+  "pair_rows_checked": 5632,
+  "maximum_metric_difference": 0.0,
+  "maximum_pair_metric_difference": 0.0,
+  "previous_learned_primary_results_matched": 8,
+  "old_manuscript_hashes_unchanged": 6,
+  "new_fits": 0,
+  "new_prediction_runs": 0,
+  "saved_prediction_configurations_reused": 11,
+  "new_constructed_diagnostic_rows": 256,
+  "new_observations": 0,
+  "new_simulations": 0,
+  "cumulative_fits": 20,
+  "independent_transfer_established": false,
+  "goal_complete": false
+}

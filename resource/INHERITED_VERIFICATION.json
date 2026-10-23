@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "recovery_aggregate_rows_reproduced": 330,
+  "recovery_per_context_rows_reproduced": 5632,
+  "archived_metric_cells_checked_including_empty": 41734,
+  "max_archived_metric_error": 0.0,
+  "independent_scalar_per_context_metric_values": 39424,
+  "independent_scalar_max_error": 0.0,
+  "observed_archived_score_rows_verified": 792,
+  "observed_numeric_values_verified": 5544,
+  "observed_max_error_vs_rounded_csv": 4.999378688808065e-11,
+  "two_cik_scientific_payloads_byte_identical": true,
+  "new_fit": false,
+  "new_scientific_prediction_configurations": 0,
+  "interface_scenarios_passed": 12,
+  "release_audit_replayed_with_actual_bound_source": true,
+  "calendar_minimum_days": 19906.746527777777
+}

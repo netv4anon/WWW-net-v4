@@ -1,0 +1,29 @@
+{
+  "resource": "NET-V4-MV",
+  "new_model_fits": 0,
+  "configurations": 1,
+  "contexts": 11424,
+  "profiles": 102,
+  "input_rows": 68544,
+  "primary_coupled_response_gate_passed": null,
+  "primary_rows": [],
+  "structural_controls": [
+    {
+      "model": "submitted",
+      "declared_center_only": false,
+      "equal_center_prediction_max_difference": 48.9825439453125,
+      "equal_complete_future_starting_history_prediction_max_difference": 0.000244140625,
+      "center_structural_check_passed": null,
+      "future_starting_zero_response_check_passed": true,
+      "submitted_determinism_certified": false
+    }
+  ],
+  "prediction_sha256": {
+    "submitted": "31eaf4cab5c780d307e5df77f366967a4452ee01b47caf0a47a561d3743158e9"
+  },
+  "runner_sha256": "cb5ccc73d6de5d968c1a84837dc91fa5946c1d676cff9f7aaf96edf31cc131ab",
+  "protocol_sha256": "cffcdd4fcb3abc20df1a0654c0146286b567a938982bd27f5a5715dd66d050c3",
+  "conditional_generated_cases_not_independent_incidents": true,
+  "physical_or_causal_incident_effect_established": false,
+  "old_raw_source_lineage_recovered": false
+}

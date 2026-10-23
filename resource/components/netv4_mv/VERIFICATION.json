@@ -1,0 +1,11 @@
+{
+  "input_view_semantics_checked": true,
+  "duplicate_center_layout_checked": true,
+  "all_twelve_horizons_have_pulse_support": true,
+  "equal_history_future_cases_checked": true,
+  "direct_loss_values_checked": 5408,
+  "direct_loss_max_absolute_difference": 1.7763568394002505e-15,
+  "new_model_fits": 0,
+  "model_configurations": 13,
+  "does_not_validate_physical_adjacency_or_old_raw_source": true
+}

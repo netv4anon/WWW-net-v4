@@ -1,0 +1,52 @@
+{
+  "data": {
+    "history.npz": "ec73c4141c40ebf133c8367c6f85b180407d7ff651743b9d06401b3ba30decb4",
+    "targets.npz": "718fa7d489253598c615cb0660208d9310f6b448968297732e5ba7c6141effd9",
+    "splits.npz": "582ba5e43c1b153ebf64b5ba7920758d2b79f94cefa006a8c16e3d32ded35d99",
+    "analysis_metadata.npz": "8ccccd75240992a972121a021c6c68ccc9041d5c2969e127f0d96f1c6b250aa2",
+    "saved_references": {
+      "STID_NoCalendar_seed1": "ff014bfa6273730fa4baeaa5eccc0bd8a8e64bb3137a8b8c19fbc2dfbab952ed",
+      "STID_NoCalendar_seed2": "d7d887508c8510b3efd88820a05215f8d4674bb69693ff1d878d70d87e305763",
+      "STID_NoCalendar_seed3": "3287a637bfa795471d0fea03e15b1d6760b60f51b2279c66116f21dc3cc29166"
+    }
+  },
+  "predictions": {
+    "center": {
+      "LastValue": {
+        "path": "prediction_packaged_center_LastValue.npz",
+        "sha256": "b5340e7734c48e056183efe2910f3b03da8a02683717b74f40da0ce01f9d345a"
+      },
+      "STID_NoCalendar_seed1": {
+        "path": "prediction_packaged_center_STID_NoCalendar_seed1.npz",
+        "sha256": "7ed741e30ca3535227fec796db3b41e138f99b75dd494ce401af495820875725"
+      },
+      "STID_NoCalendar_seed2": {
+        "path": "prediction_packaged_center_STID_NoCalendar_seed2.npz",
+        "sha256": "465736772105bae3876f68f62ced598e52f9f1ed372bfc551cffb68fcc08b030"
+      },
+      "STID_NoCalendar_seed3": {
+        "path": "prediction_packaged_center_STID_NoCalendar_seed3.npz",
+        "sha256": "94a80f9c98442d1f41991f20a8a1fd5ead4d840666a48aaeff92a0419b5539b9"
+      }
+    },
+    "all_nine_slots": {
+      "LastValue": {
+        "path": "prediction_packaged_all_nine_slots_LastValue.npz",
+        "sha256": "b5340e7734c48e056183efe2910f3b03da8a02683717b74f40da0ce01f9d345a"
+      },
+      "STID_NoCalendar_seed1": {
+        "path": "prediction_packaged_all_nine_slots_STID_NoCalendar_seed1.npz",
+        "sha256": "7ed741e30ca3535227fec796db3b41e138f99b75dd494ce401af495820875725"
+      },
+      "STID_NoCalendar_seed2": {
+        "path": "prediction_packaged_all_nine_slots_STID_NoCalendar_seed2.npz",
+        "sha256": "465736772105bae3876f68f62ced598e52f9f1ed372bfc551cffb68fcc08b030"
+      },
+      "STID_NoCalendar_seed3": {
+        "path": "prediction_packaged_all_nine_slots_STID_NoCalendar_seed3.npz",
+        "sha256": "94a80f9c98442d1f41991f20a8a1fd5ead4d840666a48aaeff92a0419b5539b9"
+      }
+    }
+  },
+  "query_targets_used_for_lookup": false
+}

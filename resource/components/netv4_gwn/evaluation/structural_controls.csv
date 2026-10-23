@@ -1,0 +1,7 @@
+model,declared_center_only,equal_center_prediction_max_difference,equal_complete_future_starting_history_prediction_max_difference,center_structural_check_passed,future_starting_zero_response_check_passed,submitted_determinism_certified
+packaged__GraphWaveNet_seed1,False,186.53024291992188,0.000244140625,,True,False
+packaged__GraphWaveNet_seed2,False,154.7730712890625,0.0001220703125,,True,False
+packaged__GraphWaveNet_seed3,False,217.46417236328125,0.000244140625,,True,False
+working__GraphWaveNet_seed1,False,48.9825439453125,0.000244140625,,True,False
+working__GraphWaveNet_seed2,False,76.27520751953125,0.000244140625,,True,False
+working__GraphWaveNet_seed3,False,68.11346435546875,0.0001220703125,,True,False

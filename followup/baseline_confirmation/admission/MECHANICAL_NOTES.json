@@ -1,0 +1,6 @@
+{
+  "source_fetch": "Sandbox schannel credential failure; rerun the identical fixed URL outside sandbox succeeded.",
+  "profile_intake": "First formatting pass encountered a null lane ID before writing outputs; missing channel IDs are rejected, per the required lane/variable identity contract. No inference or loss used.",
+  "numeric_scope": "1e-3 is fixed before any new inference as an ambiguity band; it is not claimed as a CPU/CUDA error guarantee.",
+  "constructor_regression": "All 16702704 old elements exactly regenerated; no original model outputs recomputed."
+}

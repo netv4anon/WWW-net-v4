@@ -1,0 +1,7 @@
+model,identical_future_history_prediction_max_abs_diff,within_frozen_1e_3_tolerance
+packaged__GraphWaveNet_seed1,3.814697265625e-05,True
+packaged__GraphWaveNet_seed2,3.0517578125e-05,True
+packaged__GraphWaveNet_seed3,3.0517578125e-05,True
+working__GraphWaveNet_seed1,3.814697265625e-05,True
+working__GraphWaveNet_seed2,3.814697265625e-05,True
+working__GraphWaveNet_seed3,3.814697265625e-05,True

@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "independent_prediction_max_abs_errors": {
+    "LastValue": 0.0,
+    "HistoricalMean": 0.0,
+    "LinearDrift": 0.0,
+    "RidgeCenter": 2.2737367544323206e-13,
+    "STID_seed1": 0.0004058411370806425,
+    "STID_seed2": 0.00034884705451077025,
+    "STID_seed3": 0.0003826373084621082
+  },
+  "neural_tolerance_fixed_before_predictions": {
+    "atol": 0.0002,
+    "rtol": 1e-06
+  },
+  "legacy_case_forecasts_checked": 268,
+  "legacy_prediction_max_abs_difference": 0.0,
+  "case_rows_checked": 2144,
+  "aggregate_rows_checked": 8,
+  "daily_rows_checked": 224,
+  "weekly_rows_checked": 32,
+  "leave_one_station_rows_checked": 752,
+  "prespecified_gates_checked": 2,
+  "new_fits": 0,
+  "positive_association_gate_passed": true,
+  "causal_effect_claim_validated": false
+}

@@ -1,0 +1,111 @@
+{
+  "protocol_fixed_before_fit": true,
+  "previous_development_exposure": true,
+  "upstream_repository": "https://github.com/nnzhan/Graph-WaveNet",
+  "upstream_commit": "6b162e80c59a1d494809252eca055cff93dc66b1",
+  "legacy_archive_sha256": "a6a48bba4308e002af43ad69d451a400896cb73915f2741f50272e279215e5b0",
+  "old_candidate_unchanged": true,
+  "files": [
+    {
+      "path": "data/packaged/history.npz",
+      "bytes": 12748576,
+      "sha256": "ec73c4141c40ebf133c8367c6f85b180407d7ff651743b9d06401b3ba30decb4"
+    },
+    {
+      "path": "data/packaged/splits.npz",
+      "bytes": 51301,
+      "sha256": "582ba5e43c1b153ebf64b5ba7920758d2b79f94cefa006a8c16e3d32ded35d99"
+    },
+    {
+      "path": "data/packaged/targets.npz",
+      "bytes": 12369585,
+      "sha256": "718fa7d489253598c615cb0660208d9310f6b448968297732e5ba7c6141effd9"
+    },
+    {
+      "path": "data/working/history.npz",
+      "bytes": 9888043,
+      "sha256": "4dddb7fc9acbf4f60ebe03962779719022aa055c14b789d8dd8fe1b91b70efce"
+    },
+    {
+      "path": "data/working/splits.npz",
+      "bytes": 51285,
+      "sha256": "6eea18dccc21654b8eb15d6406079ef448ecb3c59be9c7d6d1a4ac046e9acd48"
+    },
+    {
+      "path": "data/working/targets.npz",
+      "bytes": 9523456,
+      "sha256": "e07c1450d71a9a645f3e895990ba2c4783720564e27740eabeacc28dc9ade845"
+    },
+    {
+      "path": "model_adapter.py",
+      "bytes": 1298,
+      "sha256": "1e081238da2b170bf517737ae17a37b78de346373581cd094cd9ffa51dfe75d5"
+    },
+    {
+      "path": "prior_accuracy.csv",
+      "bytes": 46713,
+      "sha256": "6a9c429cf193c23f66941163d481ee5245cdd4d7bc4f1ccd7afe9bac0cda7474"
+    },
+    {
+      "path": "prior_responses.csv",
+      "bytes": 124147,
+      "sha256": "01dcab39aef52dbbfc92272ed86058667f24a55128be86ae5c8cb6ab6b037ce0"
+    },
+    {
+      "path": "PROTOCOL_ZH.md",
+      "bytes": 4633,
+      "sha256": "843d715d80200095787c5e7024bfa6204f2863778b1b3c8e3e501752416cebb6"
+    },
+    {
+      "path": "run_study.py",
+      "bytes": 9601,
+      "sha256": "16267f16823aebf3056322ed378564edb87fb2cbb42aa4d7734c6152432c926c"
+    },
+    {
+      "path": "score.py",
+      "bytes": 7424,
+      "sha256": "cb5ccc73d6de5d968c1a84837dc91fa5946c1d676cff9f7aaf96edf31cc131ab"
+    },
+    {
+      "path": "setup_study.py",
+      "bytes": 3116,
+      "sha256": "afcdf233d3f3ad8f91b2e8720fc1ede94bd9fbbda649850018f10afa217ee80f"
+    },
+    {
+      "path": "task/BINDING.json",
+      "bytes": 672,
+      "sha256": "3f2b5f02d310b26d5a3265bf84d2c0adf273bb93f1a6a85e2f3f2be82cec914e"
+    },
+    {
+      "path": "task/catalog.npz",
+      "bytes": 151150,
+      "sha256": "a7881db8b76ae73214d9e74a16474a03467d20902f8044d7fe5a080264037dff"
+    },
+    {
+      "path": "task/DESCRIPTION.json",
+      "bytes": 591,
+      "sha256": "bd95af93cccdae7172e9663caf61f314a222730bbc53c66805ce16a82d524146"
+    },
+    {
+      "path": "task/evaluation.npz",
+      "bytes": 22873510,
+      "sha256": "9e860a185dc1ab64cacc15cc9e5896c82384a394acbce424387786c515110a45"
+    },
+    {
+      "path": "task/inputs.npz",
+      "bytes": 25829605,
+      "sha256": "742fad7571a802a6a1c003fb5084dfc141bcf2ec0b75bb1b738a90c979d14ac8"
+    },
+    {
+      "path": "vendor/LICENSE",
+      "bytes": 1059,
+      "sha256": "4ca2e57e06fec8b21ea58f1e19f6805052867be62de900ee9b12580bf1a033d8"
+    },
+    {
+      "path": "vendor/model.py",
+      "bytes": 7730,
+      "sha256": "f357319260657716c18916d691d31179e2380dcb882b9c41556c9a55912f1059"
+    }
+  ],
+  "compute_layout_fix_record": "COMPUTE_FIX.json"
+}

@@ -1,0 +1,29 @@
+{
+  "task": "12 historical flow values to 12 future values at fixed observed origins",
+  "inputs": "data/inputs.npz",
+  "input_keys": [
+    "ids",
+    "x"
+  ],
+  "prediction_keys": [
+    "ids",
+    "models",
+    "predictions"
+  ],
+  "prediction_shape": "[number of models,2062,12]",
+  "ids_may_be_reordered": true,
+  "evaluator_only_files": [
+    "data/targets.npz",
+    "data/pairs.json",
+    "data/episodes.csv"
+  ],
+  "input_incident_metadata_allowed": false,
+  "physical_clock_alignment": "inherited nominal source/report alignment, not independently calibrated",
+  "case_weighting": "equal across 268 cases; equal among each case controls",
+  "seed_summary": "mean of three per-case seed losses, not loss of mean predictions",
+  "causal_effect": false,
+  "independent_test": false,
+  "source_point_reuse": 599,
+  "replay_scope": "saved inputs, frozen predictions and pair contrast; not reacquisition, cohort reconstruction or retraining",
+  "units": "flow values as used in the retained TraffiDent v8 source windows"
+}

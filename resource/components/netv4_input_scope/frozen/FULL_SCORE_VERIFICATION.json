@@ -1,0 +1,74 @@
+[
+  {
+    "variant": "packaged",
+    "seed": 1,
+    "target_law": "legacy",
+    "max_full_score_discrepancy": 0.0
+  },
+  {
+    "variant": "packaged",
+    "seed": 1,
+    "target_law": "residual",
+    "max_full_score_discrepancy": 1.7763568394002505e-15
+  },
+  {
+    "variant": "packaged",
+    "seed": 2,
+    "target_law": "legacy",
+    "max_full_score_discrepancy": 3.552713678800501e-15
+  },
+  {
+    "variant": "packaged",
+    "seed": 2,
+    "target_law": "residual",
+    "max_full_score_discrepancy": 3.552713678800501e-15
+  },
+  {
+    "variant": "packaged",
+    "seed": 3,
+    "target_law": "legacy",
+    "max_full_score_discrepancy": 3.552713678800501e-15
+  },
+  {
+    "variant": "packaged",
+    "seed": 3,
+    "target_law": "residual",
+    "max_full_score_discrepancy": 0.0
+  },
+  {
+    "variant": "working",
+    "seed": 1,
+    "target_law": "legacy",
+    "max_full_score_discrepancy": 3.552713678800501e-15
+  },
+  {
+    "variant": "working",
+    "seed": 1,
+    "target_law": "residual",
+    "max_full_score_discrepancy": 1.7763568394002505e-15
+  },
+  {
+    "variant": "working",
+    "seed": 2,
+    "target_law": "legacy",
+    "max_full_score_discrepancy": 1.7763568394002505e-15
+  },
+  {
+    "variant": "working",
+    "seed": 2,
+    "target_law": "residual",
+    "max_full_score_discrepancy": 3.552713678800501e-15
+  },
+  {
+    "variant": "working",
+    "seed": 3,
+    "target_law": "legacy",
+    "max_full_score_discrepancy": 1.7763568394002505e-15
+  },
+  {
+    "variant": "working",
+    "seed": 3,
+    "target_law": "residual",
+    "max_full_score_discrepancy": 1.7763568394002505e-15
+  }
+]

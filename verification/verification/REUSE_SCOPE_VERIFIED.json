@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "source_sha256": "bc6c5608457f88864625d683f9a66d17bc0fc31fe5acba366b6033708a099279",
+  "source_version": {
+    "dataset": "lixiangfan/data4igstgnn",
+    "version": 1,
+    "region": "Contra_Costa",
+    "filename": "incident_all.npy",
+    "url": "https://www.kaggle.com/datasets/lixiangfan/data4igstgnn",
+    "bytes": 865971481,
+    "sha256": "bc6c5608457f88864625d683f9a66d17bc0fc31fe5acba366b6033708a099279",
+    "offset_manifest_sha256": "57f6170883281c81a47255b51901594873a0e1b7d8d0c4dea0399d44f10d089f",
+    "code_commit": "64c6e243466f791f1b75e50421d63e39577ec9fa",
+    "source_data_included": false
+  },
+  "test_interval_global_half_open": [
+    4746,
+    5585
+  ],
+  "train_interval_global_half_open": [
+    0,
+    3909
+  ],
+  "shape_per_array": [
+    12,
+    496,
+    3
+  ],
+  "dtype": "little-endian float32",
+  "fields": "all 496 flow values and both calendar channels; exact complete-state bytes",
+  "calendar_included": true,
+  "rounding_or_tolerance": null,
+  "counting_unit": "query: any of its 12 targets matches; position: each test horizon counted once",
+  "direction": "test target -> retained training history and/or target, as specified",
+  "counts": {
+    "Original": {
+      "training_rows": 3909,
+      "training_history": {
+        "queries": 541,
+        "positions": 4215
+      },
+      "training_target": {
+        "queries": 559,
+        "positions": 4809
+      },
+      "training_history_or_target": {
+        "queries": 658,
+        "positions": 6816
+      }
+    },
+    "WholeTraffic": {
+      "training_rows": 3812,
+      "training_history": {
+        "queries": 535,
+        "positions": 4143
+      },
+      "training_target": {
+        "queries": 541,
+        "positions": 4346
+      },
+      "training_history_or_target": {
+        "queries": 642,
+        "positions": 6538
+      }
+    },
+    "TargetSupport": {
+      "training_rows": 2665,
+      "training_history": {
+        "queries": 0,
+        "positions": 0
+      },
+      "training_target": {
+        "queries": 0,
+        "positions": 0
+      },
+      "training_history_or_target": {
+        "queries": 0,
+        "positions": 0
+      }
+    }
+  },
+  "fixed_scope_query_monotonicity": {
+    "training_history": [
+      541,
+      535,
+      0
+    ],
+    "training_target": [
+      559,
+      541,
+      0
+    ],
+    "training_history_or_target": [
+      658,
+      642,
+      0
+    ]
+  },
+  "reconstructed_masks_equal_frozen_masks": true,
+  "source_arrays_digest_checked": 9496,
+  "verification_is_new_independent_cohort": false
+}

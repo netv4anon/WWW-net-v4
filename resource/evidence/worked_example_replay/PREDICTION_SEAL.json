@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-10-07T12:10:28.317236+00:00",
+  "prediction_sha256": "1de70458771f28581e230e3af5505735ebc41a55c63f8748f87321ff73526785",
+  "query_matches_sha256": "33ccfdb2adf6a8d669015929ce0b9837b872c5653581c767a9086b0fd2f63381",
+  "source_sha256": "bc6c5608457f88864625d683f9a66d17bc0fc31fe5acba366b6033708a099279",
+  "query_target_arrays_read_before_seal": 0,
+  "training_target_arrays_read": 3909,
+  "input_api_has_query_target_argument": false,
+  "prior_audit_target_exposure": true
+}

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-07T21:21:35.758609+00:00",
+  "method": "Source-bound prepared arrays; independently sorted calendar records and uint32 flow comparisons",
+  "timing": "Post-result explanation, not a prespecified new experiment",
+  "conditions": {
+    "Original": {
+      "remaining": 2369,
+      "explaining_nodes": 51,
+      "distinct_candidate_calendars": 1628,
+      "distinct_query_calendars": 675
+    },
+    "TargetSupport": {
+      "remaining": 1679,
+      "explaining_nodes": 51,
+      "distinct_candidate_calendars": 1424,
+      "distinct_query_calendars": 675
+    }
+  },
+  "source_binding_verified": true,
+  "query_targets_parsed": false,
+  "new_fits": 0,
+  "new_predictions": 0
+}

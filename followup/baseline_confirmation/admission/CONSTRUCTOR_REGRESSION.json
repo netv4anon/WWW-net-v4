@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "all_original_array_elements_exact": true,
+  "elements": 16702704,
+  "original_profiles": 102,
+  "original_constructor_sha256": "09fe5e23713b3b771d7216883ffbb05f8b4b28eccfef8bed21456fcef6c72b62",
+  "adapter_script_sha256": "8c77443eed28e6cfd1cbdf6f2a6eb3a7044b320efaacf25ab5ab2c983a1fb4e9",
+  "adapted_constructor_sha256": "dfc7ff48b9fdda395c05a867d331c329886ba32ac052e2b3660cef01deb5e12b",
+  "model_predictions_generated": 0,
+  "new_scoring": 0
+}

@@ -1,0 +1,9 @@
+# Preserve exact archived bytes and mixed historical line endings.
+* -text
+*.npz binary
+*.npy binary
+*.pt binary
+*.zip binary
+*.pdf binary
+*.gz binary
+*.bin binary

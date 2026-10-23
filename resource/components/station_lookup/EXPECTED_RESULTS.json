@@ -1,0 +1,584 @@
+{
+  "status": "primary_complete_pending_independent_verification",
+  "configurations": [
+    "Original__flow",
+    "Original__flow_history_calendar",
+    "TargetSupport__flow",
+    "TargetSupport__flow_history_calendar"
+  ],
+  "training_rows": {
+    "Original": 3909,
+    "TargetSupport": 2665
+  },
+  "query_rows": 839,
+  "node_positions": 496,
+  "all_cells": 416144,
+  "score_population": "All fixed 12-step query/node cells; same-position matching only",
+  "scores": {
+    "Original__flow": {
+      "all": {
+        "cells": 416144,
+        "nodes": 496,
+        "queries": 839,
+        "lastvalue_mae": 16.166514474761616,
+        "lookup_mae": 13.41335073178334,
+        "mae_gain": 2.753163742978277,
+        "mae_gain_percent": 17.030039142181103,
+        "lastvalue_rmse": 30.650384250904786,
+        "lookup_rmse": 28.158849367137496
+      },
+      "varying_target": {
+        "cells": 341680,
+        "nodes": 445,
+        "queries": 838,
+        "lastvalue_mae": 19.678579371018905,
+        "lookup_mae": 16.291745354890423,
+        "mae_gain": 3.386834016128482,
+        "mae_gain_percent": 17.210764823381258,
+        "lastvalue_rmse": 33.7499624077962,
+        "lookup_rmse": 30.992390276496597
+      },
+      "constant_near_zero": {
+        "cells": 73500,
+        "nodes": 496,
+        "queries": 839,
+        "lastvalue_mae": 0.04983673559643966,
+        "lookup_mae": 0.15659553923399172,
+        "mae_gain": -0.10675880363755205,
+        "mae_gain_percent": -214.21708777646924,
+        "lastvalue_rmse": 4.875814255477815,
+        "lookup_rmse": 4.540334412385889
+      },
+      "constant_other": {
+        "cells": 964,
+        "nodes": 106,
+        "queries": 377,
+        "lastvalue_mae": 0.16390044514554794,
+        "lookup_mae": 3.9544625877481265,
+        "mae_gain": -3.7905621426025786,
+        "mae_gain_percent": -2312.722298732294,
+        "lastvalue_rmse": 1.898350524129779,
+        "lookup_rmse": 16.446898588500126
+      },
+      "history_hit": {
+        "cells": 145711,
+        "nodes": 496,
+        "queries": 839,
+        "lastvalue_mae": 8.04869111625242,
+        "lookup_mae": 0.18578047355591087,
+        "mae_gain": 7.86291064269651,
+        "mae_gain_percent": 97.69179272912125,
+        "lastvalue_rmse": 20.906252551992214,
+        "lookup_rmse": 4.312993694966936
+      },
+      "history_miss": {
+        "cells": 270433,
+        "nodes": 445,
+        "queries": 745,
+        "lastvalue_mae": 20.540448718702756,
+        "lookup_mae": 20.540448718702756,
+        "mae_gain": 0.0,
+        "mae_gain_percent": 0.0,
+        "lastvalue_rmse": 34.78690383273678,
+        "lookup_rmse": 34.78690383273678
+      },
+      "varying_history_hit": {
+        "cells": 71679,
+        "nodes": 443,
+        "queries": 810,
+        "lastvalue_mae": 16.351383685659336,
+        "lookup_mae": 0.2069976502684913,
+        "mae_gain": 16.144386035390845,
+        "mae_gain_percent": 98.73406646038136,
+        "lastvalue_rmse": 29.71563966355839,
+        "lookup_rmse": 5.656230675548197
+      },
+      "varying_unique_history_hit": {
+        "cells": 70425,
+        "nodes": 441,
+        "queries": 759,
+        "lastvalue_mae": 16.497180176518825,
+        "lookup_mae": 0.06603597331918226,
+        "mae_gain": 16.431144203199644,
+        "mae_gain_percent": 99.59971357157647,
+        "lastvalue_rmse": 29.568326282298482,
+        "lookup_rmse": 3.3699766345584425
+      },
+      "varying_conflicting_history_hit": {
+        "cells": 1254,
+        "nodes": 150,
+        "queries": 542,
+        "lastvalue_mae": 8.163410903538356,
+        "lookup_mae": 8.123445895208752,
+        "mae_gain": 0.039965008329604146,
+        "mae_gain_percent": 0.4895626203537259,
+        "lastvalue_rmse": 37.06055965567045,
+        "lookup_rmse": 34.50982507484193
+      },
+      "prior_residual_varying_calendar_pair": {
+        "cells": 30685,
+        "nodes": 141,
+        "queries": 614,
+        "lastvalue_mae": 11.294093177813343,
+        "lookup_mae": 0.011225881994872849,
+        "mae_gain": 11.28286729581847,
+        "mae_gain_percent": 99.90060395449078,
+        "lastvalue_rmse": 21.148244523765193,
+        "lookup_rmse": 0.7420845445819526
+      },
+      "residual_complement": {
+        "cells": 385459,
+        "nodes": 496,
+        "queries": 839,
+        "lastvalue_mae": 16.55439035130584,
+        "lookup_mae": 14.480245527379655,
+        "mae_gain": 2.0741448239261864,
+        "mae_gain_percent": 12.529273382529452,
+        "lastvalue_rmse": 31.283032878418837,
+        "lookup_rmse": 29.257452428439258
+      }
+    },
+    "Original__flow_history_calendar": {
+      "all": {
+        "cells": 416144,
+        "nodes": 496,
+        "queries": 839,
+        "lastvalue_mae": 16.166514474761616,
+        "lookup_mae": 13.384264851298209,
+        "mae_gain": 2.7822496234634073,
+        "mae_gain_percent": 17.20995349867729,
+        "lastvalue_rmse": 30.650384250904786,
+        "lookup_rmse": 28.147745731256112
+      },
+      "varying_target": {
+        "cells": 341680,
+        "nodes": 445,
+        "queries": 838,
+        "lastvalue_mae": 19.678579371018905,
+        "lookup_mae": 16.28952513074084,
+        "mae_gain": 3.389054240278064,
+        "mae_gain_percent": 17.22204726459676,
+        "lastvalue_rmse": 33.7499624077962,
+        "lookup_rmse": 30.996861137566995
+      },
+      "constant_near_zero": {
+        "cells": 73500,
+        "nodes": 496,
+        "queries": 839,
+        "lastvalue_mae": 0.04983673559643966,
+        "lookup_mae": 0.05282288800579054,
+        "mae_gain": -0.0029861524093508784,
+        "mae_gain_percent": -5.991870000338083,
+        "lastvalue_rmse": 4.875814255477815,
+        "lookup_rmse": 4.391047812699709
+      },
+      "constant_other": {
+        "cells": 964,
+        "nodes": 106,
+        "queries": 377,
+        "lastvalue_mae": 0.16390044514554794,
+        "lookup_mae": 0.0975968243601305,
+        "mae_gain": 0.06630362078541745,
+        "mae_gain_percent": 40.45359408666528,
+        "lastvalue_rmse": 1.898350524129779,
+        "lookup_rmse": 2.0090778089669294
+      },
+      "history_hit": {
+        "cells": 126643,
+        "nodes": 496,
+        "queries": 725,
+        "lastvalue_mae": 9.189867691264396,
+        "lookup_mae": 0.04750303386875145,
+        "mae_gain": 9.142364657395644,
+        "mae_gain_percent": 99.48309338649231,
+        "lastvalue_rmse": 22.13844533256353,
+        "lookup_rmse": 2.565155934648789
+      },
+      "history_miss": {
+        "cells": 289501,
+        "nodes": 496,
+        "queries": 746,
+        "lastvalue_mae": 19.218467589267053,
+        "lookup_mae": 19.218467589267053,
+        "mae_gain": 0.0,
+        "mae_gain_percent": 0.0,
+        "lastvalue_rmse": 33.704732620256735,
+        "lookup_rmse": 33.704732620256735
+      },
+      "varying_history_hit": {
+        "cells": 70531,
+        "nodes": 443,
+        "queries": 722,
+        "lastvalue_mae": 16.491052359940415,
+        "lookup_mae": 0.07313608456920315,
+        "mae_gain": 16.417916275371212,
+        "mae_gain_percent": 99.55651050658925,
+        "lastvalue_rmse": 29.57138657380129,
+        "lookup_rmse": 3.306274991734546
+      },
+      "varying_unique_history_hit": {
+        "cells": 70481,
+        "nodes": 443,
+        "queries": 722,
+        "lastvalue_mae": 16.488629285042588,
+        "lookup_mae": 0.06259488467983217,
+        "mae_gain": 16.426034400362756,
+        "mae_gain_percent": 99.62037545027097,
+        "lastvalue_rmse": 29.54151676826203,
+        "lookup_rmse": 3.1156639972342663
+      },
+      "varying_conflicting_history_hit": {
+        "cells": 50,
+        "nodes": 19,
+        "queries": 41,
+        "lastvalue_mae": 19.906667197416372,
+        "lookup_mae": 14.932222272624331,
+        "mae_gain": 4.97444492479204,
+        "mae_gain_percent": 24.988838540675754,
+        "lastvalue_rmse": 57.995001072380305,
+        "lookup_rmse": 41.670568382218235
+      },
+      "prior_residual_varying_calendar_pair": {
+        "cells": 30685,
+        "nodes": 141,
+        "queries": 614,
+        "lastvalue_mae": 11.294093177813343,
+        "lookup_mae": 0.00862659091826393,
+        "mae_gain": 11.28546658689508,
+        "mae_gain_percent": 99.9236185607605,
+        "lastvalue_rmse": 21.148244523765193,
+        "lookup_rmse": 0.7392950046732291
+      },
+      "residual_complement": {
+        "cells": 385459,
+        "nodes": 496,
+        "queries": 839,
+        "lastvalue_mae": 16.55439035130584,
+        "lookup_mae": 14.449051145092769,
+        "mae_gain": 2.1053392062130722,
+        "mae_gain_percent": 12.717709088254036,
+        "lastvalue_rmse": 31.283032878418837,
+        "lookup_rmse": 29.245920623027526
+      }
+    },
+    "TargetSupport__flow": {
+      "all": {
+        "cells": 416144,
+        "nodes": 496,
+        "queries": 839,
+        "lastvalue_mae": 16.166514474761616,
+        "lookup_mae": 15.362673405083743,
+        "mae_gain": 0.8038410696778726,
+        "mae_gain_percent": 4.97225961064638,
+        "lastvalue_rmse": 30.650384250904786,
+        "lookup_rmse": 30.117275334718073
+      },
+      "varying_target": {
+        "cells": 341680,
+        "nodes": 445,
+        "queries": 838,
+        "lastvalue_mae": 19.678579371018905,
+        "lookup_mae": 18.665702628802688,
+        "mae_gain": 1.0128767422162177,
+        "mae_gain_percent": 5.147102964698277,
+        "lastvalue_rmse": 33.7499624077962,
+        "lookup_rmse": 33.14565786413247
+      },
+      "constant_near_zero": {
+        "cells": 73500,
+        "nodes": 496,
+        "queries": 839,
+        "lastvalue_mae": 0.04983673559643966,
+        "lookup_mae": 0.17930613842998283,
+        "mae_gain": -0.12946940283354316,
+        "mae_gain_percent": -259.7870853378937,
+        "lastvalue_rmse": 4.875814255477815,
+        "lookup_rmse": 5.1063153037566735
+      },
+      "constant_other": {
+        "cells": 964,
+        "nodes": 106,
+        "queries": 377,
+        "lastvalue_mae": 0.16390044514554794,
+        "lookup_mae": 2.2905457481965597,
+        "mae_gain": -2.1266453030510117,
+        "mae_gain_percent": -1297.5225913282263,
+        "lastvalue_rmse": 1.898350524129779,
+        "lookup_rmse": 13.105633950156221
+      },
+      "history_hit": {
+        "cells": 105979,
+        "nodes": 496,
+        "queries": 839,
+        "lastvalue_mae": 3.393235136443689,
+        "lookup_mae": 0.23682077038975996,
+        "mae_gain": 3.156414366053929,
+        "mae_gain_percent": 93.0207969425319,
+        "lastvalue_rmse": 12.248885970242243,
+        "lookup_rmse": 4.7778485471516445
+      },
+      "history_miss": {
+        "cells": 310165,
+        "nodes": 445,
+        "queries": 838,
+        "lastvalue_mae": 20.530963626005622,
+        "lookup_mae": 20.530963626005622,
+        "mae_gain": 0.0,
+        "mae_gain_percent": 0.0,
+        "lastvalue_rmse": 34.773216593686136,
+        "lookup_rmse": 34.773216593686136
+      },
+      "varying_history_hit": {
+        "cells": 32049,
+        "nodes": 251,
+        "queries": 771,
+        "lastvalue_mae": 11.217843505092405,
+        "lookup_mae": 0.4193872262557503,
+        "mae_gain": 10.798456278836655,
+        "mae_gain_percent": 96.26142737625669,
+        "lastvalue_rmse": 22.27391132834189,
+        "lookup_rmse": 8.071284546054738
+      },
+      "varying_unique_history_hit": {
+        "cells": 30913,
+        "nodes": 183,
+        "queries": 668,
+        "lastvalue_mae": 11.347696198683389,
+        "lookup_mae": 0.14183623189144484,
+        "mae_gain": 11.205859966791945,
+        "mae_gain_percent": 98.75008786446098,
+        "lastvalue_rmse": 21.560482356691285,
+        "lookup_rmse": 4.771834196729894
+      },
+      "varying_conflicting_history_hit": {
+        "cells": 1136,
+        "nodes": 135,
+        "queries": 504,
+        "lastvalue_mae": 7.684272803527211,
+        "lookup_mae": 7.9721459311710445,
+        "mae_gain": -0.28787312764383355,
+        "mae_gain_percent": -3.746263765020093,
+        "lastvalue_rmse": 36.70320397134022,
+        "lookup_rmse": 34.90367790220963
+      },
+      "prior_residual_varying_calendar_pair": {
+        "cells": 30685,
+        "nodes": 141,
+        "queries": 614,
+        "lastvalue_mae": 11.294093177813343,
+        "lookup_mae": 0.008916261605289784,
+        "mae_gain": 11.285176916208053,
+        "mae_gain_percent": 99.92105376266238,
+        "lastvalue_rmse": 21.148244523765193,
+        "lookup_rmse": 0.6496022489810712
+      },
+      "residual_complement": {
+        "cells": 385459,
+        "nodes": 496,
+        "queries": 839,
+        "lastvalue_mae": 16.55439035130584,
+        "lookup_mae": 16.584930604805727,
+        "mae_gain": -0.030540253499886205,
+        "mae_gain_percent": -0.18448431414133673,
+        "lastvalue_rmse": 31.283032878418837,
+        "lookup_rmse": 31.292549913393408
+      }
+    },
+    "TargetSupport__flow_history_calendar": {
+      "all": {
+        "cells": 416144,
+        "nodes": 496,
+        "queries": 839,
+        "lastvalue_mae": 16.166514474761616,
+        "lookup_mae": 15.335603048105089,
+        "mae_gain": 0.8309114266565274,
+        "mae_gain_percent": 5.139706694066345,
+        "lastvalue_rmse": 30.650384250904786,
+        "lookup_rmse": 30.1120596972373
+      },
+      "varying_target": {
+        "cells": 341680,
+        "nodes": 445,
+        "queries": 838,
+        "lastvalue_mae": 19.678579371018905,
+        "lookup_mae": 18.66433509180699,
+        "mae_gain": 1.0142442792119155,
+        "mae_gain_percent": 5.154052333196452,
+        "lastvalue_rmse": 33.7499624077962,
+        "lookup_rmse": 33.150828562361326
+      },
+      "constant_near_zero": {
+        "cells": 73500,
+        "nodes": 496,
+        "queries": 839,
+        "lastvalue_mae": 0.04983673559643966,
+        "lookup_mae": 0.06110449895230633,
+        "mae_gain": -0.01126776335586667,
+        "mae_gain_percent": -22.609352761603507,
+        "lastvalue_rmse": 4.875814255477815,
+        "lookup_rmse": 4.990903479475175
+      },
+      "constant_other": {
+        "cells": 964,
+        "nodes": 106,
+        "queries": 377,
+        "lastvalue_mae": 0.16390044514554794,
+        "lookup_mae": 0.10165976041213794,
+        "mae_gain": 0.062240684733410004,
+        "mae_gain_percent": 37.97468925611436,
+        "lastvalue_rmse": 1.898350524129779,
+        "lookup_rmse": 1.8708287476908334
+      },
+      "history_hit": {
+        "cells": 76773,
+        "nodes": 312,
+        "queries": 618,
+        "lastvalue_mae": 4.56154940688011,
+        "lookup_mae": 0.057637813812825414,
+        "mae_gain": 4.503911593067285,
+        "mae_gain_percent": 98.73644218944793,
+        "lastvalue_rmse": 13.615447478383754,
+        "lookup_rmse": 2.8421887732846924
+      },
+      "history_miss": {
+        "cells": 339371,
+        "nodes": 496,
+        "queries": 839,
+        "lastvalue_mae": 18.79180650960392,
+        "lookup_mae": 18.79180650960392,
+        "mae_gain": 0.0,
+        "mae_gain_percent": 0.0,
+        "lastvalue_rmse": 33.317140917466574,
+        "lookup_rmse": 33.317140917466574
+      },
+      "varying_history_hit": {
+        "cells": 30841,
+        "nodes": 166,
+        "queries": 615,
+        "lastvalue_mae": 11.353160811711325,
+        "lookup_mae": 0.1165930830018848,
+        "mae_gain": 11.23656772870944,
+        "mae_gain_percent": 98.97303416259538,
+        "lastvalue_rmse": 21.481787110201463,
+        "lookup_rmse": 4.171632306783119
+      },
+      "varying_unique_history_hit": {
+        "cells": 30819,
+        "nodes": 165,
+        "queries": 615,
+        "lastvalue_mae": 11.34504415814624,
+        "lookup_mae": 0.10020063553624539,
+        "mae_gain": 11.244843522609996,
+        "mae_gain_percent": 99.11678937393737,
+        "lastvalue_rmse": 21.421342217107995,
+        "lookup_rmse": 3.9194992089371565
+      },
+      "varying_conflicting_history_hit": {
+        "cells": 22,
+        "nodes": 12,
+        "queries": 17,
+        "lastvalue_mae": 22.723485639998984,
+        "lookup_mae": 23.080176648617392,
+        "mae_gain": -0.35669100861840874,
+        "mae_gain_percent": -1.5697020002536226,
+        "lastvalue_rmse": 63.986654201369475,
+        "lookup_rmse": 53.62110821679285
+      },
+      "prior_residual_varying_calendar_pair": {
+        "cells": 30685,
+        "nodes": 141,
+        "queries": 614,
+        "lastvalue_mae": 11.294093177813343,
+        "lookup_mae": 0.006765430057727026,
+        "mae_gain": 11.287327747755615,
+        "mae_gain_percent": 99.94009762491584,
+        "lastvalue_rmse": 21.148244523765193,
+        "lookup_rmse": 0.647145640358247
+      },
+      "residual_complement": {
+        "cells": 385459,
+        "nodes": 496,
+        "queries": 839,
+        "lastvalue_mae": 16.55439035130584,
+        "lookup_mae": 16.555876494333567,
+        "mae_gain": -0.0014861430277264276,
+        "mae_gain_percent": -0.008977334690003839,
+        "lastvalue_rmse": 31.283032878418837,
+        "lookup_rmse": 31.287134611451695
+      }
+    }
+  },
+  "diagnostics": {
+    "Original__flow": {
+      "history_hit_cells": 145711,
+      "unique_training_future_hit_cells": 119518,
+      "conflicting_training_future_hit_cells": 26193,
+      "raw_exact_unique_future_recovered_cells": 119144,
+      "varying_raw_exact_unique_future_recovered_cells": 70077,
+      "prior_residual_witnesses_uniquely_recovered": 30536,
+      "prior_residual_witnesses_conflicting_train_future": 149,
+      "eligible_stations_for_varying_gain": 443,
+      "positive_stations": 441,
+      "negative_stations": 2,
+      "tied_stations": 0,
+      "misses_identical_to_lastvalue": true
+    },
+    "Original__flow_history_calendar": {
+      "history_hit_cells": 126643,
+      "unique_training_future_hit_cells": 126519,
+      "conflicting_training_future_hit_cells": 124,
+      "raw_exact_unique_future_recovered_cells": 126282,
+      "varying_raw_exact_unique_future_recovered_cells": 70312,
+      "prior_residual_witnesses_uniquely_recovered": 30669,
+      "prior_residual_witnesses_conflicting_train_future": 16,
+      "eligible_stations_for_varying_gain": 443,
+      "positive_stations": 442,
+      "negative_stations": 0,
+      "tied_stations": 1,
+      "misses_identical_to_lastvalue": true
+    },
+    "TargetSupport__flow": {
+      "history_hit_cells": 105979,
+      "unique_training_future_hit_cells": 81166,
+      "conflicting_training_future_hit_cells": 24813,
+      "raw_exact_unique_future_recovered_cells": 80775,
+      "varying_raw_exact_unique_future_recovered_cells": 30555,
+      "prior_residual_witnesses_uniquely_recovered": 30554,
+      "prior_residual_witnesses_conflicting_train_future": 131,
+      "eligible_stations_for_varying_gain": 251,
+      "positive_stations": 201,
+      "negative_stations": 30,
+      "tied_stations": 20,
+      "misses_identical_to_lastvalue": true
+    },
+    "TargetSupport__flow_history_calendar": {
+      "history_hit_cells": 76773,
+      "unique_training_future_hit_cells": 76720,
+      "conflicting_training_future_hit_cells": 53,
+      "raw_exact_unique_future_recovered_cells": 76503,
+      "varying_raw_exact_unique_future_recovered_cells": 30674,
+      "prior_residual_witnesses_uniquely_recovered": 30674,
+      "prior_residual_witnesses_conflicting_train_future": 11,
+      "eligible_stations_for_varying_gain": 166,
+      "positive_stations": 140,
+      "negative_stations": 6,
+      "tied_stations": 20,
+      "misses_identical_to_lastvalue": true
+    }
+  },
+  "primary_configuration": "TargetSupport__flow",
+  "primary_gate": {
+    "all_mae_improved": true,
+    "varying_mae_improved": true,
+    "majority_eligible_stations_improved": true
+  },
+  "primary_gate_passed": true,
+  "new_fits": 0,
+  "new_prediction_configurations": 4,
+  "new_source_records": 0,
+  "chronological_repair": false,
+  "original_model_inflation_established": false,
+  "new_algorithm_claim": false,
+  "development_exposed": true,
+  "inherited_training_mask_uses_query_targets": true
+}

@@ -1,0 +1,21 @@
+{
+  "protocol_sha256": "62310f82281f835cfeb631628a830a9fbac3eb460b8016a1a66b0393f892ee08",
+  "constructor_sha256": "09fe5e23713b3b771d7216883ffbb05f8b4b28eccfef8bed21456fcef6c72b62",
+  "files": [
+    {
+      "path": "catalog.npz",
+      "sha256": "a7881db8b76ae73214d9e74a16474a03467d20902f8044d7fe5a080264037dff",
+      "bytes": 151150
+    },
+    {
+      "path": "evaluation.npz",
+      "sha256": "9e860a185dc1ab64cacc15cc9e5896c82384a394acbce424387786c515110a45",
+      "bytes": 22873510
+    },
+    {
+      "path": "inputs.npz",
+      "sha256": "742fad7571a802a6a1c003fb5084dfc141bcf2ec0b75bb1b738a90c979d14ac8",
+      "bytes": 25829605
+    }
+  ]
+}

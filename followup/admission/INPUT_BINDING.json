@@ -1,0 +1,49 @@
+[
+  {
+    "path": "incoming_pro\\CONFIRMATION_FREEZE.json",
+    "sha256": "75a1fc30f5a4a8bb1e477b9abf8a39ee8116219043758fdf5e6029a277b4c4c0"
+  },
+  {
+    "path": "incoming_pro\\CPU_REPLAY_SUMMARY.json",
+    "sha256": "5e9f830b2b76066aa0f34a4dc5c664fa216fa5188f02a5974251ebfbbd485139"
+  },
+  {
+    "path": "incoming_pro\\INDEPENDENT_AUDIT.json",
+    "sha256": "a7ac18d16ebde63b659d7c46d7d82fa467c649600b91db80212d3eb897adf277"
+  },
+  {
+    "path": "incoming_pro\\NET_V4_WWW_confirmation.pdf",
+    "sha256": "2e4b55241114029cbdd316634fe96a980e0a5cf51fa98c47edf5006a9e06783e"
+  },
+  {
+    "path": "incoming_pro\\PRIMARY_RECOMPUTED.csv",
+    "sha256": "64859f45bdf4422abbf6c577b255574c30da31084bc69b178cdeed5e906c9350"
+  },
+  {
+    "path": "incoming_pro\\REVIEW_ZH.html",
+    "sha256": "07e7fc410718580c2bbcfe5597687cda033984794cb3730ab061b8485c95fee6"
+  },
+  {
+    "path": "incoming_pro\\SCOPE_CORRECTIONS_ZH.md",
+    "sha256": "4c649621b4ad786119decb137be3eb8324c6c895c395774749b9785e59b8abcc"
+  },
+  {
+    "path": "incoming_pro\\SOURCE_INTAKE_FREEZE.json",
+    "sha256": "2684731a314b87e9009610b140d902d623e8c75ed2de7d2cdcd06a9ee7f198a6"
+  },
+  {
+    "role": "old_RESOURCE",
+    "external_path": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\MANIFEST.json",
+    "sha256": "ad8da0ba9bb3bcd297a174d57d3ccf96ac8cc3c3df75d3745935d2e01d9fbd05"
+  },
+  {
+    "role": "basel_RESOURCE",
+    "external_path": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_profile_confirmation_20261015\\RESOURCE_MANIFEST.json",
+    "sha256": "b58516aa68f244c50804f6254c0a0ee988bf769908fe81d803821a4927e2a57e"
+  },
+  {
+    "role": "old_catalog",
+    "external_path": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_mv\\task\\catalog.npz",
+    "sha256": "a7881db8b76ae73214d9e74a16474a03467d20902f8044d7fe5a080264037dff"
+  }
+]

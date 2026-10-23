@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "path": "ARRAY_OFFSETS.json.gz",
+      "bytes": 840833,
+      "sha256": "5188d2e41be98aae5580f7ecf767c12c1d43fade25f002341557e7c51496528b"
+    },
+    {
+      "path": "audit_release.py",
+      "bytes": 6254,
+      "sha256": "697383cf92675aa2f046e0e606a93d7e8812c9e41478db65043110d0046d7233"
+    },
+    {
+      "path": "COMPACT_CALENDAR_CERTIFICATE.json",
+      "bytes": 30372,
+      "sha256": "1d0a1e70b0358fb820c82ac2e20a8f5679f33934adf44d0b1d49f2a0da5a786e"
+    },
+    {
+      "path": "EXPECTED_RESULTS.json",
+      "bytes": 4386,
+      "sha256": "912f0b479a156658e4c2fc43fc76135d146472710e652553677a30bd70569f2d"
+    },
+    {
+      "path": "INDEPENDENT_VERIFICATION.json",
+      "bytes": 884,
+      "sha256": "95a36c21914cab70e4597602a2385086347a135c193140fe1167ab3939369277"
+    },
+    {
+      "path": "PROTOCOL_ZH.md",
+      "bytes": 3259,
+      "sha256": "4f8ebbccfb290b189ef3664f9ec31646539a19986327129fb0c64b64454526a4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1955,
+      "sha256": "2f5fb79f695123340e9aaa42a009478b8be259d23be85292da4d5587b4027395"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 13,
+      "sha256": "6cc39b6c241bb6075f398b932d90f233a4b4738d2a1de5f72bcab5735b5a2a6c"
+    },
+    {
+      "path": "SOURCE.json",
+      "bytes": 493,
+      "sha256": "8b0a30baf8f028d161d7ff92d24e5b7ce9c138e3029e68c9e9cbaa987a03854c"
+    }
+  ]
+}

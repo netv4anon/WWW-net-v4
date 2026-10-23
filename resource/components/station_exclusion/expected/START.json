@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-07T21:11:09.964491+00:00",
+  "source_sha256": "bc6c5608457f88864625d683f9a66d17bc0fc31fe5acba366b6033708a099279",
+  "code_sha256": "471f4d57142d674c7a77b3d3889af40f8f13d78e83217ad1c7e1c9553ee787d6",
+  "protocol_sha256": "025953fffc68af6e1f32718d995409fe7862f7f76aec3f3c1626e30f6599de3a",
+  "contract_sha256": "36eb7e89af188362879104881100d5f3290dc07aff73e49f4485f8d12122b915",
+  "configurations": [
+    "Original__flow",
+    "Original__flow_history_calendar",
+    "TargetSupport__flow",
+    "TargetSupport__flow_history_calendar"
+  ],
+  "new_fits": 0,
+  "new_predictions": 0,
+  "new_source_records": 0,
+  "query_targets_parsed": false,
+  "inherited_targetsupport_uses_query_targets": true,
+  "raw_source_hashing_does_not_mean_semantic_target_access": true
+}

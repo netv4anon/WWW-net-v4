@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "upstream_commit": "6b162e80c59a1d494809252eca055cff93dc66b1",
+  "architecture": {
+    "slots": 9,
+    "input_channels": 1,
+    "forecast_steps": 12,
+    "widths_residual_dilation_skip_end": [
+      32,
+      32,
+      256,
+      512
+    ],
+    "blocks": 4,
+    "layers_per_block": 2,
+    "kernel_size": 2,
+    "dilation_schedule": [
+      1,
+      2,
+      1,
+      2,
+      1,
+      2,
+      1,
+      2
+    ],
+    "receptive_field": 13,
+    "left_padding_for_12_step_input": 1,
+    "dropout": 0.3,
+    "adaptive_only": true,
+    "adaptive_embedding_rank": 10,
+    "graph_convolution_order": 2,
+    "physical_graph_input": false,
+    "parameters": 272640
+  },
+  "optimization": {
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "epochs": 30,
+    "batch_size": 256,
+    "gradient_clip_norm": 5,
+    "objective": "mean L1 across all nine slots and 12 horizons",
+    "checkpoint_selection": "minimum nonnegative inverse-scaled center validation MAE, strict improvement",
+    "normalization": "snapshot-specific global training-history mean/std + 1e-6",
+    "prediction_clipping": "inverse transform, then clamp minimum zero",
+    "primary_storage": "FP32 channels_last"
+  },
+  "runs": [
+    {
+      "variant": "packaged",
+      "seed": 1,
+      "epochs_in_log": 30,
+      "best_epoch": 26,
+      "parameters": 272640,
+      "weight_sha256": "ef0ddbc6ee5ee92ad1dc4e1c216c43cf9fed17fb32b2c9788d57ce8887864153",
+      "forecast_sha256": "bc346706d3bfb25199d0133bdb322f7773ef1c19dfa8c2755667a0eed4630099",
+      "scaler": {
+        "mean": 132.5078887939453,
+        "std": 194.46945290429687
+      },
+      "log_sha256": "69a65906a18bc97df0ba2f144eee6af69db21f5591e2a079e8f738311d61f4d3"
+    },
+    {
+      "variant": "packaged",
+      "seed": 2,
+      "epochs_in_log": 30,
+      "best_epoch": 28,
+      "parameters": 272640,
+      "weight_sha256": "a8b25a0a7ec2859a9e37241c402b2e4eebb4fce8b0b5ed7b707c4bf1efae35fa",
+      "forecast_sha256": "a660b15fca407d77a28350b5e4c0b1261ed8256ab4077882d11d2c5a9c0d09d6",
+      "scaler": {
+        "mean": 132.5078887939453,
+        "std": 194.46945290429687
+      },
+      "log_sha256": "b7be011ce2bf8f072b2d20b1cbac3f0da3d2af49e6f5b5a79fda8f8c854b423b"
+    },
+    {
+      "variant": "packaged",
+      "seed": 3,
+      "epochs_in_log": 30,
+      "best_epoch": 27,
+      "parameters": 272640,
+      "weight_sha256": "dea36dc07005ce235796ca3df16adcc52d40fc7b002b62ef24581c3a050a30e7",
+      "forecast_sha256": "8013b67342c672ffdbf062064ab5cc1a7ed3b6c133ffe1b661a02fcfcaae7bd7",
+      "scaler": {
+        "mean": 132.5078887939453,
+        "std": 194.46945290429687
+      },
+      "log_sha256": "663f0c42c4a322102d1452d582a700bcec8f37d93bf67d27edb0347706fda021"
+    },
+    {
+      "variant": "working",
+      "seed": 1,
+      "epochs_in_log": 30,
+      "best_epoch": 21,
+      "parameters": 272640,
+      "weight_sha256": "2de29d4690a08a4316e5724466c96562f3c18c102e495bb3bd9458136b9fde68",
+      "forecast_sha256": "31eaf4cab5c780d307e5df77f366967a4452ee01b47caf0a47a561d3743158e9",
+      "scaler": {
+        "mean": 130.50062561035156,
+        "std": 194.3509531484375
+      },
+      "log_sha256": "038489740ab16b4dbeb202746b24e02a494dc3457f9fca12b000dc83794b0a72"
+    },
+    {
+      "variant": "working",
+      "seed": 2,
+      "epochs_in_log": 30,
+      "best_epoch": 29,
+      "parameters": 272640,
+      "weight_sha256": "458aa0f0b8e7f04686ce726a17c5051523cd1473828d5f5cd49b35c20b7cb1fa",
+      "forecast_sha256": "8f8443911495e12c054a1aa84b7ad2670c7f3ae4c666d68ac03ca6bbcb0f5b50",
+      "scaler": {
+        "mean": 130.50062561035156,
+        "std": 194.3509531484375
+      },
+      "log_sha256": "7a4a0389ab011b483a370e585551600172ed446f8b401bcfedb1c4ea12c65c02"
+    },
+    {
+      "variant": "working",
+      "seed": 3,
+      "epochs_in_log": 30,
+      "best_epoch": 28,
+      "parameters": 272640,
+      "weight_sha256": "952e232803ac989f3b200894cb7844deee70e5ecf4957a1bb6304139b373ae00",
+      "forecast_sha256": "9804376a1acce269f6ce992294df05f91450c02931c625c1b3b023fd261f0b02",
+      "scaler": {
+        "mean": 130.50062561035156,
+        "std": 194.3509531484375
+      },
+      "log_sha256": "16422c931c184afddc14873d951716a0ca3fc7d75c595e5038086128097efbaf"
+    }
+  ],
+  "model_adapter_sha256": "1e081238da2b170bf517737ae17a37b78de346373581cd094cd9ffa51dfe75d5",
+  "training_runner_sha256": "f73efe90ed9a77e21d16bb3010f4052c9c3751856f2c16a55c78c3e42bdf44d9",
+  "profile_selection": {
+    "profiles": 102,
+    "weekly_profile_shape": [
+      7,
+      96
+    ],
+    "curve_normalization": "divide by own weekly mean",
+    "volume_feature": "natural logarithm of own weekly mean",
+    "feature_shape": [
+      102,
+      673
+    ],
+    "distance": "mean squared coordinate difference across concatenated features",
+    "feature_weights": "equal coordinate weights, without separate curve/volume reweighting",
+    "sort": "stable ascending distance after lexicographic profile-ID sorting; exclude self; first seven",
+    "assignment_matches_all_11424_scenarios": true,
+    "center_copy_slot": 1
+  },
+  "new_fits": 0,
+  "new_inference": 0,
+  "independent_confirmation": false
+}

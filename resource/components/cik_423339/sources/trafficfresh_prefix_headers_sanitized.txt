@@ -1,0 +1,46 @@
+HTTP/1.1 302 Found
+Content-Type: text/plain; charset=utf-8
+Content-Length: 1234
+Connection: keep-alive
+Date: Wed, 07 Oct 2026 17:26:44 GMT
+Location: https://us.aws.cdn.hf.co/xet-bridge-us/66bb8d052918204ad7ca7cb2/257b37ac6cde20f409c8ed8ad138a0391d774cb3aaa09e246ac26d5e722f86bd [query omitted]
+X-Powered-By: huggingface-moon
+X-Request-Id: Root=1-6ac680d4-13528dd46b2ec5cd1ab8c60e
+RateLimit: "resolvers";r=2999;t=181
+RateLimit-Policy: "fixed window";"resolvers";q=3000;w=300
+cross-origin-opener-policy: same-origin
+Referrer-Policy: strict-origin-when-cross-origin
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Origin: https://huggingface.co
+Vary: Origin, Accept
+Access-Control-Expose-Headers: X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash
+X-Repo-Commit: 72f9682ad1ce00006090e61adedff5898ec3f963
+Accept-Ranges: bytes
+X-HF-Warning: unauthenticated; Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+X-Linked-Size: 304418602
+X-Linked-ETag: "6fb160963102d271993349de2bad9c339ed68925b1965246892eea6c129a9f2b"
+Cache-Control: no-store
+X-Xet-Hash: 257b37ac6cde20f409c8ed8ad138a0391d774cb3aaa09e246ac26d5e722f86bd
+Link: <https://huggingface.co/api/datasets/yatsbm/TrafficFresh/xet-read-token/72f9682ad1ce00006090e61adedff5898ec3f963>; rel="xet-auth", <https://cas-server.xethub.hf.co/v1/reconstructions/257b37ac6cde20f409c8ed8ad138a0391d774cb3aaa09e246ac26d5e722f86bd>; rel="xet-reconstruction-info"
+X-Cache: Miss from cloudfront
+Via: 1.1 4cf67b58b52960cded2156c06d93de28.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: NRT12-P2
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: L-jK3KbCZSGaH9oXIoFA2zMQ0ESx3L7N0AOwZau2m-NNjzQIYzvbNQ==
+Strict-Transport-Security: max-age=31536000
+
+HTTP/1.1 206 Partial Content
+content-type: text/csv; charset=utf-8
+accept-ranges: bytes
+content-disposition: attachment; filename*=UTF-8''traffic_merged_sensor_data.csv; filename="traffic_merged_sensor_data.csv";
+etag: "257b37ac6cde20f409c8ed8ad138a0391d774cb3aaa09e246ac26d5e722f86bd"
+access-control-allow-headers: Content-Range, Content-Type, Content-Disposition, ETag
+access-control-expose-headers: *
+content-length: 1048576
+content-range: bytes 0-1048575/304418602
+vary: origin, access-control-request-method, access-control-request-headers
+access-control-allow-origin: *
+x-request-id: 01M4BPEGD1919X8BXDEMSP1QR6
+x-hf-cdn-pop: aws-ap-southeast-1
+date: Wed, 07 Oct 2026 17:26:45 GMT
+

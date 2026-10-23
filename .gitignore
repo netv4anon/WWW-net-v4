@@ -1,0 +1,14 @@
+# Local environments and generated outputs only. Scientific archives stay tracked.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.aux
+*.out
+*.synctex.gz
+/netv4_replay_results/
+/NETV4_GitHub_anonymous.zip

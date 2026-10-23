@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "ridge_rows": 2856,
+  "observed_case_seed_rows": 804,
+  "witness_rows": 17513,
+  "GWN_primary_logs": 6,
+  "scope": "internal consistency of delivered evidence, not another raw-source or independent experiment"
+}

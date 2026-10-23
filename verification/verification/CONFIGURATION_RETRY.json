@@ -1,0 +1,5 @@
+{
+  "first_attempt": "stopped at missing unpacked training directory; no scientific data modified",
+  "correction": "read the delivered digest-bound ZIP directly, without extracting into frozen resources",
+  "corrected_script_sha256": "0f2c50b25115416d2155862a8c80fe9ca54201ab8a7dc4078d8f690901a0c54d"
+}

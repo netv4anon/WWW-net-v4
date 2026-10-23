@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "distinct_saved_predictors": 11,
+  "legacy_rows_checked": {
+    "decompositions": 392,
+    "cross_losses": 6272,
+    "numeric_values": 21952
+  },
+  "maximum_legacy_numeric_difference": 0.0,
+  "history_only_last_value_adapter_bitwise_matches_saved": true,
+  "adapter_temp_directory_initially_contains_no_targets_or_metadata": true,
+  "prediction_reordering_bitwise_invariant": true,
+  "malformed_predictions_rejected": [
+    {
+      "case": "duplicate_id",
+      "message": "prediction sample_id contains empty or duplicate IDs"
+    },
+    {
+      "case": "missing_id",
+      "message": "Prediction ID mismatch: 1 missing, 0 unexpected"
+    },
+    {
+      "case": "unknown_id",
+      "message": "Prediction ID mismatch: 1 missing, 1 unexpected"
+    },
+    {
+      "case": "wrong_horizon",
+      "message": "prediction: expected real numeric shape (1024, 12), got (1024, 11)"
+    },
+    {
+      "case": "nonfinite",
+      "message": "prediction contains nonfinite values"
+    }
+  ],
+  "equal_history_contexts": 95,
+  "equal_history_max_difference_all_11_predictors": 0.0,
+  "stochastic_single_draw_not_declared_a_failure": true,
+  "phase_partition_verified": true,
+  "empty_populations_reported_not_silently_zero_scored": true,
+  "new_fits": 0,
+  "new_traffic_rows": 0,
+  "scientific_novelty_established_by_software_checks": false
+}

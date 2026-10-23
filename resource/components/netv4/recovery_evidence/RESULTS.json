@@ -1,0 +1,644 @@
+{
+  "primary_stid_summary": [
+    {
+      "law": "legacy",
+      "variant": "packaged",
+      "model": "STID_NoCalendar",
+      "seeds": 3,
+      "L_BB": 7.545594132505357,
+      "L_BF": 7.42712823777563,
+      "L_FF": 7.656286077159975,
+      "L_FB": 8.369545820893512,
+      "D": 0.11069194465461714,
+      "T": -0.11846589472972695,
+      "A": -0.2291578393843441,
+      "individual_seed_A": [
+        -0.2135978831599159,
+        -0.24287089643379023,
+        -0.23100473855932613
+      ],
+      "all_seed_A_negative": true
+    },
+    {
+      "law": "legacy",
+      "variant": "working",
+      "model": "STID_NoCalendar",
+      "seeds": 3,
+      "L_BB": 9.0350206007974,
+      "L_BF": 8.364073661052517,
+      "L_FF": 8.472191731652451,
+      "L_FB": 9.551404181143477,
+      "D": -0.5628288691449495,
+      "T": -0.670946939744883,
+      "A": -0.10811807059993346,
+      "individual_seed_A": [
+        -0.15497889028241296,
+        -0.12650418219466886,
+        -0.04287113932271858
+      ],
+      "all_seed_A_negative": true
+    },
+    {
+      "law": "residual_recovery",
+      "variant": "packaged",
+      "model": "STID_NoCalendar",
+      "seeds": 3,
+      "L_BB": 7.545594132505357,
+      "L_BF": 8.083179106263238,
+      "L_FF": 8.23736134559537,
+      "L_FB": 8.369545820893512,
+      "D": 0.6917672130900124,
+      "T": 0.5375849737578801,
+      "A": -0.15418223933213238,
+      "individual_seed_A": [
+        -0.1492558429017654,
+        -0.1583239994943142,
+        -0.15496687560031752
+      ],
+      "all_seed_A_negative": true
+    },
+    {
+      "law": "residual_recovery",
+      "variant": "working",
+      "model": "STID_NoCalendar",
+      "seeds": 3,
+      "L_BB": 9.0350206007974,
+      "L_BF": 9.117298611905426,
+      "L_FF": 9.173703361664794,
+      "L_FB": 9.551404181143477,
+      "D": 0.13868276086739387,
+      "T": 0.08227801110802464,
+      "A": -0.05640474975936923,
+      "individual_seed_A": [
+        -0.08413873054087162,
+        -0.09058560058474541,
+        0.0055100818475093405
+      ],
+      "all_seed_A_negative": false
+    }
+  ],
+  "primary_all_configurations": [
+    {
+      "variant": "shared",
+      "run": "LastValue",
+      "model": "LastValue",
+      "seed": null,
+      "law": "legacy",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 10.507022398213545,
+      "L_BF": 10.689528169110417,
+      "L_FF": 10.704295753501356,
+      "L_FB": 11.263440053910017,
+      "D": 0.19727335528781076,
+      "T": 0.18250577089687248,
+      "A": -0.014767584390938282
+    },
+    {
+      "variant": "shared",
+      "run": "HistoricalMean",
+      "model": "HistoricalMean",
+      "seed": null,
+      "law": "legacy",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 17.018722103287775,
+      "L_BF": 16.883016333604854,
+      "L_FF": 16.819632526176672,
+      "L_FB": 17.03778799654295,
+      "D": -0.19908957711110276,
+      "T": -0.13570576968292158,
+      "A": 0.06338380742818117
+    },
+    {
+      "variant": "shared",
+      "run": "LinearDrift",
+      "model": "LinearDrift",
+      "seed": null,
+      "law": "legacy",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 10.54609590768814,
+      "L_BF": 11.403918337076902,
+      "L_FF": 15.316482589075653,
+      "L_FB": 15.326159229308056,
+      "D": 4.770386681387512,
+      "T": 0.8578224293887615,
+      "A": -3.9125642519987505
+    },
+    {
+      "variant": "packaged",
+      "run": "RidgeCenter",
+      "model": "RidgeCenter",
+      "seed": null,
+      "law": "legacy",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 9.131506964564323,
+      "L_BF": 9.22804353851825,
+      "L_FF": 10.119234398162613,
+      "L_FB": 10.70239059207961,
+      "D": 0.9877274335982893,
+      "T": 0.09653657395392656,
+      "A": -0.8911908596443627
+    },
+    {
+      "variant": "packaged",
+      "run": "STID_NoCalendar_seed1",
+      "model": "STID_NoCalendar",
+      "seed": 1,
+      "law": "legacy",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 7.431110853639741,
+      "L_BF": 7.2494239847486215,
+      "L_FF": 7.463021867908537,
+      "L_FB": 8.223058561484018,
+      "D": 0.031911014268795945,
+      "T": -0.18168686889111996,
+      "A": -0.2135978831599159
+    },
+    {
+      "variant": "packaged",
+      "run": "STID_NoCalendar_seed2",
+      "model": "STID_NoCalendar",
+      "seed": 2,
+      "law": "legacy",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 7.703043402793507,
+      "L_BF": 7.628903387735288,
+      "L_FF": 7.871774284169078,
+      "L_FB": 8.56073767102013,
+      "D": 0.1687308813755708,
+      "T": -0.07414001505821943,
+      "A": -0.24287089643379023
+    },
+    {
+      "variant": "packaged",
+      "run": "STID_NoCalendar_seed3",
+      "model": "STID_NoCalendar",
+      "seed": 3,
+      "law": "legacy",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 7.502628141082823,
+      "L_BF": 7.403057340842982,
+      "L_FF": 7.634062079402308,
+      "L_FB": 8.32484123017639,
+      "D": 0.1314339383194847,
+      "T": -0.09957080023984144,
+      "A": -0.23100473855932613
+    },
+    {
+      "variant": "working",
+      "run": "RidgeCenter",
+      "model": "RidgeCenter",
+      "seed": null,
+      "law": "legacy",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 10.733093847210208,
+      "L_BF": 10.77735054679215,
+      "L_FF": 10.68765771544228,
+      "L_FB": 11.321710082081458,
+      "D": -0.0454361317679286,
+      "T": 0.04425669958194156,
+      "A": 0.08969283134987016
+    },
+    {
+      "variant": "working",
+      "run": "STID_NoCalendar_seed1",
+      "model": "STID_NoCalendar",
+      "seed": 1,
+      "law": "legacy",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 9.129351667749384,
+      "L_BF": 8.397096045004824,
+      "L_FF": 8.552074935287237,
+      "L_FB": 9.68915973075976,
+      "D": -0.5772767324621473,
+      "T": -0.7322556227445602,
+      "A": -0.15497889028241296
+    },
+    {
+      "variant": "working",
+      "run": "STID_NoCalendar_seed2",
+      "model": "STID_NoCalendar",
+      "seed": 2,
+      "law": "legacy",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 8.979213507535556,
+      "L_BF": 8.249112079230448,
+      "L_FF": 8.375616261425117,
+      "L_FB": 9.496681057848036,
+      "D": -0.6035972461104393,
+      "T": -0.7301014283051082,
+      "A": -0.12650418219466886
+    },
+    {
+      "variant": "working",
+      "run": "STID_NoCalendar_seed3",
+      "model": "STID_NoCalendar",
+      "seed": 3,
+      "law": "legacy",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 8.996496627107263,
+      "L_BF": 8.446012858922282,
+      "L_FF": 8.488883998245,
+      "L_FB": 9.468371754822632,
+      "D": -0.5076126288622618,
+      "T": -0.5504837681849803,
+      "A": -0.04287113932271858
+    },
+    {
+      "variant": "shared",
+      "run": "LastValue",
+      "model": "LastValue",
+      "seed": null,
+      "law": "residual_recovery",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 10.507022398213545,
+      "L_BF": 11.444792618819823,
+      "L_FF": 11.485456711457422,
+      "L_FB": 11.263440053910017,
+      "D": 0.9784343132438771,
+      "T": 0.9377702206062786,
+      "A": -0.040664092637598515
+    },
+    {
+      "variant": "shared",
+      "run": "HistoricalMean",
+      "model": "HistoricalMean",
+      "seed": null,
+      "law": "residual_recovery",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 17.018722103287775,
+      "L_BF": 17.633972277709592,
+      "L_FF": 17.57441635414337,
+      "L_FB": 17.03778799654295,
+      "D": 0.5556942508555949,
+      "T": 0.6152501744218171,
+      "A": 0.05955592356622219
+    },
+    {
+      "variant": "shared",
+      "run": "LinearDrift",
+      "model": "LinearDrift",
+      "seed": null,
+      "law": "residual_recovery",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 10.54609590768814,
+      "L_BF": 11.449886413756758,
+      "L_FF": 15.269758395501412,
+      "L_FB": 15.326159229308056,
+      "D": 4.723662487813272,
+      "T": 0.9037905060686171,
+      "A": -3.8198719817446545
+    },
+    {
+      "variant": "packaged",
+      "run": "RidgeCenter",
+      "model": "RidgeCenter",
+      "seed": null,
+      "law": "residual_recovery",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 9.131506964564323,
+      "L_BF": 9.870343640601883,
+      "L_FF": 10.594027177120248,
+      "L_FB": 10.70239059207961,
+      "D": 1.4625202125559245,
+      "T": 0.7388366760375593,
+      "A": -0.7236835365183651
+    },
+    {
+      "variant": "packaged",
+      "run": "STID_NoCalendar_seed1",
+      "model": "STID_NoCalendar",
+      "seed": 1,
+      "law": "residual_recovery",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 7.431110853639741,
+      "L_BF": 7.924229385486494,
+      "L_FF": 8.07348522838826,
+      "L_FB": 8.223058561484018,
+      "D": 0.6423743747485178,
+      "T": 0.49311853184675236,
+      "A": -0.1492558429017654
+    },
+    {
+      "variant": "packaged",
+      "run": "STID_NoCalendar_seed2",
+      "model": "STID_NoCalendar",
+      "seed": 2,
+      "law": "residual_recovery",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 7.703043402793507,
+      "L_BF": 8.28722922767823,
+      "L_FF": 8.445553227172544,
+      "L_FB": 8.56073767102013,
+      "D": 0.7425098243790371,
+      "T": 0.5841858248847229,
+      "A": -0.1583239994943142
+    },
+    {
+      "variant": "packaged",
+      "run": "STID_NoCalendar_seed3",
+      "model": "STID_NoCalendar",
+      "seed": 3,
+      "law": "residual_recovery",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 7.502628141082823,
+      "L_BF": 8.038078705624988,
+      "L_FF": 8.193045581225306,
+      "L_FB": 8.32484123017639,
+      "D": 0.6904174401424825,
+      "T": 0.535450564542165,
+      "A": -0.15496687560031752
+    },
+    {
+      "variant": "working",
+      "run": "RidgeCenter",
+      "model": "RidgeCenter",
+      "seed": null,
+      "law": "residual_recovery",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 10.733093847210208,
+      "L_BF": 11.477219278768947,
+      "L_FF": 11.313724749876807,
+      "L_FB": 11.321710082081458,
+      "D": 0.5806309026665986,
+      "T": 0.7441254315587393,
+      "A": 0.16349452889214078
+    },
+    {
+      "variant": "working",
+      "run": "STID_NoCalendar_seed1",
+      "model": "STID_NoCalendar",
+      "seed": 1,
+      "law": "residual_recovery",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 9.129351667749384,
+      "L_BF": 9.166143272537738,
+      "L_FF": 9.25028200307861,
+      "L_FB": 9.68915973075976,
+      "D": 0.12093033532922526,
+      "T": 0.03679160478835364,
+      "A": -0.08413873054087162
+    },
+    {
+      "variant": "working",
+      "run": "STID_NoCalendar_seed2",
+      "model": "STID_NoCalendar",
+      "seed": 2,
+      "law": "residual_recovery",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 8.979213507535556,
+      "L_BF": 8.987302376423031,
+      "L_FF": 9.077887977007776,
+      "L_FB": 9.496681057848036,
+      "D": 0.09867446947222014,
+      "T": 0.008088868887474732,
+      "A": -0.09058560058474541
+    },
+    {
+      "variant": "working",
+      "run": "STID_NoCalendar_seed3",
+      "model": "STID_NoCalendar",
+      "seed": 3,
+      "law": "residual_recovery",
+      "cohort": "all",
+      "population": "all_steps",
+      "contexts": 256,
+      "points": 3072,
+      "L_BB": 8.996496627107263,
+      "L_BF": 9.198450186755508,
+      "L_FF": 9.192940104907999,
+      "L_FB": 9.468371754822632,
+      "D": 0.19644347780073623,
+      "T": 0.20195355964824557,
+      "A": 0.0055100818475093405
+    }
+  ],
+  "rankings": [
+    {
+      "law": "legacy",
+      "variant": "packaged",
+      "ranking": [
+        {
+          "run": "STID_NoCalendar_seed1",
+          "full_mae": 7.463021867908537
+        },
+        {
+          "run": "STID_NoCalendar_seed3",
+          "full_mae": 7.634062079402308
+        },
+        {
+          "run": "STID_NoCalendar_seed2",
+          "full_mae": 7.871774284169078
+        },
+        {
+          "run": "RidgeCenter",
+          "full_mae": 10.119234398162613
+        },
+        {
+          "run": "LastValue",
+          "full_mae": 10.704295753501356
+        },
+        {
+          "run": "LinearDrift",
+          "full_mae": 15.316482589075653
+        },
+        {
+          "run": "HistoricalMean",
+          "full_mae": 16.819632526176672
+        }
+      ],
+      "all_neural_seeds_better_than_ridge_and_simple": true
+    },
+    {
+      "law": "legacy",
+      "variant": "working",
+      "ranking": [
+        {
+          "run": "STID_NoCalendar_seed2",
+          "full_mae": 8.375616261425117
+        },
+        {
+          "run": "STID_NoCalendar_seed3",
+          "full_mae": 8.488883998245
+        },
+        {
+          "run": "STID_NoCalendar_seed1",
+          "full_mae": 8.552074935287237
+        },
+        {
+          "run": "RidgeCenter",
+          "full_mae": 10.68765771544228
+        },
+        {
+          "run": "LastValue",
+          "full_mae": 10.704295753501356
+        },
+        {
+          "run": "LinearDrift",
+          "full_mae": 15.316482589075653
+        },
+        {
+          "run": "HistoricalMean",
+          "full_mae": 16.819632526176672
+        }
+      ],
+      "all_neural_seeds_better_than_ridge_and_simple": true
+    },
+    {
+      "law": "residual_recovery",
+      "variant": "packaged",
+      "ranking": [
+        {
+          "run": "STID_NoCalendar_seed1",
+          "full_mae": 8.07348522838826
+        },
+        {
+          "run": "STID_NoCalendar_seed3",
+          "full_mae": 8.193045581225306
+        },
+        {
+          "run": "STID_NoCalendar_seed2",
+          "full_mae": 8.445553227172544
+        },
+        {
+          "run": "RidgeCenter",
+          "full_mae": 10.594027177120248
+        },
+        {
+          "run": "LastValue",
+          "full_mae": 11.485456711457422
+        },
+        {
+          "run": "LinearDrift",
+          "full_mae": 15.269758395501412
+        },
+        {
+          "run": "HistoricalMean",
+          "full_mae": 17.57441635414337
+        }
+      ],
+      "all_neural_seeds_better_than_ridge_and_simple": true
+    },
+    {
+      "law": "residual_recovery",
+      "variant": "working",
+      "ranking": [
+        {
+          "run": "STID_NoCalendar_seed2",
+          "full_mae": 9.077887977007776
+        },
+        {
+          "run": "STID_NoCalendar_seed3",
+          "full_mae": 9.192940104907999
+        },
+        {
+          "run": "STID_NoCalendar_seed1",
+          "full_mae": 9.25028200307861
+        },
+        {
+          "run": "RidgeCenter",
+          "full_mae": 11.313724749876807
+        },
+        {
+          "run": "LastValue",
+          "full_mae": 11.485456711457422
+        },
+        {
+          "run": "LinearDrift",
+          "full_mae": 15.269758395501412
+        },
+        {
+          "run": "HistoricalMean",
+          "full_mae": 17.57441635414337
+        }
+      ],
+      "all_neural_seeds_better_than_ridge_and_simple": true
+    }
+  ],
+  "decision": "three_seed_negative_response_not_preserved",
+  "cohort_counts": {
+    "all": 256,
+    "history_completed": 85,
+    "crossing_cut": 76,
+    "future_starting": 95,
+    "test_origin": 48
+  },
+  "recovery_start_counts": {
+    "12": 85,
+    "13": 76,
+    "14": 95
+  },
+  "same_predictions_different_targets": true,
+  "new_fits": 0,
+  "new_prediction_runs": 0,
+  "new_constructed_diagnostic_rows": 256,
+  "new_observations": 0,
+  "new_simulations": 0,
+  "metric_rows": 330,
+  "pair_rows": 5632,
+  "scientific_innovation_established": false,
+  "independent_generator_transfer_established": false,
+  "new_blind_evaluation": false
+}

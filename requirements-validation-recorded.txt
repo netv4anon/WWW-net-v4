@@ -1,0 +1,6 @@
+# Versions used for the offline validation recorded in this release.
+# Python 3.8.10; equivalent compatible environments can be used.
+numpy==1.24.4
+pandas==2.0.3
+# Optional neural/configuration checks used torch 2.4.1+cu118.
+# Install PyTorch separately for your platform only if needed.

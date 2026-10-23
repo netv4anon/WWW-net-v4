@@ -1,0 +1,72 @@
+{
+  "status": "local_review_contract_corrected_input_identity",
+  "history_shape": [
+    33076,
+    12,
+    9
+  ],
+  "future_shape": [
+    33076,
+    12,
+    9
+  ],
+  "node_axis": "slot 0: serialized center; slot 1: same center from spatial array; slots 2-8: remaining seven spatial slots with incomplete identity/synchronization",
+  "target": "center node index 0",
+  "forecast_inputs": [
+    "history.npz:history"
+  ],
+  "analysis_only": [
+    "targets.npz",
+    "analysis_metadata.npz"
+  ],
+  "populations": {
+    "all_steps": "all sample/horizon pairs",
+    "event_steps": "future_event_mask true points",
+    "future_event_windows": "all 12 points in rows with any future_event_mask",
+    "event_samples": "all 12 points in is_event rows",
+    "control_samples": "all 12 points in other rows"
+  },
+  "metrics": [
+    "micro MAE",
+    "micro RMSE",
+    "100 * sum absolute error / sum absolute target (WMAPE)"
+  ],
+  "zero_denominator": "undefined",
+  "negative_predictions": "clip to zero",
+  "is_new_method": false,
+  "split": "legacy metadata years; not proof of raw temporal independence",
+  "training_fits": 14,
+  "rights_status": "See COMPONENT_NOTICES.md; final rights and reviewer access remain unresolved.",
+  "candidate_version": "0.3",
+  "research_fits": 14,
+  "reproduction_fits": 2,
+  "total_learning_fits": 16,
+  "training_entry": "../submission_completion/netv4_review_candidate_v0_3/train.py",
+  "raw_to_snapshot_regeneration_complete": false,
+  "old_contract_replaced_for_interpretation_only": "../submission_completion/netv4_review_candidate_v0_3/evaluation_contract.json",
+  "original_numeric_arrays_unchanged": true,
+  "input_identity_erratum": "INPUT_CONTRACT_ERRATUM_ZH.md",
+  "nine_distinct_road_identities_verified": false,
+  "new_diagnostic_configurations": {
+    "RidgeCenterPair": [
+      0,
+      1
+    ],
+    "RidgeWithoutCenterCopy": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "fit_count_scope": "NET-V4 only; includes original main fits, two reproduction fits, and four input-sensitivity fits; excludes external TraffiDent fits",
+  "data_root": "../submission_completion/netv4_review_candidate_v0_3/data",
+  "input_sensitivity_training_entry": "run_ablation.py",
+  "input_sensitivity_results": "RESULTS.json",
+  "paths_relative_to": "directory containing this corrected contract",
+  "administrative_fields_deferred_until_actual_submission": true
+}

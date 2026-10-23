@@ -1,0 +1,92 @@
+{
+  "status": "prediction_reuse_frozen_before_scoring",
+  "models": [
+    {
+      "variant": "shared",
+      "run": "LastValue",
+      "model": "LastValue",
+      "seed": null
+    },
+    {
+      "variant": "shared",
+      "run": "HistoricalMean",
+      "model": "HistoricalMean",
+      "seed": null
+    },
+    {
+      "variant": "shared",
+      "run": "LinearDrift",
+      "model": "LinearDrift",
+      "seed": null
+    },
+    {
+      "variant": "packaged",
+      "run": "RidgeCenter",
+      "model": "RidgeCenter",
+      "seed": null
+    },
+    {
+      "variant": "packaged",
+      "run": "STID_NoCalendar_seed1",
+      "model": "STID_NoCalendar",
+      "seed": 1
+    },
+    {
+      "variant": "packaged",
+      "run": "STID_NoCalendar_seed2",
+      "model": "STID_NoCalendar",
+      "seed": 2
+    },
+    {
+      "variant": "packaged",
+      "run": "STID_NoCalendar_seed3",
+      "model": "STID_NoCalendar",
+      "seed": 3
+    },
+    {
+      "variant": "working",
+      "run": "RidgeCenter",
+      "model": "RidgeCenter",
+      "seed": null
+    },
+    {
+      "variant": "working",
+      "run": "STID_NoCalendar_seed1",
+      "model": "STID_NoCalendar",
+      "seed": 1
+    },
+    {
+      "variant": "working",
+      "run": "STID_NoCalendar_seed2",
+      "model": "STID_NoCalendar",
+      "seed": 2
+    },
+    {
+      "variant": "working",
+      "run": "STID_NoCalendar_seed3",
+      "model": "STID_NoCalendar",
+      "seed": 3
+    }
+  ],
+  "new_full_history_equals_old_full_history_for_all_contexts": true,
+  "identical_histories": 256,
+  "reason": "All retained contexts start recovery at full-sequence positions 12, 13 or 14; the alternative changes only targets.",
+  "protocol_execution_clarification": "Skip redundant inference because every model receives the same history as its saved full-arm prediction. The hypotheses, parameters and evaluation populations are unchanged.",
+  "new_fits": 0,
+  "new_prediction_runs": 0,
+  "saved_prediction_configurations_reused": 11,
+  "new_constructed_rows": 256,
+  "new_observations": 0,
+  "scoring_done": false,
+  "sources": {
+    "response_transfer_design_2026-10-03/PROTOCOL_ZH.md": "7f21b6d917d3229f8d7e5f14b82742e9109cbf1ba1ca52386cf797e7fc7a4a33",
+    "response_transfer_design_2026-10-03/data/history.npz": "b15b733f2d991534ff25b4a029e95df24a71dcdf1ff60920e0c151c864b5ff65",
+    "response_transfer_design_2026-10-03/data/targets.npz": "4b945068a6123bc847bec55cd46cdc340a0e29408efc06c1c1d22473cfab8182",
+    "response_transfer_design_2026-10-03/data/construction.json": "0a558f8fb1888ba18c578599faed89e43ac21ba8486338c1026512930291134f",
+    "contribution_feasibility/paired_results/history.npz": "c39b15e0e8d76db4294bdf0b64ef0e441adfe6b7498921a89c1538dd97d14319",
+    "contribution_feasibility/paired_results/targets.npz": "94fd7b5dcf65ace474d791adde8251fb06df97246d48fe203dc154e983b1b972",
+    "contribution_feasibility/paired_results/predictions.npz": "f461ee437fb89e9bd3b88574ff1aa32480423e059746fb7aed172dc207868500",
+    "learned_diagnostic_2026-10-02/results/learned_predictions.npz": "3331e851cc4ab088b40667a686a17bec3a67df5c344052952423d492af25f44a",
+    "learned_diagnostic_2026-10-02/results/prediction_contract.json": "a70c5355bb48f3bd84ca6f654c2c13215a76a1ecf8e1dd4c5f6b6c4a0c7d5965"
+  }
+}

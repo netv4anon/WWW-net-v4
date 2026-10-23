@@ -1,0 +1,94 @@
+{
+  "schema": "netv4_focused_resource_object_comparison_v1",
+  "purpose": "Connect four inspected resources to concrete delivered objects and reader decisions.",
+  "scope": "Previously acquired papers and pinned code; not an exhaustive priority search or inability claim.",
+  "source_binding_catalog": "../evidence/related_resources/SOURCE_BINDINGS.json",
+  "new_scientific_evidence": false,
+  "new_algorithm_or_testing_theory": false,
+  "community_adoption_or_time_savings_demonstrated": false,
+  "related_tools_can_express_these_comparisons": true,
+  "items": [
+    {
+      "id": "checklist",
+      "related_resource": "CheckList, ACL 2020",
+      "source_ids": [
+        "checklist"
+      ],
+      "established_capability": "Functionality, invariance and directional tests with reusable test suites.",
+      "supplied_object": "Keyed B/P/R/F center histories and separate evaluator targets, fixed forecasts and crossed losses.",
+      "reader_decision": "Retain lower event-arm error while checking whether changed history helps on the same target.",
+      "artifact_paths": [
+        "components/netv4/task/inputs.npz",
+        "components/netv4/task/evaluation.npz",
+        "components/netv4/saved_predictions/working__STID_NoCalendar_seed1.npz",
+        "components/netv4/results/primary_rows.csv",
+        "worked_examples/RESPONSE_USE_CASE_ZH.md"
+      ],
+      "command_from_resource_root": "python -B resource.py score netv4 --predictions components/netv4/saved_predictions/working__STID_NoCalendar_seed1.npz --out ../center_example",
+      "limits": "Finite dependent constructed contexts; no causal incident effect or novel decomposition."
+    },
+    {
+      "id": "cik",
+      "related_resource": "Context is Key, ICML 2025; pinned postpublication source",
+      "source_ids": [
+        "cik_paper",
+        "cik_base",
+        "cik_drop"
+      ],
+      "established_capability": "Contextual forecasting, context ablations, region scoring and fixed configurations accepting supplied targets.",
+      "supplied_object": "Complete B/P/R/F/C/N numeric histories, four timing groups, two declared targets, all saved model/configuration outcomes.",
+      "reader_decision": "Check total versus conditional other-input response and pooled versus timing judgments using one fixed forecast file.",
+      "artifact_paths": [
+        "components/netv4_mv/task/inputs.npz",
+        "components/netv4_mv/task/evaluation.npz",
+        "components/netv4_mv/PROTOCOL_ZH.md",
+        "components/netv4_gwn/evaluation/primary_seed_rows.csv",
+        "components/netv4_gwn/evaluation/primary_seed_loss_means.csv",
+        "components/netv4_gwn/evaluation/functional_input_checks.csv"
+      ],
+      "command_from_resource_root": "python -B resource.py score netv4_mv --predictions components/netv4_gwn/runs/working__GraphWaveNet_seed1/mv_predictions.npz --out ../joint_example",
+      "limits": "Not claimed as an unavailable CiK capability. The two hourly CiK probes remain separate from the NET-V4 12-to-12 task; numeric slot relations are not measured adjacency."
+    },
+    {
+      "id": "traffident",
+      "related_resource": "TraffiDent, NeurIPS 2025; pinned author code",
+      "source_ids": [
+        "traffident",
+        "traffident_match",
+        "traffident_notebook"
+      ],
+      "established_capability": "Observed traffic/incident data, post-incident forecasting comparisons and same-station prior-day controls.",
+      "supplied_object": "Fixed case/control memberships, strictly pre-report targets, keyed origins and January-frozen forecasts.",
+      "reader_decision": "Inspect a descriptive observed comparison while retaining its separate cohort and time scale.",
+      "artifact_paths": [
+        "components/observed/data/inputs.npz",
+        "components/observed/data/targets.npz",
+        "components/observed/data/pairs.json",
+        "components/observed/saved_predictions.npz"
+      ],
+      "command_from_resource_root": "python -B resource.py score observed --predictions components/observed/saved_predictions.npz --out ../observed_example",
+      "limits": "Descriptive supplemental comparison; does not validate the synthetic incident mechanism or establish matching novelty."
+    },
+    {
+      "id": "igstgn_release",
+      "related_resource": "IGSTGNN Contra_Costa v1 release and pinned split script",
+      "source_ids": [
+        "igstgn_split",
+        "igstgn_loader",
+        "igstgn_model"
+      ],
+      "established_capability": "Traffic, calendar and incident records plus a documented split script.",
+      "supplied_object": "Source-bound history/future matches, hit/miss losses and per-station support/exclusion witnesses.",
+      "reader_decision": "Name the predictor input key and retain both remaining reuse and empty/nonempty training support.",
+      "artifact_paths": [
+        "components/release_audit/EXPECTED_RESULTS.json",
+        "components/release_audit/INDEPENDENT_VERIFICATION.json",
+        "components/station_lookup/EXPECTED_RESULTS.json",
+        "components/station_exclusion/expected/RESULTS.json",
+        "worked_examples/REUSE_USE_CASE_ZH.md"
+      ],
+      "command_from_resource_root": "python -B resource.py replay release_audit --source /path/to/incident_all.npy --out ../external_example",
+      "limits": "External source not bundled. One region/version, not NET-V4 performance; no published-neural inflation estimate or chronology repair."
+    }
+  ]
+}

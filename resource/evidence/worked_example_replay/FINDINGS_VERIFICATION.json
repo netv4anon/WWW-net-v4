@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "source_excerpts_checked": 10,
+  "git_blobs_checked": {
+    "experiments/IGSTGNN/main.py": "a623af78f9cfdd42e8e47acb4d239344b70d2edb",
+    "data/xtraffic/prepare_splits.py": "76bffc18c5c63191387e4c2dc202de4b52eb1bb0"
+  },
+  "pre_audit_protocol_bindings_preserved": true,
+  "serialization_repair_original_code_preserved": true,
+  "calendar_result_unchanged_after_repair": true,
+  "paired_history_and_target_test_rows_verified": 93,
+  "complete_released_record_test_duplicates_verified": 0,
+  "compact_calendar_rows_verified": 108,
+  "compact_calendar_minimum_days": 374.06944444444446,
+  "metadata_common_stations_verified": 13,
+  "raw_source_dates_recovered": false,
+  "historical_paper_performance_inflation_established": false
+}

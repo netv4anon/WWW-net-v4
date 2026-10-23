@@ -1,0 +1,23 @@
+--- previous_verified.tex
++++ Pro_frozen_baseline.tex
+@@ -256,5 +256,5 @@
+ The observed reference uses TraffiDent version 8~\cite{traffident}, with five-minute flow measurements. Twelve history or forecast steps therefore cover one hour. Mainline eligibility is applied before nearest-sensor matching, giving 273 February reports before calendar-control exclusions. Predictor fitting and selection use January data. The companion records the earlier label, horizon-weighting and eligibility checks.
+ 
+-Of the 273 reports, 268 remain with all 763 complete matched controls. Each control is observed at the same station, weekday and five-minute clock time as its case, on another February date. Four cases overlap other reports and one has no control. Matching uses neither future volume nor forecast error, although the design follows prior development exposure. The pre-report target excludes the report-containing bin; the post-report history includes it.
++Of the 273 reports, 268 remain, with 763 complete case--control memberships. Each control is observed at the same station, weekday and five-minute clock time as its case, on another February date. Four cases overlap other reports and one has no control. Matching uses neither future volume nor forecast error, although the design follows prior development exposure. The pre-report target excludes the report-containing bin; the post-report history includes it.
+ 
+ Let $\Delta_{\rm pre}$ and $\Delta_{\rm post}$ be the averages of case MAE minus mean matched-control MAE before and after the report bin, respectively. Cases receive equal weight. Define $G=\Delta_{\rm post}-\Delta_{\rm pre}$.
+@@ -349,5 +349,5 @@
+ 
+ \paragraph{Worked audit decision.}
+-Consider a maintainer who obtains zero Shared after TargetSupport and proposes an unseen-traffic claim. Checking the actual station-history input, lookup still lowers MAE from 16.1665 to 15.3627. The claim must therefore narrow to unseen network target states. Removing flow-history matches instead empties 51 station training views; adding calendars preserves support but leaves flow-only hits. The audit changes which input-novelty claim can be retained, rather than certifying an independently unseen or chronologically repaired benchmark.
++Consider a maintainer who obtains zero Shared after TargetSupport and proposes an unseen-traffic claim. Checking the actual station-history input, lookup still lowers MAE from 16.1665 to 15.3627. The supported claim is only that no test target state exactly matches a retained training state under the declared full-network flow/calendar representation. Removing flow-history matches instead empties 51 station training views; adding calendars preserves support but leaves flow-only hits. The audit changes which input-novelty claim can be retained, rather than certifying an independently unseen or chronologically repaired benchmark.
+ 
+ 
+@@ -473,5 +473,5 @@
+ 
+ \paragraph{Actual GWN runs.}
+-The upstream commit is \texttt{6b162e80c59a}, with its full identifier in the logs. Three Conv1d declarations with two-dimensional kernels become Conv2d for PyTorch compatibility. Kernel size 2 and dilations $(1,2)$ per block give receptive field 13, requiring one left zero pad. Adaptive embeddings have rank 10; graph convolution has order 2. Each 272,640-parameter checkpoint predicts nine slots; scoring uses the center. Scaling uses the float32 training-history global mean and standard deviation plus $10^{-6}$. Validation is inverse-scaled and zero-clipped. Primary runs use FP32 channels-last storage. The six 30-epoch logs, weight digests and scalers agree: best epochs are 26/28/27 for Generated and 21/29/28 for Mixed, in seed order. The earlier layout runs remain separate.
++The upstream commit is \texttt{6b162e80c59a}, with its full identifier in the logs. Three Conv1d declarations with two-dimensional kernels become Conv2d for PyTorch compatibility. Kernel size 2 and dilations $(1,2)$ per block give receptive field 13, requiring one left zero pad. The adaptive embeddings are 10-dimensional; graph convolution has order 2. Each 272,640-parameter checkpoint predicts nine slots; scoring uses the center. Inputs are centered by the float32 training-history global mean and divided by the global standard deviation plus $10^{-6}$. Validation is inverse-scaled and zero-clipped. Primary runs use FP32 channels-last storage. The six 30-epoch logs, weight digests and scalers agree: best epochs are 26/28/27 for Generated and 21/29/28 for Mixed, in seed order. The earlier layout runs remain separate.
+ 
+ \paragraph{Evidence boundary.}

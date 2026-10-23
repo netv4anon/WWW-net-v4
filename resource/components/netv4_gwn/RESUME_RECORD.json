@@ -1,0 +1,12 @@
+{
+  "architecture_and_training_recipe_changed": false,
+  "primary_completed_before_resume": 1,
+  "superseded_technical_complete": 1,
+  "technical_partial": 1,
+  "primary_remaining_fits": 5,
+  "target_decoding_before_repair_or_resume": false,
+  "superseded_forecast_will_be_evaluated_separately": true,
+  "planned_fit_attempts_total": 8,
+  "planned_complete_primary_fits": 6,
+  "planned_complete_total_fits": 7
+}

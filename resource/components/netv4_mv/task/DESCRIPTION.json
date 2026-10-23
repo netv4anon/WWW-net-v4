@@ -1,0 +1,35 @@
+{
+  "contexts": 11424,
+  "backgrounds": 2856,
+  "profiles": 102,
+  "input_rows": 68544,
+  "arms": [
+    "B",
+    "P",
+    "R",
+    "F",
+    "C",
+    "N"
+  ],
+  "pulse_counts_per_horizon": [
+    2856,
+    2856,
+    5712,
+    5712,
+    5712,
+    5712,
+    2856,
+    2856,
+    2856,
+    2856,
+    2856,
+    2856
+  ],
+  "numeric_slots": 9,
+  "unique_profile_slots": 8,
+  "actual_spatial_adjacency_established": false,
+  "old_raw_source_pool_recovered": false,
+  "new_observed_traffic_records": 0,
+  "new_generated_12_to_12_rows": 68544,
+  "seed": 2026100907
+}

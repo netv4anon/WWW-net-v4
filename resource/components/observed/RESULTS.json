@@ -1,0 +1,146 @@
+{
+  "status": "scored_not_independently_verified",
+  "cases": 268,
+  "stations": 94,
+  "aggregate": [
+    {
+      "model": "HistoricalMean",
+      "case_pre": 39.92464759535655,
+      "control_pre": 41.32822001105583,
+      "case_post": 44.02969527363184,
+      "control_post": 40.23302757048093,
+      "delta_pre": -1.4035724156992804,
+      "delta_post": 3.7966677031509115,
+      "change": 5.200240118850191
+    },
+    {
+      "model": "LastValue",
+      "case_pre": 31.02238805970149,
+      "control_pre": 33.77435737976783,
+      "case_post": 36.4375,
+      "control_post": 32.31794154228856,
+      "delta_pre": -2.751969320066335,
+      "delta_post": 4.119558457711443,
+      "change": 6.871527777777778
+    },
+    {
+      "model": "LinearDrift",
+      "case_pre": 60.368884742951906,
+      "control_pre": 62.49941265892758,
+      "case_post": 71.66656301824213,
+      "control_post": 66.03912728026533,
+      "delta_pre": -2.130527915975678,
+      "delta_post": 5.627435737976783,
+      "change": 7.757963653952461
+    },
+    {
+      "model": "RidgeCenter",
+      "case_pre": 30.003486347522525,
+      "control_pre": 31.25195144673572,
+      "case_post": 33.218215919039274,
+      "control_post": 30.304079301418195,
+      "delta_pre": -1.2484650992131927,
+      "delta_post": 2.914136617621076,
+      "change": 4.162601716834269
+    },
+    {
+      "model": "STID_seed1",
+      "case_pre": 29.668543443157898,
+      "control_pre": 30.251738357702102,
+      "case_post": 31.703482860356424,
+      "control_post": 28.58624708632727,
+      "delta_pre": -0.5831949145442017,
+      "delta_post": 3.117235774029151,
+      "change": 3.7004306885733524
+    },
+    {
+      "model": "STID_seed2",
+      "case_pre": 29.739949489707378,
+      "control_pre": 30.199644091908215,
+      "case_post": 31.92569662207988,
+      "control_post": 28.49942304443562,
+      "delta_pre": -0.4596946022008386,
+      "delta_post": 3.4262735776442597,
+      "change": 3.8859681798450985
+    },
+    {
+      "model": "STID_seed3",
+      "case_pre": 29.29733801599759,
+      "control_pre": 30.28938566986008,
+      "case_post": 31.67168333281332,
+      "control_post": 28.53627849574113,
+      "delta_pre": -0.9920476538624933,
+      "delta_post": 3.1354048370721923,
+      "change": 4.127452490934685
+    },
+    {
+      "model": "STID_seed_mean",
+      "case_pre": 29.568610316287618,
+      "control_pre": 30.246922706490132,
+      "case_post": 31.766954271749874,
+      "control_post": 28.540649542168005,
+      "delta_pre": -0.6783123902025111,
+      "delta_post": 3.2263047295818676,
+      "change": 3.9046171197843784
+    }
+  ],
+  "stid_mean_weekly": [
+    {
+      "model": "STID_seed_mean",
+      "week": 1,
+      "case_pre": 30.44553482304131,
+      "control_pre": 33.1233152843831,
+      "case_post": 31.328677963022983,
+      "control_post": 28.13921044460506,
+      "delta_pre": -2.677780461341789,
+      "delta_post": 3.1894675184179233,
+      "change": 5.867247979759713
+    },
+    {
+      "model": "STID_seed_mean",
+      "week": 2,
+      "case_pre": 27.873453465828767,
+      "control_pre": 25.009148248599796,
+      "case_post": 34.37051615814848,
+      "control_post": 26.473988421937182,
+      "delta_pre": 2.86430521722897,
+      "delta_post": 7.896527736211296,
+      "change": 5.032222518982326
+    },
+    {
+      "model": "STID_seed_mean",
+      "week": 3,
+      "case_pre": 26.247938329839098,
+      "control_pre": 29.696493116377628,
+      "case_post": 30.383870321110514,
+      "control_post": 30.108516925309164,
+      "delta_pre": -3.4485547865385273,
+      "delta_post": 0.27535339580135143,
+      "change": 3.7239081823398785
+    },
+    {
+      "model": "STID_seed_mean",
+      "week": 4,
+      "case_pre": 32.926925222078964,
+      "control_pre": 33.09882111990893,
+      "case_post": 30.89373398092058,
+      "control_post": 29.41868922445509,
+      "delta_pre": -0.1718958978299741,
+      "delta_post": 1.4750447564654883,
+      "change": 1.6469406542954619
+    }
+  ],
+  "preexisting_gap_case_gate": false,
+  "post_report_extra_gap_gate": true,
+  "prespecified_interpretation": "post_report_extra_gap",
+  "leave_one_station_stid_change_range": [
+    3.333501615051069,
+    4.577783897937213
+  ],
+  "causal_effect_established": false,
+  "independent_blind_test": false,
+  "WWW_core_contribution_established": false,
+  "new_fits": 0,
+  "new_constructed_sequences": 0,
+  "new_raw_source_records": 0
+}

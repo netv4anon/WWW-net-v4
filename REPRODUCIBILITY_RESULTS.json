@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "scope": "Offline byte checks, retained-profile construction and saved-forecast scoring.",
+  "unpacked_python_files_syntax_checked": 107,
+  "checks": [
+    {
+      "check": "inventory",
+      "status": "PASS"
+    },
+    {
+      "check": "resource",
+      "status": "PASS"
+    },
+    {
+      "check": "center",
+      "status": "PASS"
+    },
+    {
+      "check": "multisequence",
+      "status": "PASS"
+    },
+    {
+      "check": "basel",
+      "status": "PASS"
+    },
+    {
+      "check": "representation",
+      "status": "PASS"
+    },
+    {
+      "check": "evidence",
+      "status": "PASS"
+    }
+  ],
+  "validation_environment": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "2.0.3",
+    "optional_torch": "2.4.1+cu118"
+  },
+  "new_training": 0,
+  "new_neural_inference": 0,
+  "raw_external_audit": "Requires separately acquired exact upstream source.",
+  "full_historical_nyc_source_regeneration": "Not supported; original raw snapshot unavailable.",
+  "basel": {
+    "status": "PASS",
+    "source_admission_replayed": true,
+    "task_elements_exact": 11953896,
+    "primary_effects_recalculated": 24,
+    "max_primary_effect_difference": 0.0,
+    "actual_weights_present_and_hash_matched": 6,
+    "primary_pattern_passes": 7,
+    "primary_pattern_comparisons": 12,
+    "new_model_inference": 0,
+    "all_12_confirmation_passed": false
+  },
+  "representation": {
+    "status": "PASS",
+    "manifest_files_checked": 182,
+    "frozen_design_files_checked": 55,
+    "Basel_existing_primary_responses_recomputed": 12,
+    "pair_crossed_primary_responses_recomputed": 48,
+    "maximum_scoring_difference": 2.886579864025407e-15,
+    "H_task_elements_regenerated_exactly": 16702704,
+    "float32_hourly_sum_check_and_fixed_neighbors_checked": true,
+    "float64_hourly_sum_max_error": 0.00048828125,
+    "old_profile_pair_raw_sign_changes": 0,
+    "Basel_confirmation_result_unchanged": "7 retained signs, 5 reversals; all-twelve conjunction failed",
+    "new_inference": 0
+  },
+  "evidence": {
+    "status": "PASS",
+    "saved_loss_recomputation": "PASS",
+    "raw_source_matches": "not run: upstream source must be supplied",
+    "configuration": "PASS",
+    "new_fits": 0,
+    "new_inference": 0
+  },
+  "retained_files_unchanged_from_verified_anonymous_resource": 814,
+  "distribution": "Supplementary GitHub resource; main manuscript and typesetting files excluded.",
+  "current_github_layout_offline_replay": "PASS"
+}

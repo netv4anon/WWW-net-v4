@@ -1,0 +1,22 @@
+{
+  "status": "new_source_confirmation_completed_heterogeneous",
+  "new_fits": 0,
+  "new_model_inference_runs": 6,
+  "primary_combinations": 12,
+  "primary_passes": 7,
+  "primary_failures": 5,
+  "complete_confirmation_passed": false,
+  "source_profiles": 73,
+  "raw_source_hourly_intervals": 14448,
+  "admitted_source_hourly_intervals": 12264,
+  "new_controlled_scenarios": 8176,
+  "spanning_scenarios": 2044,
+  "input_rows_per_checkpoint": 49056,
+  "hourly_allocation_assumed": true,
+  "physical_incident_validation": false,
+  "all_negative_results_preserved": true,
+  "source_resource_manifest_unchanged": true,
+  "new_hypothesis_search_or_adaptive_retry": false,
+  "submitted": false,
+  "rating_upgrade_claimed": false
+}

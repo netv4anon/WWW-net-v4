@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-07T21:16:29.261466+00:00",
+  "method": "Prepared histories checked against all original history records; sorted fixed-width records independently reconstruct masks, first witnesses and memberships",
+  "original_history_records_checked": 5585,
+  "training_mask_booleans_checked": 7755456,
+  "witness_array_entries_checked": 7755456,
+  "removed_positive_witnesses_checked": 1075347,
+  "query_membership_counts_checked": 4993728,
+  "previous_prediction_time_membership_cells_matched": 1664576,
+  "per_node_fields_checked": 45632,
+  "summary_conditions_verified": 4,
+  "query_target_records_parsed": 0,
+  "new_fits": 0,
+  "new_predictions": 0,
+  "new_predictive_scores": 0,
+  "all_query_rows_and_nodes_preserved": true,
+  "declared_key_overlap_zero_verified": true,
+  "zero_declared_overlap_is_not_source_independence": true
+}

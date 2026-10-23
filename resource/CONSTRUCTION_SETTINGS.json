@@ -1,0 +1,54 @@
+{
+  "source_sha256": "16dcc3e0a4bc477c79f2b95a837192313d0a060441135b49c378b83f27d61405",
+  "source_identity": "Original submission scripts/build/fetch_and_build_nyc_dataset_v4.py",
+  "source_code_is_not_proof_of_original_snapshot_regeneration": true,
+  "source_excerpts": {
+    "build_segment_profiles": {
+      "start_line": 239,
+      "end_line": 310,
+      "normalized_utf8_excerpt_sha256": "a60d7acc35b8ec9d377468a3e171bc21b4d8a26d517e36f03a697726286c958d"
+    },
+    "generate_ar1_timeseries": {
+      "start_line": 317,
+      "end_line": 362,
+      "normalized_utf8_excerpt_sha256": "57eb3f69a8778868d702f3f4c0f205cd4fe843006cd1a403a0f2db6f907c85f3"
+    },
+    "apply_ev_perturbation_v4": {
+      "start_line": 369,
+      "end_line": 432,
+      "normalized_utf8_excerpt_sha256": "17b7c1879ca885cb4f04bc6fbb4276798784e0199e49854248c095e2bdb043e1"
+    }
+  },
+  "builder_settings": {
+    "random_seed": 42,
+    "sequence_steps": 24,
+    "center_step": 12,
+    "AR_PHI": 0.92,
+    "PROFILE_SMOOTH_SIGMA": 2.0,
+    "ar_noise_scale_function_default": 0.03,
+    "ar_noise_scale_event_and_generated_control_call_sites": 0.025,
+    "spatial_decay_degree_scale": 0.015,
+    "event_duration_steps": "max(2,min(8,int(response_seconds/900)+1))",
+    "event_start": "max(2,12-duration_steps//2+randint(-1,2))",
+    "recovery_tau": "max(2,response_seconds/900)",
+    "perturbed_clip": "[3,1.3*max(background)]"
+  },
+  "paired_task_settings": {
+    "seed": 20260909,
+    "contexts": 256,
+    "recovery_starts": [
+      12,
+      13,
+      14
+    ],
+    "timing_group_counts": [
+      85,
+      76,
+      95
+    ],
+    "new_source_records": 0
+  },
+  "full_raw_source_snapshot_recovered": false,
+  "observation_tagged_pointwise_processing_masks_recovered": false,
+  "physical_incident_response_calibration_established": false
+}

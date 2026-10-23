@@ -1,0 +1,1242 @@
+{
+  "sha": "73f46016f8c5643bf6799ca31875eab3e8d0d075",
+  "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/73f46016f8c5643bf6799ca31875eab3e8d0d075",
+  "tree": [
+    {
+      "path": "CHANGELOG",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "196f0b4066d9c7e253ea41ce59f60ca865fe9549",
+      "size": 459,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/196f0b4066d9c7e253ea41ce59f60ca865fe9549"
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f1b0c4f8e32cdeb3bd9ab2c9a0dd7208b5b219e",
+      "size": 10300,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/9f1b0c4f8e32cdeb3bd9ab2c9a0dd7208b5b219e"
+    },
+    {
+      "path": "cik_benchmark",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07199e562601dccbd9c19d032067f955568d504e",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/07199e562601dccbd9c19d032067f955568d504e"
+    },
+    {
+      "path": "cik_benchmark/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e23e8a63c0109c35f11dc54cb0e05fc2ea6c9662",
+      "size": 3033,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/e23e8a63c0109c35f11dc54cb0e05fc2ea6c9662"
+    },
+    {
+      "path": "cik_benchmark/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "952e1df14c8ae50edce6b3bf964e1e4eeb811ac4",
+      "size": 7782,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/952e1df14c8ae50edce6b3bf964e1e4eeb811ac4"
+    },
+    {
+      "path": "cik_benchmark/baselines",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "be4878482fbdb4992c482af703a5cb925381a2b1",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/be4878482fbdb4992c482af703a5cb925381a2b1"
+    },
+    {
+      "path": "cik_benchmark/baselines/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "cik_benchmark/baselines/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a5b844812da37dd6138460849a87be81b047e81",
+      "size": 599,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/6a5b844812da37dd6138460849a87be81b047e81"
+    },
+    {
+      "path": "cik_benchmark/baselines/chronos.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0283b7ea21b4c3f232860dda6d6f1248c2b3461a",
+      "size": 2691,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/0283b7ea21b4c3f232860dda6d6f1248c2b3461a"
+    },
+    {
+      "path": "cik_benchmark/baselines/direct_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e83258df61133f15c9d057758a350b6218a240d",
+      "size": 22462,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/9e83258df61133f15c9d057758a350b6218a240d"
+    },
+    {
+      "path": "cik_benchmark/baselines/hf_utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e801a3d4b5fd4f5373c236152496b4e576fd213a",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/e801a3d4b5fd4f5373c236152496b4e576fd213a"
+    },
+    {
+      "path": "cik_benchmark/baselines/hf_utils/dp_hf_api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "795d798218702cd3e8de23512be78d5a1c381440",
+      "size": 6823,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/795d798218702cd3e8de23512be78d5a1c381440"
+    },
+    {
+      "path": "cik_benchmark/baselines/lag_llama.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c96479040f7c1d20d645c7bd732569bd466c97b",
+      "size": 6426,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/4c96479040f7c1d20d645c7bd732569bd466c97b"
+    },
+    {
+      "path": "cik_benchmark/baselines/llm_processes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc1db7f61ee892c5c964abf394a66d0c0a0c845b",
+      "size": 6797,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/bc1db7f61ee892c5c964abf394a66d0c0a0c845b"
+    },
+    {
+      "path": "cik_benchmark/baselines/moirai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21973b63dac234c97f1e5a04cced1c851ad53824",
+      "size": 4804,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/21973b63dac234c97f1e5a04cced1c851ad53824"
+    },
+    {
+      "path": "cik_benchmark/baselines/naive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ece8f53ee52daac481369186244f8d3d08e04724",
+      "size": 1171,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/ece8f53ee52daac481369186244f8d3d08e04724"
+    },
+    {
+      "path": "cik_benchmark/baselines/r_forecast.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95d588a592ea1466b90bae3a4f1bd656177acb7d",
+      "size": 11693,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/95d588a592ea1466b90bae3a4f1bd656177acb7d"
+    },
+    {
+      "path": "cik_benchmark/baselines/statsmodels.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "073e78dffb31b71842642e0f882a1af799923248",
+      "size": 6945,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/073e78dffb31b71842642e0f882a1af799923248"
+    },
+    {
+      "path": "cik_benchmark/baselines/timegen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e4f4df8c2d8bc8904db6fbc1e27ca3eeaaa03cb",
+      "size": 1612,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/1e4f4df8c2d8bc8904db6fbc1e27ca3eeaaa03cb"
+    },
+    {
+      "path": "cik_benchmark/baselines/timellm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9afa349170f658a8925cae5341a48616b4c65257",
+      "size": 12266,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/9afa349170f658a8925cae5341a48616b4c65257"
+    },
+    {
+      "path": "cik_benchmark/baselines/unitime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4278720f24b3fdd91ce26153d1e1d62bc199de7a",
+      "size": 12191,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/4278720f24b3fdd91ce26153d1e1d62bc199de7a"
+    },
+    {
+      "path": "cik_benchmark/baselines/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08f7704930ae596a6f5d8f8437cf581df5d8f10a",
+      "size": 1199,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/08f7704930ae596a6f5d8f8437cf581df5d8f10a"
+    },
+    {
+      "path": "cik_benchmark/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c1de92dd976cbd29dd892056cbb006101cae879",
+      "size": 3704,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/9c1de92dd976cbd29dd892056cbb006101cae879"
+    },
+    {
+      "path": "cik_benchmark/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d2605bdca0bd372e4a871247b73c2558e64fed86",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/d2605bdca0bd372e4a871247b73c2558e64fed86"
+    },
+    {
+      "path": "cik_benchmark/data/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "cik_benchmark/data/dominicks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "915fdf795c0798caeedc7c6d4936f96e1d10c99c",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/915fdf795c0798caeedc7c6d4936f96e1d10c99c"
+    },
+    {
+      "path": "cik_benchmark/data/dominicks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5715d2300078b1fc1ddc0028a00094b640dc24ef",
+      "size": 1826,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/5715d2300078b1fc1ddc0028a00094b640dc24ef"
+    },
+    {
+      "path": "cik_benchmark/data/dominicks/grocer_sales_influences.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bedd08cf390057f5063c224aab1911cef395475",
+      "size": 15245,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/9bedd08cf390057f5063c224aab1911cef395475"
+    },
+    {
+      "path": "cik_benchmark/data/montreal_fire",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb93954709102324e72630046aa192cb01e4b833",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/bb93954709102324e72630046aa192cb01e4b833"
+    },
+    {
+      "path": "cik_benchmark/data/montreal_fire/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "cik_benchmark/data/montreal_fire/data_acquisition.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b94a0a1e4953121a75a82f9ff41e78c3459df13f",
+      "size": 12624,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/b94a0a1e4953121a75a82f9ff41e78c3459df13f"
+    },
+    {
+      "path": "cik_benchmark/data/montreal_fire/load.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4383ed563f8a5edc6f9ca6eaa83d33d75e84a235",
+      "size": 2886,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/4383ed563f8a5edc6f9ca6eaa83d33d75e84a235"
+    },
+    {
+      "path": "cik_benchmark/data/pems.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1290e8b0f039719c201b4cad7cb3bdd86f018af5",
+      "size": 8530,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/1290e8b0f039719c201b4cad7cb3bdd86f018af5"
+    },
+    {
+      "path": "cik_benchmark/evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58ac9a97dfd1f5a6870cb796cb7bb5ef1ee8590a",
+      "size": 7925,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/58ac9a97dfd1f5a6870cb796cb7bb5ef1ee8590a"
+    },
+    {
+      "path": "cik_benchmark/memorization_mitigation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5564c432522c3ad698cbeaa66e834c5c7bc03829",
+      "size": 2842,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/5564c432522c3ad698cbeaa66e834c5c7bc03829"
+    },
+    {
+      "path": "cik_benchmark/metrics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3356e9c5a6d806e32d03843a1457689942a4aa8e",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/3356e9c5a6d806e32d03843a1457689942a4aa8e"
+    },
+    {
+      "path": "cik_benchmark/metrics/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "cik_benchmark/metrics/constraints.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e45feeb2d95d809b15f4e4c6f9a9799fb53157f",
+      "size": 4697,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/5e45feeb2d95d809b15f4e4c6f9a9799fb53157f"
+    },
+    {
+      "path": "cik_benchmark/metrics/crps.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77591fb2cc400a412fbd175fea12a03cee154733",
+      "size": 10194,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/77591fb2cc400a412fbd175fea12a03cee154733"
+    },
+    {
+      "path": "cik_benchmark/metrics/roi_metric.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b076205cf10c7092adb1b48c0e30ddfc3a25fe",
+      "size": 15036,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/21b076205cf10c7092adb1b48c0e30ddfc3a25fe"
+    },
+    {
+      "path": "cik_benchmark/metrics/scaling_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f8cc10456770a4c80a23384dd7dd95de7757e1f",
+      "size": 5161,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/0f8cc10456770a4c80a23384dd7dd95de7757e1f"
+    },
+    {
+      "path": "cik_benchmark/tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fafefe20db693515f23a2ffa6d8e3722d009bdd2",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/fafefe20db693515f23a2ffa6d8e3722d009bdd2"
+    },
+    {
+      "path": "cik_benchmark/tasks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "272e53a954ed9b5f9875a0d8100d116a2b1d44ad",
+      "size": 282,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/272e53a954ed9b5f9875a0d8100d116a2b1d44ad"
+    },
+    {
+      "path": "cik_benchmark/tasks/bivariate_categorical_causal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "811830e8034b99834b284d0d6345df178f6305a3",
+      "size": 26258,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/811830e8034b99834b284d0d6345df178f6305a3"
+    },
+    {
+      "path": "cik_benchmark/tasks/causal_chambers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "860c8cf99004b2ddb922ad9c6198011d50a43514",
+      "size": 11356,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/860c8cf99004b2ddb922ad9c6198011d50a43514"
+    },
+    {
+      "path": "cik_benchmark/tasks/constrained_forecasts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e90ae5a39704eaf627123f88b7ab206854852ec5",
+      "size": 8282,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/e90ae5a39704eaf627123f88b7ab206854852ec5"
+    },
+    {
+      "path": "cik_benchmark/tasks/electricity_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2feeec5891cc974456c48fde8dd8a5439c09c4bb",
+      "size": 16502,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/2feeec5891cc974456c48fde8dd8a5439c09c4bb"
+    },
+    {
+      "path": "cik_benchmark/tasks/fred_county_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ae4d72a01351f5b20c108a0a386684f6bbc8482",
+      "size": 8054,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/4ae4d72a01351f5b20c108a0a386684f6bbc8482"
+    },
+    {
+      "path": "cik_benchmark/tasks/montreal_fire",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9aeb96191289465d893c1ab1228f957801ed9ede",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/9aeb96191289465d893c1ab1228f957801ed9ede"
+    },
+    {
+      "path": "cik_benchmark/tasks/montreal_fire/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fafa6b814b06140e5a51669d363aa8e4c1a5260",
+      "size": 413,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/0fafa6b814b06140e5a51669d363aa8e4c1a5260"
+    },
+    {
+      "path": "cik_benchmark/tasks/montreal_fire/analogy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "359d8e98f409b219445eef9e19132bd29ee58601",
+      "size": 11788,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/359d8e98f409b219445eef9e19132bd29ee58601"
+    },
+    {
+      "path": "cik_benchmark/tasks/montreal_fire/causal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4af08f252cbd0a7457089ea4a0398a131de3da09",
+      "size": 8698,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/4af08f252cbd0a7457089ea4a0398a131de3da09"
+    },
+    {
+      "path": "cik_benchmark/tasks/montreal_fire/short_history.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "283f9d2743316262dadbc7869903945cfe0299d8",
+      "size": 10398,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/283f9d2743316262dadbc7869903945cfe0299d8"
+    },
+    {
+      "path": "cik_benchmark/tasks/montreal_fire/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afa7d6d014f462099242a785d759336bc36e0f4e",
+      "size": 1056,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/afa7d6d014f462099242a785d759336bc36e0f4e"
+    },
+    {
+      "path": "cik_benchmark/tasks/nn5_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65375bc035e42a2c7e8cccc75bfffbf8490dd1da",
+      "size": 21514,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/65375bc035e42a2c7e8cccc75bfffbf8490dd1da"
+    },
+    {
+      "path": "cik_benchmark/tasks/nsrdb_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cae9eae314f3917255ff407841f44cebb9e37c94",
+      "size": 20242,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/cae9eae314f3917255ff407841f44cebb9e37c94"
+    },
+    {
+      "path": "cik_benchmark/tasks/pems_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c44ba8ffa916205780493d26234ad934ef04e11b",
+      "size": 23085,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/c44ba8ffa916205780493d26234ad934ef04e11b"
+    },
+    {
+      "path": "cik_benchmark/tasks/pred_change_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f139547be5a258952cb08f5be40b9ea12b6fd562",
+      "size": 5411,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/f139547be5a258952cb08f5be40b9ea12b6fd562"
+    },
+    {
+      "path": "cik_benchmark/tasks/predictable_constraints_real_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50ad124c45931f34ef6d9209e209c0acddb47719",
+      "size": 14772,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/50ad124c45931f34ef6d9209e209c0acddb47719"
+    },
+    {
+      "path": "cik_benchmark/tasks/predictable_grocer_shocks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d4b278d8f64c1ed22f1566cdd2414603d183b78",
+      "size": 37203,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/9d4b278d8f64c1ed22f1566cdd2414603d183b78"
+    },
+    {
+      "path": "cik_benchmark/tasks/predictable_spikes_in_pred.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a529d2a94c774e5463f1c7c3830a29129b4cec60",
+      "size": 3270,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/a529d2a94c774e5463f1c7c3830a29129b4cec60"
+    },
+    {
+      "path": "cik_benchmark/tasks/predictable_stl_shocks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41e83b06d3148c197f613f041970a652563711b5",
+      "size": 25155,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/41e83b06d3148c197f613f041970a652563711b5"
+    },
+    {
+      "path": "cik_benchmark/tasks/sensor_maintenance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d1ed007e19ad2e049f112fd9995b1c98b9f02bc",
+      "size": 21900,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/9d1ed007e19ad2e049f112fd9995b1c98b9f02bc"
+    },
+    {
+      "path": "cik_benchmark/tasks/solar_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfb047363044b9d7b422e27d8fb701894490724a",
+      "size": 14906,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/bfb047363044b9d7b422e27d8fb701894490724a"
+    },
+    {
+      "path": "cik_benchmark/tasks/traffic_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "668d85dd9d53af80eba3a7458daab2c20928fb2b",
+      "size": 20666,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/668d85dd9d53af80eba3a7458daab2c20928fb2b"
+    },
+    {
+      "path": "cik_benchmark/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0359cca6f0ad4f5c1a584e3f7784e3b3d3b2ac66",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/0359cca6f0ad4f5c1a584e3f7784e3b3d3b2ac66"
+    },
+    {
+      "path": "cik_benchmark/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdec6c12e1510ae11d4e1400e6125e7200313a82",
+      "size": 3162,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/cdec6c12e1510ae11d4e1400e6125e7200313a82"
+    },
+    {
+      "path": "cik_benchmark/utils/cache",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b8efe5960633bd16413105000ffe3346e9093fb2",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/b8efe5960633bd16413105000ffe3346e9093fb2"
+    },
+    {
+      "path": "cik_benchmark/utils/cache/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99a958a7baaff769bf1f3e4a886a63f7054e0d4c",
+      "size": 6856,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/99a958a7baaff769bf1f3e4a886a63f7054e0d4c"
+    },
+    {
+      "path": "cik_benchmark/utils/cache/disk_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b56fdd33e1476cdc8ac374ea9685ca317606ccb",
+      "size": 10129,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/5b56fdd33e1476cdc8ac374ea9685ca317606ccb"
+    },
+    {
+      "path": "cik_benchmark/utils/cache/lock.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30470555b0c04c0c245df3ef0f156c592b33b085",
+      "size": 3377,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/30470555b0c04c0c245df3ef0f156c592b33b085"
+    },
+    {
+      "path": "cik_benchmark/utils/causal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05e9f60bdfbd61a78bc078f70ab505c752be820c",
+      "size": 6394,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/05e9f60bdfbd61a78bc078f70ab505c752be820c"
+    },
+    {
+      "path": "cik_benchmark/utils/plot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f2c7d40e9de8f01c74cc57012d422c9f547712e",
+      "size": 3324,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/3f2c7d40e9de8f01c74cc57012d422c9f547712e"
+    },
+    {
+      "path": "cik_benchmark/window_selection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfb55ee1c5279629fb63987b3cdba2b85fd52846",
+      "size": 10301,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/bfb55ee1c5279629fb63987b3cdba2b85fd52846"
+    },
+    {
+      "path": "compile_roi_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b99b4bacb55bab00bae79956861174359e35b5d",
+      "size": 5497,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/2b99b4bacb55bab00bae79956861174359e35b5d"
+    },
+    {
+      "path": "experiments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9821f6fe5ca5c90f0dd10bf99df98b592767e739",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/9821f6fe5ca5c90f0dd10bf99df98b592767e739"
+    },
+    {
+      "path": "experiments/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0433dd617931321e947dd8509efcf54d7c3d27a",
+      "size": 1542,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/d0433dd617931321e947dd8509efcf54d7c3d27a"
+    },
+    {
+      "path": "experiments/direct-prompt-models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5893eb85e9d30a0ae2a5f2c7b41d1fafdee4381a",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/5893eb85e9d30a0ae2a5f2c7b41d1fafdee4381a"
+    },
+    {
+      "path": "experiments/direct-prompt-models/cc-gpt4o-ctx_c1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c108c4db26df3b931518826d73bc7efd4e95655f",
+      "size": 95,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/c108c4db26df3b931518826d73bc7efd4e95655f"
+    },
+    {
+      "path": "experiments/direct-prompt-models/cc-gpt4o-mini-ctx_c1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "652f799466217b28fdd79ff0e244d9cf29c5d3d9",
+      "size": 105,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/652f799466217b28fdd79ff0e244d9cf29c5d3d9"
+    },
+    {
+      "path": "experiments/direct-prompt-models/cc-gpt4o-mini-noctx_c1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ee136c95db94945b7f83df10ee9f19c9bdb342b",
+      "size": 115,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/3ee136c95db94945b7f83df10ee9f19c9bdb342b"
+    },
+    {
+      "path": "experiments/direct-prompt-models/cc-gpt4o-noctx_c1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0162623cd82c0293173736e71bf02c09e5248bf7",
+      "size": 105,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/0162623cd82c0293173736e71bf02c09e5248bf7"
+    },
+    {
+      "path": "experiments/direct-prompt-models/cc-llama31-405b-ctx-temp10_c1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9fa59dabef811425cab8caa595ec3e546fadd9c",
+      "size": 156,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/d9fa59dabef811425cab8caa595ec3e546fadd9c"
+    },
+    {
+      "path": "experiments/direct-prompt-models/cc-llama31-405b-no-ctx-temp10_c1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a753ffcc1effd069720de377898ab6b1ca132b8",
+      "size": 166,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/3a753ffcc1effd069720de377898ab6b1ca132b8"
+    },
+    {
+      "path": "experiments/direct-prompt-models/openrouter_llama_70b_instruct_ctx_c1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9ab5c41538f490c1a6889dffdafbd8f00356e3e",
+      "size": 182,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/e9ab5c41538f490c1a6889dffdafbd8f00356e3e"
+    },
+    {
+      "path": "experiments/direct-prompt-models/openrouter_llama_70b_instruct_noctx_c1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79976582c8df729d6d0b5c2e325e0bc0b7bb7f98",
+      "size": 192,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/79976582c8df729d6d0b5c2e325e0bc0b7bb7f98"
+    },
+    {
+      "path": "experiments/direct-prompt-models/openrouter_llama_8b_instruct_ctx_c1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e98b262fa0fa0c030cb8c4f0c9d676d261b48a4f",
+      "size": 180,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/e98b262fa0fa0c030cb8c4f0c9d676d261b48a4f"
+    },
+    {
+      "path": "experiments/direct-prompt-models/openrouter_llama_8b_instruct_noctx_c1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "602c52214628e0a569e49d58d10c3f06cd8918ef",
+      "size": 190,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/602c52214628e0a569e49d58d10c3f06cd8918ef"
+    },
+    {
+      "path": "experiments/direct-prompt-models/openrouter_mixtral_8x7b_instruct_ctx_c1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69c93fc64e4ea7d2204f51c85f7d8d5840793f2",
+      "size": 186,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/e69c93fc64e4ea7d2204f51c85f7d8d5840793f2"
+    },
+    {
+      "path": "experiments/direct-prompt-models/openrouter_mixtral_8x7b_instruct_noctx_c1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a041556e19802b1c81779d57ddf5bc362ba11795",
+      "size": 196,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/a041556e19802b1c81779d57ddf5bc362ba11795"
+    },
+    {
+      "path": "experiments/direct-prompt-models/qwen_7b_instruct_ctx_g2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0617d4306dc592b80e903364a5f8b2149c2a6f0",
+      "size": 213,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/a0617d4306dc592b80e903364a5f8b2149c2a6f0"
+    },
+    {
+      "path": "experiments/direct-prompt-models/qwen_7b_instruct_noctx_g2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f45a15ea1099735678df8f1f974a8c54c074753c",
+      "size": 217,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/f45a15ea1099735678df8f1f974a8c54c074753c"
+    },
+    {
+      "path": "experiments/foundation-models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a459a67faed7c6e69687b80e4a2c2b1f73bc0214",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/a459a67faed7c6e69687b80e4a2c2b1f73bc0214"
+    },
+    {
+      "path": "experiments/foundation-models/chronos_base_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18920dc27f4434ef05a958a80f1c76686eb2df6b",
+      "size": 106,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/18920dc27f4434ef05a958a80f1c76686eb2df6b"
+    },
+    {
+      "path": "experiments/foundation-models/chronos_large_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd93a518e7c923e0660169b7e2363af0ba26aedb",
+      "size": 108,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/cd93a518e7c923e0660169b7e2363af0ba26aedb"
+    },
+    {
+      "path": "experiments/foundation-models/chronos_mini_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d6ecc70ab8defbf3800d761fa0f82323e42700b",
+      "size": 106,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/7d6ecc70ab8defbf3800d761fa0f82323e42700b"
+    },
+    {
+      "path": "experiments/foundation-models/chronos_small_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e07b7330e57abf2ca404d02d48d254d3f7b2cd9",
+      "size": 108,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/7e07b7330e57abf2ca404d02d48d254d3f7b2cd9"
+    },
+    {
+      "path": "experiments/foundation-models/chronos_tiny_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d505bdcc4d526786a78ecc1c3df03e7368d72178",
+      "size": 106,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/d505bdcc4d526786a78ecc1c3df03e7368d72178"
+    },
+    {
+      "path": "experiments/foundation-models/lag_llama_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8be3a4acf7f8b661e9695322670eadfdd3b7a954",
+      "size": 57,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/8be3a4acf7f8b661e9695322670eadfdd3b7a954"
+    },
+    {
+      "path": "experiments/foundation-models/moirai_base_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caa27a923c221e836387273a73e10e81bedde158",
+      "size": 104,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/caa27a923c221e836387273a73e10e81bedde158"
+    },
+    {
+      "path": "experiments/foundation-models/moirai_large_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a061763d9b5f12eef1f5a3c7c1d39254c925b1d",
+      "size": 106,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/1a061763d9b5f12eef1f5a3c7c1d39254c925b1d"
+    },
+    {
+      "path": "experiments/foundation-models/moirai_small_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a24b593b7bfdfb0ca7976a6b7c095b59d5393c2",
+      "size": 106,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/9a24b593b7bfdfb0ca7976a6b7c095b59d5393c2"
+    },
+    {
+      "path": "experiments/foundation-models/timegen_c1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5654cb697a06e2bc1de8fd353a69a344d8f45fb",
+      "size": 52,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/b5654cb697a06e2bc1de8fd353a69a344d8f45fb"
+    },
+    {
+      "path": "experiments/llmp-models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "44935dca348850fdf7f4e00b89caa316e52ab10b",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/44935dca348850fdf7f4e00b89caa316e52ab10b"
+    },
+    {
+      "path": "experiments/llmp-models/llama3-70b-ctx_g8.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "642a97e0c9cfbb485055ee940715f60ddc5ed883",
+      "size": 93,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/642a97e0c9cfbb485055ee940715f60ddc5ed883"
+    },
+    {
+      "path": "experiments/llmp-models/llama3-70b-instruct-ctx_g8.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e9045cd4f64cc282195f7b00197a9f67817a44c",
+      "size": 111,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/8e9045cd4f64cc282195f7b00197a9f67817a44c"
+    },
+    {
+      "path": "experiments/llmp-models/llama3-70b-instruct-noctx_g8.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aab1e6b1c2ecc0a949a756858413ae6f7f26cc68",
+      "size": 121,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/aab1e6b1c2ecc0a949a756858413ae6f7f26cc68"
+    },
+    {
+      "path": "experiments/llmp-models/llama3-70b-noctx_g8.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f0009ffbabcc96268a2d0d4825e3864398abad5",
+      "size": 103,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/7f0009ffbabcc96268a2d0d4825e3864398abad5"
+    },
+    {
+      "path": "experiments/llmp-models/llama3-8b-ctx_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cb6236bc448d5c0c475f59d82834af4fa533062",
+      "size": 91,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/9cb6236bc448d5c0c475f59d82834af4fa533062"
+    },
+    {
+      "path": "experiments/llmp-models/llama3-8b-instruct-ctx_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f8919fb1ded9cf5b37ed8d1f3a207f2d6649379",
+      "size": 109,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/9f8919fb1ded9cf5b37ed8d1f3a207f2d6649379"
+    },
+    {
+      "path": "experiments/llmp-models/llama3-8b-instruct-noctx_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aa2543db4a6378b81b3dd4496c8cb7a27c1d03f",
+      "size": 119,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/4aa2543db4a6378b81b3dd4496c8cb7a27c1d03f"
+    },
+    {
+      "path": "experiments/llmp-models/llama3-8b-noctx_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d35a1818218eb1b3b9cd15ba3b966d2dc2c062c6",
+      "size": 101,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/d35a1818218eb1b3b9cd15ba3b966d2dc2c062c6"
+    },
+    {
+      "path": "experiments/llmp-models/mixtral-8x7b-ctx_g2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ca901b672f72796026423670ccbdc8e5419b7c3",
+      "size": 96,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/2ca901b672f72796026423670ccbdc8e5419b7c3"
+    },
+    {
+      "path": "experiments/llmp-models/mixtral-8x7b-instruct-ctx_g2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaabb4a3bf8589e51a37d6157f208953085d5e95",
+      "size": 114,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/eaabb4a3bf8589e51a37d6157f208953085d5e95"
+    },
+    {
+      "path": "experiments/llmp-models/mixtral-8x7b-instruct-noctx_g2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edcc03272fe61755c9e5806cd07a94583fbcade0",
+      "size": 124,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/edcc03272fe61755c9e5806cd07a94583fbcade0"
+    },
+    {
+      "path": "experiments/llmp-models/mixtral-8x7b-noctx_g2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cee23630fbd7a7b6ad0589b2e42c32363a9d9429",
+      "size": 106,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/cee23630fbd7a7b6ad0589b2e42c32363a9d9429"
+    },
+    {
+      "path": "experiments/make_summary.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fd52123cc22d9238738bdbd96e47f5b130c0fa6",
+      "size": 468,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/4fd52123cc22d9238738bdbd96e47f5b130c0fa6"
+    },
+    {
+      "path": "experiments/multimodal-models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c1cffca1c754f3f047e6dba4e76d66f266a062ab",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/c1cffca1c754f3f047e6dba4e76d66f266a062ab"
+    },
+    {
+      "path": "experiments/multimodal-models/timellm-ctx_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fca349eef253fd5bff3cd87c0343d8150a5f6a97",
+      "size": 158,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/fca349eef253fd5bff3cd87c0343d8150a5f6a97"
+    },
+    {
+      "path": "experiments/multimodal-models/timellm-noctx_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5be0000319b7bcb23a91f32e45a17d2447442f72",
+      "size": 161,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/5be0000319b7bcb23a91f32e45a17d2447442f72"
+    },
+    {
+      "path": "experiments/multimodal-models/unitime-ctx_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "879f1d02fa49523cd3b72926385b80b4bbb52cfe",
+      "size": 158,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/879f1d02fa49523cd3b72926385b80b4bbb52cfe"
+    },
+    {
+      "path": "experiments/multimodal-models/unitime-noctx_g1.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3d77b362d7b7d1b56cddb4b4feba65d6b1b1b4b",
+      "size": 161,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/f3d77b362d7b7d1b56cddb4b4feba65d6b1b1b4b"
+    },
+    {
+      "path": "experiments/statistical-models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a410cf5d241b5a5ed50f489b5b8c83ae53dd407",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/2a410cf5d241b5a5ed50f489b5b8c83ae53dd407"
+    },
+    {
+      "path": "experiments/statistical-models/r_forecast_c40.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e861c4a05a9bb19c43da903a7dcfe71b556afe55",
+      "size": 93,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/e861c4a05a9bb19c43da903a7dcfe71b556afe55"
+    },
+    {
+      "path": "experiments/statistical-models/statsmodels_c40.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b322c13bc859816afe8812fc095e015dab9a08d",
+      "size": 58,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/3b322c13bc859816afe8812fc095e015dab9a08d"
+    },
+    {
+      "path": "notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "be347226a0b8c3522aca75e5e5ce8f096bb1b3b8",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/be347226a0b8c3522aca75e5e5ce8f096bb1b3b8"
+    },
+    {
+      "path": "notebooks/causal_chambers.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c050dce7cf6ecf20151441e94f4399fca254b8cf",
+      "size": 1120152,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/c050dce7cf6ecf20151441e94f4399fca254b8cf"
+    },
+    {
+      "path": "notebooks/create_hf_dataset.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f72d702c69ca79deec2c83ef881852f1fcfa4d80",
+      "size": 7906,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/f72d702c69ca79deec2c83ef881852f1fcfa4d80"
+    },
+    {
+      "path": "notebooks/crps_covariance.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6fe09adb067064c4448f9c46c37f5a117865e88",
+      "size": 12846,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/f6fe09adb067064c4448f9c46c37f5a117865e88"
+    },
+    {
+      "path": "precompute_scaling_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d86777dc34adb2413d2462bd1c1f4dfc33a7c3f6",
+      "size": 777,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/d86777dc34adb2413d2462bd1c1f4dfc33a7c3f6"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3b627d704369c94b1c6c931f65f527618f0758c",
+      "size": 2111,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/b3b627d704369c94b1c6c931f65f527618f0758c"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "452574ed18c0ab1070e53a683ecdf49f614eb18f",
+      "size": 54,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/452574ed18c0ab1070e53a683ecdf49f614eb18f"
+    },
+    {
+      "path": "requirements-r.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f3898626880b2f79a21a2ed9aa32ca1e3327850",
+      "size": 5,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/8f3898626880b2f79a21a2ed9aa32ca1e3327850"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf46ca122869dcdd9371198636c42465f5a5ef85",
+      "size": 711,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/cf46ca122869dcdd9371198636c42465f5a5ef85"
+    },
+    {
+      "path": "results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "36502383aab90b6a9fddd991de81ddb5015c5db4",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/36502383aab90b6a9fddd991de81ddb5015c5db4"
+    },
+    {
+      "path": "results/all_tasks.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27abf6c61a14202f6b9c2abfac22e285255747a9",
+      "size": 1667472,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/27abf6c61a14202f6b9c2abfac22e285255747a9"
+    },
+    {
+      "path": "results/results_complete.README",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9a09bc94909d8744136354f4ce1a8ad0887a1ac",
+      "size": 1675,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/d9a09bc94909d8744136354f4ce1a8ad0887a1ac"
+    },
+    {
+      "path": "results/results_complete.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30fddbd7aaefe8ea6ce142b2745a86217f342cff",
+      "size": 4786963,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/30fddbd7aaefe8ea6ce142b2745a86217f342cff"
+    },
+    {
+      "path": "run_baselines.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a466f9a1b8c6cede15f4b3dc459513d480650d0b",
+      "size": 14206,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/a466f9a1b8c6cede15f4b3dc459513d480650d0b"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e510071259a6deacc5fc87c866438cde1a9164b7",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/e510071259a6deacc5fc87c866438cde1a9164b7"
+    },
+    {
+      "path": "scripts/compile_stderr_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d26ca3e0be94bf5c9867452dcab34d18cadafddc",
+      "size": 3273,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/d26ca3e0be94bf5c9867452dcab34d18cadafddc"
+    },
+    {
+      "path": "scripts/compute_rcrps_with_hf_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91878a9f032ade003eab309c55087dc7f3e698e4",
+      "size": 17764,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/91878a9f032ade003eab309c55087dc7f3e698e4"
+    },
+    {
+      "path": "scripts/results_to_latex.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04d8590392b64aa277397bfd691eeea7ff4a3630",
+      "size": 17694,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/04d8590392b64aa277397bfd691eeea7ff4a3630"
+    },
+    {
+      "path": "scripts/results_to_rank.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41c0cb2355e9445c355e2a92ff053f34848a0d3e",
+      "size": 6250,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/41c0cb2355e9445c355e2a92ff053f34848a0d3e"
+    },
+    {
+      "path": "simple_task_example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "556d8316e21af8f90f19248eb2706a0360449e64",
+      "size": 4438,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/556d8316e21af8f90f19248eb2706a0360449e64"
+    },
+    {
+      "path": "task_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e6d513a445fa57ab7fc663208e37de9a6f4f290",
+      "size": 14536,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/5e6d513a445fa57ab7fc663208e37de9a6f4f290"
+    },
+    {
+      "path": "test_plot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89940200132a6cea1fb05c57e6ab926578e880a6",
+      "size": 950,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/89940200132a6cea1fb05c57e6ab926578e880a6"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "74099a9e4d4265dd0c48e110882d9e870f3c1197",
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/trees/74099a9e4d4265dd0c48e110882d9e870f3c1197"
+    },
+    {
+      "path": "tests/bootstrap_datasets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fc08eae99ee2e7a8df4e20814adff59167559aa",
+      "size": 236,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/4fc08eae99ee2e7a8df4e20814adff59167559aa"
+    },
+    {
+      "path": "tests/test_baseline_consistency.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "578c0b6a468ad3574a992014a633b1bef68a494b",
+      "size": 1291,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/578c0b6a468ad3574a992014a633b1bef68a494b"
+    },
+    {
+      "path": "tests/test_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "100321842515e094d7e9479639a2bb701b3cec0c",
+      "size": 5804,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/100321842515e094d7e9479639a2bb701b3cec0c"
+    },
+    {
+      "path": "tests/test_causal_chambers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b188ad4c174042f3a494ff73760d313e539c1bf3",
+      "size": 1841,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/b188ad4c174042f3a494ff73760d313e539c1bf3"
+    },
+    {
+      "path": "tests/test_crps.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02ed1e02628af357878fda5a6911bb601c6c0e5b",
+      "size": 2162,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/02ed1e02628af357878fda5a6911bb601c6c0e5b"
+    },
+    {
+      "path": "tests/test_datetime_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5b0c64ec1b37984f1144c270c5dda6b67cb921f",
+      "size": 1530,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/e5b0c64ec1b37984f1144c270c5dda6b67cb921f"
+    },
+    {
+      "path": "tests/test_random_generation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fce1215b531d017b41014761f3ec4ab63ea3984",
+      "size": 1363,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/0fce1215b531d017b41014761f3ec4ab63ea3984"
+    },
+    {
+      "path": "tests/test_task_consistency.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bed2fd1db7fe8a88c1d8a268734bab22f52bff7",
+      "size": 3125,
+      "url": "https://api.github.com/repos/ServiceNow/context-is-key-forecasting/git/blobs/4bed2fd1db7fe8a88c1d8a268734bab22f52bff7"
+    }
+  ],
+  "truncated": false
+}

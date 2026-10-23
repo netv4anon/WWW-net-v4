@@ -1,0 +1,26 @@
+{
+  "stage": "before_saved_forecast_subset_scoring",
+  "outcomes_used_to_select_inputs": false,
+  "files": [
+    {
+      "path": "packaged_INPUT_SELECTION.npz",
+      "sha256": "4e0cdc89553d4c9b610418391d17dfeab9f6d2de2e9492c4e96335420adce480"
+    },
+    {
+      "path": "working_INPUT_SELECTION.npz",
+      "sha256": "abdd1ebe08e0b7987836b6516b82937a41befc685f538b6d41d6cea400b1a718"
+    }
+  ],
+  "coverage_gates": {
+    "packaged": {
+      "scenario_coverage_pass": true,
+      "profile_coverage_pass": false,
+      "coverage_pass": false
+    },
+    "working": {
+      "scenario_coverage_pass": true,
+      "profile_coverage_pass": true,
+      "coverage_pass": true
+    }
+  }
+}

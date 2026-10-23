@@ -1,0 +1,12 @@
+{
+  "adapter_forecasts_exactly_match_frozen_coupled_rule": true,
+  "adapter_input_shape": [
+    68544,
+    12,
+    9
+  ],
+  "target_mapping_or_phase_files_present_in_adapter_directory": false,
+  "user_forecast_scoring_completed": true,
+  "new_independent_predictor_configuration": false,
+  "security_sandbox_or_blind_evaluation_claimed": false
+}

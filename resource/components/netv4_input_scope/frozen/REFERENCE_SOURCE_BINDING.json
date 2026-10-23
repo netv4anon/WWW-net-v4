@@ -1,0 +1,17 @@
+{
+  "scope": "Descriptive source composition of the frozen nearest training references only.",
+  "selection_masks_changed": false,
+  "new_score_calculations": false,
+  "observed_incident_validation": false,
+  "metadata_bindings": [
+    {
+      "member": "data/packaged/analysis_metadata.npz",
+      "sha256": "8ccccd75240992a972121a021c6c68ccc9041d5c2969e127f0d96f1c6b250aa2"
+    },
+    {
+      "member": "data/working/analysis_metadata.npz",
+      "sha256": "84d7a37e7e835d98a9c549620ba6b439960d2375961bc794ae0243de56acac1d"
+    }
+  ],
+  "nearest_neighbour_ties": "Source tag of the fixed search returned index; no claim of unique physical neighbour."
+}

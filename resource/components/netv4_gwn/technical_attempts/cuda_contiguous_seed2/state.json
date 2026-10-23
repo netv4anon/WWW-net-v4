@@ -1,0 +1,9 @@
+{
+  "status": "training",
+  "model": "packaged__GraphWaveNet_seed2",
+  "epoch": 22,
+  "train_normalized_mae": 0.07148889407880389,
+  "validation_center_mae": 11.470165723558999,
+  "best_validation_center_mae": 11.470165723558999,
+  "elapsed_seconds": 1748.507090330124
+}

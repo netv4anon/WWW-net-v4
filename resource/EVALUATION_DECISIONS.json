@@ -1,0 +1,195 @@
+{
+  "schema": "netv4_reader_decisions_v1",
+  "purpose": "Navigation from a claim to existing inputs, commands, saved results and interpretation limits.",
+  "scientific_experiments_added": 0,
+  "format_or_algorithm_novelty_claim": false,
+  "reader_guide": "READER_GUIDE.md",
+  "decisions": [
+    {
+      "id": "center_response",
+      "reader": "Prediction researcher",
+      "question": "Does lower full-arm error establish helpful response to the changed history?",
+      "components": [
+        "netv4"
+      ],
+      "contract": "1,024 keyed center histories [N,12] -> center forecasts [N,12]; 256 common contexts.",
+      "command_from_resource_root": "python -B resource.py score netv4 --predictions components/netv4/saved_predictions/working__STID_NoCalendar_seed1.npz --out ../center_seed1",
+      "saved_evidence": [
+        "components/netv4/results/primary_rows.csv",
+        "components/netv4/results/working__STID_NoCalendar_seed1/decompositions.csv"
+      ],
+      "selection": {
+        "population": "all_steps",
+        "cohort": "all",
+        "timing_group": "all"
+      },
+      "read_together": [
+        "background_mae",
+        "full_mae",
+        "total_D",
+        "target_T",
+        "history_gain_A"
+      ],
+      "decision": "Retain the lower full-arm error of mixed STID, but do not infer helpful changed-history response from that diagonal score.",
+      "limits": "Accuracy and response are separate properties. The paper averages three seed losses; this command scores one seed. Contexts are dependent and development-exposed."
+    },
+    {
+      "id": "target_segment",
+      "reader": "Prediction researcher",
+      "question": "Which conclusions survive the declared target alternatives for fixed forecasts?",
+      "components": [
+        "netv4",
+        "netv4_checks"
+      ],
+      "command_from_resource_root": "python -B resource.py score netv4_checks --predictions components/netv4/saved_predictions/working__STID_NoCalendar_seed1.npz --out ../center_seed1_bounds",
+      "saved_evidence": [
+        "components/netv4_checks/saved_target_segment/SUMMARY.json"
+      ],
+      "read_together": [
+        "response A range",
+        "diagonal error D range",
+        "all seed outcomes and loss means"
+      ],
+      "decision": "Mixed STID mean response is adverse throughout the declared segment, while its diagonal advantage changes sign. Keep the slightly positive residual-endpoint result for seed 3.",
+      "limits": "The segment interpolates two frozen clipped targets; it is neither a calibrated generator family nor a physical uncertainty interval. The tested hidden internal reversal hypothesis is unsupported."
+    },
+    {
+      "id": "joint_input_response",
+      "reader": "Joint-input model user",
+      "question": "Does helpful total response extend to the other-sequence inputs under an event center?",
+      "components": [
+        "netv4_mv",
+        "netv4_gwn"
+      ],
+      "contract": "68,544 keyed complete histories [N,12,9] -> center forecasts [N,12]; 11,424 scenarios.",
+      "command_from_resource_root": "python -B resource.py score netv4_mv --predictions components/netv4_mv/predictions/working__RidgeLocal9.npz --out ../mv_joint_example",
+      "saved_evidence": [
+        "components/netv4_mv/scores/responses.csv",
+        "components/netv4_mv/scores/profile_response.csv"
+      ],
+      "selection": {
+        "scope": "cutoff_spanning",
+        "phase": "all_points",
+        "target_law": "legacy",
+        "model": "working__RidgeLocal9"
+      },
+      "read_together": [
+        "A",
+        "L_CF",
+        "L_FF",
+        "neighbor_given_center",
+        "neighbor_given_background_center",
+        "all profile groups"
+      ],
+      "decision": "Retain helpful total response and report the small harmful conditional other-sequence response. Examine both training variants and target laws, including helpful profile groups.",
+      "limits": "The mixed legacy conditional error increase is approximately 0.50%. Profile similarity is not measured adjacency; this is a functional input comparison on conditional numeric constructions.",
+      "neural_use_evidence": [
+        "components/netv4_gwn/evaluation/FINDINGS.json",
+        "components/netv4_gwn/evaluation/functional_input_checks.csv",
+        "components/netv4_gwn/evaluation/primary_seed_loss_means.csv",
+        "components/netv4_gwn/evaluation/primary_seed_rows.csv"
+      ],
+      "neural_use_command_from_resource_root": "python -B resource.py score netv4_mv --predictions components/netv4_gwn/runs/working__GraphWaveNet_seed1/mv_predictions.npz --out ../gwn_working_seed1",
+      "neural_use_decision": "All six primary neural configurations have helpful total response but harmful other-input response on spanning cases under both laws; retain original accuracy and all timing/profile outcomes."
+    },
+    {
+      "id": "timing_response",
+      "reader": "Prediction researcher or joint-input model user",
+      "question": "Does the pooled response describe each event timing?",
+      "components": [
+        "netv4_mv",
+        "netv4_gwn"
+      ],
+      "command_from_resource_root": "python -B resource.py replay netv4_mv --out ../mv_all_models",
+      "saved_evidence": [
+        "components/netv4_mv/scores/responses.csv"
+      ],
+      "selection": {
+        "phase": "all_points",
+        "target_law": [
+          "legacy",
+          "residual"
+        ],
+        "scope": [
+          "all",
+          "history_completed",
+          "cutoff_spanning",
+          "future_early",
+          "future_late"
+        ]
+      },
+      "read_together": [
+        "A for every timing, configuration and target law",
+        "equal-history future controls"
+      ],
+      "decision": "All six STID checkpoints have adverse pooled but helpful spanning response under both laws. Keep both judgments and the zero response for future-starting groups.",
+      "limits": "Four timings have equal construction weight. These weights do not estimate real incident frequencies. Replay is reproduction of frozen results, not an independent experiment.",
+      "neural_use_evidence": [
+        "components/netv4_gwn/evaluation/FINDINGS.json",
+        "components/netv4_gwn/evaluation/functional_input_checks.csv",
+        "components/netv4_gwn/evaluation/primary_seed_loss_means.csv",
+        "components/netv4_gwn/evaluation/primary_seed_rows.csv"
+      ],
+      "neural_use_command_from_resource_root": "python -B resource.py score netv4_mv --predictions components/netv4_gwn/runs/working__GraphWaveNet_seed1/mv_predictions.npz --out ../gwn_working_seed1",
+      "neural_use_decision": "All six primary GWN checkpoints have adverse pooled but helpful spanning response under both laws. Equal-history forecast differences are at most 0.000244140625, within the declared 0.001 tolerance; they are not bitwise zero."
+    },
+    {
+      "id": "input_unit_reuse",
+      "reader": "Resource curator or forecasting benchmark user",
+      "question": "Does record uniqueness imply unseen traffic at the prediction input unit?",
+      "components": [
+        "netv4_checks",
+        "release_audit"
+      ],
+      "command_from_resource_root": "python -B resource.py replay netv4_checks --out ../core_lookup_and_bounds",
+      "external_command_from_resource_root": "python -B resource.py replay release_audit --source /path/to/incident_all.npy --out ../release_audit",
+      "saved_evidence": [
+        "components/netv4_checks/saved_lookup/metrics.csv",
+        "components/netv4_checks/saved_lookup/witnesses.csv",
+        "components/release_audit/EXPECTED_RESULTS.json",
+        "components/release_audit/INDEPENDENT_VERIFICATION.json"
+      ],
+      "read_together": [
+        "input key",
+        "hit and miss populations",
+        "all-query losses",
+        "constant and conflicting target groups",
+        "source binding"
+      ],
+      "decision": "Report the original mixed-split gain of only 0.12%, entirely on controls, and its zero full-nine-slot hits separately from the external 11.79% gain on 93/839 traffic history/future hits.",
+      "limits": "The external pinned source is not bundled. Saved outcomes and source certificates are inspectable locally; rerunning the source audit requires that file. Numerical equality does not identify physical source records or neural shortcut use."
+    },
+    {
+      "id": "retained_support",
+      "reader": "Resource curator",
+      "question": "Which input reuse and training support remain after exclusion?",
+      "components": [
+        "station_lookup",
+        "station_exclusion"
+      ],
+      "command_from_resource_root": "python -B resource.py replay station_exclusion --source /path/to/incident_all.npy --out ../station_exclusion",
+      "saved_evidence": [
+        "components/station_lookup/EXPECTED_RESULTS.json",
+        "components/station_exclusion/expected/RESULTS.json",
+        "components/station_exclusion/expected/PER_NODE.csv"
+      ],
+      "read_together": [
+        "network exclusion scope",
+        "remaining local lookup losses",
+        "station input key",
+        "empty and nonempty training views"
+      ],
+      "decision": "Network target-support exclusion leaves a 4.97% local lookup gain. Flow-history exclusion empties 51 of 496 station views; including calendar history changes both support and residual matches.",
+      "limits": "TargetSupport masks use query targets offline. No exclusion repairs chronology or proves statistical adequacy. Keep every query and station, including empty views. External audit replay requires the pinned source."
+    }
+  ],
+  "neural_use_extension_scientific_study": "One architecture; six primary fits, one superseded completed technical fit and one interrupted attempt; zero new scenarios or observations.",
+  "scientific_experiments_added_scope": "This navigation document; the separate supplied neural study has one architecture and six primary fits.",
+  "primary_neural_configurations_supplied": 6,
+  "related_resource_object_map": "RESOURCE_INCREMENT_MAP.json",
+  "focused_argument_revision_new_scientific_experiments": 0,
+  "two_complete_use_examples": [
+    "worked_examples/RESPONSE_USE_CASE_ZH.md",
+    "worked_examples/REUSE_USE_CASE_ZH.md"
+  ]
+}

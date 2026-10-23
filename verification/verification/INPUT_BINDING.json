@@ -1,0 +1,32 @@
+{
+  "incoming": [
+    {
+      "name": "AUTHOR_ACTIONS_zh.md",
+      "bytes": 7551,
+      "sha256": "1cc25a9fe3fa2b5bb31c7173dd3c8a90b82262f8dc55d0a5a92326fc2b5eda88"
+    },
+    {
+      "name": "INDEPENDENT_VALIDATION_PLAN_zh.md",
+      "bytes": 4322,
+      "sha256": "e6c7b262a5a116b0ae271d928e31108c07cd8e1c32937d1affa7b2aeeffbe057"
+    },
+    {
+      "name": "NET_V4_WWW_followup_report.html",
+      "bytes": 436208,
+      "sha256": "393cf2dd0458b60bef9ab41aaa91db12689f3b325b6230eb4fc7561b8326013a"
+    },
+    {
+      "name": "NET_V4_WWW_strengthened_revision.pdf",
+      "bytes": 629902,
+      "sha256": "a0dcb2a3ba91a4c8353bdfbf0c66c3fee2178f506d1deb58a6a1fb57c6cb7bb7"
+    },
+    {
+      "name": "NET_V4_WWW_strengthened_revision.tex",
+      "bytes": 60132,
+      "sha256": "582a362b3395eae4b01d7575ca21e5bfdc6006788d820c0304a81e85221005aa"
+    }
+  ],
+  "resource_manifest_sha256": "ad8da0ba9bb3bcd297a174d57d3ccf96ac8cc3c3df75d3745935d2e01d9fbd05",
+  "script_sha256": "550eb2410e43447c96b0c02a3950f12c1a941a3847d61c71718496bd0ed6cb76",
+  "purpose": "existing evidence verification and response; no fresh confirmatory cohort"
+}

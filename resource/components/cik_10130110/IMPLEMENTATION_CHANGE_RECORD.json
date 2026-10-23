@@ -1,0 +1,34 @@
+{
+  "changes": {
+    "prepare_probe.py": {
+      "primary_sha256": "e335cc283bd8343d949c46d786fee11c8c5d0d2166b3805a987662016bb85dd9",
+      "replication_sha256": "a0a653eb6cad5834255e2b31fa07c3e4c2aa561d594b2834e53f22db292568d0",
+      "byte_identical": false
+    },
+    "construct_probe.py": {
+      "primary_sha256": "c0c8310e81d9b1ea2f56ba5b2ad695961e2713af1553634c5d6ab3283676f739",
+      "replication_sha256": "b1fc36b217faf6a39df03ab0bb3e25b3346069c32cf505c9cbc68eceda06510a",
+      "byte_identical": false
+    },
+    "predict_probe.py": {
+      "primary_sha256": "996a25805d4bedfdf678d3519cf9064eda9ca2a0b59ba47ecdb6fa4da8d2eab7",
+      "replication_sha256": "996a25805d4bedfdf678d3519cf9064eda9ca2a0b59ba47ecdb6fa4da8d2eab7",
+      "byte_identical": true
+    },
+    "score_probe.py": {
+      "primary_sha256": "c7fdbd5d399c5ba2c761799927b89c4f1fbb7522c42d872ca4ee8de48cba6e4d",
+      "replication_sha256": "c7f1ac94e301ec8469dd8e7965a254da77f872a2bf246f8366bb4231b3ce4b8f",
+      "byte_identical": false
+    },
+    "verify_probe.py": {
+      "primary_sha256": "4cf2919421c666467e518e6ee98ce1fb3708abcf4f7798b041fba8383f5df217",
+      "replication_sha256": "98bcafa287264355c66ab4953cde9ced7ca8ae045b888e3da288b2841ae2c0a1",
+      "byte_identical": false
+    }
+  },
+  "reference_source_bodies_changed": false,
+  "new_predictor_rules": 0,
+  "expected_new_forecast_executions": 8,
+  "protocol_sha256": "1b5dac6b244b0a908ddd0f671435aba87ac0da32f38806aaad48cd74e20eaf3c",
+  "primary_payloads_verified": 89
+}

@@ -1,0 +1,105 @@
+{
+  "source_reading_scope": "Pinned traffic task, task base/evaluator and loader source; not an exhaustive audit of CiK or all contextual forecasting literature",
+  "official": {
+    "url": "https://www2027.thewebconf.org/research-track-papers/",
+    "retrieved_date": "2026-10-08",
+    "current_text_sha256": "a5a96a4df2f6287351c49d4a93bf3bfa85be34f13a65f4a593293f338e8ae32a",
+    "previous_saved_text_sha256": "85c0b3084a13a01919cf70b7da8a5e8b2050f8e6f2e3d9787922c900d68eb37a",
+    "previous_has_detailed_resource_criteria": false,
+    "current_has_detailed_resource_criteria": true,
+    "exact_anchors": [
+      {
+        "line": 61,
+        "quote": "Every submission must clearly state how the work is relevant to the Web and to the track in the first page. Submissions that merely use a Web artifact e.g. a dataset or a Web Application Programmer Interface (API) or a social network – rather than answering a specific Web-related scientific research challenge, are out of scope and will be desk-rejected."
+      },
+      {
+        "line": 287,
+        "quote": "We invite three kinds of contribution: methodological work on evaluation and measurement; research on crowdsourcing and human computation; and resource papers that present new datasets, benchmarks, test collections, simulators, or software. Resource papers are assessed on the usefulness of the resource to the Web community, its quality and novelty, its documentation, and its availability; the resource should be accessible to reviewers at submission time."
+      },
+      {
+        "line": 294,
+        "quote": "User simulation and synthetic data for evaluation"
+      },
+      {
+        "line": 295,
+        "quote": "Meta-evaluation, statistical validity, benchmark saturation, and data contamination"
+      }
+    ],
+    "new_algorithm_required": false,
+    "minimum_independent_dataset_count_stated": false,
+    "specific_web_relevance_requirement_still_present": true,
+    "assessment_is_not_acceptance_prediction": true
+  },
+  "cik_commit": "73f46016f8c5643bf6799ca31875eab3e8d0d075",
+  "cik_reference_files": [
+    {
+      "local": "sources/cik_traffic_tasks.py",
+      "remote": "cik_benchmark/tasks/traffic_tasks.py",
+      "git_blob_sha1": "668d85dd9d53af80eba3a7458daab2c20928fb2b",
+      "sha256": "935be7620a0cc8931f2a487044961acaaf46dfeff7b9565b93b0d9ab8499f5cb",
+      "bytes": 20666
+    },
+    {
+      "local": "sources/cik_pred_change_tasks.py",
+      "remote": "cik_benchmark/tasks/pred_change_tasks.py",
+      "git_blob_sha1": "f139547be5a258952cb08f5be40b9ea12b6fd562",
+      "sha256": "70c819ee8a55e6c7ba6b507da633217d46e8ee615582c35032695b36af40ce7d",
+      "bytes": 5411
+    },
+    {
+      "local": "sources/cik_pems_tasks.py",
+      "remote": "cik_benchmark/tasks/pems_tasks.py",
+      "git_blob_sha1": "c44ba8ffa916205780493d26234ad934ef04e11b",
+      "sha256": "65cea52e909ebf6197556b8e3dd310f79dc6e143f387c36d024977ef0b428dbb",
+      "bytes": 23085
+    },
+    {
+      "local": "sources/cik_data_pems.py",
+      "remote": "cik_benchmark/data/pems.py",
+      "git_blob_sha1": "1290e8b0f039719c201b4cad7cb3bdd86f018af5",
+      "sha256": "197645e880b25082e774c6f41a9c51b4f92f9d133a57800e7aae23482c7732dc",
+      "bytes": 8530
+    },
+    {
+      "local": "sources/cik_base.py",
+      "remote": "cik_benchmark/base.py",
+      "git_blob_sha1": "952e1df14c8ae50edce6b3bf964e1e4eeb811ac4",
+      "sha256": "669195af754fa8177b6e026856ef5a2dc987af2d60fc9cdd9b113f4b51978cc3",
+      "bytes": 7782
+    },
+    {
+      "local": "sources/cik_evaluation.py",
+      "remote": "cik_benchmark/evaluation.py",
+      "git_blob_sha1": "58ac9a97dfd1f5a6870cb796cb7bb5ef1ee8590a",
+      "sha256": "f75186c40e4966b4ff5260096ca9c6de5622b31966bef42f47c7c196a1717ee1",
+      "bytes": 7925
+    },
+    {
+      "local": "sources/cik_utils.py",
+      "remote": "cik_benchmark/utils/__init__.py",
+      "git_blob_sha1": "cdec6c12e1510ae11d4e1400e6125e7200313a82",
+      "sha256": "c2692d479935b76b39f97b2317d657f8a64a61d9793ab30757e668ec77221637",
+      "bytes": 3162
+    }
+  ],
+  "closest_operation": {
+    "file": "sources/cik_pred_change_tasks.py",
+    "lines": [
+      99,
+      112,
+      116,
+      126
+    ],
+    "description": "Selects an event using future values, replaces the interval by a scaled starting value, renders the context, and declares the scoring ROI."
+  },
+  "same_domain_prior_capabilities": [
+    "Real holiday traffic contexts",
+    "Hypothetical traffic drops with narrated timing and magnitude",
+    "Region-of-interest scoring",
+    "Predictor evaluation against the task future"
+  ],
+  "narrow_difference": "Our companion retains both plateau and pointwise target laws and scores fixed identical-input forecasts against both. This is a resource-use extension, not a new ablation principle.",
+  "code_license": "Apache-2.0; exact upstream LICENSE.md included",
+  "data_readme": "Data extracted from https://pems.dot.ca.gov/",
+  "new_data_redistribution_license_asserted": false
+}

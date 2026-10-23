@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "support_verification": "SUPPORT_VERIFICATION.json",
+  "independent_solver": "augmented unpenalized-intercept QR, not centered normal equations",
+  "reproduction_fit_configurations": 6,
+  "station_QR_solves": 2976,
+  "independent_prediction_replays": 6,
+  "prediction_values_verified": 29962368,
+  "prediction_max_abs_error": 1.1687006917782128e-10,
+  "tolerance": {
+    "atol": 1e-07,
+    "rtol": 1e-08
+  },
+  "group_metric_values_verified": 48,
+  "group_metric_max_abs_error": 8.881784197001252e-13,
+  "row_metric_max_abs_error": 3.467448550509289e-11,
+  "coefficient_max_abs_error": 3.1733227157104693e-12,
+  "random_controls_not_statistical_replications": true,
+  "original_paper_model_inflation_established": false
+}

@@ -1,0 +1,12 @@
+{
+  "files": [
+    {
+      "path": "construct.py",
+      "sha256": "06398334acea4396ef05299cf4e849db32f564696af138c872d9430a8eedd77e"
+    },
+    {
+      "path": "pins/legacy_generator.py",
+      "sha256": "45235c49978951c3da80432ddaed7a91f5723f6524203938991aa06808cf2ae3"
+    }
+  ]
+}

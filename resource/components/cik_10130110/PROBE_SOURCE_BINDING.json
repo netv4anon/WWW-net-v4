@@ -1,0 +1,90 @@
+{
+  "eligible": true,
+  "source_commit": "72f9682ad1ce00006090e61adedff5898ec3f963",
+  "source_full_file_bytes": 304418602,
+  "source_range": "bytes 0-1048575/304418602",
+  "prefix_bytes": 1048576,
+  "prefix_sha256": "7c6ef2c8a67ce7b09f4042ad204f2d457c3e4351c0899470046693b5310cce02",
+  "complete_prefix_bytes": 1048515,
+  "complete_prefix_rows": 7736,
+  "source_counts": [
+    {
+      "sensor_id": 423339,
+      "rows_in_prefix": 2626,
+      "eligible_runs": [
+        1834,
+        792
+      ]
+    },
+    {
+      "sensor_id": 10130110,
+      "rows_in_prefix": 5110,
+      "eligible_runs": [
+        1653,
+        3457
+      ]
+    }
+  ],
+  "selected_sensor_id": 10130110,
+  "selected_series_rows": 1653,
+  "selected_start": "2024-01-01 05:00:00",
+  "selected_end": "2024-03-10 01:00:00",
+  "selection_before_scores": true,
+  "selection_rule": "Frozen remaining sensor 10130110; earliest eligible run",
+  "primary_outcome_seen_before_replication_protocol": true,
+  "selected_series_sha256": "e6887ef89fb2a8e44744e0e63680ee77d1ca08ff3f8500a372d5f53c5e24c69b",
+  "cik_git_commit": "73f46016f8c5643bf6799ca31875eab3e8d0d075",
+  "reference_source_files": [
+    {
+      "local": "sources/cik_traffic_tasks.py",
+      "remote": "cik_benchmark/tasks/traffic_tasks.py",
+      "git_blob_sha1": "668d85dd9d53af80eba3a7458daab2c20928fb2b",
+      "sha256": "935be7620a0cc8931f2a487044961acaaf46dfeff7b9565b93b0d9ab8499f5cb",
+      "bytes": 20666
+    },
+    {
+      "local": "sources/cik_pred_change_tasks.py",
+      "remote": "cik_benchmark/tasks/pred_change_tasks.py",
+      "git_blob_sha1": "f139547be5a258952cb08f5be40b9ea12b6fd562",
+      "sha256": "70c819ee8a55e6c7ba6b507da633217d46e8ee615582c35032695b36af40ce7d",
+      "bytes": 5411
+    },
+    {
+      "local": "sources/cik_pems_tasks.py",
+      "remote": "cik_benchmark/tasks/pems_tasks.py",
+      "git_blob_sha1": "c44ba8ffa916205780493d26234ad934ef04e11b",
+      "sha256": "65cea52e909ebf6197556b8e3dd310f79dc6e143f387c36d024977ef0b428dbb",
+      "bytes": 23085
+    },
+    {
+      "local": "sources/cik_data_pems.py",
+      "remote": "cik_benchmark/data/pems.py",
+      "git_blob_sha1": "1290e8b0f039719c201b4cad7cb3bdd86f018af5",
+      "sha256": "197645e880b25082e774c6f41a9c51b4f92f9d133a57800e7aae23482c7732dc",
+      "bytes": 8530
+    },
+    {
+      "local": "sources/cik_base.py",
+      "remote": "cik_benchmark/base.py",
+      "git_blob_sha1": "952e1df14c8ae50edce6b3bf964e1e4eeb811ac4",
+      "sha256": "669195af754fa8177b6e026856ef5a2dc987af2d60fc9cdd9b113f4b51978cc3",
+      "bytes": 7782
+    },
+    {
+      "local": "sources/cik_evaluation.py",
+      "remote": "cik_benchmark/evaluation.py",
+      "git_blob_sha1": "58ac9a97dfd1f5a6870cb796cb7bb5ef1ee8590a",
+      "sha256": "f75186c40e4966b4ff5260096ca9c6de5622b31966bef42f47c7c196a1717ee1",
+      "bytes": 7925
+    },
+    {
+      "local": "sources/cik_utils.py",
+      "remote": "cik_benchmark/utils/__init__.py",
+      "git_blob_sha1": "cdec6c12e1510ae11d4e1400e6125e7200313a82",
+      "sha256": "c2692d479935b76b39f97b2317d657f8a64a61d9793ab30757e668ec77221637",
+      "bytes": 3162
+    }
+  ],
+  "numpy": "1.24.4",
+  "pandas": "2.0.3"
+}

@@ -1,0 +1,36 @@
+{
+  "scope": "Focused comparison, not exhaustive novelty search",
+  "checklist": {
+    "url": "https://aclanthology.org/2020.acl-main.442/",
+    "doi": "10.18653/v1/2020.acl-main.442",
+    "test_types_pdf_page": 3
+  },
+  "cik": {
+    "url": "https://proceedings.mlr.press/v267/williams25a.html",
+    "venue": "ICML 2025",
+    "volume": 267,
+    "pages": "66887-66944",
+    "read_pdf": "arXiv:2410.18959v4",
+    "context_and_roi_pdf_pages": [
+      3,
+      4,
+      5
+    ],
+    "aggregate_failure_discussion_pdf_page": 34,
+    "repository_executed": false,
+    "repository_commit_metadata": "73f46016f8c5643bf6799ca31875eab3e8d0d075"
+  },
+  "local_source_sha256": {
+    "sources\\checklist.pdf": "98d15d259acf15136feed5cd5d4921b60cf313704a629901d115fe910fdb00e1",
+    "sources\\checklist.txt": "a89359bd90fc0f6db6d613209bf982e2d3ecb862981084230e290d576368b2da",
+    "sources\\cik.pdf": "1becd08435a51afbb6f6b8e076497dd7cc5092894ca0407e87bcc087f4138f66",
+    "sources\\cik.txt": "acb451254b98cc76a18ba26ae845d8d10ab64df4f7069a51d5b1bee9bb345c53",
+    "sources\\cik_abs.html": "b749af215d403dca78b03be138eeaa8f7bd7ad71f957c75baf8d667ebacb46e4",
+    "sources\\cik_commit.json": "87b99b0ec1d7a0c000636ee7be062d491c291ccb8b1e0fb4c787d1b45b6b83e0",
+    "sources\\cik_pmlr.html": "e90ffa2220a1ff58f25e35b47da1980323c0512f9e152bcc0b0b0c26c4cdfc67",
+    "sources\\cik_repo.json": "cb52e50ec2e3cb83ed791a69d2af276ebf136320f7a2cbdd1785807d9c98ca08",
+    "sources\\crossref_behavioral_testing.json": "1f8b3f1b13cda304e49b783b8b187ee47e477566aa82ff5849b55684d72deaab",
+    "sources\\crossref_cik.json": "16c47c20cc551783ecd4362e2230cfbfcb5fd1a9730528ce69e94ca44630f666",
+    "sources\\crossref_forecast_explanation.json": "12e7975c0d40cad9e7a9d4efea775aa7d847f50dfafe5abdac90280f51060a76"
+  }
+}

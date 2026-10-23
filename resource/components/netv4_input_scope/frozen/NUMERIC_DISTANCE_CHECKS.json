@@ -1,0 +1,12 @@
+[
+  {
+    "variant": "packaged",
+    "cpu_bruteforce_queries": 16,
+    "max_distance_discrepancy": 0.0
+  },
+  {
+    "variant": "working",
+    "cpu_bruteforce_queries": 16,
+    "max_distance_discrepancy": 0.0
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "history_only_reader_executed": true,
+  "device": "CPU",
+  "comparison_reference_device": "CUDA",
+  "forecast_values_checked": 822528,
+  "forecast_max_absolute_difference": 0.00048828125,
+  "forecast_mean_absolute_difference": 1.1342264876497745e-05,
+  "predeclared_absolute_tolerance": 0.001,
+  "passed": true,
+  "new_scientific_configuration": false,
+  "input_file_sha256": "742fad7571a802a6a1c003fb5084dfc141bcf2ec0b75bb1b738a90c979d14ac8",
+  "reader_forecast_sha256": "2df33347c20f65c6093c93870ff7f5bf9c5a6907cbcc8d4a49195e3eacdaccef"
+}

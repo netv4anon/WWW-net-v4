@@ -1,0 +1,19 @@
+{
+  "id": "working__GraphWaveNet_seed3",
+  "variant": "working",
+  "seed": 3,
+  "kind": "GraphWaveNet",
+  "weight_file": "runs\\working__GraphWaveNet_seed3\\best_weights.pt",
+  "weight_sha256": "952e232803ac989f3b200894cb7844deee70e5ecf4957a1bb6304139b373ae00",
+  "prediction_file": "runs\\working__GraphWaveNet_seed3\\mv_predictions.npz",
+  "prediction_sha256": "9804376a1acce269f6ce992294df05f91450c02931c625c1b3b023fd261f0b02",
+  "original_prediction_sha256": "456cec85e329c79771b61fbcb52ee43a6b9b68d2d4dd920823100a85f94d6ee4",
+  "scaler_sha256": "e00a8145ef125b588e12f09ee7e47157d2dfa94d674e6b446bb638fa6ea4f1b9",
+  "best_epoch": 28,
+  "best_validation_center_mae": 13.933353758296551,
+  "parameters": 272640,
+  "fit_seconds": 104.81411671638489,
+  "training_test_targets_nan": true,
+  "convolution_storage": "FP32 channels_last",
+  "mv_targets_decoded_for_fit_or_prediction": false
+}

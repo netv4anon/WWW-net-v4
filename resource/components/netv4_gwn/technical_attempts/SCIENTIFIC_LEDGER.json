@@ -1,0 +1,30 @@
+{
+  "planned_architectures": 1,
+  "planned_fits": 6,
+  "planned_seeds": [
+    1,
+    2,
+    3
+  ],
+  "planned_training_variants": [
+    "packaged",
+    "working"
+  ],
+  "planned_frozen_mv_predictions": 6,
+  "new_generated_scenarios": 0,
+  "new_observed_records": 0,
+  "fits_completed": 1,
+  "acceptance_probability_established": false,
+  "status": "running",
+  "pid": 6064,
+  "started_utc": "2026-10-09T14:34:55.751768+00:00",
+  "training_runner_sha256": "0a5e89785f43a872aaf3bd01812620997bca73fd5f7c23eacb768350be0d8af6",
+  "model_adapter_sha256": "db5ac02a4c77ed0e724ff87bdeff5486f4ddc14609e5f189d0707c1ef44c4287",
+  "torch": "2.4.1+cu118",
+  "numpy": "1.24.4",
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 2080 Ti",
+  "mv_frozen_prediction_configurations_completed": 1,
+  "elapsed_seconds": 2575.6244490146637,
+  "latest_completed": "packaged__GraphWaveNet_seed1"
+}

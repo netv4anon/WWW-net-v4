@@ -1,0 +1,23 @@
+{
+  "schema": "netv4-paired-point-forecast-1",
+  "contexts": 256,
+  "history_steps": 12,
+  "horizon_steps": 12,
+  "nominal_minutes_per_step": 15,
+  "arms": [
+    "B",
+    "P",
+    "R",
+    "F"
+  ],
+  "prediction_inputs": [
+    "historical_traffic_values"
+  ],
+  "opaque_id_is_transport_only": true,
+  "not_a_security_sandbox": true,
+  "future_targets": "constructed, not observed incident consequences",
+  "origin_split": "legacy membership; development-exposed and not independent field validation",
+  "scoring": "micro aggregation within a population; no macro average of subgroup scores",
+  "equal_history_test": "deterministic or controlled repeated stochastic predictions only",
+  "no_new_traffic_rows": true
+}

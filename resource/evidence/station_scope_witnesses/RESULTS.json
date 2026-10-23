@@ -1,0 +1,260 @@
+{
+  "status": "primary_complete_pending_verification",
+  "conditions": {
+    "Original": {
+      "history": {
+        "cells": 145711,
+        "varying_target_cells": 71679,
+        "constant_zero_cells": 73179,
+        "constant_other_cells": 853,
+        "affected_queries": 839,
+        "affected_nodes": 496,
+        "varying_target_affected_queries": 810,
+        "varying_target_affected_nodes": 443
+      },
+      "paired": {
+        "cells": 144479,
+        "varying_target_cells": 70501,
+        "constant_zero_cells": 73132,
+        "constant_other_cells": 846,
+        "affected_queries": 839,
+        "affected_nodes": 496,
+        "varying_target_affected_queries": 755,
+        "varying_target_affected_nodes": 442
+      },
+      "calendar_paired": {
+        "cells": 126388,
+        "varying_target_cells": 70349,
+        "constant_zero_cells": 55772,
+        "constant_other_cells": 267,
+        "affected_queries": 725,
+        "affected_nodes": 496,
+        "varying_target_affected_queries": 722,
+        "varying_target_affected_nodes": 442
+      }
+    },
+    "WholeTraffic": {
+      "history": {
+        "cells": 111946,
+        "varying_target_cells": 37965,
+        "constant_zero_cells": 73137,
+        "constant_other_cells": 844,
+        "affected_queries": 839,
+        "affected_nodes": 496,
+        "varying_target_affected_queries": 808,
+        "varying_target_affected_nodes": 256
+      },
+      "paired": {
+        "cells": 110634,
+        "varying_target_cells": 36709,
+        "constant_zero_cells": 73088,
+        "constant_other_cells": 837,
+        "affected_queries": 839,
+        "affected_nodes": 496,
+        "varying_target_affected_queries": 749,
+        "varying_target_affected_nodes": 160
+      },
+      "calendar_paired": {
+        "cells": 90651,
+        "varying_target_cells": 36541,
+        "constant_zero_cells": 53907,
+        "constant_other_cells": 203,
+        "affected_queries": 715,
+        "affected_nodes": 320,
+        "varying_target_affected_queries": 711,
+        "varying_target_affected_nodes": 152
+      }
+    },
+    "TargetSupport": {
+      "history": {
+        "cells": 105979,
+        "varying_target_cells": 32049,
+        "constant_zero_cells": 73128,
+        "constant_other_cells": 802,
+        "affected_queries": 839,
+        "affected_nodes": 496,
+        "varying_target_affected_queries": 771,
+        "varying_target_affected_nodes": 251
+      },
+      "paired": {
+        "cells": 104707,
+        "varying_target_cells": 30843,
+        "constant_zero_cells": 73077,
+        "constant_other_cells": 787,
+        "affected_queries": 839,
+        "affected_nodes": 496,
+        "varying_target_affected_queries": 670,
+        "varying_target_affected_nodes": 149
+      },
+      "calendar_paired": {
+        "cells": 76542,
+        "varying_target_cells": 30685,
+        "constant_zero_cells": 45662,
+        "constant_other_cells": 195,
+        "affected_queries": 618,
+        "affected_nodes": 309,
+        "varying_target_affected_queries": 614,
+        "varying_target_affected_nodes": 141
+      }
+    },
+    "Random4101": {
+      "history": {
+        "cells": 131389,
+        "varying_target_cells": 57387,
+        "constant_zero_cells": 73169,
+        "constant_other_cells": 833,
+        "affected_queries": 839,
+        "affected_nodes": 496,
+        "varying_target_affected_queries": 782,
+        "varying_target_affected_nodes": 443
+      },
+      "paired": {
+        "cells": 130154,
+        "varying_target_cells": 56219,
+        "constant_zero_cells": 73117,
+        "constant_other_cells": 818,
+        "affected_queries": 839,
+        "affected_nodes": 496,
+        "varying_target_affected_queries": 690,
+        "varying_target_affected_nodes": 442
+      },
+      "calendar_paired": {
+        "cells": 105174,
+        "varying_target_cells": 56083,
+        "constant_zero_cells": 48874,
+        "constant_other_cells": 217,
+        "affected_queries": 649,
+        "affected_nodes": 496,
+        "varying_target_affected_queries": 646,
+        "varying_target_affected_nodes": 442
+      }
+    },
+    "Random4102": {
+      "history": {
+        "cells": 131381,
+        "varying_target_cells": 57377,
+        "constant_zero_cells": 73161,
+        "constant_other_cells": 843,
+        "affected_queries": 839,
+        "affected_nodes": 496,
+        "varying_target_affected_queries": 782,
+        "varying_target_affected_nodes": 443
+      },
+      "paired": {
+        "cells": 130157,
+        "varying_target_cells": 56218,
+        "constant_zero_cells": 73112,
+        "constant_other_cells": 827,
+        "affected_queries": 839,
+        "affected_nodes": 496,
+        "varying_target_affected_queries": 686,
+        "varying_target_affected_nodes": 442
+      },
+      "calendar_paired": {
+        "cells": 104474,
+        "varying_target_cells": 56073,
+        "constant_zero_cells": 48173,
+        "constant_other_cells": 228,
+        "affected_queries": 643,
+        "affected_nodes": 496,
+        "varying_target_affected_queries": 640,
+        "varying_target_affected_nodes": 442
+      }
+    },
+    "Random4103": {
+      "history": {
+        "cells": 131067,
+        "varying_target_cells": 57107,
+        "constant_zero_cells": 73166,
+        "constant_other_cells": 794,
+        "affected_queries": 839,
+        "affected_nodes": 496,
+        "varying_target_affected_queries": 778,
+        "varying_target_affected_nodes": 443
+      },
+      "paired": {
+        "cells": 129832,
+        "varying_target_cells": 55932,
+        "constant_zero_cells": 73114,
+        "constant_other_cells": 786,
+        "affected_queries": 839,
+        "affected_nodes": 496,
+        "varying_target_affected_queries": 681,
+        "varying_target_affected_nodes": 442
+      },
+      "calendar_paired": {
+        "cells": 103678,
+        "varying_target_cells": 55789,
+        "constant_zero_cells": 47694,
+        "constant_other_cells": 195,
+        "affected_queries": 635,
+        "affected_nodes": 496,
+        "varying_target_affected_queries": 634,
+        "varying_target_affected_nodes": 442
+      }
+    }
+  },
+  "denominator_node_query_cells": 416144,
+  "varying_target_cells": 341680,
+  "constant_zero_target_cells": 73500,
+  "constant_other_target_cells": 964,
+  "retained_pair_witness_groups": 63690,
+  "residual_by_original_query_group": {
+    "all": {
+      "queries": 839,
+      "cells": 30685,
+      "queries_with_any": 614
+    },
+    "whole_traffic_reuse": {
+      "queries": 93,
+      "cells": 3687,
+      "queries_with_any": 76
+    },
+    "other_target_reuse": {
+      "queries": 466,
+      "cells": 16727,
+      "queries_with_any": 332
+    },
+    "no_original_target_reuse": {
+      "queries": 280,
+      "cells": 10271,
+      "queries_with_any": 206
+    }
+  },
+  "frozen_predictor_descriptive_scores": {
+    "Original": {
+      "all": {
+        "cells": 416144,
+        "mae": 14.54888753579536
+      },
+      "residual_varying_calendar_paired": {
+        "cells": 30685,
+        "mae": 8.306722913717538
+      },
+      "complement": {
+        "cells": 385459,
+        "mae": 15.045803735516891
+      }
+    },
+    "TargetSupport": {
+      "all": {
+        "cells": 416144,
+        "mae": 14.548280326053002
+      },
+      "residual_varying_calendar_paired": {
+        "cells": 30685,
+        "mae": 8.40992707833864
+      },
+      "complement": {
+        "cells": 385459,
+        "mae": 15.036932476881274
+      }
+    }
+  },
+  "network_scope_claim_invalidated": false,
+  "station_sequence_exclusion_established": false,
+  "numeric_identity_not_source_identity": true,
+  "new_fits": 0,
+  "new_predictive_configurations": 0,
+  "new_source_acquisition": 0
+}

@@ -1,0 +1,109 @@
+{
+  "center": "NET-V4 提供可控的事件条件交通评测资源，帮助研究者判断预测收益是否来自有效响应，并检查目标构造与交通序列复用对评价结论的影响。",
+  "version_aliases_are_descriptive_not_new_snapshots": true,
+  "primary_result_binding": {
+    "training": "working/mixed snapshot, STID seeds1,2,3",
+    "evaluation": "Same 256 constructed B/P/R/F contexts; not a new raw-observation test split",
+    "losses": "L_BB=9.0350206007974, L_FF=8.472191731652451, A=-0.10811807059993346 under legacy law",
+    "alternative_target": "Same histories and predictions; only F recovery target replaced; L_FF=9.173703361664794"
+  },
+  "variants": {
+    "packaged": {
+      "snapshot_original_sha256": "cad1e1c53ce0c83adb5d5237ea5e944a22f0dc73804324a0b9f9c51493a83064",
+      "source_tags": {
+        "profile_ar1_ctrl": 13076,
+        "profile_ar1_ev": 20000
+      },
+      "train": 22013,
+      "validation": 5517,
+      "test": 5546,
+      "samples": 33076,
+      "history_shape": [
+        33076,
+        12,
+        9
+      ],
+      "target_shape": [
+        33076,
+        12,
+        9
+      ],
+      "historical_processing": "AR1/profile or bootstrap generated, or ATR-observation-tagged then interpolated/clipped with reconstructed dates; pointwise processing masks not recovered",
+      "files": {
+        "analysis_metadata.npz": "8ccccd75240992a972121a021c6c68ccc9041d5c2969e127f0d96f1c6b250aa2",
+        "history.npz": "ec73c4141c40ebf133c8367c6f85b180407d7ff651743b9d06401b3ba30decb4",
+        "provenance.json": "ebecf00257f69e5f144a645bd370adf584d8f1ab966d1b43d632f8a88c25abce",
+        "splits.npz": "582ba5e43c1b153ebf64b5ba7920758d2b79f94cefa006a8c16e3d32ded35d99",
+        "targets.npz": "718fa7d489253598c615cb0660208d9310f6b448968297732e5ba7c6141effd9"
+      }
+    },
+    "working": {
+      "snapshot_original_sha256": "a415a4d9d219af52dc0b20142eb31ca02faa1b8f13ee0994551281b7ba38d29c",
+      "source_tags": {
+        "atr_observed_ctrl": 12608,
+        "profile_ar1_ev": 20000,
+        "profile_bootstrap_ctrl": 468
+      },
+      "train": 21681,
+      "validation": 5041,
+      "test": 6354,
+      "samples": 33076,
+      "history_shape": [
+        33076,
+        12,
+        9
+      ],
+      "target_shape": [
+        33076,
+        12,
+        9
+      ],
+      "historical_processing": "AR1/profile or bootstrap generated, or ATR-observation-tagged then interpolated/clipped with reconstructed dates; pointwise processing masks not recovered",
+      "files": {
+        "analysis_metadata.npz": "84d7a37e7e835d98a9c549620ba6b439960d2375961bc794ae0243de56acac1d",
+        "history.npz": "4dddb7fc9acbf4f60ebe03962779719022aa055c14b789d8dd8fe1b91b70efce",
+        "provenance.json": "4df26941c0a9ac8ea36d55543c3ff3a18f01ddef56f4669e0278edaeb68d3f87",
+        "splits.npz": "6eea18dccc21654b8eb15d6406079ef448ecb3c59be9c7d6d1a4ac046e9acd48",
+        "targets.npz": "e07c1450d71a9a645f3e895990ba2c4783720564e27740eabeacc28dc9ade845"
+      }
+    }
+  },
+  "paired_task": {
+    "contexts": 256,
+    "inputs": 1024,
+    "history_steps": 12,
+    "target_steps": 12,
+    "nominal_step_minutes": 15,
+    "prediction_inputs": [
+      "historical center traffic"
+    ],
+    "opaque_ID_transport_only": true,
+    "analysis_only": [
+      "arm membership",
+      "context pairing",
+      "phase masks",
+      "future targets"
+    ],
+    "original_masks_are_generated_not_observed_incident_consequences": true,
+    "source_windows_are_dependent_and_exposed": true,
+    "regeneration_scope": "Pinned diagnostic replay supported; complete raw-source-to-legacy snapshot regeneration incomplete"
+  },
+  "metrics": [
+    "MAE",
+    "RMSE",
+    "100*sum absolute error / sum absolute target"
+  ],
+  "zero_WMAPE_denominator": "undefined",
+  "forecast_postprocess_original": "clip negative predictions to zero",
+  "partition_scope": "Legacy recorded-year membership, not proof of raw temporal independence",
+  "numeric_slot_contract": "Original 9 slots comprise serialized center, repeated center, seven others; not a verified 9-road graph",
+  "external_roles": {
+    "observed": "Fixed TraffiDent calendar pairs, descriptive reference only",
+    "public_release_audit": "Pinned Contra_Costa v1 support and reuse evidence; no published model inflation estimate",
+    "CiK_custom": "Two exposed station target-law probes, 168-to-24 supplementary; not official CiK forecasts",
+    "Qwen": "One frozen local inference experiment, supplementary; valid-output technical gate must pass before testing reversal"
+  },
+  "separate_v0_7_untouched": true,
+  "full_raw_lineage_recovered": false,
+  "administrative_requirements_deferred": true
+}

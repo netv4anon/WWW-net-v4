@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "method": "Complete source bytes as dictionary keys; no primary state ID/hash grouping reused.",
+  "input_arrays_compared": 11170,
+  "training_removal_witnesses": 1244,
+  "conditions": {
+    "Original": {
+      "train_rows": 3909,
+      "test_target_positions_in_train_history": 4215,
+      "test_target_positions_in_train_target": 4809,
+      "test_target_positions_in_either": 6816,
+      "test_rows_with_any_target_in_train_history": 541,
+      "test_rows_with_any_target_in_train_target": 559,
+      "test_rows_with_any_target_in_either": 658,
+      "test_whole_traffic_matches": 93
+    },
+    "WholeTraffic": {
+      "train_rows": 3812,
+      "test_target_positions_in_train_history": 4143,
+      "test_target_positions_in_train_target": 4346,
+      "test_target_positions_in_either": 6538,
+      "test_rows_with_any_target_in_train_history": 535,
+      "test_rows_with_any_target_in_train_target": 541,
+      "test_rows_with_any_target_in_either": 642,
+      "test_whole_traffic_matches": 0
+    },
+    "TargetSupport": {
+      "train_rows": 2665,
+      "test_target_positions_in_train_history": 0,
+      "test_target_positions_in_train_target": 0,
+      "test_target_positions_in_either": 0,
+      "test_rows_with_any_target_in_train_history": 0,
+      "test_rows_with_any_target_in_train_target": 0,
+      "test_rows_with_any_target_in_either": 0,
+      "test_whole_traffic_matches": 0
+    },
+    "Random4101": {
+      "train_rows": 2665,
+      "test_target_positions_in_train_history": 3010,
+      "test_target_positions_in_train_target": 3656,
+      "test_target_positions_in_either": 5466,
+      "test_rows_with_any_target_in_train_history": 419,
+      "test_rows_with_any_target_in_train_target": 448,
+      "test_rows_with_any_target_in_either": 557,
+      "test_whole_traffic_matches": 66
+    },
+    "Random4102": {
+      "train_rows": 2665,
+      "test_target_positions_in_train_history": 3242,
+      "test_target_positions_in_train_target": 3816,
+      "test_target_positions_in_either": 5715,
+      "test_rows_with_any_target_in_train_history": 433,
+      "test_rows_with_any_target_in_train_target": 478,
+      "test_rows_with_any_target_in_either": 575,
+      "test_whole_traffic_matches": 67
+    },
+    "Random4103": {
+      "train_rows": 2665,
+      "test_target_positions_in_train_history": 3168,
+      "test_target_positions_in_train_target": 3845,
+      "test_target_positions_in_either": 5649,
+      "test_rows_with_any_target_in_train_history": 438,
+      "test_rows_with_any_target_in_train_target": 467,
+      "test_rows_with_any_target_in_either": 563,
+      "test_whole_traffic_matches": 67
+    }
+  },
+  "retained_rows": 2665,
+  "minimum_required": 500,
+  "ready_for_fixed_training": true,
+  "chronological_repair_claimed": false,
+  "physical_date_identity_established": false
+}

@@ -1,0 +1,11 @@
+{
+  "original_alternative_history_sha256": "b15b733f2d991534ff25b4a029e95df24a71dcdf1ff60920e0c151c864b5ff65",
+  "original_alternative_target_sha256": "4b945068a6123bc847bec55cd46cdc340a0e29408efc06c1c1d22473cfab8182",
+  "exported_target_sha256": "20e008be42521920455427ce56cabb30007be3cd4b73d2f6fe1ede9d51740bb8",
+  "paired_inputs_sha256": "262ec0297c739dbd61682b7d8f447066169c097cb47dd66e73a42364178cc35b",
+  "full_histories_equal_for_all_256_contexts": true,
+  "only_target_replaced": "F target in B/F sensitivity comparison; no new P/R alternative construction",
+  "new_observations": 0,
+  "new_targets": 0,
+  "new_predictions": 0
+}

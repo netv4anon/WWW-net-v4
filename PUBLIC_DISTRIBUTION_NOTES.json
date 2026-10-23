@@ -1,0 +1,21 @@
+{
+  "role": "Anonymous supplementary data/code repository, without the manuscript.",
+  "included": [
+    "datasets",
+    "replay and scoring code",
+    "frozen weights and forecasts",
+    "source contracts and audit evidence",
+    "technical evidence report"
+  ],
+  "excluded": [
+    "main manuscript PDF",
+    "manuscript source archive",
+    "LaTeX typesetting files",
+    "private submission administration",
+    "obsolete editorial assessments"
+  ],
+  "scientific_payload_policy": "All retained data, targets, weights, forecasts and scientific freeze files are unchanged.",
+  "upstream_attribution": "Preserved separately; no blanket source-data relicensing.",
+  "hosting_status": "Versioned supplementary data, code and technical evidence; the manuscript is excluded.",
+  "repository_url": "https://github.com/netv4anon/WWW-net-v4"
+}

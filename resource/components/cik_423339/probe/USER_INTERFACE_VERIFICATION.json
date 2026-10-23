@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "shuffled_seed_ids_correctly_aligned": true,
+  "scalar_scores_compared": 134,
+  "max_error": 4.440892098500626e-16,
+  "example_built_from_input_histories_and_scenarios_only": true,
+  "new_prediction_rule": false
+}

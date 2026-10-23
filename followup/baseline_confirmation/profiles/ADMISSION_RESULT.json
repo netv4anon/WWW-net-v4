@@ -1,0 +1,1338 @@
+{
+  "status": "ADMITTED",
+  "source_raw_rows": 14448,
+  "source_channels": 86,
+  "eligible_profiles": 73,
+  "excluded_channels": 13,
+  "failure_reason_counts": {
+    "edited": 7,
+    "missing_channel_identifier": 8
+  },
+  "source_sha256": "292d403daac84b1722e4573746ef5d4ae874898ad669711e7912652a842833fc",
+  "source_bytes": 5455628,
+  "source_http_headers_sha256": "8df95d5fc07828c8775aced6deb29923752454ae462c3fbedaa4b0b8a521e735",
+  "source_intake_sha256": "2684731a314b87e9009610b140d902d623e8c75ed2de7d2cdcd06a9ee7f198a6",
+  "legacy_catalog_sha256": "a7881db8b76ae73214d9e74a16474a03467d20902f8044d7fe5a080264037dff",
+  "input_units": "vehicle counts per nominal quarter hour; hourly-to-quarter uniform allocation assumption",
+  "original_high_frequency_detail_observed": false,
+  "all_input_slots_from_this_new_catalog": true,
+  "profiles_are_not_independent_incidents": true,
+  "new_inference": 0,
+  "new_scoring": 0,
+  "eligible_manifest": [
+    {
+      "profile_id": "Basel100006_00000235_L02_35ef6cad",
+      "sitecode": "00000235",
+      "directionname": "nach Frankreich",
+      "lanecode": 2,
+      "sitename": "235 A3-A35, Grenze CH-F",
+      "geo_point_2d": {
+        "lon": 7.5631579677329555,
+        "lat": 47.5751385211909
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "0e22cfcb92e0cd600f9456af33e39710132c3e4cdf15ed5373117b830272b74c",
+      "quarter_mean": 181.38839721679688,
+      "quarter_min": 13.5,
+      "quarter_max": 623.5
+    },
+    {
+      "profile_id": "Basel100006_00000235_L01_2f751e2d",
+      "sitecode": "00000235",
+      "directionname": "von Frankreich",
+      "lanecode": 1,
+      "sitename": "235 A3-A35, Grenze CH-F",
+      "geo_point_2d": {
+        "lon": 7.5631579677329555,
+        "lat": 47.5751385211909
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "8e022028697effe12b680eebbdda326bdf73354748690f3236316e12ba232ecf",
+      "quarter_mean": 180.66964721679688,
+      "quarter_min": 20.25,
+      "quarter_max": 578.75
+    },
+    {
+      "profile_id": "Basel100006_00000350_L01_125ce891",
+      "sitecode": "00000350",
+      "directionname": "nach Kleinbasel",
+      "lanecode": 1,
+      "sitename": "350 Dreirosenbrücke lokal",
+      "geo_point_2d": {
+        "lon": 7.5822672112284675,
+        "lat": 47.57073464565859
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "7d1f04b7f2ad471a9e5fa3f4f24eacdb59ce10d19284ef40a83d6daca6200bdf",
+      "quarter_mean": 45.20089340209961,
+      "quarter_min": 1.75,
+      "quarter_max": 109.75
+    },
+    {
+      "profile_id": "Basel100006_00000350_L02_125ce891",
+      "sitecode": "00000350",
+      "directionname": "nach Kleinbasel",
+      "lanecode": 2,
+      "sitename": "350 Dreirosenbrücke lokal",
+      "geo_point_2d": {
+        "lon": 7.5822672112284675,
+        "lat": 47.57073464565859
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "4640295c50c0fb42de91e0fe649f6a3993c887dc9aaebe698095ef40189db45d",
+      "quarter_mean": 51.511905670166016,
+      "quarter_min": 3.0,
+      "quarter_max": 126.75
+    },
+    {
+      "profile_id": "Basel100006_00000350_L04_7389acb1",
+      "sitecode": "00000350",
+      "directionname": "von Kleinbasel",
+      "lanecode": 4,
+      "sitename": "350 Dreirosenbrücke lokal",
+      "geo_point_2d": {
+        "lon": 7.5822672112284675,
+        "lat": 47.57073464565859
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "7a19caf394ea79cb49d3759a4c64dfbd97ab3ff9124289c3332d91afdd37fbce",
+      "quarter_mean": 35.56993865966797,
+      "quarter_min": 2.5,
+      "quarter_max": 176.0
+    },
+    {
+      "profile_id": "Basel100006_00000350_L05_7389acb1",
+      "sitecode": "00000350",
+      "directionname": "von Kleinbasel",
+      "lanecode": 5,
+      "sitename": "350 Dreirosenbrücke lokal",
+      "geo_point_2d": {
+        "lon": 7.5822672112284675,
+        "lat": 47.57073464565859
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "bfdd265ec0e707c5ecf367ff6d66723d4fc4bfb02a9ba2ddff02a3b0ddafd767",
+      "quarter_mean": 25.389881134033203,
+      "quarter_min": 0.0,
+      "quarter_max": 71.75
+    },
+    {
+      "profile_id": "Basel100006_00000350_L06_7389acb1",
+      "sitecode": "00000350",
+      "directionname": "von Kleinbasel",
+      "lanecode": 6,
+      "sitename": "350 Dreirosenbrücke lokal",
+      "geo_point_2d": {
+        "lon": 7.5822672112284675,
+        "lat": 47.57073464565859
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "8b7b2f0558251ad3c3a395104db87956b05fd2810a70922d14b05c079843a99a",
+      "quarter_mean": 60.681549072265625,
+      "quarter_min": 0.0,
+      "quarter_max": 184.0
+    },
+    {
+      "profile_id": "Basel100006_00000354_L01_a717ab70",
+      "sitecode": "00000354",
+      "directionname": "1 nach Kleinbasel",
+      "lanecode": 1,
+      "sitename": "354 Wettsteinbrücke",
+      "geo_point_2d": {
+        "lon": 7.597534724929921,
+        "lat": 47.55820141877389
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "6f59936e3c9b03a2e3329a61def00b6ba9541e37245c07feb5486f4ac6ac5ae9",
+      "quarter_mean": 59.168155670166016,
+      "quarter_min": 2.5,
+      "quarter_max": 130.25
+    },
+    {
+      "profile_id": "Basel100006_00000354_L02_fd5b2341",
+      "sitecode": "00000354",
+      "directionname": "2 von Kleinbasel",
+      "lanecode": 2,
+      "sitename": "354 Wettsteinbrücke",
+      "geo_point_2d": {
+        "lon": 7.597534724929921,
+        "lat": 47.55820141877389
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "74fec1752c383f259ff593f411367102a1c4c9b04eb17e744808c412e0272a8f",
+      "quarter_mean": 70.09970092773438,
+      "quarter_min": 4.0,
+      "quarter_max": 138.75
+    },
+    {
+      "profile_id": "Basel100006_00000402_L01_208bfadd",
+      "sitecode": "00000402",
+      "directionname": "1 von Rhein (1FS mit ÖV-Bus)",
+      "lanecode": 1,
+      "sitename": "402 Hochbergerstrasse 55",
+      "geo_point_2d": {
+        "lon": 7.596559169807959,
+        "lat": 47.57712597571495
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "feb70a98d1fe440d8a4add438fab2150147d0217c2397678dbf48722409b4f6b",
+      "quarter_mean": 122.86309814453125,
+      "quarter_min": 6.5,
+      "quarter_max": 226.5
+    },
+    {
+      "profile_id": "Basel100006_00000402_L02_81a55d35",
+      "sitecode": "00000402",
+      "directionname": "2 nach Rhein (1FS mit ÖV-Bus)",
+      "lanecode": 2,
+      "sitename": "402 Hochbergerstrasse 55",
+      "geo_point_2d": {
+        "lon": 7.596559169807959,
+        "lat": 47.57712597571495
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "ce5b1d244f9c1ae12663acf8ac9578076bcf4df1d6204b5505c6637ca30ddc48",
+      "quarter_mean": 85.52381134033203,
+      "quarter_min": 3.5,
+      "quarter_max": 160.75
+    },
+    {
+      "profile_id": "Basel100006_00000403_L02_f05c45c9",
+      "sitecode": "00000403",
+      "directionname": "1 nach Bahnhof SBB (1=R, 2=Ü)",
+      "lanecode": 2,
+      "sitename": "403 Heuwaage-Viadukt",
+      "geo_point_2d": {
+        "lon": 7.586770343609924,
+        "lat": 47.55208329837254
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "1c26d0c5736fb42dc7cb67f75e0c65e1542aff5a243d9076ec2142cfa84aaaac",
+      "quarter_mean": 47.53571319580078,
+      "quarter_min": 1.25,
+      "quarter_max": 133.75
+    },
+    {
+      "profile_id": "Basel100006_00000403_L03_9af84888",
+      "sitecode": "00000403",
+      "directionname": "2 von Bahnhof SBB (1=R, 2=Ü)",
+      "lanecode": 3,
+      "sitename": "403 Heuwaage-Viadukt",
+      "geo_point_2d": {
+        "lon": 7.586770343609924,
+        "lat": 47.55208329837254
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "3a9d78a1a79599c7f0fb9291685e3c47ffd5ca65cbe7c6e898bb343b39062b6a",
+      "quarter_mean": 59.90625,
+      "quarter_min": 1.5,
+      "quarter_max": 134.0
+    },
+    {
+      "profile_id": "Basel100006_00000403_L04_9af84888",
+      "sitecode": "00000403",
+      "directionname": "2 von Bahnhof SBB (1=R, 2=Ü)",
+      "lanecode": 4,
+      "sitename": "403 Heuwaage-Viadukt",
+      "geo_point_2d": {
+        "lon": 7.586770343609924,
+        "lat": 47.55208329837254
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "cdbc540ae665ecc27f4e5dbfa3e24fffbb90134139f97abdbd04233b9c6f66fe",
+      "quarter_mean": 25.488094329833984,
+      "quarter_min": 0.5,
+      "quarter_max": 83.5
+    },
+    {
+      "profile_id": "Basel100006_00000405_L01_c246dadc",
+      "sitecode": "00000405",
+      "directionname": "1 nach Bahnhof SBB (ohne ÖV-Bus)",
+      "lanecode": 1,
+      "sitename": "405 Dorenbachviadukt",
+      "geo_point_2d": {
+        "lon": 7.577120393744945,
+        "lat": 47.54418060766654
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "e1b8d281fa6cf1fed1d45c113e4419b9e6a03da1f9b34f7a6394ace11031bffa",
+      "quarter_mean": 94.72618865966797,
+      "quarter_min": 3.0,
+      "quarter_max": 221.25
+    },
+    {
+      "profile_id": "Basel100006_00000405_L02_13b3994e",
+      "sitecode": "00000405",
+      "directionname": "2 von Bahnhof SBB (ohne ÖV-Bus)",
+      "lanecode": 2,
+      "sitename": "405 Dorenbachviadukt",
+      "geo_point_2d": {
+        "lon": 7.577120393744945,
+        "lat": 47.54418060766654
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "e09f21b40a8e7c550b1c11cc4cc6e6a63dce72d6176a24cf76bd1850846e348d",
+      "quarter_mean": 72.12202453613281,
+      "quarter_min": 2.25,
+      "quarter_max": 160.25
+    },
+    {
+      "profile_id": "Basel100006_00000406_L01_ba2af4b8",
+      "sitecode": "00000406",
+      "directionname": "1 nach Neubad (1 FS mit ÖV-Bus)",
+      "lanecode": 1,
+      "sitename": "406 Wasgenring 62",
+      "geo_point_2d": {
+        "lon": 7.5640591118415825,
+        "lat": 47.562176713617234
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "8c24f191abd8fb63ebca4c50e3c144edaacbd32d4649cefc000878eac5543646",
+      "quarter_mean": 80.10862731933594,
+      "quarter_min": 3.75,
+      "quarter_max": 143.5
+    },
+    {
+      "profile_id": "Basel100006_00000406_L02_6f5c451a",
+      "sitecode": "00000406",
+      "directionname": "2 von Neubad (1 FS mit ÖV-Bus)",
+      "lanecode": 2,
+      "sitename": "406 Wasgenring 62",
+      "geo_point_2d": {
+        "lon": 7.5640591118415825,
+        "lat": 47.562176713617234
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "823f06f51e6f2601012c8e4be8194bd92bf665c734ae3de35415a3b5630e079d",
+      "quarter_mean": 79.01190185546875,
+      "quarter_min": 3.0,
+      "quarter_max": 160.0
+    },
+    {
+      "profile_id": "Basel100006_00000407_L01_a7982143",
+      "sitecode": "00000407",
+      "directionname": "1 nach Riehen (1 FS mit ÖV-Bus)",
+      "lanecode": 1,
+      "sitename": "407 Äussere Baselstrasse 381",
+      "geo_point_2d": {
+        "lon": 7.623986180100444,
+        "lat": 47.57228884391776
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "f2b9296fecc5e3b39cf6ee9072c115754353516584ca43b0cfa52a3e8984949b",
+      "quarter_mean": 65.98809814453125,
+      "quarter_min": 1.75,
+      "quarter_max": 141.25
+    },
+    {
+      "profile_id": "Basel100006_00000407_L02_7bef2c26",
+      "sitecode": "00000407",
+      "directionname": "2 nach Basel (1 FS mit ÖV-Bus)",
+      "lanecode": 2,
+      "sitename": "407 Äussere Baselstrasse 381",
+      "geo_point_2d": {
+        "lon": 7.623986180100444,
+        "lat": 47.57228884391776
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "9eb4fb668fb9e9609dbaa7eace4f0c7364c9fe0159c8bfb00893456c674bcb20",
+      "quarter_mean": 70.85713958740234,
+      "quarter_min": 3.0,
+      "quarter_max": 150.5
+    },
+    {
+      "profile_id": "Basel100006_00000408_L01_a7982143",
+      "sitecode": "00000408",
+      "directionname": "1 nach Riehen (1 FS mit ÖV-Bus)",
+      "lanecode": 1,
+      "sitename": "408 Bäumlihofstrasse",
+      "geo_point_2d": {
+        "lon": 7.628571365993931,
+        "lat": 47.57040322055111
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "a4933dbdcbdfea774b36ce52a860ee7ca7db191131c7462678cc0dfab821237f",
+      "quarter_mean": 16.03125,
+      "quarter_min": 0.0,
+      "quarter_max": 43.5
+    },
+    {
+      "profile_id": "Basel100006_00000408_L02_7bef2c26",
+      "sitecode": "00000408",
+      "directionname": "2 nach Basel (1 FS mit ÖV-Bus)",
+      "lanecode": 2,
+      "sitename": "408 Bäumlihofstrasse",
+      "geo_point_2d": {
+        "lon": 7.628571365993931,
+        "lat": 47.57040322055111
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "252f135666c9000b4398c6521a6ac49f2c5542bd9f4aa0f7350ddd488cb7af3f",
+      "quarter_mean": 14.120535850524902,
+      "quarter_min": 0.0,
+      "quarter_max": 31.5
+    },
+    {
+      "profile_id": "Basel100006_00000409_L01_a7982143",
+      "sitecode": "00000409",
+      "directionname": "1 nach Riehen (1 FS mit ÖV-Bus)",
+      "lanecode": 1,
+      "sitename": "409 Grenzacherstrasse 511",
+      "geo_point_2d": {
+        "lon": 7.630105944853086,
+        "lat": 47.562805939871886
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "2a76ecf2e7356c729428c7c50f24b97eb4fd50430ae64287d0d301ba0a513d4b",
+      "quarter_mean": 81.70684814453125,
+      "quarter_min": 1.0,
+      "quarter_max": 202.25
+    },
+    {
+      "profile_id": "Basel100006_00000409_L02_1b7c59a5",
+      "sitecode": "00000409",
+      "directionname": "2 von Riehen (1 FS mit ÖV-Bus)",
+      "lanecode": 2,
+      "sitename": "409 Grenzacherstrasse 511",
+      "geo_point_2d": {
+        "lon": 7.630105944853086,
+        "lat": 47.562805939871886
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "3d75b0badda306a25d9959a33a760dc0dd3ad1da8638cbeb8e4d5e0135e49877",
+      "quarter_mean": 85.65178680419922,
+      "quarter_min": 2.0,
+      "quarter_max": 209.25
+    },
+    {
+      "profile_id": "Basel100006_00000410_L01_9df23fde",
+      "sitecode": "00000410",
+      "directionname": "1 von Bahnhof SBB",
+      "lanecode": 1,
+      "sitename": "410 St. Alban-Anlage 72",
+      "geo_point_2d": {
+        "lon": 7.604592815212347,
+        "lat": 47.55271160182862
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "eefc09f73fc6583a08a9565efa4bf548dd6601d67ce72840c62d1c9046fdc93d",
+      "quarter_mean": 66.57142639160156,
+      "quarter_min": 2.75,
+      "quarter_max": 165.5
+    },
+    {
+      "profile_id": "Basel100006_00000410_L02_d4e8a2ca",
+      "sitecode": "00000410",
+      "directionname": "2 nach Bahnhof SBB",
+      "lanecode": 2,
+      "sitename": "410 St. Alban-Anlage 72",
+      "geo_point_2d": {
+        "lon": 7.604592815212347,
+        "lat": 47.55271160182862
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "115ee1f84a6ccdecf76b7f03b673e309e3931130ac3e6b2c42dd8f3b00325ebe",
+      "quarter_mean": 43.80356979370117,
+      "quarter_min": 1.0,
+      "quarter_max": 128.5
+    },
+    {
+      "profile_id": "Basel100006_00000411_L01_4b4d670a",
+      "sitecode": "00000411",
+      "directionname": "1 nach Riehen (1=rechte S, 2=Unterführung mit ÖV-Bus)",
+      "lanecode": 1,
+      "sitename": "411 Fasanenstrasse",
+      "geo_point_2d": {
+        "lon": 7.602215583648604,
+        "lat": 47.57390675755543
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "2a428ae27dbe299f1eb31bd387f67842ffebbb9f3e1422784c9aab547a2fdc66",
+      "quarter_mean": 13.659226417541504,
+      "quarter_min": 0.25,
+      "quarter_max": 30.25
+    },
+    {
+      "profile_id": "Basel100006_00000411_L02_4b4d670a",
+      "sitecode": "00000411",
+      "directionname": "1 nach Riehen (1=rechte S, 2=Unterführung mit ÖV-Bus)",
+      "lanecode": 2,
+      "sitename": "411 Fasanenstrasse",
+      "geo_point_2d": {
+        "lon": 7.602215583648604,
+        "lat": 47.57390675755543
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "3014af1a1d2d76274f09f56f1bc9de978965f364a8b3a8a323b1a731251e72c1",
+      "quarter_mean": 29.03125,
+      "quarter_min": 0.5,
+      "quarter_max": 70.25
+    },
+    {
+      "profile_id": "Basel100006_00000411_L03_9f725add",
+      "sitecode": "00000411",
+      "directionname": "2 von Riehen (1=rechte S mit ÖV-Bus, 2=Unterführung)",
+      "lanecode": 3,
+      "sitename": "411 Fasanenstrasse",
+      "geo_point_2d": {
+        "lon": 7.602215583648604,
+        "lat": 47.57390675755543
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "7ce3d93b64b3def075e3e878fcedd15f1323d6e277ca9c37ab41858feefaf1c5",
+      "quarter_mean": 26.48660659790039,
+      "quarter_min": 0.0,
+      "quarter_max": 70.25
+    },
+    {
+      "profile_id": "Basel100006_00000411_L04_9f725add",
+      "sitecode": "00000411",
+      "directionname": "2 von Riehen (1=rechte S mit ÖV-Bus, 2=Unterführung)",
+      "lanecode": 4,
+      "sitename": "411 Fasanenstrasse",
+      "geo_point_2d": {
+        "lon": 7.602215583648604,
+        "lat": 47.57390675755543
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "67100bec56081c74f1352df948aa938c1af852c685f16b4ea83ae44a0fb5fb31",
+      "quarter_mean": 12.130952835083008,
+      "quarter_min": 0.0,
+      "quarter_max": 28.75
+    },
+    {
+      "profile_id": "Basel100006_00000412_L01_d06c5509",
+      "sitecode": "00000412",
+      "directionname": "von Dreispitz (1+2 FS, 1=rechte FS mit öV-Bus)",
+      "lanecode": 1,
+      "sitename": "412 Dornacherstrasse 49",
+      "geo_point_2d": {
+        "lon": 7.5862100918060875,
+        "lat": 47.54458031697269
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "052e17e30614c788064c974486cfdfc3dd3ea245d1c0d29df9164d1f44bd08c5",
+      "quarter_mean": 5.59375,
+      "quarter_min": 0.0,
+      "quarter_max": 16.5
+    },
+    {
+      "profile_id": "Basel100006_00000412_L02_d06c5509",
+      "sitecode": "00000412",
+      "directionname": "von Dreispitz (1+2 FS, 1=rechte FS mit öV-Bus)",
+      "lanecode": 2,
+      "sitename": "412 Dornacherstrasse 49",
+      "geo_point_2d": {
+        "lon": 7.5862100918060875,
+        "lat": 47.54458031697269
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "fa04f8d44d0c85a81825eb99880d9efa5f5b88c1f1dc9982f462b40d9418769e",
+      "quarter_mean": 57.6398811340332,
+      "quarter_min": 1.25,
+      "quarter_max": 134.5
+    },
+    {
+      "profile_id": "Basel100006_00000413_L02_c0b72a40",
+      "sitecode": "00000413",
+      "directionname": "nach Dreispitz (ohne Spur 1: Busspur)",
+      "lanecode": 2,
+      "sitename": "413 Gundeldingerstrasse 107",
+      "geo_point_2d": {
+        "lon": 7.584995701861085,
+        "lat": 47.54273560620856
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "39bf8d7c562cd76bf0c26d573f2dd184935e84d5e84f837af27429e76ca80ee1",
+      "quarter_mean": 71.53720092773438,
+      "quarter_min": 1.75,
+      "quarter_max": 164.5
+    },
+    {
+      "profile_id": "Basel100006_00000415_L01_d9a627a3",
+      "sitecode": "00000415",
+      "directionname": "1 von Bahnhof SBB  (1+2 FS)",
+      "lanecode": 1,
+      "sitename": "415 Grosspeterstrasse 45",
+      "geo_point_2d": {
+        "lon": 7.601743901702687,
+        "lat": 47.545187541501434
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "c9db5e47b67f2363a947be297434a4a025c08d6173883dc6c24d72fa4c64eedc",
+      "quarter_mean": 105.94642639160156,
+      "quarter_min": 6.25,
+      "quarter_max": 208.5
+    },
+    {
+      "profile_id": "Basel100006_00000415_L02_d9a627a3",
+      "sitecode": "00000415",
+      "directionname": "1 von Bahnhof SBB  (1+2 FS)",
+      "lanecode": 2,
+      "sitename": "415 Grosspeterstrasse 45",
+      "geo_point_2d": {
+        "lon": 7.601743901702687,
+        "lat": 47.545187541501434
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "5a9c864f0ffb851707b5bebde2f64b688aae1a771b78acee4c5ca95f5d65b145",
+      "quarter_mean": 88.6547622680664,
+      "quarter_min": 1.5,
+      "quarter_max": 240.75
+    },
+    {
+      "profile_id": "Basel100006_00000419_L01_f65a7ec4",
+      "sitecode": "00000419",
+      "directionname": "1 von Feldbergstrasse (1 FS bei Tramhaltestelle)",
+      "lanecode": 1,
+      "sitename": "419 Riehenring 120",
+      "geo_point_2d": {
+        "lon": 7.5976732524694865,
+        "lat": 47.56655680710876
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "72baef6efd78d94c5ed417a752ba68e9fdeb41f2b98b87f9cdd08e1d3e1a5adb",
+      "quarter_mean": 37.5788688659668,
+      "quarter_min": 3.25,
+      "quarter_max": 93.5
+    },
+    {
+      "profile_id": "Basel100006_00000419_L02_4202c0d1",
+      "sitecode": "00000419",
+      "directionname": "2 nach Feldbergstrasse (1 FS bei Tramhaltestelle)",
+      "lanecode": 2,
+      "sitename": "419 Riehenring 120",
+      "geo_point_2d": {
+        "lon": 7.5976732524694865,
+        "lat": 47.56655680710876
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "eb6450dfc94a7ea2f112c03a724c7db837a07b2d33bf44ce184a9479e28bf1ab",
+      "quarter_mean": 23.933034896850586,
+      "quarter_min": 1.5,
+      "quarter_max": 55.5
+    },
+    {
+      "profile_id": "Basel100006_00000420_L01_f2c8624c",
+      "sitecode": "00000420",
+      "directionname": "1 nach Grosspeter",
+      "lanecode": 1,
+      "sitename": "420 Nauenstrasse 73",
+      "geo_point_2d": {
+        "lon": 7.595610568803667,
+        "lat": 47.54630020536112
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "ba5e941a9436732ed70931f84e94e2de782f09541a5e942f015d6a3de8b0382a",
+      "quarter_mean": 91.67262268066406,
+      "quarter_min": 8.5,
+      "quarter_max": 168.25
+    },
+    {
+      "profile_id": "Basel100006_00000420_L02_f2c8624c",
+      "sitecode": "00000420",
+      "directionname": "1 nach Grosspeter",
+      "lanecode": 2,
+      "sitename": "420 Nauenstrasse 73",
+      "geo_point_2d": {
+        "lon": 7.595610568803667,
+        "lat": 47.54630020536112
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "0743065c96e0ee248b6a63620ffeb102110e862e9d39e1e151be54087b533d13",
+      "quarter_mean": 64.84375,
+      "quarter_min": 1.5,
+      "quarter_max": 139.5
+    },
+    {
+      "profile_id": "Basel100006_00000420_L03_0e0041f2",
+      "sitecode": "00000420",
+      "directionname": "2 von Grosspeter",
+      "lanecode": 3,
+      "sitename": "420 Nauenstrasse 73",
+      "geo_point_2d": {
+        "lon": 7.595610568803667,
+        "lat": 47.54630020536112
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "46a5cdaab83158a907fc8cbcfa42182c1b9a666568e95837237c8e15ae0910ab",
+      "quarter_mean": 125.21428680419922,
+      "quarter_min": 5.75,
+      "quarter_max": 230.0
+    },
+    {
+      "profile_id": "Basel100006_00000420_L04_0e0041f2",
+      "sitecode": "00000420",
+      "directionname": "2 von Grosspeter",
+      "lanecode": 4,
+      "sitename": "420 Nauenstrasse 73",
+      "geo_point_2d": {
+        "lon": 7.595610568803667,
+        "lat": 47.54630020536112
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "ee01a4fa11c3e5a4a4de7f42540abde6959f449e2a9b89db12b71d1311475e2a",
+      "quarter_mean": 42.54464340209961,
+      "quarter_min": 1.75,
+      "quarter_max": 85.75
+    },
+    {
+      "profile_id": "Basel100006_00000651_L01_9581f46d",
+      "sitecode": "00000651",
+      "directionname": "1 von Kannenfeldplatz",
+      "lanecode": 1,
+      "sitename": "651 Entenweidstrasse 74",
+      "geo_point_2d": {
+        "lon": 7.573804224341444,
+        "lat": 47.568094067322086
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "0ead03ba499999d30a31992c5e83eac5823f91e5c12da9c02f08ee0e9b7c9fc3",
+      "quarter_mean": 18.70089340209961,
+      "quarter_min": 0.5,
+      "quarter_max": 42.75
+    },
+    {
+      "profile_id": "Basel100006_00000651_L02_aea6dc81",
+      "sitecode": "00000651",
+      "directionname": "2 nach Kannenfeldplatz",
+      "lanecode": 2,
+      "sitename": "651 Entenweidstrasse 74",
+      "geo_point_2d": {
+        "lon": 7.573804224341444,
+        "lat": 47.568094067322086
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "318bf733fe267b1c5400201a309427f15d7030835ef897cdf025a57fcbcfde69",
+      "quarter_mean": 13.337797164916992,
+      "quarter_min": 0.25,
+      "quarter_max": 27.5
+    },
+    {
+      "profile_id": "Basel100006_00000653_L01_918e60f5",
+      "sitecode": "00000653",
+      "directionname": "1 von Frankreich (1 FS mit ÖV-Bus)",
+      "lanecode": 1,
+      "sitename": "653 Flughafenstrasse 30",
+      "geo_point_2d": {
+        "lon": 7.571017179079803,
+        "lat": 47.56761298839722
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "321d48846be1261923ef7b0f9233f052e1ca5c5d837a3bd97e6cc23d1ee51531",
+      "quarter_mean": 62.7336311340332,
+      "quarter_min": 3.5,
+      "quarter_max": 186.0
+    },
+    {
+      "profile_id": "Basel100006_00000653_L02_0d53a7b7",
+      "sitecode": "00000653",
+      "directionname": "2 nach Frankreich (1 FS mit ÖV-Bus)",
+      "lanecode": 2,
+      "sitename": "653 Flughafenstrasse 30",
+      "geo_point_2d": {
+        "lon": 7.571017179079803,
+        "lat": 47.56761298839722
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "058ad1d0f9cbe115f1fc4e8819638df230f7d1daa11f0be0445f2014632edc76",
+      "quarter_mean": 54.279762268066406,
+      "quarter_min": 3.0,
+      "quarter_max": 150.75
+    },
+    {
+      "profile_id": "Basel100006_00000656_L01_af12f1a8",
+      "sitecode": "00000656",
+      "directionname": "1 von Frankreich",
+      "lanecode": 1,
+      "sitename": "656 Elsässerstrasse 146",
+      "geo_point_2d": {
+        "lon": 7.574713950154656,
+        "lat": 47.574124678054524
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "3dfe7580e9b2aa5d642718a31ea2e7c2fc7f2a29045cf5110e5d667eca6ff26f",
+      "quarter_mean": 35.0476188659668,
+      "quarter_min": 1.25,
+      "quarter_max": 92.75
+    },
+    {
+      "profile_id": "Basel100006_00000659_L01_dacef7c3",
+      "sitecode": "00000659",
+      "directionname": "1 von Autobahnz. F",
+      "lanecode": 1,
+      "sitename": "659 Schlachthofstrasse",
+      "geo_point_2d": {
+        "lon": 7.567341742371509,
+        "lat": 47.57686090239828
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "691b7822eddef31135cce58df7e5f210e6096ba1d0ff176193a97cd15ee0be74",
+      "quarter_mean": 34.83481979370117,
+      "quarter_min": 2.5,
+      "quarter_max": 151.25
+    },
+    {
+      "profile_id": "Basel100006_00000659_L02_941949f4",
+      "sitecode": "00000659",
+      "directionname": "2 nach Autobahnz. F",
+      "lanecode": 2,
+      "sitename": "659 Schlachthofstrasse",
+      "geo_point_2d": {
+        "lon": 7.567341742371509,
+        "lat": 47.57686090239828
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "45e62251214a70c79b900ceffb7f1ee4d4a217e204041d4630a4bea036a5a4f4",
+      "quarter_mean": 46.19047546386719,
+      "quarter_min": 2.0,
+      "quarter_max": 114.25
+    },
+    {
+      "profile_id": "Basel100006_00000660_L01_abf6ce5d",
+      "sitecode": "00000660",
+      "directionname": "1 von Flughafen (1 FS mit ÖV-Bus)",
+      "lanecode": 1,
+      "sitename": "660 Flughafenstrasse",
+      "geo_point_2d": {
+        "lon": 7.562359755144732,
+        "lat": 47.57479820392032
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "ac2ce2976e8851303af9e8c7ea32f60d4e689264d34b814abade53292b54056f",
+      "quarter_mean": 55.019344329833984,
+      "quarter_min": 0.25,
+      "quarter_max": 119.75
+    },
+    {
+      "profile_id": "Basel100006_00000660_L02_995cfc50",
+      "sitecode": "00000660",
+      "directionname": "2 nach Flughafen (1 FS mit ÖV-Bus)",
+      "lanecode": 2,
+      "sitename": "660 Flughafenstrasse",
+      "geo_point_2d": {
+        "lon": 7.562359755144732,
+        "lat": 47.57479820392032
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "4e4910f92679194e578d1fda425f7e6e72e57fc968f9f3aeb0bac7c7bb598628",
+      "quarter_mean": 56.78422546386719,
+      "quarter_min": 0.75,
+      "quarter_max": 109.0
+    },
+    {
+      "profile_id": "Basel100006_00000672_L01_89f6c275",
+      "sitecode": "00000672",
+      "directionname": "1 von Deutschland",
+      "lanecode": 1,
+      "sitename": "672 Zoll CH-D, Weilstrasse",
+      "geo_point_2d": {
+        "lon": 7.64377560544447,
+        "lat": 47.592079051111035
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "6d6ab2e24e8c8288edd5342d42d47b8f566722f2d2c23d2cc33f07d45a0df0d4",
+      "quarter_mean": 17.73214340209961,
+      "quarter_min": 0.0,
+      "quarter_max": 43.0
+    },
+    {
+      "profile_id": "Basel100006_00000672_L02_57fb2f8d",
+      "sitecode": "00000672",
+      "directionname": "2 nach Deutschland",
+      "lanecode": 2,
+      "sitename": "672 Zoll CH-D, Weilstrasse",
+      "geo_point_2d": {
+        "lon": 7.64377560544447,
+        "lat": 47.592079051111035
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "968f64e6ef3499e457a1c21e8660b1fd2edc3792e3188d44309dd04607203321",
+      "quarter_mean": 18.168155670166016,
+      "quarter_min": 0.0,
+      "quarter_max": 51.5
+    },
+    {
+      "profile_id": "Basel100006_1430_L03_38a817d1",
+      "sitecode": "1430",
+      "directionname": "nach SBB",
+      "lanecode": 3,
+      "sitename": "LSA143 Steinenring 50",
+      "geo_point_2d": {
+        "lon": 7.58026038063243,
+        "lat": 47.55088387029178
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "a0c23c6f5451e7381077d46b469876b917bab19df20f8476b4d31641618c5ff1",
+      "quarter_mean": 63.71875,
+      "quarter_min": 1.25,
+      "quarter_max": 141.0
+    },
+    {
+      "profile_id": "Basel100006_1441_L02_7709923e",
+      "sitecode": "1441",
+      "directionname": "nach Steinenring",
+      "lanecode": 2,
+      "sitename": "LSA 144 Arnold Böcklin Str. 1",
+      "geo_point_2d": {
+        "lon": 7.578813856916199,
+        "lat": 47.551271288377045
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "89614a2625872ad30b81aecc7d650d7a70b7c8f74bf135aba37e878e50e83d2f",
+      "quarter_mean": 21.029762268066406,
+      "quarter_min": 0.0,
+      "quarter_max": 59.0
+    },
+    {
+      "profile_id": "Basel100006_1450_L60_07e6929c",
+      "sitecode": "1450",
+      "directionname": "nach Spalenring",
+      "lanecode": 60,
+      "sitename": "LSA145 Weiherweg vis 48",
+      "geo_point_2d": {
+        "lon": 7.575601928945834,
+        "lat": 47.553598549374016
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "0012cdf2f2e4a8d673d07e68e48dfd6cdb203a3607bfd2cddb974e79ad2bd4ba",
+      "quarter_mean": 6.029761791229248,
+      "quarter_min": 0.0,
+      "quarter_max": 21.5
+    },
+    {
+      "profile_id": "Basel100006_1451_L67_07e6929c",
+      "sitecode": "1451",
+      "directionname": "nach Spalenring",
+      "lanecode": 67,
+      "sitename": "LSA145 Weiherweg 22",
+      "geo_point_2d": {
+        "lon": 7.577626496158691,
+        "lat": 47.553982255245025
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "3c7bb2e8f64b12cad69d36ca2163306e30f07d636195e0c229fdbdc2d5d083a7",
+      "quarter_mean": 7.078868865966797,
+      "quarter_min": 0.0,
+      "quarter_max": 17.75
+    },
+    {
+      "profile_id": "Basel100006_2360_L12_cd239577",
+      "sitecode": "2360",
+      "directionname": "Schorenweg 40 Ri. Fasanenstrasse",
+      "lanecode": 12,
+      "sitename": "LSA236 Schorenweg",
+      "geo_point_2d": {
+        "lon": 7.6112911016773115,
+        "lat": 47.57199527540268
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "9d04be906310bb2df0cfa6235afab4e6efc39d229e298f6cbe632fbae0c116ce",
+      "quarter_mean": 11.604166984558105,
+      "quarter_min": 0.0,
+      "quarter_max": 30.75
+    },
+    {
+      "profile_id": "Basel100006_2530_L15_2eb5f750",
+      "sitecode": "2530",
+      "directionname": "nach Feldbergstrasse MIV",
+      "lanecode": 15,
+      "sitename": "LSA253 Hammerstr. 123",
+      "geo_point_2d": {
+        "lon": 7.595221551679441,
+        "lat": 47.56686064256049
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "426a968b1a97520178770ca690ba3b97716fa434c6ccc0dd692304cb9a83c9eb",
+      "quarter_mean": 32.4538688659668,
+      "quarter_min": 0.5,
+      "quarter_max": 68.75
+    },
+    {
+      "profile_id": "Basel100006_2610_L10_49f94ef2",
+      "sitecode": "2610",
+      "directionname": "nach Basel",
+      "lanecode": 10,
+      "sitename": "LSA261 Klybeckstrasse (Ciba)",
+      "geo_point_2d": {
+        "lon": 7.590036684523637,
+        "lat": 47.5727574161807
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "76319843acd3df5031bcce949313e42b0d39a8c37c2208f50984a64f8bb088be",
+      "quarter_mean": 61.28125,
+      "quarter_min": 1.25,
+      "quarter_max": 128.0
+    },
+    {
+      "profile_id": "Basel100006_2610_L05_23b2965d",
+      "sitecode": "2610",
+      "directionname": "nach Deutschland",
+      "lanecode": 5,
+      "sitename": "LSA261 Klybeckstrasse (Ciba)",
+      "geo_point_2d": {
+        "lon": 7.590036684523637,
+        "lat": 47.5727574161807
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "1721db34fe66c31987b340d7c8d25ff060d85c57c94ead82c5d9609972b1190f",
+      "quarter_mean": 40.005950927734375,
+      "quarter_min": 0.25,
+      "quarter_max": 81.25
+    },
+    {
+      "profile_id": "Basel100006_3270_L01_873b1e2a",
+      "sitecode": "3270",
+      "directionname": "nach Elsässerstrasse",
+      "lanecode": 1,
+      "sitename": "LSA327 Mülhauserstrasse 61",
+      "geo_point_2d": {
+        "lon": 7.579609695478143,
+        "lat": 47.568300022446415
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "8d76d6db06c7aebdf3bcecbb869c4fb14fc40d35de329a9a114dae31dd5ceeda",
+      "quarter_mean": 19.01041603088379,
+      "quarter_min": 0.0,
+      "quarter_max": 45.5
+    },
+    {
+      "profile_id": "Basel100006_3380_L14_c66a8912",
+      "sitecode": "3380",
+      "directionname": "Laupenring",
+      "lanecode": 14,
+      "sitename": "LSA338 Reiterstrasse 3",
+      "geo_point_2d": {
+        "lon": 7.565657417463769,
+        "lat": 47.54916359020024
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "20410d1e3ad2f92a3df00a0a7b399e422e25631042f75a2871dc0662cfa5608b",
+      "quarter_mean": 17.98660659790039,
+      "quarter_min": 0.0,
+      "quarter_max": 42.25
+    },
+    {
+      "profile_id": "Basel100006_5180_L08_c602f5fd",
+      "sitecode": "5180",
+      "directionname": "Gundeldingerstrasse (ohne Velo)",
+      "lanecode": 8,
+      "sitename": "LSA518 Sempacherstrasse 68",
+      "geo_point_2d": {
+        "lon": 7.586788954004807,
+        "lat": 47.54255498470267
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "e62d9478e75935a17ca7b196e1857ed6fa8af8d2fe9280cd481b070b9d9b6084",
+      "quarter_mean": 12.046131134033203,
+      "quarter_min": 0.0,
+      "quarter_max": 28.0
+    },
+    {
+      "profile_id": "Basel100006_5710_L30_a2a34c97",
+      "sitecode": "5710",
+      "directionname": "St. Jakobs-Str.",
+      "lanecode": 30,
+      "sitename": "LSA571 Singerstrasse 8",
+      "geo_point_2d": {
+        "lon": 7.6045723445080435,
+        "lat": 47.54523713090779
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "dd738828ed085eabc6d93adf4d3bdef6a0f088861c4228a690705ac8ee81d2bc",
+      "quarter_mean": 7.794642925262451,
+      "quarter_min": 0.0,
+      "quarter_max": 20.25
+    },
+    {
+      "profile_id": "Basel100006_7720_L07_f9420042",
+      "sitecode": "7720",
+      "directionname": "nach Leimenstrasse",
+      "lanecode": 7,
+      "sitename": "LSA772 Austrasse 38",
+      "geo_point_2d": {
+        "lon": 7.582547766207445,
+        "lat": 47.55332843870198
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "7a9a2b99b4c4fa7f0d9e2dd8c80ad548b59878bc45b076d4577fa67d107c8327",
+      "quarter_mean": 47.1413688659668,
+      "quarter_min": 0.25,
+      "quarter_max": 125.0
+    },
+    {
+      "profile_id": "Basel100006_7740_L04_2c6ce582",
+      "sitecode": "7740",
+      "directionname": "1 nach Schützengraben",
+      "lanecode": 4,
+      "sitename": "LSA774 Schützenmattstrasse 26",
+      "geo_point_2d": {
+        "lon": 7.580958047448778,
+        "lat": 47.55594683072249
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "8181c903c0a95f19cc1975dc7f6bf9099ec0d3b49423903f4ce68d2afa8f9343",
+      "quarter_mean": 30.002975463867188,
+      "quarter_min": 0.0,
+      "quarter_max": 71.0
+    },
+    {
+      "profile_id": "Basel100006_7740_L09_283d5616",
+      "sitecode": "7740",
+      "directionname": "2 von Schützengraben",
+      "lanecode": 9,
+      "sitename": "LSA774 Schützenmattstrasse 26",
+      "geo_point_2d": {
+        "lon": 7.580958047448778,
+        "lat": 47.55594683072249
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "4113578888b3354f37daa2be8316a56f69f10ba300f762ea179057760da0aee9",
+      "quarter_mean": 35.09077453613281,
+      "quarter_min": 0.0,
+      "quarter_max": 76.5
+    },
+    {
+      "profile_id": "Basel100006_84111101_L01_c3b7b097",
+      "sitecode": "84111101",
+      "directionname": "1 nach Deutschland",
+      "lanecode": 1,
+      "sitename": "670 Zoll CH-D, Hiltalingerstrasse",
+      "geo_point_2d": {
+        "lon": 7.593116208601807,
+        "lat": 47.58892601154548
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "d4c5ca639cafce634cbf7306fc7be5ffec0a0c5fe907ad1ca03fead6eb82c629",
+      "quarter_mean": 49.25,
+      "quarter_min": 0.75,
+      "quarter_max": 124.25
+    },
+    {
+      "profile_id": "Basel100006_84111101_L02_37c392fc",
+      "sitecode": "84111101",
+      "directionname": "2 von Deutschland",
+      "lanecode": 2,
+      "sitename": "670 Zoll CH-D, Hiltalingerstrasse",
+      "geo_point_2d": {
+        "lon": 7.593116208601807,
+        "lat": 47.58892601154548
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "3e542afdedadfda84b5c982fac87e0e8de15a1e00e98e6203949c8b9b4314582",
+      "quarter_mean": 57.712799072265625,
+      "quarter_min": 2.5,
+      "quarter_max": 131.5
+    },
+    {
+      "profile_id": "Basel100006_84111106_L01_a1ae691a",
+      "sitecode": "84111106",
+      "directionname": "1 nach Deutschland (1 FS mit ÖV-Bus)",
+      "lanecode": 1,
+      "sitename": "671 Zoll CH-D, Freiburgerstrasse",
+      "geo_point_2d": {
+        "lon": 7.604501609021102,
+        "lat": 47.58118600622879
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "a6146f9df490a86ba9b3a5c333b8f8dfd8a85ea0369b56d22c4db9af16eaa83d",
+      "quarter_mean": 78.79315185546875,
+      "quarter_min": 2.0,
+      "quarter_max": 198.75
+    },
+    {
+      "profile_id": "Basel100006_84111106_L02_a81e1666",
+      "sitecode": "84111106",
+      "directionname": "2 von Deutschland (1 FS mit ÖV-Bus)",
+      "lanecode": 2,
+      "sitename": "671 Zoll CH-D, Freiburgerstrasse",
+      "geo_point_2d": {
+        "lon": 7.604501609021102,
+        "lat": 47.58118600622879
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "b8454ad3b2d77f74820505aba5466a98dd0fc200828d2b9124dbc7cca582ecff",
+      "quarter_mean": 73.27083587646484,
+      "quarter_min": 3.75,
+      "quarter_max": 162.25
+    },
+    {
+      "profile_id": "Basel100006_84111108_L01_c3b7b097",
+      "sitecode": "84111108",
+      "directionname": "1 nach Deutschland",
+      "lanecode": 1,
+      "sitename": "673 Zoll CH-D, Lörracherstrasse",
+      "geo_point_2d": {
+        "lon": 7.655596948928532,
+        "lat": 47.59526403022704
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "1f00b95c6595509f3ab2c71616c8ca33b5576d7aa52bc4b11145d6895186409b",
+      "quarter_mean": 37.19791793823242,
+      "quarter_min": 0.0,
+      "quarter_max": 91.75
+    },
+    {
+      "profile_id": "Basel100006_84111108_L04_37c392fc",
+      "sitecode": "84111108",
+      "directionname": "2 von Deutschland",
+      "lanecode": 4,
+      "sitename": "673 Zoll CH-D, Lörracherstrasse",
+      "geo_point_2d": {
+        "lon": 7.655596948928532,
+        "lat": 47.59526403022704
+      },
+      "source_intervals": 168,
+      "quarter_values": 672,
+      "conversion": "each hourly total/4 repeated for four quarters",
+      "profile_float32_sha256": "5134e6e5eebf87495206916c5a7df72477cf038441d796f422080a72d0a8867f",
+      "quarter_mean": 42.46131134033203,
+      "quarter_min": 1.0,
+      "quarter_max": 106.0
+    }
+  ]
+}

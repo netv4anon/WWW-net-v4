@@ -1,0 +1,7 @@
+# Source attribution and scope
+
+Context is Key (Williams et al., ICML 2025): https://proceedings.mlr.press/v267/williams25a.html . This probe inspects source commit 73f46016f8c5643bf6799ca31875eab3e8d0d075 of https://github.com/ServiceNow/context-is-key-forecasting , dated 2026-02-11. It does not assert that this later code snapshot is the exact historical implementation behind the published results. The included original source files retain their bytes and are covered by the included upstream Apache-2.0 LICENSE.md. Our harness extracts unchanged function bodies and substitutes a bounded local data loader.
+
+TrafficFresh source: https://huggingface.co/datasets/yatsbm/TrafficFresh/tree/72f9682ad1ce00006090e61adedff5898ec3f963 . The repository README attributes data to https://pems.dot.ca.gov/ and does not state a dataset redistribution license. This local research companion does not assign a new license to upstream observations and has not been uploaded. Public release decisions remain separate from this local scientific check.
+
+Only the first 1 MiB of traffic_merged_sensor_data.csv was requested. The selected series and paired scenarios are a bounded, documented derivative; they are not the original whole dataset or official benchmark sample. Full source size and LFS digest are metadata bindings; a prefix cannot verify a full-file content digest. HTTP version, range, prefix digest and the original source code blob identities are checked.

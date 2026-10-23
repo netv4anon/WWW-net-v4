@@ -1,0 +1,12 @@
+{
+  "dataset": "lixiangfan/data4igstgnn",
+  "version": 1,
+  "region": "Contra_Costa",
+  "filename": "incident_all.npy",
+  "url": "https://www.kaggle.com/datasets/lixiangfan/data4igstgnn",
+  "bytes": 865971481,
+  "sha256": "bc6c5608457f88864625d683f9a66d17bc0fc31fe5acba366b6033708a099279",
+  "offset_manifest_sha256": "57f6170883281c81a47255b51901594873a0e1b7d8d0c4dea0399d44f10d089f",
+  "code_commit": "64c6e243466f791f1b75e50421d63e39577ec9fa",
+  "source_data_included": false
+}

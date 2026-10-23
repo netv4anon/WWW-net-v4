@@ -1,0 +1,87 @@
+{
+  "fixed_utc": "2026-10-15T11:46:17.109387+00:00",
+  "source": "Open Data Basel-Stadt dataset 100006",
+  "publisher": "Amt fuer Mobilitaet, Basel-Stadt",
+  "license": "CC BY 4.0",
+  "metadata_sha256": "788ffd3e7a54c216a1c2a56952320b4be711d9c5aedc51986eae1cad691ab089",
+  "request": "https://data.bs.ch/api/explore/v2.1/catalog/datasets/100006/exports/json?select=sitecode%2Czst_nr%2Csitename%2Cdirectionname%2Clanecode%2Clanename%2Cdatetimefrom%2Cdatetimeto%2Ctotal%2Cvaluesapproved%2Cvaluesedited%2Cgeo_point_2d&where=datetimefrom+%3E%3D+date%272024-09-01T22%3A00%3A00Z%27+AND+datetimefrom+%3C+date%272024-09-08T22%3A00%3A00Z%27&order_by=sitecode%2Cdirectionname%2Clanecode%2Cdatetimefrom&timezone=UTC",
+  "window_local_half_open": [
+    "2024-09-02T00:00:00+02:00",
+    "2024-09-09T00:00:00+02:00"
+  ],
+  "population": "all sitecode/directionname/lanecode channels returned for the fixed week; no count cap or outcome selection",
+  "source_units": "vehicles per observed one-hour lane/direction interval",
+  "profile_units": "vehicles per nominal 15-minute interval, using fixed uniform allocation of each hourly count into four quarters",
+  "allocation": "q[d,4*h:4*h+4] = hourly_total/4; no interpolation or smoothing added at intake",
+  "allocation_limitation": "quarter-hour detail is assumed uniform, not observed; original constructor smoothing/noise stays unchanged",
+  "quality": {
+    "expected_unique_hourly_intervals": 168,
+    "interval_seconds": 3600,
+    "require_nonnegative_finite_integer_count": true,
+    "require_valuesapproved": 1,
+    "require_valuesedited": 0,
+    "require_complete_hour_grid": true,
+    "any_duplicate_interval_rejects_channel": true,
+    "imputation": "none",
+    "weekly_mean": "strictly positive"
+  },
+  "duplicate_rule": {
+    "metric": "RMS difference / maximum of the two weekly means",
+    "threshold": 0.01,
+    "exclude_against_all_102_legacy_profiles": true,
+    "within_new": "lexicographic greedy representatives; discard exact/near duplicates against previously retained representatives",
+    "all_slots_use_admitted_catalog_only": true
+  },
+  "source_exposure_audit": {
+    "scope": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace",
+    "command": [
+      "rg",
+      "-l",
+      "-i",
+      "--glob",
+      "*.md",
+      "--glob",
+      "*.json",
+      "--glob",
+      "*.py",
+      "--glob",
+      "*.tex",
+      "--glob",
+      "!**/vendor/**",
+      "--glob",
+      "!**/site-packages/**",
+      "--glob",
+      "!**/.venv*/**",
+      "--glob",
+      "!**/tokenizer.json",
+      "--glob",
+      "!**/vocab.json",
+      "data\\.bs\\.ch|\\bbasel\\b|\\bbasler\\b|verkehrszaehl|verkehrszähl",
+      "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace"
+    ],
+    "exit_code": 1,
+    "matches": [],
+    "interpretation": "No use found in searchable retained project code/docs/metadata. Not a proof of stochastic independence or an author memory attestation."
+  },
+  "pre_intake_source_decisions": [
+    {
+      "source": "UK WebTRIS",
+      "decision": "excluded: prior project use"
+    },
+    {
+      "source": "Finland Digitraffic",
+      "decision": "excluded: prior project use; documentation fetch failed, no cohort fetched"
+    },
+    {
+      "source": "Basel",
+      "decision": "selected after metadata/schema check; hourly allocation assumption fixed before cohort fetch"
+    }
+  ],
+  "minimum_profiles": 8,
+  "no_source_switch_after_inference_or_scoring": true,
+  "if_admission_fails": "stop and retain frozen paper; no outcome-driven source retry",
+  "new_cohort_fetched": false,
+  "new_inference": 0,
+  "new_scoring": 0,
+  "public_preregistration": false
+}

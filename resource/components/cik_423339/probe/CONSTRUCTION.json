@@ -1,0 +1,83 @@
+{
+  "valid_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "failed_instances": [],
+  "reference_operation_equal_to_scalar": true,
+  "source_method_bodies": [
+    {
+      "source": "cik_utils.py",
+      "function": "get_random_window_univar",
+      "class": null,
+      "start_line": 15,
+      "end_line": 75,
+      "ast_sha256": "d03cf8355255d95e3fd8d7dae555b56cad97bc2426702baeb35c84e5c6ce4aee"
+    },
+    {
+      "source": "cik_utils.py",
+      "function": "datetime_to_str",
+      "class": null,
+      "start_line": 78,
+      "end_line": 94,
+      "ast_sha256": "2add312099286ef007e67da9491537748bebc3c371cdaea51c4094b2a0552f2d"
+    },
+    {
+      "source": "cik_data_pems.py",
+      "function": "get_traffic_prediction_length",
+      "class": null,
+      "start_line": 57,
+      "end_line": 58,
+      "ast_sha256": "ad6048871d84ba193955b0d40d63b3bbf10ba2a9bea9fb7aea7503e7b88db478"
+    },
+    {
+      "source": "cik_data_pems.py",
+      "function": "get_traffic_history_factor",
+      "class": null,
+      "start_line": 102,
+      "end_line": 103,
+      "ast_sha256": "6a73e6fa22146030f7c703ecfb7a14dfeb297af7af0f1700b5b22ee00984f6c5"
+    },
+    {
+      "source": "cik_pred_change_tasks.py",
+      "function": "random_instance",
+      "class": "DecreaseInTrafficInPredictionTask",
+      "start_line": 29,
+      "end_line": 128,
+      "ast_sha256": "3497820044073b2f1a4aa550f1f1083cc721060d9d9dfe7954b677bf5238efed"
+    }
+  ],
+  "sampler_change": "One preselected source series replaces source sensor sampling; original random window/event methods retained",
+  "reference_benchmark_reproduction": false,
+  "warnings": []
+}

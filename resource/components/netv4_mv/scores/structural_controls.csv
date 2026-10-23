@@ -1,0 +1,14 @@
+model,declared_center_only,equal_center_prediction_max_difference,equal_complete_future_starting_history_prediction_max_difference,center_structural_check_passed,future_starting_zero_response_check_passed,submitted_determinism_certified
+LastValue,True,0.0,0.0,True,True,False
+HistoricalMean,True,0.0,0.0,True,True,False
+LinearDrift,True,0.0,0.0,True,True,False
+packaged__RidgeCenter,True,0.0,0.0,True,True,False
+packaged__RidgeLocal9,False,146.45603847503662,0.0,,True,False
+packaged__STID_NoCalendar_seed1,True,0.0,0.0,True,True,False
+packaged__STID_NoCalendar_seed2,True,0.0,0.0,True,True,False
+packaged__STID_NoCalendar_seed3,True,0.0,0.0,True,True,False
+working__RidgeCenter,True,0.0,0.0,True,True,False
+working__RidgeLocal9,False,69.94915771484375,0.0,,True,False
+working__STID_NoCalendar_seed1,True,0.0,0.0,True,True,False
+working__STID_NoCalendar_seed2,True,0.0,0.0,True,True,False
+working__STID_NoCalendar_seed3,True,0.0,0.0,True,True,False

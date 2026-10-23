@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "catalog.npz",
+      "sha256": "8ca078f45710f8b036d28378c6f5137ca193a5f56031c88e5f4f6f9190ca3974",
+      "bytes": 27704
+    },
+    {
+      "path": "evaluation.npz",
+      "sha256": "498cdc1397c910a73f88cf770f62c831f0f1195df8c9af9de78c8bdcebcbfb2b",
+      "bytes": 15696627
+    },
+    {
+      "path": "inputs.npz",
+      "sha256": "a147edc84d592284382af83f99883606af85a8b9146b169298a4ba8d6ffbe979",
+      "bytes": 17565657
+    }
+  ],
+  "original_constructor_sha256": "09fe5e23713b3b771d7216883ffbb05f8b4b28eccfef8bed21456fcef6c72b62",
+  "adapter_script_sha256": "8c77443eed28e6cfd1cbdf6f2a6eb3a7044b320efaacf25ab5ab2c983a1fb4e9",
+  "adapted_constructor_sha256": "dfc7ff48b9fdda395c05a867d331c329886ba32ac052e2b3660cef01deb5e12b",
+  "catalog_sha256": "614384737401f2d4d62ceadebe0fcd6473a32d65a71b6bdc6f81a7e6d342aae5",
+  "source_intake_sha256": "2684731a314b87e9009610b140d902d623e8c75ed2de7d2cdcd06a9ee7f198a6"
+}

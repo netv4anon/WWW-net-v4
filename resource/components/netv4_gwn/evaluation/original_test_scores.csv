@@ -1,0 +1,7 @@
+model,variant,seed,test_contexts,center_mae,center_rmse
+packaged__GraphWaveNet_seed1,packaged,1,5546,11.149361144021835,27.69587645354544
+packaged__GraphWaveNet_seed2,packaged,2,5546,11.276574174090207,28.547250507565323
+packaged__GraphWaveNet_seed3,packaged,3,5546,10.937700497328855,27.593904731629557
+working__GraphWaveNet_seed1,working,1,6354,28.36387924853583,78.32505183369003
+working__GraphWaveNet_seed2,working,2,6354,27.72148566688299,76.97814154429685
+working__GraphWaveNet_seed3,working,3,6354,27.532151130680123,76.83517367555203

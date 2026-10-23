@@ -1,0 +1,399 @@
+{
+  "frozen_utc": "2026-10-15T13:25:55.617747+00:00",
+  "analysis_identity": "post-Basel follow-up sensitivity; not an independent confirmatory replacement",
+  "known_prior_results": "Basel all 12 total responses positive; conditional signs 7 negative/5 positive. Existing saved-prediction decomposition was already examined.",
+  "one_intervention": "Apply H to all 102 original processed 7x96 profiles: repeat each within-hour four-value arithmetic mean four times.",
+  "fixed": "Original center/reference assignments, slot order and center duplicate, profile IDs, seeds/draws, dates, severity, timing, constructor mechanism, six actual checkpoints, original scalers and all settings.",
+  "targets": "Targets regenerate with the paired background representation. They are not held identical across representations. Four fixed crossed scores separate prediction/target contributions descriptively, along both paths.",
+  "primary_comparisons": 12,
+  "primary_cohort": "All 2856 original-profile cutoff-spanning scenarios; 102 equal-weight profiles and all seeds",
+  "primary_quantities": [
+    "A_original",
+    "A_hour_uniform",
+    "A_N_given_C_original",
+    "A_N_given_C_hour_uniform",
+    "paired_change_in_A_N_given_C"
+  ],
+  "additional_fixed_outputs": [
+    "All timings and profile results",
+    "Raw and 1e-3 numerical sign bands",
+    "Same-target crossed responses R00,R10,R01,R11",
+    "Both path decompositions and interaction",
+    "Prediction increment magnitudes",
+    "Equal-history future-start controls",
+    "Baseline forecast discrepancy versus previously saved output"
+  ],
+  "no_practical_significance_threshold_claimed": true,
+  "no_independence_based_intervals": true,
+  "backend": "CUDA FP32 channels_last, batch256, deterministic algorithms, TF32 off; float64 loss accumulation",
+  "new_training": 0,
+  "new_models": 0,
+  "condition_evaluations": 12,
+  "model_checkpoints": 6,
+  "no_source_search_or_threshold_selection": true,
+  "stop_rule": "Run these two representations once for all six checkpoints; preserve failures/near-zero effects. No new source, architecture, seed, interpolation or amplitude search.",
+  "cannot_establish": "Does not identify the cause of Basel reversals, recover true quarter-hour dynamics, or calibrate actual incidents.",
+  "construction_check": {
+    "status": "PASS",
+    "original_task_elements_exact": 16702704,
+    "profiles": 102,
+    "profile_dtype": "float32",
+    "hourly_total_max_abs_difference": 0.0,
+    "changed_profiles": 102,
+    "mean_abs_profile_change": 2.629047393798828,
+    "neighbors_fixed_to_original": true,
+    "same_random_number_streams": true,
+    "all_scenario_metadata_exact": true,
+    "original": {
+      "contexts": 11424,
+      "backgrounds": 2856,
+      "profiles": 102,
+      "input_rows": 68544,
+      "arms": [
+        "B",
+        "P",
+        "R",
+        "F",
+        "C",
+        "N"
+      ],
+      "pulse_counts_per_horizon": [
+        2856,
+        2856,
+        5712,
+        5712,
+        5712,
+        5712,
+        2856,
+        2856,
+        2856,
+        2856,
+        2856,
+        2856
+      ],
+      "numeric_slots": 9,
+      "unique_profile_slots": 8,
+      "actual_spatial_adjacency_established": false,
+      "old_raw_source_pool_recovered": false,
+      "new_observed_traffic_records": 0,
+      "new_generated_12_to_12_rows": 68544,
+      "seed": 2026100907
+    },
+    "hour_uniform": {
+      "contexts": 11424,
+      "backgrounds": 2856,
+      "profiles": 102,
+      "input_rows": 68544,
+      "arms": [
+        "B",
+        "P",
+        "R",
+        "F",
+        "C",
+        "N"
+      ],
+      "pulse_counts_per_horizon": [
+        2856,
+        2856,
+        5712,
+        5712,
+        5712,
+        5712,
+        2856,
+        2856,
+        2856,
+        2856,
+        2856,
+        2856
+      ],
+      "numeric_slots": 9,
+      "unique_profile_slots": 8,
+      "actual_spatial_adjacency_established": false,
+      "old_raw_source_pool_recovered": false,
+      "new_observed_traffic_records": 0,
+      "new_generated_12_to_12_rows": 68544,
+      "seed": 2026100907
+    },
+    "only_new_synthetic_scenarios": 11424,
+    "new_observed_records": 0,
+    "original_profiles_are_processed_not_raw_quarter_hour_validation": true,
+    "adapted_constructor_sha256": "e312fb5be7bfac31a2cd9db8df3fd9fad024bd9f77d9d02a2367383753f2976c"
+  },
+  "files": [
+    {
+      "path": "paired/hour_uniform/catalog.npz",
+      "sha256": "92a61f4a8ee2e9f594f6e3b04c547aba88e8edafe91ae563d0bbc356de2294e9",
+      "bytes": 43438
+    },
+    {
+      "path": "paired/hour_uniform/evaluation.npz",
+      "sha256": "b8bbf325bfb694cf0cd9ac82a97f0a95d3a03423b82edb4c8665d588017d990c",
+      "bytes": 22865253
+    },
+    {
+      "path": "paired/hour_uniform/inputs.npz",
+      "sha256": "9ce9de071cbfe48851623bdbc01ce6c1ecece216edae8129852693acc88fcc0e",
+      "bytes": 25825923
+    },
+    {
+      "path": "paired/hour_uniform/profile_catalog.npz",
+      "sha256": "92a61f4a8ee2e9f594f6e3b04c547aba88e8edafe91ae563d0bbc356de2294e9",
+      "bytes": 43438
+    },
+    {
+      "path": "paired/original/catalog.npz",
+      "sha256": "a7881db8b76ae73214d9e74a16474a03467d20902f8044d7fe5a080264037dff",
+      "bytes": 151150
+    },
+    {
+      "path": "paired/original/DESCRIPTION.json",
+      "sha256": "bd95af93cccdae7172e9663caf61f314a222730bbc53c66805ce16a82d524146",
+      "bytes": 591
+    },
+    {
+      "path": "paired/original/evaluation.npz",
+      "sha256": "9e860a185dc1ab64cacc15cc9e5896c82384a394acbce424387786c515110a45",
+      "bytes": 22873510
+    },
+    {
+      "path": "paired/original/inputs.npz",
+      "sha256": "742fad7571a802a6a1c003fb5084dfc141bcf2ec0b75bb1b738a90c979d14ac8",
+      "bytes": 25829605
+    },
+    {
+      "path": "portable/construct.py",
+      "sha256": "06398334acea4396ef05299cf4e849db32f564696af138c872d9430a8eedd77e",
+      "bytes": 9481
+    },
+    {
+      "path": "portable/paired_construct.py",
+      "sha256": "e312fb5be7bfac31a2cd9db8df3fd9fad024bd9f77d9d02a2367383753f2976c",
+      "bytes": 9828
+    },
+    {
+      "path": "portable/pins/legacy_generator.py",
+      "sha256": "45235c49978951c3da80432ddaed7a91f5723f6524203938991aa06808cf2ae3",
+      "bytes": 4482
+    },
+    {
+      "path": "portable/pins/PROJECT_MIT_ORIGINAL.txt",
+      "sha256": "dd6d784cf3186a2eb4e1feeb943daa637f497ea6c9b365fc5483b7e12711b560",
+      "bytes": 1095
+    },
+    {
+      "path": "portable/pins/SOURCE_ATTRIBUTION.md",
+      "sha256": "16350bdd349a16b43ad7e061195a9d457dc8f9977e3377eddf025ab4a1042b34",
+      "bytes": 1439
+    },
+    {
+      "path": "portable/PINS.json",
+      "sha256": "26a50553aabcf0f53c5cac97a01fac4726534d1fdc0a65bc5d65f6cbea0104c5",
+      "bytes": 296
+    },
+    {
+      "path": "portable/README_SOURCE.md",
+      "sha256": "3d8eeff0b5e22095c2743934d6f7266ce143ef442228aac86c64f024cd82dc0f",
+      "bytes": 1402
+    },
+    {
+      "path": "models/model_adapter.py",
+      "sha256": "1e081238da2b170bf517737ae17a37b78de346373581cd094cd9ffa51dfe75d5",
+      "bytes": 1298
+    },
+    {
+      "path": "models/reader_adapter.py",
+      "sha256": "2105c59f4ad05bcce1a53e18d07b3d9c94085431f7a11dc54fd97bd50aee6a32",
+      "bytes": 1721
+    },
+    {
+      "path": "models/runs/packaged__GraphWaveNet_seed1/best_weights.pt",
+      "sha256": "ef0ddbc6ee5ee92ad1dc4e1c216c43cf9fed17fb32b2c9788d57ce8887864153",
+      "bytes": 1130886
+    },
+    {
+      "path": "models/runs/packaged__GraphWaveNet_seed1/epoch_log.json",
+      "sha256": "69a65906a18bc97df0ba2f144eee6af69db21f5591e2a079e8f738311d61f4d3",
+      "bytes": 6770
+    },
+    {
+      "path": "models/runs/packaged__GraphWaveNet_seed1/scaler.json",
+      "sha256": "32bfc2db4bc2cfc0a25601732d36b7e3d9ac64e889c6184f3689c402d3391b11",
+      "bytes": 65
+    },
+    {
+      "path": "models/runs/packaged__GraphWaveNet_seed1/TRAINING_RESULT.json",
+      "sha256": "2586d30936d6465b88ba117894fe7b2f515ebf1246afcc382355232f050bd9f2",
+      "bytes": 912
+    },
+    {
+      "path": "models/runs/packaged__GraphWaveNet_seed2/best_weights.pt",
+      "sha256": "a8b25a0a7ec2859a9e37241c402b2e4eebb4fce8b0b5ed7b707c4bf1efae35fa",
+      "bytes": 1130886
+    },
+    {
+      "path": "models/runs/packaged__GraphWaveNet_seed2/epoch_log.json",
+      "sha256": "b7be011ce2bf8f072b2d20b1cbac3f0da3d2af49e6f5b5a79fda8f8c854b423b",
+      "bytes": 6774
+    },
+    {
+      "path": "models/runs/packaged__GraphWaveNet_seed2/scaler.json",
+      "sha256": "32bfc2db4bc2cfc0a25601732d36b7e3d9ac64e889c6184f3689c402d3391b11",
+      "bytes": 65
+    },
+    {
+      "path": "models/runs/packaged__GraphWaveNet_seed2/TRAINING_RESULT.json",
+      "sha256": "669ac8d78d14a91b2e765a79231d39ad20ed3fbfe8e19081397a9655ef19d0e8",
+      "bytes": 911
+    },
+    {
+      "path": "models/runs/packaged__GraphWaveNet_seed3/best_weights.pt",
+      "sha256": "dea36dc07005ce235796ca3df16adcc52d40fc7b002b62ef24581c3a050a30e7",
+      "bytes": 1130886
+    },
+    {
+      "path": "models/runs/packaged__GraphWaveNet_seed3/epoch_log.json",
+      "sha256": "663f0c42c4a322102d1452d582a700bcec8f37d93bf67d27edb0347706fda021",
+      "bytes": 6762
+    },
+    {
+      "path": "models/runs/packaged__GraphWaveNet_seed3/scaler.json",
+      "sha256": "32bfc2db4bc2cfc0a25601732d36b7e3d9ac64e889c6184f3689c402d3391b11",
+      "bytes": 65
+    },
+    {
+      "path": "models/runs/packaged__GraphWaveNet_seed3/TRAINING_RESULT.json",
+      "sha256": "c5baff8c8c4a945ef7265bbec497bc935be0bb0e35a796bd69302bda15eab9dd",
+      "bytes": 912
+    },
+    {
+      "path": "models/runs/working__GraphWaveNet_seed1/best_weights.pt",
+      "sha256": "2de29d4690a08a4316e5724466c96562f3c18c102e495bb3bd9458136b9fde68",
+      "bytes": 1130886
+    },
+    {
+      "path": "models/runs/working__GraphWaveNet_seed1/epoch_log.json",
+      "sha256": "038489740ab16b4dbeb202746b24e02a494dc3457f9fca12b000dc83794b0a72",
+      "bytes": 6768
+    },
+    {
+      "path": "models/runs/working__GraphWaveNet_seed1/scaler.json",
+      "sha256": "e00a8145ef125b588e12f09ee7e47157d2dfa94d674e6b446bb638fa6ea4f1b9",
+      "bytes": 65
+    },
+    {
+      "path": "models/runs/working__GraphWaveNet_seed1/TRAINING_RESULT.json",
+      "sha256": "a5a4a89f901762391f6c7ebd58c01bec77d9b8ccd234f36ddcaeda94f3fd0b3a",
+      "bytes": 908
+    },
+    {
+      "path": "models/runs/working__GraphWaveNet_seed2/best_weights.pt",
+      "sha256": "458aa0f0b8e7f04686ce726a17c5051523cd1473828d5f5cd49b35c20b7cb1fa",
+      "bytes": 1130886
+    },
+    {
+      "path": "models/runs/working__GraphWaveNet_seed2/epoch_log.json",
+      "sha256": "7a4a0389ab011b483a370e585551600172ed446f8b401bcfedb1c4ea12c65c02",
+      "bytes": 6736
+    },
+    {
+      "path": "models/runs/working__GraphWaveNet_seed2/scaler.json",
+      "sha256": "e00a8145ef125b588e12f09ee7e47157d2dfa94d674e6b446bb638fa6ea4f1b9",
+      "bytes": 65
+    },
+    {
+      "path": "models/runs/working__GraphWaveNet_seed2/TRAINING_RESULT.json",
+      "sha256": "9cc4564669ef8fe3503767959a0caf824f3e3d09171881f3043b3d42e7d38a40",
+      "bytes": 908
+    },
+    {
+      "path": "models/runs/working__GraphWaveNet_seed3/best_weights.pt",
+      "sha256": "952e232803ac989f3b200894cb7844deee70e5ecf4957a1bb6304139b373ae00",
+      "bytes": 1130886
+    },
+    {
+      "path": "models/runs/working__GraphWaveNet_seed3/epoch_log.json",
+      "sha256": "16422c931c184afddc14873d951716a0ca3fc7d75c595e5038086128097efbaf",
+      "bytes": 6772
+    },
+    {
+      "path": "models/runs/working__GraphWaveNet_seed3/scaler.json",
+      "sha256": "e00a8145ef125b588e12f09ee7e47157d2dfa94d674e6b446bb638fa6ea4f1b9",
+      "bytes": 65
+    },
+    {
+      "path": "models/runs/working__GraphWaveNet_seed3/TRAINING_RESULT.json",
+      "sha256": "f48955df69eecfefa117f9866e36bd9bd9a6253b12311059327f08b8d1338d2a",
+      "bytes": 908
+    },
+    {
+      "path": "models/vendor/LICENSE",
+      "sha256": "4ca2e57e06fec8b21ea58f1e19f6805052867be62de900ee9b12580bf1a033d8",
+      "bytes": 1059
+    },
+    {
+      "path": "models/vendor/model.py",
+      "sha256": "f357319260657716c18916d691d31179e2380dcb882b9c41556c9a55912f1059",
+      "bytes": 7730
+    },
+    {
+      "path": "incoming_pro/CONFIRMATION_FREEZE.json",
+      "sha256": "75a1fc30f5a4a8bb1e477b9abf8a39ee8116219043758fdf5e6029a277b4c4c0",
+      "bytes": 11004
+    },
+    {
+      "path": "incoming_pro/CPU_REPLAY_SUMMARY.json",
+      "sha256": "5e9f830b2b76066aa0f34a4dc5c664fa216fa5188f02a5974251ebfbbd485139",
+      "bytes": 492
+    },
+    {
+      "path": "incoming_pro/INDEPENDENT_AUDIT.json",
+      "sha256": "a7ac18d16ebde63b659d7c46d7d82fa467c649600b91db80212d3eb897adf277",
+      "bytes": 12184
+    },
+    {
+      "path": "incoming_pro/NET_V4_WWW_confirmation.pdf",
+      "sha256": "2e4b55241114029cbdd316634fe96a980e0a5cf51fa98c47edf5006a9e06783e",
+      "bytes": 623730
+    },
+    {
+      "path": "incoming_pro/PRIMARY_RECOMPUTED.csv",
+      "sha256": "64859f45bdf4422abbf6c577b255574c30da31084bc69b178cdeed5e906c9350",
+      "bytes": 3446
+    },
+    {
+      "path": "incoming_pro/REVIEW_ZH.html",
+      "sha256": "07e7fc410718580c2bbcfe5597687cda033984794cb3730ab061b8485c95fee6",
+      "bytes": 17438
+    },
+    {
+      "path": "incoming_pro/SCOPE_CORRECTIONS_ZH.md",
+      "sha256": "4c649621b4ad786119decb137be3eb8324c6c895c395774749b9785e59b8abcc",
+      "bytes": 4168
+    },
+    {
+      "path": "incoming_pro/SOURCE_INTAKE_FREEZE.json",
+      "sha256": "2684731a314b87e9009610b140d902d623e8c75ed2de7d2cdcd06a9ee7f198a6",
+      "bytes": 3762
+    },
+    {
+      "path": "scripts/construct_pair.py",
+      "sha256": "d06ac1cf8716350770fc18ece58b77b80adb014f0974382a21f0705d922dbd85",
+      "bytes": 4111
+    },
+    {
+      "path": "scripts/run_pair.py",
+      "sha256": "85a1427e716c6ff3eff3a5bc211d8411ee2f252de63e095adaee19287f08fa64",
+      "bytes": 2725
+    },
+    {
+      "path": "scripts/score_pair.py",
+      "sha256": "b9178f1276e2aeac078306e5b5d52f2d131c0fc8b0a0665c06e92029b9e87d23",
+      "bytes": 7046
+    },
+    {
+      "path": "scripts/freeze_pair.py",
+      "sha256": "e22f4e7cc53859098b15f971f437681e7297977342489ad323d0a1ec0a0eb696",
+      "bytes": 3508
+    }
+  ]
+}

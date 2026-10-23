@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "ridge": {
+    "model": "working__RidgeLocal9",
+    "target_law": "legacy",
+    "cohort": "cutoff_spanning",
+    "contexts": 2856,
+    "horizons_per_context": 12,
+    "weighting": "uniform context and horizon",
+    "L_CF": 16.610766912284408,
+    "L_FF": 16.693043029594932,
+    "difference": -0.0822761173105242,
+    "printed_difference": "-0.0823",
+    "prediction_sha256": "326131257c86de03b32d8661a45f015929dd74363ca3f4af7fec71497cdc8799",
+    "evaluation_sha256": "9e860a185dc1ab64cacc15cc9e5896c82384a394acbce424387786c515110a45"
+  },
+  "observed": {
+    "cases": 268,
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "control_memberships": 763,
+    "weighting": "equal cases; controls averaged within case; equal seed loss weights",
+    "delta_pre": -0.678312390202511,
+    "delta_post": 3.226304729581867,
+    "difference": 3.904617119784378,
+    "printed_difference": "3.905",
+    "predictions_sha256": "85e13e6780f30db6e5da3e3f9ff9b3739d686022ee5054a2137ef99ee2330660",
+    "targets_sha256": "0c5c6ba01931fc03e7973cdbf807d82ab8eca4dee45a2b63c783e2107c2985f8",
+    "pairs_sha256": "2b472a372206dd27f81072d84b7d9c090957333f5cf50ce9132f83f4f02aef30"
+  },
+  "new_predictions_or_training": 0,
+  "new_independent_confirmatory_evidence": false
+}

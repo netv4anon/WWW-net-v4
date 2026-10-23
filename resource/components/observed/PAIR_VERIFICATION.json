@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "source_intervals_rebuilt": 997,
+  "pairs_checked": 268,
+  "excluded_cases_checked": 5,
+  "candidate_controls_checked": 1614,
+  "forecast_origins_rebuilt": 2062,
+  "source_blocks_checked": 94,
+  "pre_targets_end_before_report_bin": true,
+  "episode_source_point_memberships": 38147,
+  "unique_episode_source_points": 37548,
+  "source_points_in_multiple_episodes": 599,
+  "max_episode_source_point_multiplicity": 2,
+  "no_source_independence_claim": true,
+  "new_predictions": 0,
+  "new_fits": 0
+}

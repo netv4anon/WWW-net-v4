@@ -1,0 +1,53 @@
+{
+  "copied_existing_evidence": [
+    {
+      "project_source": "contribution_feasibility/NET_V4_paired_diagnostic_companion.zip",
+      "bundled_path": "archives/NET_V4_paired_diagnostic_companion.zip",
+      "bytes": 487587,
+      "sha256": "990a2a5ce96f8a2afbde50f4a6dbe16817cb7ce0f1c4080a4c306f03a77c4c50"
+    },
+    {
+      "project_source": "contribution_feasibility/paired_results/contexts.json",
+      "bundled_path": "evidence/worked_example_replay/contexts.json",
+      "bytes": 75809,
+      "sha256": "7eaff7f1013a736622703884f6a42473d63b375d061a30fa0808f4f52f2540ef"
+    },
+    {
+      "project_source": "response_transfer_design_2026-10-03/data/construction_full_precision.npz",
+      "bundled_path": "evidence/worked_example_replay/construction_full_precision.npz",
+      "bytes": 139607,
+      "sha256": "db6021bf2aeb7853ca66673b5e4c9bd792d0f1e074649180716d45f24799939c"
+    },
+    {
+      "project_source": "incident_history_lookup_2026-10-07/PREDICTIONS.npz",
+      "bundled_path": "evidence/worked_example_replay/PREDICTIONS.npz",
+      "bytes": 8122708,
+      "sha256": "1de70458771f28581e230e3af5505735ebc41a55c63f8748f87321ff73526785"
+    },
+    {
+      "project_source": "incident_history_lookup_2026-10-07/ROW_METRICS.npz",
+      "bundled_path": "evidence/worked_example_replay/ROW_METRICS.npz",
+      "bytes": 51758,
+      "sha256": "97e20a56d0c9d9872015ee695a408ec6f60d22f249c608a834972c18963cf5da"
+    },
+    {
+      "project_source": "incident_history_lookup_2026-10-07/PREDICTION_SEAL.json",
+      "bundled_path": "evidence/worked_example_replay/PREDICTION_SEAL.json",
+      "bytes": 509,
+      "sha256": "7ae579e7dbbcb41ff4a0a7c6a7509721eb212750c32ff3bb8062b88dde12ea47"
+    },
+    {
+      "project_source": "incident_split_feasibility_2026-10-03/FINDINGS_VERIFICATION.json",
+      "bundled_path": "evidence/worked_example_replay/FINDINGS_VERIFICATION.json",
+      "bytes": 775,
+      "sha256": "22c379c7b0cf7330f2b176b9313f04a74bbfe4ecf873be9b79a5e1abea452a81"
+    },
+    {
+      "project_source": "incident_split_feasibility_2026-10-03/STAGE_SUMMARY.json",
+      "bundled_path": "evidence/worked_example_replay/STRUCTURAL_STAGE_SUMMARY.json",
+      "bytes": 1141,
+      "sha256": "84ecc2af4dfa75759a3cdc17bc93783d4a61a7005d0632b0d558fdb70b44f141"
+    }
+  ],
+  "new_scientific_material": false
+}

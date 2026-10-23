@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "verifier_sha256": "746a1fba04c2888bb501565cab937ab3ed7795b25b33d244e2828d7b786f8235",
+  "training_keys": "complete original bytes; no use of primary signature/candidate table",
+  "rows_verified": 1676,
+  "training_rows_verified": 3909,
+  "prediction_values_verified": 19951104,
+  "prediction_max_difference": 0.0,
+  "row_metric_max_difference": 2.2737367544323206e-12,
+  "aggregate_metric_max_difference": 1.4210854715202004e-14,
+  "validation_history_hit_rows": 99,
+  "test_history_hit_rows": 93,
+  "hit_target_mae": 0.0,
+  "unmatched_predictions_and_losses_unchanged": true,
+  "all_mae_gain_attributable_to_hit_rows": true,
+  "training_history_target_conflicts": 0,
+  "prediction_seal_verified": true,
+  "new_optimization_fits": 0,
+  "independent_prediction_replays": 2,
+  "new_algorithm_or_historical_paper_inflation_claim": false
+}

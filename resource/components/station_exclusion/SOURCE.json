@@ -1,0 +1,11 @@
+{
+  "source_bytes": 865971481,
+  "source_sha256": "bc6c5608457f88864625d683f9a66d17bc0fc31fe5acba366b6033708a099279",
+  "source_object": "IGSTGNN public Kaggle v1, Contra_Costa incident_all.npy",
+  "contract_sha256": "36eb7e89af188362879104881100d5f3290dc07aff73e49f4485f8d12122b915",
+  "prepared_history_sha256": "811a1fc113cd5658221afd72e6c936f35d59ae3dc94bf7abf941c4d63f201b47",
+  "prepared_history_calendar_sha256": "cbeec48acb8130cbcc1aa1306bcb182e9202dbab444082181a8c8392d1f02be9",
+  "previous_matches_sha256": "409f977c93a10d2b86b82cba52e13ee43dde9130eaccbd182bb16771ad4cf530",
+  "new_rule_uses_query_targets": false,
+  "inherited_targetsupport_uses_query_targets": true
+}

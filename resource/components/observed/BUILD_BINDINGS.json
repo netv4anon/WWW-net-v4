@@ -1,0 +1,26 @@
+{
+  "source_files": {
+    "observed_regime_comparison_2026-10-03/inputs.npz": "2be00047dfa0069560debd2e7e8dd6e0f55f2dd7e80fe92b14b70ef0c0d32f6f",
+    "observed_regime_comparison_2026-10-03/targets.npz": "13a3e116f18f476450ed6717a7c881dafb194a6bcbdcd91da2aefcef852fd945",
+    "observed_regime_comparison_2026-10-03/predictions.npz": "61bec0174fdc0c916067fd9219117c2649ba39f94f44be76943c4636fb09b2dc",
+    "observed_regime_comparison_2026-10-03/pairs.json": "2b472a372206dd27f81072d84b7d9c090957333f5cf50ce9132f83f4f02aef30",
+    "observed_regime_comparison_2026-10-03/episodes.csv": "6463e63b31996c57a790c1b6471371812524361ba6ae9af095039e0c3a36847f",
+    "observed_regime_comparison_2026-10-03/forecast_contexts.csv": "0dbecce14b565c1959a39795ac4b5fe873c7bbc0904b1c0e6a2587e46349bfbf",
+    "observed_regime_comparison_2026-10-03/aggregate_metrics.csv": "e4d8690d4e8d3808c2b297492df9344ec7fcfd1813437376cd964891ed31fd52",
+    "observed_regime_comparison_2026-10-03/weekly_metrics.csv": "52b44f19b2bbba15acea7541eb2db320e58c3eeb9887eafcf7388dc0cc911fbe",
+    "observed_regime_comparison_2026-10-03/leave_one_station.csv": "422324c540c67be23aea78145d9f815a9e49f6acd8cbe093303fc90290de9a4a",
+    "observed_regime_comparison_2026-10-03/RESULTS.json": "ab9a271056a93bc8867a2c44524397014d8c7eb7f51439414d4c83070fdbb0cd",
+    "observed_regime_comparison_2026-10-03/VERIFICATION.json": "2f1609f63a63ca2ec13944a9a54808829c5a3a5063aa3a30e03efd314015e199",
+    "observed_regime_comparison_2026-10-03/PAIR_VERIFICATION.json": "2e15aa58b5c3815400bfdd0f75aee5ee0aa599a9bdd1b23b020f9b243b9ebcf5",
+    "observed_regime_comparison_2026-10-03/PROTOCOL_ZH.md": "6c6ee34863b5e3ccf1e649119398be6abad0d45c9c066e31cff5246670c23221",
+    "prospective_february_2026-10-03/training/scaler.json": "5720b892dbb0936c49189305748435ecb68b775ff10fcd445002a219b057a881",
+    "prospective_february_2026-10-03/training/FROZEN_MODELS.json": "92e3c61b2a005dffe5e2f10c6a9b7a6d9824c7e427ad8b9d703d8b2700cbe27c",
+    "external_traffident_2026-10-02/experiment/ridge_parameters.npz": "3d420d2970023d43f781dada5e92a181c7e4cbc2742b2625057d7c39235af170",
+    "prospective_february_2026-10-03/training/seed_1/best_weights.pt": "bf2dec2ece3fac4e0b21cdf24f2ed8497cb364cb441793841b975ab95636d378",
+    "prospective_february_2026-10-03/training/seed_2/best_weights.pt": "eeddbc6cd5d550ef18305bbc28b2956fe74dbbb1656478e41af9cb7e79b32928",
+    "prospective_february_2026-10-03/training/seed_3/best_weights.pt": "05caa7dff3568774fe47ab671f83fa057b5a87361832fa275c6730c4ab5c136c"
+  },
+  "export_builder_sha256": "e4b42fae4cbd2394eac949203be595ac9d2d321186f84217da3954b38e9e9c04",
+  "weights_exported_without_training": true,
+  "research_prediction_configurations_added": 0
+}

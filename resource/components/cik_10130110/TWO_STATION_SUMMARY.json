@@ -1,0 +1,215 @@
+{
+  "station_results_kept_separate": true,
+  "primary_measure": "Case-equal event MAE",
+  "protocol_fixed_after_primary_outcomes": true,
+  "blind_confirmation": false,
+  "primary_sensor": 423339,
+  "replication_sensor": 10130110,
+  "primary_rows": [
+    {
+      "sensor_id": 423339,
+      "base": "last_value",
+      "reference_anchor": 0.82625,
+      "reference_pointwise": 0.82625,
+      "pointwise_anchor": 0.5429151785714286,
+      "pointwise_pointwise": 0.5429151785714286,
+      "reference_delta": 0.0,
+      "pointwise_delta": 0.0,
+      "reversal": false
+    },
+    {
+      "sensor_id": 423339,
+      "base": "last_day",
+      "reference_anchor": 0.5321875,
+      "reference_pointwise": 0.48936904761904765,
+      "pointwise_anchor": 0.5635089285714286,
+      "pointwise_pointwise": 0.3564613095238095,
+      "reference_delta": 0.04281845238095239,
+      "pointwise_delta": 0.20704761904761915,
+      "reversal": false
+    },
+    {
+      "sensor_id": 423339,
+      "base": "mean_daily_profile",
+      "reference_anchor": 0.46959821428571424,
+      "reference_pointwise": 0.5156196853741497,
+      "pointwise_anchor": 0.3457727465986395,
+      "pointwise_pointwise": 0.268499362244898,
+      "reference_delta": -0.04602147108843546,
+      "pointwise_delta": 0.07727338435374148,
+      "reversal": true
+    },
+    {
+      "sensor_id": 10130110,
+      "base": "last_value",
+      "reference_anchor": 0.2115625,
+      "reference_pointwise": 0.2115625,
+      "pointwise_anchor": 0.17527157738095236,
+      "pointwise_pointwise": 0.17527157738095236,
+      "reference_delta": 0.0,
+      "pointwise_delta": 0.0,
+      "reversal": false
+    },
+    {
+      "sensor_id": 10130110,
+      "base": "last_day",
+      "reference_anchor": 0.09687500000000002,
+      "reference_pointwise": 0.13200595238095236,
+      "pointwise_anchor": 0.08590997023809524,
+      "pointwise_pointwise": 0.07007514880952381,
+      "reference_delta": -0.035130952380952346,
+      "pointwise_delta": 0.015834821428571427,
+      "reversal": true
+    },
+    {
+      "sensor_id": 10130110,
+      "base": "mean_daily_profile",
+      "reference_anchor": 0.10928571428571429,
+      "reference_pointwise": 0.13555505952380953,
+      "pointwise_anchor": 0.08262510629251701,
+      "pointwise_pointwise": 0.07611213860544218,
+      "reference_delta": -0.026269345238095237,
+      "pointwise_delta": 0.006512967687074836,
+      "reversal": true
+    }
+  ],
+  "all_contrasts": [
+    {
+      "sensor_id": 423339,
+      "base": "last_value",
+      "full_mae": {
+        "reference_delta_anchor_minus_pointwise": 0.0,
+        "alternative_delta_anchor_minus_pointwise": 0.0,
+        "sign_changes": false
+      },
+      "event_mae_case_equal": {
+        "reference_delta_anchor_minus_pointwise": 0.0,
+        "alternative_delta_anchor_minus_pointwise": 0.0,
+        "sign_changes": false
+      },
+      "event_mae_pooled": {
+        "reference_delta_anchor_minus_pointwise": 0.0,
+        "alternative_delta_anchor_minus_pointwise": 0.0,
+        "sign_changes": false
+      }
+    },
+    {
+      "sensor_id": 423339,
+      "base": "last_day",
+      "full_mae": {
+        "reference_delta_anchor_minus_pointwise": -0.006861979166666643,
+        "alternative_delta_anchor_minus_pointwise": 0.031289062499999964,
+        "sign_changes": true
+      },
+      "event_mae_case_equal": {
+        "reference_delta_anchor_minus_pointwise": 0.04281845238095239,
+        "alternative_delta_anchor_minus_pointwise": 0.20704761904761915,
+        "sign_changes": false
+      },
+      "event_mae_pooled": {
+        "reference_delta_anchor_minus_pointwise": -0.03659722222222217,
+        "alternative_delta_anchor_minus_pointwise": 0.166875,
+        "sign_changes": true
+      }
+    },
+    {
+      "sensor_id": 423339,
+      "base": "mean_daily_profile",
+      "full_mae": {
+        "reference_delta_anchor_minus_pointwise": -0.01000186011904769,
+        "alternative_delta_anchor_minus_pointwise": 0.014960937499999938,
+        "sign_changes": true
+      },
+      "event_mae_case_equal": {
+        "reference_delta_anchor_minus_pointwise": -0.04602147108843546,
+        "alternative_delta_anchor_minus_pointwise": 0.07727338435374148,
+        "sign_changes": true
+      },
+      "event_mae_pooled": {
+        "reference_delta_anchor_minus_pointwise": -0.0533432539682539,
+        "alternative_delta_anchor_minus_pointwise": 0.07979166666666665,
+        "sign_changes": true
+      }
+    },
+    {
+      "sensor_id": 10130110,
+      "base": "last_value",
+      "full_mae": {
+        "reference_delta_anchor_minus_pointwise": 0.0,
+        "alternative_delta_anchor_minus_pointwise": 0.0,
+        "sign_changes": false
+      },
+      "event_mae_case_equal": {
+        "reference_delta_anchor_minus_pointwise": 0.0,
+        "alternative_delta_anchor_minus_pointwise": 0.0,
+        "sign_changes": false
+      },
+      "event_mae_pooled": {
+        "reference_delta_anchor_minus_pointwise": 0.0,
+        "alternative_delta_anchor_minus_pointwise": 0.0,
+        "sign_changes": false
+      }
+    },
+    {
+      "sensor_id": 10130110,
+      "base": "last_day",
+      "full_mae": {
+        "reference_delta_anchor_minus_pointwise": -0.008268229166666669,
+        "alternative_delta_anchor_minus_pointwise": 0.0032161458333333226,
+        "sign_changes": true
+      },
+      "event_mae_case_equal": {
+        "reference_delta_anchor_minus_pointwise": -0.035130952380952346,
+        "alternative_delta_anchor_minus_pointwise": 0.015834821428571427,
+        "sign_changes": true
+      },
+      "event_mae_pooled": {
+        "reference_delta_anchor_minus_pointwise": -0.04601449275362321,
+        "alternative_delta_anchor_minus_pointwise": 0.01789855072463767,
+        "sign_changes": true
+      }
+    },
+    {
+      "sensor_id": 10130110,
+      "base": "mean_daily_profile",
+      "full_mae": {
+        "reference_delta_anchor_minus_pointwise": -0.006251860119047575,
+        "alternative_delta_anchor_minus_pointwise": 0.0015159970238095566,
+        "sign_changes": true
+      },
+      "event_mae_case_equal": {
+        "reference_delta_anchor_minus_pointwise": -0.026269345238095237,
+        "alternative_delta_anchor_minus_pointwise": 0.006512967687074836,
+        "sign_changes": true
+      },
+      "event_mae_pooled": {
+        "reference_delta_anchor_minus_pointwise": -0.03479296066252591,
+        "alternative_delta_anchor_minus_pointwise": 0.008436853002070394,
+        "sign_changes": true
+      }
+    }
+  ],
+  "mean_profile_reversal_on_both": true,
+  "interpretation": "Two-station constrained source robustness only; no published CiK model scores, significance, physical target truth or station-population claim.",
+  "new_rule_definitions": 0,
+  "additional_prediction_executions": 8,
+  "new_fits": 0,
+  "new_source_bytes": 0,
+  "replication_structure_verified": {
+    "instances": 32,
+    "unique_history_windows": 32,
+    "event_positions": 138,
+    "multi_hour_instances": 26,
+    "varying_background_event_instances": 26,
+    "reference_event_varying_instances": 0,
+    "pointwise_event_varying_instances": 26,
+    "target_difference_event_positions": 101,
+    "max_target_difference": 0.8,
+    "event_target_mae_difference_case_equal": 0.08988467261904762,
+    "reference_exceeds_background_event_positions": 11,
+    "reference_exceeds_background_instances": 5,
+    "unchanged_outside_event": true
+  },
+  "same_reference_ast_bodies": true,
+  "prediction_code_byte_identical": true
+}

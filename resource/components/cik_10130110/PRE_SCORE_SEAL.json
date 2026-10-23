@@ -1,0 +1,23 @@
+{
+  "results_existed_when_sealed": false,
+  "files": {
+    "TARGET_PROBE_PROTOCOL.md": "703074b45ee712b8983c4b4f31c842e442255b23c4752e0c95b8ee2ff1abce92",
+    "SCORING_CLARIFICATION.md": "8e508d1cd9bfe8a9514d371234a2dc009575da88e51fb6a01b1dab43f3cb21ff",
+    "NEXT_FIXED_REPLICATION_PROTOCOL.md": "1b5dac6b244b0a908ddd0f671435aba87ac0da32f38806aaad48cd74e20eaf3c",
+    "prepare_probe.py": "a0a653eb6cad5834255e2b31fa07c3e4c2aa561d594b2834e53f22db292568d0",
+    "construct_probe.py": "b1fc36b217faf6a39df03ab0bb3e25b3346069c32cf505c9cbc68eceda06510a",
+    "predict_probe.py": "996a25805d4bedfdf678d3519cf9064eda9ca2a0b59ba47ecdb6fa4da8d2eab7",
+    "score_probe.py": "c7f1ac94e301ec8469dd8e7965a254da77f872a2bf246f8366bb4231b3ce4b8f",
+    "verify_probe.py": "98bcafa287264355c66ab4953cde9ced7ca8ae045b888e3da288b2841ae2c0a1",
+    "PROBE_SOURCE_BINDING.json": "88a6130158cfed17a09486e8c3756f665bd845c5af60454a9af0b070e6440451",
+    "probe/CONSTRUCTION.json": "a35dc87684da2ac5767d8d0aa284958a8274eff1713f131c7bfff8dcfd3d22cc",
+    "probe/INPUTS.npz": "53a55f8835e6ab200e68ad85b0af036851186c2c7eb8b5166f4a7252244bdf8c",
+    "probe/PREDICTIONS.npz": "e39d5cdb0ec7947f0d9e8219a7c8ed5a580db1c1e67e387dd2615e44e9cdf060",
+    "probe/PREDICTION_SEAL.json": "353830ef99f55477fe5b4e4f3e43a580ff3db7935ef763dc2f4557b6dd452d77",
+    "probe/SCENARIOS.json": "bd080b30fddcc8944f5e50eabc71e30e01d500447603745fa444976158e0ec8b",
+    "probe/selected_series.csv": "e6887ef89fb2a8e44744e0e63680ee77d1ca08ff3f8500a372d5f53c5e24c69b",
+    "probe/source_prefix_complete.tsv": "48f03c685c7b6d3af9f37a91059115304c0ab35dbcfcbdd76b3768848343b47e",
+    "probe/TARGETS.npz": "7c699d7f78e304f233edfa10744282addfb0d3ef58c20d341fe373b269c973ce"
+  },
+  "mean_profile_sign_not_computed": true
+}

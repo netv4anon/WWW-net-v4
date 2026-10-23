@@ -1,0 +1,236 @@
+{
+  "bindings": [
+    {
+      "component": "netv4",
+      "source_archive": {
+        "path_relative_to_branch": "evaluation_interface_2026-10-03/NET_V4_paired_evaluation_interface.zip",
+        "bytes": 1394498,
+        "sha256": "86eda34abfabce6a82623cec4bcb8356f3828f611a1c71107c195192ed75f2e1"
+      },
+      "operation": "Exact archive extraction; inherited manuscripts/documents describe the historical component, not the current paper."
+    },
+    {
+      "component": "observed",
+      "source_archive": {
+        "path_relative_to_branch": "contribution_review_2026-10-07/NET_V4_observed_calendar_pair_companion.zip",
+        "bytes": 1463367,
+        "sha256": "e81c9a1362342d8aeb4362453c567e0a61d531cc9cecdd1120c4bade4dfe2ee0"
+      },
+      "operation": "Exact archive extraction; inherited manuscripts/documents describe the historical component, not the current paper."
+    },
+    {
+      "component": "release_audit",
+      "source_archive": {
+        "path_relative_to_branch": "incident_history_lookup_2026-10-07/NET_V4_public_release_audit_companion.zip",
+        "bytes": 810643,
+        "sha256": "0f73876d7b86c00da47615f0c8294f9c3d64c7a7310ad6a4102b3e990d6315ca"
+      },
+      "operation": "Exact archive extraction; inherited manuscripts/documents describe the historical component, not the current paper."
+    },
+    {
+      "component": "cik_423339",
+      "source_archive": {
+        "path_relative_to_branch": "www_contribution_calibration_2026-10-08/NET_V4_external_construction_probe.zip",
+        "bytes": 343410,
+        "sha256": "0dad0f27c603813bd6d43d158bae25a11879deb1fd6d57112016f0db64c767a6"
+      },
+      "operation": "Exact archive extraction; inherited manuscripts/documents describe the historical component, not the current paper."
+    },
+    {
+      "component": "cik_10130110",
+      "source_archive": {
+        "path_relative_to_branch": "target_law_replication_2026-10-08/NET_V4_second_station_replication.zip",
+        "bytes": 354349,
+        "sha256": "86460b4b97ca7df0dee65eb6979723394684b2cb1c954c4198fa5273d33fb81a"
+      },
+      "operation": "Exact archive extraction; inherited manuscripts/documents describe the historical component, not the current paper."
+    },
+    {
+      "component": "original_snapshots",
+      "source_archive": {
+        "path_relative_to_branch": "submission_completion/netv4_review_candidate_v0_3.zip",
+        "bytes": 49588727,
+        "sha256": "a6a48bba4308e002af43ad69d451a400896cb73915f2741f50272e279215e5b0"
+      },
+      "local_file": "archives/netv4_review_candidate_v0_3.zip",
+      "operation": "Byte-identical archived auxiliary component"
+    },
+    {
+      "component": "v5_metadata_prefix_repair",
+      "source_archive": {
+        "path_relative_to_branch": "metadata_reuse_feasibility_2026-10-08/NET_V4_v5_metadata_replay.zip",
+        "bytes": 200007,
+        "sha256": "3e926e1ffe540cf5486f83580446d8d13025b6f548cab534060cd618d8702b07"
+      },
+      "local_file": "archives/NET_V4_v5_metadata_replay.zip",
+      "operation": "Byte-identical archived auxiliary component",
+      "anonymous_distribution": {
+        "bytes": 200007,
+        "sha256": "d6a463f9ce749fc21740843f2d6c621968b70a8fa45e96bc918f7696484c2fde",
+        "change": "Personal path strings anonymized; internal replay inventory refreshed. source_archive retains the historical upstream binding."
+      }
+    },
+    {
+      "component": "original_snapshots",
+      "source_file": {
+        "path_relative_to_branch": "input_identity_2026-10-03/INPUT_CONTRACT_ERRATUM_ZH.md",
+        "bytes": 1761,
+        "sha256": "0507fc2dbc1213fd2a91f7a2d42db0abd1542dcca37f4d38a9229f8cfd29eab3"
+      },
+      "local_file": "evidence/original_snapshots/INPUT_CONTRACT_ERRATUM_ZH.md"
+    },
+    {
+      "component": "original_snapshots",
+      "source_file": {
+        "path_relative_to_branch": "input_identity_2026-10-03/CURRENT_EVALUATION_CONTRACT.json",
+        "bytes": 2498,
+        "sha256": "b354f4b357418fbf632e7d242c6f6bc0467a95a99efbdd3f1d124df1fe1081f8"
+      },
+      "local_file": "evidence/original_snapshots/CURRENT_EVALUATION_CONTRACT.json"
+    },
+    {
+      "component": "fixed_query_target_support",
+      "source_file": {
+        "path_relative_to_branch": "target_support_repair_2026-10-08/TRAIN_ROWS.npz",
+        "bytes": 28356,
+        "sha256": "a2378741579a2ff96deb471541baea8a04df16e851d6bf7e93ee730a18fd0e42"
+      },
+      "local_file": "evidence/fixed_query_target_support/TRAIN_ROWS.npz"
+    },
+    {
+      "component": "fixed_query_target_support",
+      "source_file": {
+        "path_relative_to_branch": "target_support_repair_2026-10-08/TEST_GROUPS.npz",
+        "bytes": 3435,
+        "sha256": "6e4268be9e6b8e60757c01fce261ca3e617068f9782f7c89666bcb7f063e81d0"
+      },
+      "local_file": "evidence/fixed_query_target_support/TEST_GROUPS.npz"
+    },
+    {
+      "component": "fixed_query_target_support",
+      "source_file": {
+        "path_relative_to_branch": "target_support_repair_2026-10-08/MASK_CONTRACT.json",
+        "bytes": 235514,
+        "sha256": "8d444e680633f2c7f6ec838d96957efac56f47872cbe861dd94620b492794cf9"
+      },
+      "local_file": "evidence/fixed_query_target_support/MASK_CONTRACT.json"
+    },
+    {
+      "component": "fixed_query_target_support",
+      "source_file": {
+        "path_relative_to_branch": "target_support_repair_2026-10-08/MASK_USAGE_ZH.md",
+        "bytes": 1627,
+        "sha256": "c7b42074e1fa7061b3f9115c1ee6fd1d2223e64724301758cde06bbe22edb591"
+      },
+      "local_file": "evidence/fixed_query_target_support/MASK_USAGE_ZH.md"
+    },
+    {
+      "component": "fixed_query_target_support",
+      "source_file": {
+        "path_relative_to_branch": "target_support_repair_2026-10-08/RESULTS.json",
+        "bytes": 7136,
+        "sha256": "8299cf5c17d0b11050963ac3e10ac14b2b93c34132ef92e537fd78045eb29055"
+      },
+      "local_file": "evidence/fixed_query_target_support/RESULTS.json"
+    },
+    {
+      "component": "fixed_query_target_support",
+      "source_file": {
+        "path_relative_to_branch": "target_support_repair_2026-10-08/VERIFICATION.json",
+        "bytes": 768,
+        "sha256": "6eb7efa54bb50e2797ddaba48863fc4ff45e381469182d32cac946ef75faf328"
+      },
+      "local_file": "evidence/fixed_query_target_support/VERIFICATION.json"
+    },
+    {
+      "component": "station_scope_witnesses",
+      "source_file": {
+        "path_relative_to_branch": "support_scope_audit_2026-10-08/HIT_MAPS.npz",
+        "bytes": 813995,
+        "sha256": "58739198d64591a6e0308564804f91b4d97b7b145e1368c60815e95ad76943a3"
+      },
+      "local_file": "evidence/station_scope_witnesses/HIT_MAPS.npz"
+    },
+    {
+      "component": "station_scope_witnesses",
+      "source_file": {
+        "path_relative_to_branch": "support_scope_audit_2026-10-08/TARGET_SUPPORT_WITNESS_GROUPS.json",
+        "bytes": 16242559,
+        "sha256": "328fa748065878cd67beb715f14e8468a6e59488788d2dd61eb740d0c49858de"
+      },
+      "local_file": "evidence/station_scope_witnesses/TARGET_SUPPORT_WITNESS_GROUPS.json"
+    },
+    {
+      "component": "station_scope_witnesses",
+      "source_file": {
+        "path_relative_to_branch": "support_scope_audit_2026-10-08/RESULTS.json",
+        "bytes": 7925,
+        "sha256": "d4673a69e4fa8c56ad1a35f59037daf2796b2f4e8fd38fc48439acd65bb61556"
+      },
+      "local_file": "evidence/station_scope_witnesses/RESULTS.json"
+    },
+    {
+      "component": "station_scope_witnesses",
+      "source_file": {
+        "path_relative_to_branch": "support_scope_audit_2026-10-08/VERIFICATION.json",
+        "bytes": 601,
+        "sha256": "48ef2fed4ad1555abd56dca5280c0989e1b3bbb6216730c8e55374f42a9fbeb1"
+      },
+      "local_file": "evidence/station_scope_witnesses/VERIFICATION.json"
+    },
+    {
+      "component": "station_scope_witnesses",
+      "source_file": {
+        "path_relative_to_branch": "support_scope_audit_2026-10-08/PROTOCOL.md",
+        "bytes": 2923,
+        "sha256": "e0d4347539954191d5cb0bb0199be0e1798e72a1f86493137b2d5f93b46dc098"
+      },
+      "local_file": "evidence/station_scope_witnesses/PROTOCOL.md"
+    },
+    {
+      "component": "station_lookup",
+      "source_archive": {
+        "path_relative_to_branch": "station_history_utility_2026-10-08/NET_V4_station_history_lookup_companion.zip",
+        "bytes": 80644,
+        "sha256": "fc10e0bc4999ce119c67af4fc54cb466a3c23934b9653fe45e791b6ab192c840"
+      },
+      "operation": "Exact companion archive extraction; wrapper adds no scientific configurations."
+    },
+    {
+      "component": "station_exclusion",
+      "source_archive": {
+        "path_relative_to_branch": "station_input_exclusion_2026-10-08/NET_V4_station_input_exclusion_companion.zip",
+        "bytes": 2356051,
+        "sha256": "036eaf841f43e3cf4494a92adc427a91cc250285f3dc8c1c7e66deca4bfe1f52"
+      },
+      "operation": "Exact companion archive extraction; wrapper adds no scientific configurations."
+    },
+    {
+      "component": "netv4_checks",
+      "operation": "Original snapshot lookup consequences and exact loss extrema on one declared frozen target segment",
+      "protocols": [
+        "components/netv4_checks/CORE_REUSE_PROTOCOL_ZH.md",
+        "components/netv4_checks/TARGET_ENVELOPE_PROTOCOL_ZH.md"
+      ],
+      "no_new_observations_or_source_lineage_recovery": true
+    },
+    {
+      "component": "netv4_mv",
+      "protocol": "components/netv4_mv/PROTOCOL_ZH.md",
+      "operation": "Complete history views and timing-resolved fixed-target scoring on conditional numeric scenes",
+      "does_not_recover_legacy_raw_source_or_measured_graph": true
+    }
+  ],
+  "recovery_extension": {
+    "original_alternative_history_sha256": "b15b733f2d991534ff25b4a029e95df24a71dcdf1ff60920e0c151c864b5ff65",
+    "original_alternative_target_sha256": "4b945068a6123bc847bec55cd46cdc340a0e29408efc06c1c1d22473cfab8182",
+    "exported_target_sha256": "20e008be42521920455427ce56cabb30007be3cd4b73d2f6fe1ede9d51740bb8",
+    "paired_inputs_sha256": "262ec0297c739dbd61682b7d8f447066169c097cb47dd66e73a42364178cc35b",
+    "full_histories_equal_for_all_256_contexts": true,
+    "only_target_replaced": "F target in B/F sensitivity comparison; no new P/R alternative construction",
+    "new_observations": 0,
+    "new_targets": 0,
+    "new_predictions": 0
+  },
+  "all_copied_source_hashes_verified": true
+}

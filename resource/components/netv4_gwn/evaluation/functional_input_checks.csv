@@ -1,0 +1,7 @@
+model,F_vs_C_max_forecast_difference,B_vs_N_max_forecast_difference,other_input_gradient_max,gradient_sample_count,future_equal_history_max_difference,functional_joint_input_demonstrated,gradient_selection
+packaged__GraphWaveNet_seed1,167.91943359375,99.94351196289062,8.82925796508789,32,0.000244140625,True,32 evenly spaced spanning contexts; not selected on error or response
+packaged__GraphWaveNet_seed2,154.7730712890625,86.88226318359375,20.21886444091797,32,0.0001220703125,True,32 evenly spaced spanning contexts; not selected on error or response
+packaged__GraphWaveNet_seed3,175.8577880859375,127.56097412109375,20.53882598876953,32,0.000244140625,True,32 evenly spaced spanning contexts; not selected on error or response
+working__GraphWaveNet_seed1,15.11004638671875,12.789794921875,1.667195200920105,32,0.000244140625,True,32 evenly spaced spanning contexts; not selected on error or response
+working__GraphWaveNet_seed2,44.8167724609375,27.93939208984375,2.690962076187134,32,0.000244140625,True,32 evenly spaced spanning contexts; not selected on error or response
+working__GraphWaveNet_seed3,51.7867431640625,34.63946533203125,2.8394222259521484,32,0.0001220703125,True,32 evenly spaced spanning contexts; not selected on error or response

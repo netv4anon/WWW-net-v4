@@ -1,0 +1,284 @@
+{
+  "frozen_utc": "2026-10-15T11:56:34.451678+00:00",
+  "local_design_freeze_not_public_preregistration": true,
+  "primary_question": "On all admitted new-profile cutoff-spanning contexts, each of six frozen GWN models under both target laws: A>0 and A_N_given_C<0",
+  "models": [
+    {
+      "variant": "packaged",
+      "seed": 1,
+      "expected_weight_sha256": "ef0ddbc6ee5ee92ad1dc4e1c216c43cf9fed17fb32b2c9788d57ce8887864153",
+      "scaler": {
+        "mean": 132.5078887939453,
+        "std": 194.46945290429687
+      },
+      "best_epoch": 26,
+      "weights_locally_available": true,
+      "actual_weight": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_gwn\\runs\\packaged__GraphWaveNet_seed1\\best_weights.pt",
+      "actual_weight_sha256": "ef0ddbc6ee5ee92ad1dc4e1c216c43cf9fed17fb32b2c9788d57ce8887864153",
+      "scaler_sha256": "32bfc2db4bc2cfc0a25601732d36b7e3d9ac64e889c6184f3689c402d3391b11"
+    },
+    {
+      "variant": "packaged",
+      "seed": 2,
+      "expected_weight_sha256": "a8b25a0a7ec2859a9e37241c402b2e4eebb4fce8b0b5ed7b707c4bf1efae35fa",
+      "scaler": {
+        "mean": 132.5078887939453,
+        "std": 194.46945290429687
+      },
+      "best_epoch": 28,
+      "weights_locally_available": true,
+      "actual_weight": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_gwn\\runs\\packaged__GraphWaveNet_seed2\\best_weights.pt",
+      "actual_weight_sha256": "a8b25a0a7ec2859a9e37241c402b2e4eebb4fce8b0b5ed7b707c4bf1efae35fa",
+      "scaler_sha256": "32bfc2db4bc2cfc0a25601732d36b7e3d9ac64e889c6184f3689c402d3391b11"
+    },
+    {
+      "variant": "packaged",
+      "seed": 3,
+      "expected_weight_sha256": "dea36dc07005ce235796ca3df16adcc52d40fc7b002b62ef24581c3a050a30e7",
+      "scaler": {
+        "mean": 132.5078887939453,
+        "std": 194.46945290429687
+      },
+      "best_epoch": 27,
+      "weights_locally_available": true,
+      "actual_weight": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_gwn\\runs\\packaged__GraphWaveNet_seed3\\best_weights.pt",
+      "actual_weight_sha256": "dea36dc07005ce235796ca3df16adcc52d40fc7b002b62ef24581c3a050a30e7",
+      "scaler_sha256": "32bfc2db4bc2cfc0a25601732d36b7e3d9ac64e889c6184f3689c402d3391b11"
+    },
+    {
+      "variant": "working",
+      "seed": 1,
+      "expected_weight_sha256": "2de29d4690a08a4316e5724466c96562f3c18c102e495bb3bd9458136b9fde68",
+      "scaler": {
+        "mean": 130.50062561035156,
+        "std": 194.3509531484375
+      },
+      "best_epoch": 21,
+      "weights_locally_available": true,
+      "actual_weight": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_gwn\\runs\\working__GraphWaveNet_seed1\\best_weights.pt",
+      "actual_weight_sha256": "2de29d4690a08a4316e5724466c96562f3c18c102e495bb3bd9458136b9fde68",
+      "scaler_sha256": "e00a8145ef125b588e12f09ee7e47157d2dfa94d674e6b446bb638fa6ea4f1b9"
+    },
+    {
+      "variant": "working",
+      "seed": 2,
+      "expected_weight_sha256": "458aa0f0b8e7f04686ce726a17c5051523cd1473828d5f5cd49b35c20b7cb1fa",
+      "scaler": {
+        "mean": 130.50062561035156,
+        "std": 194.3509531484375
+      },
+      "best_epoch": 29,
+      "weights_locally_available": true,
+      "actual_weight": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_gwn\\runs\\working__GraphWaveNet_seed2\\best_weights.pt",
+      "actual_weight_sha256": "458aa0f0b8e7f04686ce726a17c5051523cd1473828d5f5cd49b35c20b7cb1fa",
+      "scaler_sha256": "e00a8145ef125b588e12f09ee7e47157d2dfa94d674e6b446bb638fa6ea4f1b9"
+    },
+    {
+      "variant": "working",
+      "seed": 3,
+      "expected_weight_sha256": "952e232803ac989f3b200894cb7844deee70e5ecf4957a1bb6304139b373ae00",
+      "scaler": {
+        "mean": 130.50062561035156,
+        "std": 194.3509531484375
+      },
+      "best_epoch": 28,
+      "weights_locally_available": true,
+      "actual_weight": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_gwn\\runs\\working__GraphWaveNet_seed3\\best_weights.pt",
+      "actual_weight_sha256": "952e232803ac989f3b200894cb7844deee70e5ecf4957a1bb6304139b373ae00",
+      "scaler_sha256": "e00a8145ef125b588e12f09ee7e47157d2dfa94d674e6b446bb638fa6ea4f1b9"
+    }
+  ],
+  "gwn_component": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_gwn",
+  "backend": "cuda-FP32-channels_last",
+  "numerics": {
+    "deterministic_algorithms": true,
+    "cudnn_benchmark": false,
+    "TF32": false,
+    "batch_size": 256,
+    "loss_accumulation": "float64",
+    "effect_zero_tolerance_mae": 0.001,
+    "raw_signs_also_reported": true,
+    "robust_confirmation": "A>0.001 and A_N_given_C<-0.001 in every primary combination",
+    "structural_prediction_agreement_tolerance": 0.001,
+    "no_post_effect_backend_selection": true
+  },
+  "fixed_task": {
+    "history": 12,
+    "future": 12,
+    "slots": 9,
+    "center_copy": 1,
+    "timings": [
+      [
+        8,
+        4
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        18,
+        6
+      ]
+    ],
+    "clock_hours": [
+      3,
+      9,
+      15,
+      21
+    ],
+    "weekdays": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "seed": 2026100907,
+    "target_laws": [
+      "legacy",
+      "residual"
+    ],
+    "same_forecasts_scored_against_both_targets": true,
+    "all_73_profiles_in_all_input_slots": true
+  },
+  "source_intake_sha256": "2684731a314b87e9009610b140d902d623e8c75ed2de7d2cdcd06a9ee7f198a6",
+  "hourly_uniform_quarter_allocation_assumed": true,
+  "campaign_files": [
+    {
+      "path": "scripts/build_profiles.py",
+      "sha256": "9b118d58b80d0ef52bbad22569bcd10c85b84ee9fe3305c1401a67a53496f33b",
+      "bytes": 5932
+    },
+    {
+      "path": "scripts/construct_confirm.py",
+      "sha256": "8c77443eed28e6cfd1cbdf6f2a6eb3a7044b320efaacf25ab5ab2c983a1fb4e9",
+      "bytes": 4597
+    },
+    {
+      "path": "scripts/freeze_source_intake.py",
+      "sha256": "c3f304dcd221e2b5cfe5dea9ec4cbf89fe97e53c9d5de09db13cf8c7d32d173d",
+      "bytes": 4366
+    },
+    {
+      "path": "scripts/preflight.py",
+      "sha256": "11557e353be308bba46e0709bf0b60ba0b589ecaca572f0a9d83ac833a73ecdf",
+      "bytes": 3073
+    },
+    {
+      "path": "scripts/run_inference.py",
+      "sha256": "1fe053d3a01748990f417b7acb69a9510062b6f8d20b5b633fd14d6f3f94e675",
+      "bytes": 3197
+    },
+    {
+      "path": "scripts/score_confirmation.py",
+      "sha256": "f5a90ee806a8908026d7aaa8bfa67ca6dc7f1bf3b25186a87ccf2edbb2fad6b5",
+      "bytes": 6739
+    },
+    {
+      "path": "scripts/seal_confirmation.py",
+      "sha256": "46e1c076378e1916cc7ab496c1156c2752684e26c312c09c6265b722992a95ef",
+      "bytes": 4492
+    },
+    {
+      "path": "profiles/catalog.npz",
+      "sha256": "614384737401f2d4d62ceadebe0fcd6473a32d65a71b6bdc6f81a7e6d342aae5",
+      "bytes": 26768
+    },
+    {
+      "path": "profiles/ADMISSION_RESULT.json",
+      "sha256": "c35142b332e42a3ababbcde4a3b5c98157c61c9d2f6148899a58f1ef78408db3",
+      "bytes": 49133
+    },
+    {
+      "path": "profiles/QUALITY_ALL_CHANNELS.csv",
+      "sha256": "a5a1c9589cea003dffc7053ef06858b60c7cbb14062b231da9b0d32c29a66185",
+      "bytes": 7377
+    },
+    {
+      "path": "task/inputs.npz",
+      "sha256": "a147edc84d592284382af83f99883606af85a8b9146b169298a4ba8d6ffbe979",
+      "bytes": 17565657
+    },
+    {
+      "path": "task/evaluation.npz",
+      "sha256": "498cdc1397c910a73f88cf770f62c831f0f1195df8c9af9de78c8bdcebcbfb2b",
+      "bytes": 15696627
+    },
+    {
+      "path": "task/catalog.npz",
+      "sha256": "8ca078f45710f8b036d28378c6f5137ca193a5f56031c88e5f4f6f9190ca3974",
+      "bytes": 27704
+    },
+    {
+      "path": "task/BINDING.json",
+      "sha256": "60baf588edf6fd3220205a341d76e533685eefb39ff92839a20aaa7459d65e15",
+      "bytes": 971
+    },
+    {
+      "path": "task/DESCRIPTION.json",
+      "sha256": "78bdda307c1b49b34546d61e458c164a8451cebe2c6f901f90ef91807bf4c7fa",
+      "bytes": 849
+    },
+    {
+      "path": "admission/SOURCE_INTAKE_FREEZE.json",
+      "sha256": "2684731a314b87e9009610b140d902d623e8c75ed2de7d2cdcd06a9ee7f198a6",
+      "bytes": 3762
+    },
+    {
+      "path": "admission/LOCAL_MODEL_READINESS.json",
+      "sha256": "8f96de65d3c03d7f81d52b3dad36b645e7f9f45d9833f8608f2ba0ec73fae0de",
+      "bytes": 4731
+    },
+    {
+      "path": "admission/CONSTRUCTOR_REGRESSION.json",
+      "sha256": "612c2a1d4c74da97bf3a0575ad5590b5f51539d50ec3e25d9fa4f13f9e1380de",
+      "bytes": 483
+    },
+    {
+      "path": "raw/basel_20240902_20240908.json",
+      "sha256": "292d403daac84b1722e4573746ef5d4ae874898ad669711e7912652a842833fc",
+      "bytes": 5455628
+    },
+    {
+      "path": "incoming_pro/VALIDATION_ADMISSION_ADDENDUM_zh.md",
+      "sha256": "cc4de01832d3cf7070a67eec069f29fe560dbd4fe93c9fffec4632c8df4e76bc",
+      "bytes": 4130
+    },
+    {
+      "path": "incoming_pro/VALIDATION_READINESS.json",
+      "sha256": "196fcf69b89293e1248ec2fc7da28ddf36356b91a2f516d48e46a0dc03918325",
+      "bytes": 3453
+    },
+    {
+      "path": "incoming_pro/NET_V4_WWW_frozen_baseline.tex",
+      "sha256": "236e711130399ecbebb85d2b5e34c86fecd051e2032820d3b37eb994ae911b84",
+      "bytes": 67977
+    }
+  ],
+  "pinned_external_code": [
+    {
+      "path": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_gwn\\model_adapter.py",
+      "sha256": "1e081238da2b170bf517737ae17a37b78de346373581cd094cd9ffa51dfe75d5"
+    },
+    {
+      "path": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_gwn\\reader_adapter.py",
+      "sha256": "2105c59f4ad05bcce1a53e18d07b3d9c94085431f7a11dc54fd97bd50aee6a32"
+    },
+    {
+      "path": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_gwn\\vendor\\model.py",
+      "sha256": "f357319260657716c18916d691d31179e2380dcb882b9c41556c9a55912f1059"
+    }
+  ],
+  "all_primary_and_profile_timing_failures_retained": true,
+  "no_training_or_model_selection": true,
+  "stop_after_one_complete_source_confirmation": true,
+  "new_inference_at_freeze": 0,
+  "new_scoring_at_freeze": 0
+}

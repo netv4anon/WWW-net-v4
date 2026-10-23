@@ -1,0 +1,137 @@
+{
+  "files": [
+    {
+      "path": "pins/contexts.json",
+      "bytes": 75809,
+      "sha256": "7eaff7f1013a736622703884f6a42473d63b375d061a30fa0808f4f52f2540ef"
+    },
+    {
+      "path": "pins/legacy_generator.py",
+      "bytes": 4482,
+      "sha256": "45235c49978951c3da80432ddaed7a91f5723f6524203938991aa06808cf2ae3"
+    },
+    {
+      "path": "pins/profiles.npz",
+      "bytes": 326279,
+      "sha256": "b18be190ab0017631301e3da3b465e626c0e049a181ce1d5badfe5c6e6885597"
+    },
+    {
+      "path": "pins/PROJECT_MIT_ORIGINAL.txt",
+      "bytes": 1095,
+      "sha256": "dd6d784cf3186a2eb4e1feeb943daa637f497ea6c9b365fc5483b7e12711b560"
+    },
+    {
+      "path": "pins/SOURCE_ATTRIBUTION.md",
+      "bytes": 1439,
+      "sha256": "16350bdd349a16b43ad7e061195a9d457dc8f9977e3377eddf025ab4a1042b34"
+    },
+    {
+      "path": "models/original_train.py",
+      "bytes": 7886,
+      "sha256": "7348a6e12d02f4a3f8a06c56f4a89da8f6cd1b7ad43ab1baa7157004bec31775"
+    },
+    {
+      "path": "models/packaged/RidgeCenter/weights.npz",
+      "bytes": 2219,
+      "sha256": "0cb0d387306cae1b7f43a672e6cc96b0b41f0bc53af79bab551283ee392880ba"
+    },
+    {
+      "path": "models/packaged/RidgeLocal9/weights.npz",
+      "bytes": 12605,
+      "sha256": "2b15c37120d0e3b032142fb6d965c0caa1d5e573e7c91458a8f66ab5f5d17304"
+    },
+    {
+      "path": "models/packaged/STID_NoCalendar_seed1/best_weights.pt",
+      "bytes": 238220,
+      "sha256": "2c666e499aac923ab5e8ccdc9911ffdbf52c27b8a3c6106302c96fd5b81e5bc6"
+    },
+    {
+      "path": "models/packaged/STID_NoCalendar_seed1/scaler.json",
+      "bytes": 63,
+      "sha256": "051144c20ee36837f59924f99150fef60242eb76b458bb68b1ec36bc018f9a1a"
+    },
+    {
+      "path": "models/packaged/STID_NoCalendar_seed2/best_weights.pt",
+      "bytes": 238220,
+      "sha256": "6581595e5f9252e04700b49c3aadb1c40705b2b0c5a191310a74e9512bafaf7f"
+    },
+    {
+      "path": "models/packaged/STID_NoCalendar_seed2/scaler.json",
+      "bytes": 63,
+      "sha256": "051144c20ee36837f59924f99150fef60242eb76b458bb68b1ec36bc018f9a1a"
+    },
+    {
+      "path": "models/packaged/STID_NoCalendar_seed3/best_weights.pt",
+      "bytes": 238220,
+      "sha256": "aeacbe5e4e2a0e02f6e7f4400db48b5351e45c5dc56317cc2c2020095d0fee42"
+    },
+    {
+      "path": "models/packaged/STID_NoCalendar_seed3/scaler.json",
+      "bytes": 63,
+      "sha256": "051144c20ee36837f59924f99150fef60242eb76b458bb68b1ec36bc018f9a1a"
+    },
+    {
+      "path": "models/vendor/stid/arch/__init__.py",
+      "bytes": 51,
+      "sha256": "fd893e930530cdbf06c4e639a90d211c248a966ea63236f387957e5772a432af"
+    },
+    {
+      "path": "models/vendor/stid/arch/mlp.py",
+      "bytes": 982,
+      "sha256": "19fff20c6fe8cc7fe8cdfd3f9cd97549c93fd5944054223857662f7af761d894"
+    },
+    {
+      "path": "models/vendor/stid/arch/stid_arch.py",
+      "bytes": 4874,
+      "sha256": "dae3c35b2bb1cfd6aeb83a6c8d64bf973f95a69506c8e12ac84371836dd7533f"
+    },
+    {
+      "path": "models/vendor/STID_LICENSE",
+      "bytes": 11558,
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    },
+    {
+      "path": "models/working/RidgeCenter/weights.npz",
+      "bytes": 2219,
+      "sha256": "87d6649816500ba9e43a9edc9d97e2ab457e670f0df21c16be54553c2e06f474"
+    },
+    {
+      "path": "models/working/RidgeLocal9/weights.npz",
+      "bytes": 12611,
+      "sha256": "fac7c35608b134eaa0b3f8cc4077085d9b23f781d1d3c784fca6b0e5f85f4b40"
+    },
+    {
+      "path": "models/working/STID_NoCalendar_seed1/best_weights.pt",
+      "bytes": 238220,
+      "sha256": "5fc69e377f97bfe55431e15f67b7e9b5d13fc276f540a2a1470c0d2dd8d0e841"
+    },
+    {
+      "path": "models/working/STID_NoCalendar_seed1/scaler.json",
+      "bytes": 63,
+      "sha256": "f707f98975a164c2144bf338e313a83575e85ec5632636560a8bdf2e390c1691"
+    },
+    {
+      "path": "models/working/STID_NoCalendar_seed2/best_weights.pt",
+      "bytes": 238220,
+      "sha256": "18f5b93cb549fc23b2225ef24b4667ea023860f0c7f9908a3f5c8310c497eb07"
+    },
+    {
+      "path": "models/working/STID_NoCalendar_seed2/scaler.json",
+      "bytes": 63,
+      "sha256": "f707f98975a164c2144bf338e313a83575e85ec5632636560a8bdf2e390c1691"
+    },
+    {
+      "path": "models/working/STID_NoCalendar_seed3/best_weights.pt",
+      "bytes": 238220,
+      "sha256": "962171b031e6b4c28d9d2bcddb79c76568851452504b651689e222cbf74d83fe"
+    },
+    {
+      "path": "models/working/STID_NoCalendar_seed3/scaler.json",
+      "bytes": 63,
+      "sha256": "f707f98975a164c2144bf338e313a83575e85ec5632636560a8bdf2e390c1691"
+    }
+  ],
+  "source_profiles_from_retained_companion": true,
+  "legacy_raw_source_lineage_recovered": false,
+  "original_weights_unchanged": true
+}

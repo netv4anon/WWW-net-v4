@@ -1,0 +1,138 @@
+{
+  "protocol_sha256": "62310f82281f835cfeb631628a830a9fbac3eb460b8016a1a66b0393f892ee08",
+  "inputs_sha256": "742fad7571a802a6a1c003fb5084dfc141bcf2ec0b75bb1b738a90c979d14ac8",
+  "runner_sha256": "9fcf415f660656b457871b54b675c6f7b63ee1166a9d4469e39754adb9edc0bf",
+  "new_model_fits": 0,
+  "new_forecast_configurations": 13,
+  "forecast_rows_per_configuration": 68544,
+  "predictor_opened_evaluation_targets": false,
+  "frozen_prediction_files": [
+    {
+      "id": "LastValue",
+      "file": "predictions/LastValue.npz",
+      "sha256": "00d6e24ceb033646ea05d70600bd32ee98a0a70a0b00fa625adfb265fa5198c5",
+      "variant": "shared",
+      "kind": "LastValue",
+      "seed": null,
+      "center_only": true
+    },
+    {
+      "id": "HistoricalMean",
+      "file": "predictions/HistoricalMean.npz",
+      "sha256": "01237ed378f3c1b210ed21daa43887e4dcfa8f87e610532485a0cad9e6751d04",
+      "variant": "shared",
+      "kind": "HistoricalMean",
+      "seed": null,
+      "center_only": true
+    },
+    {
+      "id": "LinearDrift",
+      "file": "predictions/LinearDrift.npz",
+      "sha256": "b7417b0f5bff625ff36c0ff58bf9a91b2a985684862e808c647c7b35d05d3ce3",
+      "variant": "shared",
+      "kind": "LinearDrift",
+      "seed": null,
+      "center_only": true
+    },
+    {
+      "id": "packaged__RidgeCenter",
+      "file": "predictions/packaged__RidgeCenter.npz",
+      "sha256": "8f7ca45f0d3ccf9935bb3664b2f33fc9fd941bf24beaf75d869b7d869e7bbfff",
+      "variant": "packaged",
+      "kind": "RidgeCenter",
+      "seed": null,
+      "center_only": true,
+      "weight_sha256": "0cb0d387306cae1b7f43a672e6cc96b0b41f0bc53af79bab551283ee392880ba"
+    },
+    {
+      "id": "packaged__RidgeLocal9",
+      "file": "predictions/packaged__RidgeLocal9.npz",
+      "sha256": "4f84c0e2d624e1beff03ed42f9ff246f8848f19c4abe7899e662f3688fe62098",
+      "variant": "packaged",
+      "kind": "RidgeLocal9",
+      "seed": null,
+      "center_only": false,
+      "weight_sha256": "2b15c37120d0e3b032142fb6d965c0caa1d5e573e7c91458a8f66ab5f5d17304"
+    },
+    {
+      "id": "packaged__STID_NoCalendar_seed1",
+      "file": "predictions/packaged__STID_NoCalendar_seed1.npz",
+      "sha256": "dd7d344fc76e8ab7e1340924dfb536715b8dab139e21c95dc8ce4e5c331f5dd1",
+      "variant": "packaged",
+      "kind": "STID_NoCalendar",
+      "seed": 1,
+      "center_only": true,
+      "weight_sha256": "2c666e499aac923ab5e8ccdc9911ffdbf52c27b8a3c6106302c96fd5b81e5bc6"
+    },
+    {
+      "id": "packaged__STID_NoCalendar_seed2",
+      "file": "predictions/packaged__STID_NoCalendar_seed2.npz",
+      "sha256": "cf0881e1228429cc54f1a0d86614e63fcfee6cd9793220c61e870c712313965d",
+      "variant": "packaged",
+      "kind": "STID_NoCalendar",
+      "seed": 2,
+      "center_only": true,
+      "weight_sha256": "6581595e5f9252e04700b49c3aadb1c40705b2b0c5a191310a74e9512bafaf7f"
+    },
+    {
+      "id": "packaged__STID_NoCalendar_seed3",
+      "file": "predictions/packaged__STID_NoCalendar_seed3.npz",
+      "sha256": "2da755f11dedc2e2fd067af3ded066bc85b96f8371a15b790377a13ed2c8e85a",
+      "variant": "packaged",
+      "kind": "STID_NoCalendar",
+      "seed": 3,
+      "center_only": true,
+      "weight_sha256": "aeacbe5e4e2a0e02f6e7f4400db48b5351e45c5dc56317cc2c2020095d0fee42"
+    },
+    {
+      "id": "working__RidgeCenter",
+      "file": "predictions/working__RidgeCenter.npz",
+      "sha256": "2f663d3d5275369b9b3fb578d3da0553bf56ed2b27ca9beafc980ea1342fe303",
+      "variant": "working",
+      "kind": "RidgeCenter",
+      "seed": null,
+      "center_only": true,
+      "weight_sha256": "87d6649816500ba9e43a9edc9d97e2ab457e670f0df21c16be54553c2e06f474"
+    },
+    {
+      "id": "working__RidgeLocal9",
+      "file": "predictions/working__RidgeLocal9.npz",
+      "sha256": "326131257c86de03b32d8661a45f015929dd74363ca3f4af7fec71497cdc8799",
+      "variant": "working",
+      "kind": "RidgeLocal9",
+      "seed": null,
+      "center_only": false,
+      "weight_sha256": "fac7c35608b134eaa0b3f8cc4077085d9b23f781d1d3c784fca6b0e5f85f4b40"
+    },
+    {
+      "id": "working__STID_NoCalendar_seed1",
+      "file": "predictions/working__STID_NoCalendar_seed1.npz",
+      "sha256": "61072ffc66032c6072fc31f94246adc729b4f9d14dc9bd363d2e9bd4ba173863",
+      "variant": "working",
+      "kind": "STID_NoCalendar",
+      "seed": 1,
+      "center_only": true,
+      "weight_sha256": "5fc69e377f97bfe55431e15f67b7e9b5d13fc276f540a2a1470c0d2dd8d0e841"
+    },
+    {
+      "id": "working__STID_NoCalendar_seed2",
+      "file": "predictions/working__STID_NoCalendar_seed2.npz",
+      "sha256": "dc2631c8b22f8ad5f2a2d019d92ab7f88b5ec984946b0fbaa28dd5e3f07f554b",
+      "variant": "working",
+      "kind": "STID_NoCalendar",
+      "seed": 2,
+      "center_only": true,
+      "weight_sha256": "18f5b93cb549fc23b2225ef24b4667ea023860f0c7f9908a3f5c8310c497eb07"
+    },
+    {
+      "id": "working__STID_NoCalendar_seed3",
+      "file": "predictions/working__STID_NoCalendar_seed3.npz",
+      "sha256": "82d150cddc5e6198909f9fd1d46108e722115c480c141f297b7bbda3c1f223a9",
+      "variant": "working",
+      "kind": "STID_NoCalendar",
+      "seed": 3,
+      "center_only": true,
+      "weight_sha256": "962171b031e6b4c28d9d2bcddb79c76568851452504b651689e222cbf74d83fe"
+    }
+  ]
+}

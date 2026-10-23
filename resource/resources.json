@@ -1,0 +1,235 @@
+{
+  "schema": "local_resource_entrypoint_v1",
+  "format_novelty_claim": false,
+  "availability": "Local bundle; no public deposit asserted",
+  "components": {
+    "netv4": {
+      "question": "Does lower event-arm error survive changing history or only the recovery target?",
+      "path": "components/netv4",
+      "history_steps": 12,
+      "forecast_steps": 12,
+      "population": "256 dependent constructed contexts; 1,024 four-arm histories",
+      "user_prediction_schema": {
+        "sample_id": "string[1024]",
+        "prediction": "finite real[1024,12]"
+      },
+      "input": "components/netv4/task/inputs.npz",
+      "example_prediction": "components/netv4/saved_predictions/LastValue.npz",
+      "outputs": "original: crossed losses, decompositions and equal-history checks; recovery: both frozen F-target laws, aggregate and per-context B/F comparisons",
+      "scope": "Original recovery law in the four-arm score; only F targets change in the separate residual-recovery B/F check. Dependent, development-exposed constructions. No physical incident effect.",
+      "runtime": "Python 3.8+; NumPy 1.20+",
+      "history_shape": [
+        1024,
+        12
+      ],
+      "model_coverage": "Center-history point predictors only; no paired neighbors or arbitrary spatially coupled models"
+    },
+    "observed": {
+      "question": "Is additional post-report error present under fixed same-station calendar controls?",
+      "path": "components/observed",
+      "history_steps": 12,
+      "forecast_steps": 12,
+      "time_unit": "5 minutes",
+      "population": "268 cases, 763 control memberships, 1,031 episodes, 2,062 origins",
+      "user_prediction_schema": {
+        "ids": "string[2062]",
+        "models": "unique nonempty string[M]",
+        "predictions": "finite real[M,2062,12]"
+      },
+      "input": "components/observed/data/inputs.npz",
+      "example_prediction": "components/observed/saved_predictions.npz",
+      "outputs": "Case-equal pre/post case-minus-control MAE, weekly contrasts and station omissions. replay rescores seven saved forecasts; infer.py separately replays exported models.",
+      "scope": "Fixed exposed cohort; descriptive matching, not incident causality or raw-data regeneration.",
+      "runtime": "Python 3.8+; NumPy 1.20+"
+    },
+    "release_audit": {
+      "question": "Do unique incident records still permit history lookup of repeated traffic futures?",
+      "path": "components/release_audit",
+      "history_steps": 12,
+      "forecast_steps": 12,
+      "population": "5,585 rows, 496 node positions; 3,909/837/839 fixed split",
+      "source_binding": {
+        "bytes": 865971481,
+        "sha256": "bc6c5608457f88864625d683f9a66d17bc0fc31fe5acba366b6033708a099279",
+        "bundled": false
+      },
+      "outputs": "Calendar lower bound, fixed history-only lookup, per-row scores and matches",
+      "scope": "One pinned public file; neither repaired chronology nor published neural-model score inflation. External source required.",
+      "runtime": "Python 3.8+; NumPy 1.20+"
+    },
+    "original_snapshots": {
+      "question": "What original NET-V4 sequences and baseline outputs are retained?",
+      "path": "archives/netv4_review_candidate_v0_3.zip",
+      "access": "Inspect/extract the unchanged legacy archive; read evidence/original_snapshots errata first. No automatic full training.",
+      "scope": "Two dependent 33,076-sequence snapshots, 12-to-12. Nine slots include a duplicated center and are not nine distinct roads. Full source regeneration is incomplete."
+    },
+    "support_masks": {
+      "question": "Which training rows remain under each fixed target-support exclusion?",
+      "path": "evidence/fixed_query_target_support",
+      "access": "Inspect NPZ masks, source contract and saved six-condition results. Project training scripts are not advertised as portable.",
+      "scope": "Exposed, target-dependent offline masks; not a clean prospective split or causal memory intervention."
+    },
+    "station_witnesses": {
+      "question": "Does network-level exclusion leave repeated individual-station sequences?",
+      "path": "evidence/station_scope_witnesses",
+      "access": "Inspect source-bound hit maps and witness groups; no new fitting.",
+      "scope": "30,685 varying same-position history/future/calendar matches remain. Numerical equality does not identify physical observations."
+    },
+    "metadata_v5": {
+      "question": "Can the pinned Croissant reader consume the selected v5 incident prefix?",
+      "path": "archives/NET_V4_v5_metadata_replay.zip",
+      "access": "Auxiliary archive: separate Python 3.12/reference dependencies required. See its REPLAY_README.md.",
+      "scope": "124 prefix records; MIME compatibility repair, not forecast innovation or verified physical calendar."
+    },
+    "cik_423339": {
+      "question": "Does a fixed forecast comparison change between plateau and pointwise event targets at station 423339?",
+      "path": "components/cik_423339",
+      "history_steps": 168,
+      "forecast_steps": 24,
+      "time_unit": "hour",
+      "population": "32 dependent constructions, seeds 0..31",
+      "user_prediction_schema": {
+        "seed": "integer[32], each 0..31 once",
+        "prediction": "finite real[32,24]"
+      },
+      "input": "components/cik_423339/probe/INPUTS.npz",
+      "example_prediction": "components/cik_423339/probe/USER_FORECAST_EXAMPLE.npz",
+      "outputs": "Both target laws, case-equal event MAE, full-horizon MAE and pooled-event MAE. Station outputs remain separate.",
+      "scope": "Fixed local source loader with pinned reference methods; not a full CiK evaluation or physical target truth. Initial prefix-selected station.",
+      "runtime": "Scoring: Python 3.8+/NumPy; construction replay tested with NumPy 1.24.4/pandas 2.0.3. Ties follow the pinned NumPy ordering."
+    },
+    "cik_10130110": {
+      "question": "Does a fixed forecast comparison change between plateau and pointwise event targets at station 10130110?",
+      "path": "components/cik_10130110",
+      "history_steps": 168,
+      "forecast_steps": 24,
+      "time_unit": "hour",
+      "population": "32 dependent constructions, seeds 0..31",
+      "user_prediction_schema": {
+        "seed": "integer[32], each 0..31 once",
+        "prediction": "finite real[32,24]"
+      },
+      "input": "components/cik_10130110/probe/INPUTS.npz",
+      "example_prediction": "components/cik_10130110/probe/USER_FORECAST_EXAMPLE.npz",
+      "outputs": "Both target laws, case-equal event MAE, full-horizon MAE and pooled-event MAE. Station outputs remain separate.",
+      "scope": "Fixed local source loader with pinned reference methods; not a full CiK evaluation or physical target truth. Sequential check fixed after primary outcomes.",
+      "runtime": "Scoring: Python 3.8+/NumPy; construction replay tested with NumPy 1.24.4/pandas 2.0.3. Ties follow the pinned NumPy ordering."
+    },
+    "station_lookup": {
+      "question": "Does station-history lookup still reduce error after full-network target exclusion?",
+      "path": "components/station_lookup",
+      "history_steps": 12,
+      "forecast_steps": 12,
+      "population": "All 839 fixed test queries at 496 node positions; Original and target-derived TargetSupport views",
+      "source_binding": {
+        "bytes": 865971481,
+        "sha256": "bc6c5608457f88864625d683f9a66d17bc0fc31fe5acba366b6033708a099279",
+        "bundled": false
+      },
+      "outputs": "Four fixed lookup configurations, saved predictions, hit/conflict groups, aggregate score and prediction-byte verification",
+      "scope": "Development-exposed retrieval diagnostic on one release. TargetSupport uses query targets. No new learned model, prospective evaluation or published-model inflation estimate.",
+      "runtime": "Python 3.8+; tested with NumPy 1.24.4"
+    },
+    "station_exclusion": {
+      "question": "Can exact station-history exclusion retain training support for every station?",
+      "path": "components/station_exclusion",
+      "history_steps": 12,
+      "population": "839 fixed query histories and 496 stations; four view/key combinations",
+      "source_binding": {
+        "bytes": 865971481,
+        "sha256": "bc6c5608457f88864625d683f9a66d17bc0fc31fe5acba366b6033708a099279",
+        "bundled": false
+      },
+      "outputs": "Full station keep masks, first query witnesses, before/after memberships, counts and exact expected-output verification",
+      "scope": "No query-target decoding or fitting. TargetSupport inherits target exposure. Empty stations remain reported; nonempty support is not adequacy. No chronological repair.",
+      "runtime": "Python 3.8+; tested with NumPy 1.24.4"
+    },
+    "paired_construction": {
+      "question": "Can the fixed 256 four-arm constructions be regenerated from the delivered materials?",
+      "path": "archives/NET_V4_paired_diagnostic_companion.zip",
+      "access": "Extract to a fresh directory outside the resource, then python -B replay_construction.py",
+      "scope": "Unchanged existing diagnostic companion; not full legacy raw-source regeneration or independent real-incident evidence",
+      "runtime": "Python 3.8+ and NumPy; verified with Python3.8.10/NumPy1.24.4"
+    },
+    "netv4_checks": {
+      "path": "components/netv4_checks",
+      "question": "Do original-snapshot lookup consequences depend on the input unit, and is response stable on the declared target segment?",
+      "scope": "Development-exposed original 12-to-12 snapshots and a hypothetical segment between frozen paired targets; no physical or chronological guarantee",
+      "user_predictions": true,
+      "dependencies": [
+        "original_snapshots",
+        "netv4"
+      ],
+      "saved_rule_configurations": 16,
+      "new_model_fits": 0
+    },
+    "netv4_mv": {
+      "path": "components/netv4_mv",
+      "question": "Does helpful total response imply helpful other-sequence response, and does pooled response hold across timings?",
+      "scope": "Reconstructible conditional numeric profile scenarios; no measured adjacency, physical incident effect or recovered legacy raw source",
+      "user_predictions": true,
+      "input_rows": 68544,
+      "contexts": 11424,
+      "profiles": 102,
+      "input_shape": [
+        68544,
+        12,
+        9
+      ],
+      "saved_prediction_configurations": 13,
+      "new_model_fits": 0
+    },
+    "netv4_gwn": {
+      "path": "components/netv4_gwn",
+      "question": "Does helpful total response imply helpful other-sequence response for a neural model that actually combines inputs?",
+      "history_steps": 12,
+      "forecast_steps": 12,
+      "input_shape": [
+        68544,
+        12,
+        9
+      ],
+      "primary_trained_configurations": 6,
+      "architecture": "Official adaptive-only Graph WaveNet with documented Conv2d compatibility and FP32 channels_last layout.",
+      "technical_superseded_completed_configurations": 1,
+      "technical_aborted_fit_attempts": 1,
+      "target_data_component": "netv4_mv",
+      "access": "Score delivered forecasts through resource.py score netv4_mv; optionally run the history-only reader or prepare empty training staging as documented.",
+      "scope": "Fixed local numeric-slot prediction on dependent conditional constructions; learned connections are not measured roads. This is a resource-use study, not a new algorithm or generalization benchmark.",
+      "runtime": "Saved scoring: Python 3.8+/NumPy. Reader and training: tested PyTorch 2.4.1+cu118; CPU reader checked.",
+      "saved_forecast_example": "components/netv4_gwn/runs/working__GraphWaveNet_seed1/mv_predictions.npz"
+    }
+  },
+  "runnable_replay_components": [
+    "netv4",
+    "observed",
+    "cik_423339",
+    "cik_10130110",
+    "release_audit",
+    "station_lookup",
+    "station_exclusion",
+    "netv4_checks",
+    "netv4_mv"
+  ],
+  "reader_guide": "READER_GUIDE.md",
+  "worked_examples": {
+    "response": "worked_examples/RESPONSE_USE_CASE_ZH.md",
+    "reuse": "worked_examples/REUSE_USE_CASE_ZH.md",
+    "fixed_local_model_attempt": "worked_examples/NET_V4_local_contextual_forecast_companion.zip",
+    "scope": "One fixed attempted Qwen protocol; insufficient valid outputs; not a successful contextual reversal test"
+  },
+  "construction_documentation": "CONSTRUCTION_ASSUMPTIONS.md",
+  "paper_examples": {
+    "entrypoint": "reproduce_examples.py",
+    "scope": "Saved predictions/losses and mask arithmetic; source audit remains separate"
+  },
+  "runnable_score_components": [
+    "netv4",
+    "observed",
+    "cik_423339",
+    "cik_10130110",
+    "netv4_checks",
+    "netv4_mv"
+  ],
+  "evaluation_decisions": "EVALUATION_DECISIONS.json"
+}

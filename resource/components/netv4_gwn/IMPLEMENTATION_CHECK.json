@@ -1,0 +1,14 @@
+{
+  "torch": "2.4.1+cu118",
+  "device": "cuda",
+  "parameters": 272640,
+  "output_shape": [
+    2,
+    12,
+    9
+  ],
+  "noncenter_input_gradient_max": 0.0029895897023379803,
+  "untrained_implementation_check_only": true,
+  "new_fits": 0,
+  "task_results_produced": false
+}

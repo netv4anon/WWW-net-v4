@@ -1,0 +1,21 @@
+{
+  "source_sha256": {
+    "contribution_feasibility\\paired_results\\history.npz": "c39b15e0e8d76db4294bdf0b64ef0e441adfe6b7498921a89c1538dd97d14319",
+    "contribution_feasibility\\paired_results\\targets.npz": "94fd7b5dcf65ace474d791adde8251fb06df97246d48fe203dc154e983b1b972",
+    "contribution_feasibility\\paired_results\\predictions.npz": "f461ee437fb89e9bd3b88574ff1aa32480423e059746fb7aed172dc207868500",
+    "contribution_feasibility\\paired_results\\contexts.json": "7eaff7f1013a736622703884f6a42473d63b375d061a30fa0808f4f52f2540ef",
+    "learned_diagnostic_2026-10-02\\results\\learned_predictions.npz": "3331e851cc4ab088b40667a686a17bec3a67df5c344052952423d492af25f44a",
+    "learned_diagnostic_2026-10-02\\results\\prediction_contract.json": "a70c5355bb48f3bd84ca6f654c2c13215a76a1ecf8e1dd4c5f6b6c4a0c7d5965",
+    "submission_completion\\netv4_review_candidate_v0_3\\data\\packaged\\splits.npz": "582ba5e43c1b153ebf64b5ba7920758d2b79f94cefa006a8c16e3d32ded35d99",
+    "submission_completion\\netv4_review_candidate_v0_3\\data\\working\\splits.npz": "6eea18dccc21654b8eb15d6406079ef448ecb3c59be9c7d6d1a4ac046e9acd48"
+  },
+  "files_sha256": {
+    "task\\CONTRACT.json": "f410eed651770cdb780b0f648cd41ba95e12b179e84cfc962a79a7cc73468a71",
+    "task\\evaluation.npz": "4c7700896b444798eda0b843a7d4f82e49000790277933cb7d15f114c70e4d1b",
+    "task\\inputs.npz": "262ec0297c739dbd61682b7d8f447066169c097cb47dd66e73a42364178cc35b"
+  },
+  "distinct_prediction_configurations": 11,
+  "new_fits": 0,
+  "new_traffic_rows": 0,
+  "simple_predictors_not_double_counted_by_training_variant": true
+}

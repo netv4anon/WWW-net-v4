@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "method": "Sorted NumPy fixed-width record membership; original source byte witnesses.",
+  "membership_booleans_checked": 7490592,
+  "target_support_witness_groups": 63690,
+  "original_byte_sequence_comparisons": 193798,
+  "all_positive_target_support_witnesses_verified": true,
+  "original_full_network_exclusion_claim_preserved": true,
+  "residual_varying_calendar_paired_cells": 30685,
+  "residual_queries": 614,
+  "residual_nodes": 141,
+  "saved_forecast_score_max_abs_error": 8.881784197001252e-15,
+  "new_fits": 0,
+  "new_predictive_configurations": 0
+}

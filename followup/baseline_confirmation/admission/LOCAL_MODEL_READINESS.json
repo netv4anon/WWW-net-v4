@@ -1,0 +1,96 @@
+{
+  "checked_utc": "2026-10-15T11:44:26.217589+00:00",
+  "models": [
+    {
+      "variant": "packaged",
+      "seed": 1,
+      "expected_weight_sha256": "ef0ddbc6ee5ee92ad1dc4e1c216c43cf9fed17fb32b2c9788d57ce8887864153",
+      "scaler": {
+        "mean": 132.5078887939453,
+        "std": 194.46945290429687
+      },
+      "best_epoch": 26,
+      "weights_locally_available": true,
+      "actual_weight": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_gwn\\runs\\packaged__GraphWaveNet_seed1\\best_weights.pt",
+      "actual_weight_sha256": "ef0ddbc6ee5ee92ad1dc4e1c216c43cf9fed17fb32b2c9788d57ce8887864153",
+      "scaler_sha256": "32bfc2db4bc2cfc0a25601732d36b7e3d9ac64e889c6184f3689c402d3391b11"
+    },
+    {
+      "variant": "packaged",
+      "seed": 2,
+      "expected_weight_sha256": "a8b25a0a7ec2859a9e37241c402b2e4eebb4fce8b0b5ed7b707c4bf1efae35fa",
+      "scaler": {
+        "mean": 132.5078887939453,
+        "std": 194.46945290429687
+      },
+      "best_epoch": 28,
+      "weights_locally_available": true,
+      "actual_weight": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_gwn\\runs\\packaged__GraphWaveNet_seed2\\best_weights.pt",
+      "actual_weight_sha256": "a8b25a0a7ec2859a9e37241c402b2e4eebb4fce8b0b5ed7b707c4bf1efae35fa",
+      "scaler_sha256": "32bfc2db4bc2cfc0a25601732d36b7e3d9ac64e889c6184f3689c402d3391b11"
+    },
+    {
+      "variant": "packaged",
+      "seed": 3,
+      "expected_weight_sha256": "dea36dc07005ce235796ca3df16adcc52d40fc7b002b62ef24581c3a050a30e7",
+      "scaler": {
+        "mean": 132.5078887939453,
+        "std": 194.46945290429687
+      },
+      "best_epoch": 27,
+      "weights_locally_available": true,
+      "actual_weight": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_gwn\\runs\\packaged__GraphWaveNet_seed3\\best_weights.pt",
+      "actual_weight_sha256": "dea36dc07005ce235796ca3df16adcc52d40fc7b002b62ef24581c3a050a30e7",
+      "scaler_sha256": "32bfc2db4bc2cfc0a25601732d36b7e3d9ac64e889c6184f3689c402d3391b11"
+    },
+    {
+      "variant": "working",
+      "seed": 1,
+      "expected_weight_sha256": "2de29d4690a08a4316e5724466c96562f3c18c102e495bb3bd9458136b9fde68",
+      "scaler": {
+        "mean": 130.50062561035156,
+        "std": 194.3509531484375
+      },
+      "best_epoch": 21,
+      "weights_locally_available": true,
+      "actual_weight": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_gwn\\runs\\working__GraphWaveNet_seed1\\best_weights.pt",
+      "actual_weight_sha256": "2de29d4690a08a4316e5724466c96562f3c18c102e495bb3bd9458136b9fde68",
+      "scaler_sha256": "e00a8145ef125b588e12f09ee7e47157d2dfa94d674e6b446bb638fa6ea4f1b9"
+    },
+    {
+      "variant": "working",
+      "seed": 2,
+      "expected_weight_sha256": "458aa0f0b8e7f04686ce726a17c5051523cd1473828d5f5cd49b35c20b7cb1fa",
+      "scaler": {
+        "mean": 130.50062561035156,
+        "std": 194.3509531484375
+      },
+      "best_epoch": 29,
+      "weights_locally_available": true,
+      "actual_weight": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_gwn\\runs\\working__GraphWaveNet_seed2\\best_weights.pt",
+      "actual_weight_sha256": "458aa0f0b8e7f04686ce726a17c5051523cd1473828d5f5cd49b35c20b7cb1fa",
+      "scaler_sha256": "e00a8145ef125b588e12f09ee7e47157d2dfa94d674e6b446bb638fa6ea4f1b9"
+    },
+    {
+      "variant": "working",
+      "seed": 3,
+      "expected_weight_sha256": "952e232803ac989f3b200894cb7844deee70e5ecf4957a1bb6304139b373ae00",
+      "scaler": {
+        "mean": 130.50062561035156,
+        "std": 194.3509531484375
+      },
+      "best_epoch": 28,
+      "weights_locally_available": true,
+      "actual_weight": "F:\\docphase\\Traffic_NETV4_交通评测资源与方法研究\\workspace\\NETV4_WWW_input_scope_20261011\\resource\\components\\netv4_gwn\\runs\\working__GraphWaveNet_seed3\\best_weights.pt",
+      "actual_weight_sha256": "952e232803ac989f3b200894cb7844deee70e5ecf4957a1bb6304139b373ae00",
+      "scaler_sha256": "e00a8145ef125b588e12f09ee7e47157d2dfa94d674e6b446bb638fa6ea4f1b9"
+    }
+  ],
+  "all_six_weights_hash_matched": true,
+  "torch": "2.4.1+cu118",
+  "cuda_available": true,
+  "device": "NVIDIA GeForce RTX 2080 Ti",
+  "new_source_admitted": false,
+  "new_forecast_inference": 0,
+  "new_scoring": 0
+}

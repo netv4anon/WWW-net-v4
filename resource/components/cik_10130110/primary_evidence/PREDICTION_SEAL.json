@@ -1,0 +1,21 @@
+{
+  "input_file_sha256": "798712c58cc39c8f5f71534e608ccb3c6825d45408437d2a72409359d0879213",
+  "prediction_file_sha256": "66cb4db87e5ef98c3f275a48fb8eb6b8511a3f6a2057e39eab05870f00bfc8ca",
+  "prediction_code_sha256": "996a25805d4bedfdf678d3519cf9064eda9ca2a0b59ba47ecdb6fa4da8d2eab7",
+  "declared_response_cells": 9,
+  "distinct_prediction_arrays": 8,
+  "array_sha256": {
+    "last_value__none": "17f8c0f693cb3f43e993ba7283b7e6608c7c80138c08dee823e8bd066585fe13",
+    "last_value__anchor": "5f8a60c396b57a2d930ca316ef4c595ac6a7fc991086830fee01452c577136fe",
+    "last_value__pointwise": "5f8a60c396b57a2d930ca316ef4c595ac6a7fc991086830fee01452c577136fe",
+    "last_day__none": "78b7f8050a0a7c327eeffd1368df9b2071f2d83d4dabb42978ba979fd02d18e8",
+    "last_day__anchor": "1f97836ec6d1bc72b4c54e1cd689c7abd55a9f8c9714313272141b0c6a507aba",
+    "last_day__pointwise": "11dd2dbf154e9d07f30a98d21b49b180bcca53420df039ec33635c296240c498",
+    "mean_daily_profile__none": "c64994bb0bc6d497eaedba81bf7226bd6e636dc5af00dbc6b5ad7c0119b5ea11",
+    "mean_daily_profile__anchor": "33d810eeacca336ae305202ea1a534ae9882de9a7425b31069ef0b26c65e7f20",
+    "mean_daily_profile__pointwise": "de7f4697e7e5a5b20d8da7dafa5cf5b2ca5edc85f76ac0b4779b291655136a29"
+  },
+  "target_arrays_read": false,
+  "learnt_models": 0,
+  "fits": 0
+}

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "source_selection_independently_reproduced": true,
+  "source_sensor": 10130110,
+  "source_series_records": 1653,
+  "seed_event_and_scenario_replays": 32,
+  "targets_values_checked": 1536,
+  "forecast_values_checked_including_identical_cell": 6912,
+  "score_values_checked": 1206,
+  "max_source_history_error": 0.0,
+  "max_target_error": 0.0,
+  "max_prediction_error": 4.440892098500626e-16,
+  "max_score_error": 4.440892098500626e-16,
+  "all_seals_passed": true,
+  "primary_sign_changes_by_base": {
+    "last_value": false,
+    "last_day": true,
+    "mean_daily_profile": true
+  },
+  "primary_sign_change_bases": 2,
+  "all_nine_aggregate_contrasts_independently_checked": true,
+  "pre_score_seal_passed": true,
+  "frozen_mean_profile_reversal": true,
+  "primary_base_families": 3,
+  "independent_execution": "CSV source and scalar Python arithmetic; no reference methods, pandas or scorer invoked; NumPy only archive decoding and pinned RNG/tie order",
+  "full_cik_benchmark_reproduced": false,
+  "published_model_rankings_tested": false
+}

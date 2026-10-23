@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-11",
+  "policy": "PROTOCOL_ZH.md",
+  "posthoc_fixed_rule_not_independent_preregistration": true,
+  "representation": "108 ordered values from the model 12x9 history; training-global mean/std",
+  "distance": "training-history nearest-neighbour standardized RMS; exhaustive float64 search",
+  "threshold": "validation-to-training 0.95 quantile, linear interpolation",
+  "included_arms": [
+    "B",
+    "C",
+    "F"
+  ],
+  "max_arm_distance_not_above_threshold": true,
+  "coverage_gate": {
+    "minimum_primary_scenario_fraction": 0.5,
+    "minimum_profiles_with_14_of_28_fraction": 0.8
+  },
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_data": 0,
+  "files": [
+    {
+      "path": "HISTORICAL_WORKSPACE\\NETV4_synthetic_input_audit_20261011\\PROTOCOL_ZH.md",
+      "bytes": 3425,
+      "sha256": "483c6efdf722de124756c766baaa10e0e01178e3ff8e29bb2bf9e2ec8a167b7e"
+    },
+    {
+      "path": "NETV4_synthetic_input_audit_20261011\\run_audit.py",
+      "bytes": 17379,
+      "sha256": "23e93d1ed60cc628df8f7db59e97909120ae3d65d73d2574a7bfe7c9a9411008"
+    },
+    {
+      "path": "HISTORICAL_WORKSPACE\\NETV4_WWW_final_reading_20261010\\resource\\components\\netv4_mv\\task\\inputs.npz",
+      "bytes": 25829605,
+      "sha256": "742fad7571a802a6a1c003fb5084dfc141bcf2ec0b75bb1b738a90c979d14ac8"
+    },
+    {
+      "path": "HISTORICAL_WORKSPACE\\NETV4_WWW_final_reading_20261010\\resource\\components\\netv4_mv\\task\\evaluation.npz",
+      "bytes": 22873510,
+      "sha256": "9e860a185dc1ab64cacc15cc9e5896c82384a394acbce424387786c515110a45"
+    },
+    {
+      "path": "HISTORICAL_WORKSPACE\\NETV4_WWW_final_reading_20261010\\resource\\components\\netv4_gwn\\PINS.json",
+      "bytes": 3676,
+      "sha256": "307124f6bf8819a09d437fa03521af53c6ecde01da9b94718427504002f1bc20"
+    },
+    {
+      "path": "HISTORICAL_WORKSPACE\\NETV4_WWW_final_reading_20261010\\resource\\components\\netv4_gwn\\evaluation\\primary_seed_rows.csv",
+      "bytes": 4810,
+      "sha256": "5936267b4cd393dfff81ba3aa5ce6f03cd70ee65116b47985b29c783f1e313ca"
+    },
+    {
+      "path": "HISTORICAL_WORKSPACE\\nv4_gwn_training_staging_validation_20261010\\data\\packaged\\history.npz",
+      "bytes": 12748576,
+      "sha256": "ec73c4141c40ebf133c8367c6f85b180407d7ff651743b9d06401b3ba30decb4"
+    },
+    {
+      "path": "HISTORICAL_WORKSPACE\\nv4_gwn_training_staging_validation_20261010\\data\\packaged\\splits.npz",
+      "bytes": 51301,
+      "sha256": "582ba5e43c1b153ebf64b5ba7920758d2b79f94cefa006a8c16e3d32ded35d99"
+    },
+    {
+      "path": "HISTORICAL_WORKSPACE\\NETV4_WWW_final_reading_20261010\\resource\\components\\netv4_gwn\\runs\\packaged__GraphWaveNet_seed1\\mv_predictions.npz",
+      "bytes": 4352461,
+      "sha256": "bc346706d3bfb25199d0133bdb322f7773ef1c19dfa8c2755667a0eed4630099"
+    },
+    {
+      "path": "HISTORICAL_WORKSPACE\\NETV4_WWW_final_reading_20261010\\resource\\components\\netv4_gwn\\runs\\packaged__GraphWaveNet_seed2\\mv_predictions.npz",
+      "bytes": 4355470,
+      "sha256": "a660b15fca407d77a28350b5e4c0b1261ed8256ab4077882d11d2c5a9c0d09d6"
+    },
+    {
+      "path": "HISTORICAL_WORKSPACE\\NETV4_WWW_final_reading_20261010\\resource\\components\\netv4_gwn\\runs\\packaged__GraphWaveNet_seed3\\mv_predictions.npz",
+      "bytes": 4355583,
+      "sha256": "8013b67342c672ffdbf062064ab5cc1a7ed3b6c133ffe1b661a02fcfcaae7bd7"
+    },
+    {
+      "path": "HISTORICAL_WORKSPACE\\nv4_gwn_training_staging_validation_20261010\\data\\working\\history.npz",
+      "bytes": 9888043,
+      "sha256": "4dddb7fc9acbf4f60ebe03962779719022aa055c14b789d8dd8fe1b91b70efce"
+    },
+    {
+      "path": "HISTORICAL_WORKSPACE\\nv4_gwn_training_staging_validation_20261010\\data\\working\\splits.npz",
+      "bytes": 51285,
+      "sha256": "6eea18dccc21654b8eb15d6406079ef448ecb3c59be9c7d6d1a4ac046e9acd48"
+    },
+    {
+      "path": "HISTORICAL_WORKSPACE\\NETV4_WWW_final_reading_20261010\\resource\\components\\netv4_gwn\\runs\\working__GraphWaveNet_seed1\\mv_predictions.npz",
+      "bytes": 4356991,
+      "sha256": "31eaf4cab5c780d307e5df77f366967a4452ee01b47caf0a47a561d3743158e9"
+    },
+    {
+      "path": "HISTORICAL_WORKSPACE\\NETV4_WWW_final_reading_20261010\\resource\\components\\netv4_gwn\\runs\\working__GraphWaveNet_seed2\\mv_predictions.npz",
+      "bytes": 4355389,
+      "sha256": "8f8443911495e12c054a1aa84b7ad2670c7f3ae4c666d68ac03ca6bbcb0f5b50"
+    },
+    {
+      "path": "HISTORICAL_WORKSPACE\\NETV4_WWW_final_reading_20261010\\resource\\components\\netv4_gwn\\runs\\working__GraphWaveNet_seed3\\mv_predictions.npz",
+      "bytes": 4357437,
+      "sha256": "9804376a1acce269f6ce992294df05f91450c02931c625c1b3b023fd261f0b02"
+    }
+  ]
+}

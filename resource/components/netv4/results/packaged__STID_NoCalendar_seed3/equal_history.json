@@ -1,0 +1,10 @@
+{
+  "prediction_mode": "deterministic",
+  "identical_history_contexts": 95,
+  "max_B_F_prediction_difference": 0.0,
+  "points_exceeding_tolerance": 0,
+  "atol": 1e-06,
+  "rtol": 1e-07,
+  "status": "consistent_with_declared_determinism",
+  "interpretation": "A discrepancy is not proof of target leakage; inspect state and numerics. A stochastic predictor needs replicated controlled draws."
+}

@@ -1,0 +1,133 @@
+{
+  "status": "primary_complete_awaiting_independent_verification",
+  "training_rows": 3909,
+  "query_rows": 1676,
+  "mean": 137.60910034179688,
+  "std": 159.4838409423828,
+  "score_population": "all 12 x 496 traffic target values; no clipping or missing-value masking",
+  "training_distinct_history_keys": 3722,
+  "training_history_keys_with_multiple_rows": 184,
+  "training_history_keys_with_conflicting_full_targets": 0,
+  "query_rows_hitting_conflicting_training_keys": [],
+  "validation_history_hit_rows": 99,
+  "test_history_hit_rows": 93,
+  "groups": [
+    {
+      "split": "val",
+      "group": "all",
+      "rows": 837,
+      "LastValue_mae": 16.290863145787302,
+      "LastValue_rmse": 30.796414981116445,
+      "ExactHistory_mae": 14.153052383259231,
+      "ExactHistory_rmse": 28.534658739525216,
+      "mae_reduction": 2.137810762528071,
+      "mae_reduction_percent": 13.122759324639548
+    },
+    {
+      "split": "val",
+      "group": "history_hit",
+      "rows": 99,
+      "LastValue_mae": 18.074218265010035,
+      "LastValue_rmse": 33.68287350978952,
+      "ExactHistory_mae": 0.0,
+      "ExactHistory_rmse": 0.0,
+      "mae_reduction": 18.074218265010035,
+      "mae_reduction_percent": 100.0
+    },
+    {
+      "split": "val",
+      "group": "history_miss",
+      "rows": 738,
+      "LastValue_mae": 16.051632581013518,
+      "LastValue_rmse": 30.388357786038622,
+      "ExactHistory_mae": 16.051632581013518,
+      "ExactHistory_rmse": 30.388357786038622,
+      "mae_reduction": 0.0,
+      "mae_reduction_percent": 0.0
+    },
+    {
+      "split": "val",
+      "group": "any_train_target_vector_shared",
+      "rows": 557,
+      "LastValue_mae": 16.592337730003717,
+      "LastValue_rmse": 31.122471887297753,
+      "ExactHistory_mae": 13.379864465666204,
+      "ExactHistory_rmse": 27.694010849830963,
+      "mae_reduction": 3.212473264337513,
+      "mae_reduction_percent": 19.36118536526916
+    },
+    {
+      "split": "val",
+      "group": "no_train_target_vector_shared",
+      "rows": 280,
+      "LastValue_mae": 15.691144062185368,
+      "LastValue_rmse": 30.13730787404387,
+      "ExactHistory_mae": 15.691144062185368,
+      "ExactHistory_rmse": 30.13730787404387,
+      "mae_reduction": 0.0,
+      "mae_reduction_percent": 0.0
+    },
+    {
+      "split": "test",
+      "group": "all",
+      "rows": 839,
+      "LastValue_mae": 16.166514474761616,
+      "LastValue_rmse": 30.65038425090479,
+      "ExactHistory_mae": 14.260032790571525,
+      "ExactHistory_rmse": 28.73869893194149,
+      "mae_reduction": 1.9064816841900907,
+      "mae_reduction_percent": 11.792781227928865
+    },
+    {
+      "split": "test",
+      "group": "history_hit",
+      "rows": 93,
+      "LastValue_mae": 17.199334763822414,
+      "LastValue_rmse": 32.00376104250841,
+      "ExactHistory_mae": 0.0,
+      "ExactHistory_rmse": 0.0,
+      "mae_reduction": 17.199334763822414,
+      "mae_reduction_percent": 100.0
+    },
+    {
+      "split": "test",
+      "group": "history_miss",
+      "rows": 746,
+      "LastValue_mae": 16.037758058028835,
+      "LastValue_rmse": 30.477452943183334,
+      "ExactHistory_mae": 16.037758058028835,
+      "ExactHistory_rmse": 30.477452943183334,
+      "mae_reduction": 0.0,
+      "mae_reduction_percent": 0.0
+    },
+    {
+      "split": "test",
+      "group": "any_train_target_vector_shared",
+      "rows": 559,
+      "LastValue_mae": 16.445837409251066,
+      "LastValue_rmse": 31.04280361415325,
+      "ExactHistory_mae": 13.58440962206773,
+      "ExactHistory_rmse": 28.16476962950651,
+      "mae_reduction": 2.8614277871833362,
+      "mae_reduction_percent": 17.39910055035406
+    },
+    {
+      "split": "test",
+      "group": "no_train_target_vector_shared",
+      "rows": 280,
+      "LastValue_mae": 15.608866187691605,
+      "LastValue_rmse": 29.851521143704893,
+      "ExactHistory_mae": 15.608866187691605,
+      "ExactHistory_rmse": 29.851521143704893,
+      "mae_reduction": 0.0,
+      "mae_reduction_percent": 0.0
+    }
+  ],
+  "new_fits": 0,
+  "new_prediction_configurations": 2,
+  "new_query_rows_per_configuration": 1676,
+  "new_raw_acquisitions": 0,
+  "historical_model_performance_inflation_established": false,
+  "chronological_split_repair_established": false,
+  "new_algorithm_claim": false
+}

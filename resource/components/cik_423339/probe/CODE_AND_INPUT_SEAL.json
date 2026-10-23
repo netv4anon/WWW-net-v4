@@ -1,0 +1,13 @@
+{
+  "files": {
+    "TARGET_PROBE_PROTOCOL.md": "703074b45ee712b8983c4b4f31c842e442255b23c4752e0c95b8ee2ff1abce92",
+    "SCORING_CLARIFICATION.md": "8e508d1cd9bfe8a9514d371234a2dc009575da88e51fb6a01b1dab43f3cb21ff",
+    "prepare_probe.py": "e335cc283bd8343d949c46d786fee11c8c5d0d2166b3805a987662016bb85dd9",
+    "construct_probe.py": "c0c8310e81d9b1ea2f56ba5b2ad695961e2713af1553634c5d6ab3283676f739",
+    "predict_probe.py": "996a25805d4bedfdf678d3519cf9064eda9ca2a0b59ba47ecdb6fa4da8d2eab7",
+    "score_probe.py": "c7fdbd5d399c5ba2c761799927b89c4f1fbb7522c42d872ca4ee8de48cba6e4d",
+    "probe/INPUTS.npz": "798712c58cc39c8f5f71534e608ccb3c6825d45408437d2a72409359d0879213",
+    "probe/TARGETS.npz": "8e3741d830b4e2fa44a8a902a1ca0a81f232b48421ca2259a5d0c95170822b63",
+    "probe/PREDICTIONS.npz": "66cb4db87e5ef98c3f275a48fb8eb6b8511a3f6a2057e39eab05870f00bfc8ca"
+  }
+}

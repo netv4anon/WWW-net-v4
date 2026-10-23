@@ -1,0 +1,255 @@
+{
+  "status": "primary_complete_pending_independent_QR_verification",
+  "model": "stationwise AR-Ridge alpha=1, train-history global scaler",
+  "score_population": "Same fixed 839 tests x 12 horizons x 496 nodes, no clipping or masking",
+  "groups": [
+    {
+      "condition": "Original",
+      "group": "all",
+      "queries": 839,
+      "mae": 14.548887535795366,
+      "rmse": 26.934393601253664
+    },
+    {
+      "condition": "Original",
+      "group": "whole_traffic_reuse",
+      "queries": 93,
+      "mae": 15.666722747315081,
+      "rmse": 28.66788419042842
+    },
+    {
+      "condition": "Original",
+      "group": "other_target_reuse",
+      "queries": 466,
+      "mae": 14.597945399454273,
+      "rmse": 26.97211009734919
+    },
+    {
+      "condition": "Original",
+      "group": "no_original_target_reuse",
+      "queries": 280,
+      "mae": 14.095960253165412,
+      "rmse": 26.26906664335805
+    },
+    {
+      "condition": "WholeTraffic",
+      "group": "all",
+      "queries": 839,
+      "mae": 14.550666241112527,
+      "rmse": 26.95692799316222
+    },
+    {
+      "condition": "WholeTraffic",
+      "group": "whole_traffic_reuse",
+      "queries": 93,
+      "mae": 15.749475846193548,
+      "rmse": 28.86138960468133
+    },
+    {
+      "condition": "WholeTraffic",
+      "group": "other_target_reuse",
+      "queries": 466,
+      "mae": 14.593453493839245,
+      "rmse": 26.976913359296457
+    },
+    {
+      "condition": "WholeTraffic",
+      "group": "no_original_target_reuse",
+      "queries": 280,
+      "mae": 14.081279980244,
+      "rmse": 26.259740893288853
+    },
+    {
+      "condition": "TargetSupport",
+      "group": "all",
+      "queries": 839,
+      "mae": 14.548280326053,
+      "rmse": 27.019212639215013
+    },
+    {
+      "condition": "TargetSupport",
+      "group": "whole_traffic_reuse",
+      "queries": 93,
+      "mae": 15.854502674657533,
+      "rmse": 29.09291318476176
+    },
+    {
+      "condition": "TargetSupport",
+      "group": "other_target_reuse",
+      "queries": 466,
+      "mae": 14.602138307668376,
+      "rmse": 27.056892816107577
+    },
+    {
+      "condition": "TargetSupport",
+      "group": "no_original_target_reuse",
+      "queries": 280,
+      "mae": 14.024792833720905,
+      "rmse": 26.229728348366702
+    },
+    {
+      "condition": "Random4101",
+      "group": "all",
+      "queries": 839,
+      "mae": 14.583583811686344,
+      "rmse": 26.979424546250637
+    },
+    {
+      "condition": "Random4101",
+      "group": "whole_traffic_reuse",
+      "queries": 93,
+      "mae": 15.709452196974656,
+      "rmse": 28.73073335500454
+    },
+    {
+      "condition": "Random4101",
+      "group": "other_target_reuse",
+      "queries": 466,
+      "mae": 14.633894605980322,
+      "rmse": 27.024708425204008
+    },
+    {
+      "condition": "Random4101",
+      "group": "no_original_target_reuse",
+      "queries": 280,
+      "mae": 14.12590313321204,
+      "rmse": 26.294744025110987
+    },
+    {
+      "condition": "Random4102",
+      "group": "all",
+      "queries": 839,
+      "mae": 14.568360005063006,
+      "rmse": 26.964399695552085
+    },
+    {
+      "condition": "Random4102",
+      "group": "whole_traffic_reuse",
+      "queries": 93,
+      "mae": 15.681287699779332,
+      "rmse": 28.698785471600054
+    },
+    {
+      "condition": "Random4102",
+      "group": "other_target_reuse",
+      "queries": 466,
+      "mae": 14.614421181801562,
+      "rmse": 26.997250726033133
+    },
+    {
+      "condition": "Random4102",
+      "group": "no_original_target_reuse",
+      "queries": 280,
+      "mae": 14.12205006231735,
+      "rmse": 26.30709086960543
+    },
+    {
+      "condition": "Random4103",
+      "group": "all",
+      "queries": 839,
+      "mae": 14.552431732311513,
+      "rmse": 26.964193221076144
+    },
+    {
+      "condition": "Random4103",
+      "group": "whole_traffic_reuse",
+      "queries": 93,
+      "mae": 15.682136078456566,
+      "rmse": 28.70660342099703
+    },
+    {
+      "condition": "Random4103",
+      "group": "other_target_reuse",
+      "queries": 466,
+      "mae": 14.609733654045657,
+      "rmse": 27.015273542241438
+    },
+    {
+      "condition": "Random4103",
+      "group": "no_original_target_reuse",
+      "queries": 280,
+      "mae": 14.081841733312938,
+      "rmse": 26.27280894861378
+    }
+  ],
+  "all_query_mae_delta_vs_original": {
+    "Original": 0.0,
+    "WholeTraffic": 0.0017787053171609557,
+    "TargetSupport": -0.000607209742366166,
+    "Random4101": 0.0346962758909779,
+    "Random4102": 0.019472469267640236,
+    "Random4103": 0.0035441965161471245
+  },
+  "all_query_mae_percent_change_vs_original": {
+    "Original": 0.0,
+    "WholeTraffic": 0.012225713565960916,
+    "TargetSupport": -0.004173581937949589,
+    "Random4101": 0.23848061101312545,
+    "Random4102": 0.13384163716800845,
+    "Random4103": 0.024360601505968305
+  },
+  "mean_absolute_prediction_change_vs_original": {
+    "Original": 0.0,
+    "WholeTraffic": 0.19482148128713733,
+    "TargetSupport": 1.0114102450791498,
+    "Random4101": 0.6947879311438504,
+    "Random4102": 0.7029853026387772,
+    "Random4103": 0.7177840471672233
+  },
+  "random_same_size_mae_range": [
+    14.552431732311513,
+    14.583583811686344
+  ],
+  "target_support_mae_minus_random_mean": -0.019844856967287328,
+  "target_support_mae_above_all_three_random": false,
+  "target_support_mae_below_all_three_random": true,
+  "training_composition_total_variation_vs_original": {
+    "Original": {
+      "Type": 0.0,
+      "Description": 0.0,
+      "Holiday": 0.0,
+      "weekday": 0.0,
+      "hour": 0.0
+    },
+    "WholeTraffic": {
+      "Type": 0.002041056275815216,
+      "Description": 0.0027857659980720867,
+      "Holiday": 0.000598881640210925,
+      "weekday": 0.0035726202373675756,
+      "hour": 0.006721983358552931
+    },
+    "TargetSupport": {
+      "Type": 0.012688955155682953,
+      "Description": 0.021528516719726505,
+      "Holiday": 0.0012300473674787971,
+      "weekday": 0.038900080009714434,
+      "hour": 0.05270235570293598
+    },
+    "Random4101": {
+      "Type": 0.007117840822424992,
+      "Description": 0.013288140083715037,
+      "Holiday": 0.0010213597619771232,
+      "weekday": 0.013693804214740882,
+      "hour": 0.019187548626179933
+    },
+    "Random4102": {
+      "Type": 0.006486306435766397,
+      "Description": 0.011852764846793644,
+      "Holiday": 0.0013965942835530917,
+      "weekday": 0.010162817609048636,
+      "hour": 0.020129714609620274
+    },
+    "Random4103": {
+      "Type": 0.007022136340969051,
+      "Description": 0.011781058480045816,
+      "Holiday": 0.0012300473674787971,
+      "weekday": 0.009766656731447165,
+      "hour": 0.01977435052702259
+    }
+  },
+  "formal_significance_test": false,
+  "original_paper_model_inflation_measured": false,
+  "chronological_or_physical_identity_repair": false,
+  "new_research_fits": 6,
+  "new_prediction_configurations": 6
+}

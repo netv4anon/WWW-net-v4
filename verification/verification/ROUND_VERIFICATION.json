@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "reuse_matching": "PASS",
+  "unrounded_loss_recomputation": "PASS",
+  "actual_GWN_config_and_logs": "PASS",
+  "actual_profile_assignments": "PASS",
+  "new_fits": 0,
+  "new_forecast_inference": 0,
+  "new_observed_records": 0,
+  "independent_confirmation_completed": false
+}

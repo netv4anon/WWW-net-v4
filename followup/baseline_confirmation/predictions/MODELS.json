@@ -1,0 +1,110 @@
+[
+  {
+    "id": "packaged__GraphWaveNet_seed1",
+    "variant": "packaged",
+    "seed": 1,
+    "file": "predictions\\packaged__GraphWaveNet_seed1.npz",
+    "sha256": "8ca4e7e254455a2284838433d68171942e366b5d3aa07cdd797a54b12bcefaf2",
+    "weight_sha256": "ef0ddbc6ee5ee92ad1dc4e1c216c43cf9fed17fb32b2c9788d57ce8887864153",
+    "scaler": {
+      "mean": 132.5078887939453,
+      "std": 194.46945290429687
+    },
+    "rows": 49056,
+    "seconds": 2.4664072000000004,
+    "finite": true,
+    "inference_utc": "2026-10-15T11:56:47.688332+00:00",
+    "kind": "GraphWaveNet",
+    "center_only": false
+  },
+  {
+    "id": "packaged__GraphWaveNet_seed2",
+    "variant": "packaged",
+    "seed": 2,
+    "file": "predictions\\packaged__GraphWaveNet_seed2.npz",
+    "sha256": "6d8646242b586c36c89b04cb0e48aed894be0f2b0d8d7534f92e655866f101dd",
+    "weight_sha256": "a8b25a0a7ec2859a9e37241c402b2e4eebb4fce8b0b5ed7b707c4bf1efae35fa",
+    "scaler": {
+      "mean": 132.5078887939453,
+      "std": 194.46945290429687
+    },
+    "rows": 49056,
+    "seconds": 2.0140526999999997,
+    "finite": true,
+    "inference_utc": "2026-10-15T11:56:49.708116+00:00",
+    "kind": "GraphWaveNet",
+    "center_only": false
+  },
+  {
+    "id": "packaged__GraphWaveNet_seed3",
+    "variant": "packaged",
+    "seed": 3,
+    "file": "predictions\\packaged__GraphWaveNet_seed3.npz",
+    "sha256": "72f46a1b096415b6fd9d860736dc8763dec962d3dede6db2fcac9366153d17f1",
+    "weight_sha256": "dea36dc07005ce235796ca3df16adcc52d40fc7b002b62ef24581c3a050a30e7",
+    "scaler": {
+      "mean": 132.5078887939453,
+      "std": 194.46945290429687
+    },
+    "rows": 49056,
+    "seconds": 2.0120496999999995,
+    "finite": true,
+    "inference_utc": "2026-10-15T11:56:51.726045+00:00",
+    "kind": "GraphWaveNet",
+    "center_only": false
+  },
+  {
+    "id": "working__GraphWaveNet_seed1",
+    "variant": "working",
+    "seed": 1,
+    "file": "predictions\\working__GraphWaveNet_seed1.npz",
+    "sha256": "4cc23bc4860401984635622bac7609da6d60197302bad324039c8c9c27e08f58",
+    "weight_sha256": "2de29d4690a08a4316e5724466c96562f3c18c102e495bb3bd9458136b9fde68",
+    "scaler": {
+      "mean": 130.50062561035156,
+      "std": 194.3509531484375
+    },
+    "rows": 49056,
+    "seconds": 2.037831500000001,
+    "finite": true,
+    "inference_utc": "2026-10-15T11:56:53.769831+00:00",
+    "kind": "GraphWaveNet",
+    "center_only": false
+  },
+  {
+    "id": "working__GraphWaveNet_seed2",
+    "variant": "working",
+    "seed": 2,
+    "file": "predictions\\working__GraphWaveNet_seed2.npz",
+    "sha256": "94d3a7953ac0aa0c2106c83a5eedcdcede949ca8aa4cd416d5758c7afe69681c",
+    "weight_sha256": "458aa0f0b8e7f04686ce726a17c5051523cd1473828d5f5cd49b35c20b7cb1fa",
+    "scaler": {
+      "mean": 130.50062561035156,
+      "std": 194.3509531484375
+    },
+    "rows": 49056,
+    "seconds": 2.0483907000000006,
+    "finite": true,
+    "inference_utc": "2026-10-15T11:56:55.824016+00:00",
+    "kind": "GraphWaveNet",
+    "center_only": false
+  },
+  {
+    "id": "working__GraphWaveNet_seed3",
+    "variant": "working",
+    "seed": 3,
+    "file": "predictions\\working__GraphWaveNet_seed3.npz",
+    "sha256": "a6767d69d3a4de0a8023d847d01c4137e3b6bf764ebe5d9f14415a1a6cf0ae71",
+    "weight_sha256": "952e232803ac989f3b200894cb7844deee70e5ecf4957a1bb6304139b373ae00",
+    "scaler": {
+      "mean": 130.50062561035156,
+      "std": 194.3509531484375
+    },
+    "rows": 49056,
+    "seconds": 2.0094446,
+    "finite": true,
+    "inference_utc": "2026-10-15T11:56:57.839566+00:00",
+    "kind": "GraphWaveNet",
+    "center_only": false
+  }
+]
