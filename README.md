@@ -1,7 +1,5 @@
 # NET-V4: data, code and supporting evidence
 
-Repository: <https://github.com/netv4anon/WWW-net-v4>
-
 This package accompanies **NET-V4: Diagnosing History Response and Input Reuse in Traffic Forecasting**. It contains the original 12-to-12 datasets, controlled tasks, frozen model weights and forecasts, source checks, and the complete new-source and representation follow-up evidence. Read `PAPER_EVIDENCE_MAP.md` for paper-to-file locations and `ERRATA_AND_SCOPE.md` for source and licensing boundaries.
 
 
